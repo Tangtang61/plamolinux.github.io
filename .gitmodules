@@ -1,0 +1,3 @@
+[submodule ".themes/plamolinux"]
+	path = .themes/plamolinux
+	url = https://github.com/plamolinux/PlamoTheme.git
