@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2013-12-20T14:28:33+09:00</updated>
+  <updated>2013-12-29T12:53:14+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Plamo 5.2 リリース]]></title>
+    <link href="http://plamolinux.github.io/blog/2013/12/29/plamo5-dot-2released/"/>
+    <updated>2013-12-29T12:36:02+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2013/12/29/plamo5-dot-2released</id>
+    <content type="html"><![CDATA[<p>Plamo-5.2 をリリースしました．</p>
+
+<p>Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください．</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053">玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2</a></li>
+</ul>
+
+
+<p>他に，メンテナであるこじまさんのブログの 12 月あたりに色々と関連するメモがあります．</p>
+
+<ul>
+<li><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima">http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima</a></li>
+</ul>
+
+
+<p>DVD イメージは以下からダウンロードできます．</p>
+
+<ul>
+<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
+<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</li>
+</ul>
+
+
+<!-- TODO:
+* [アナウンスへのリンク]()
+ -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Plamo 5.1 リリース]]></title>
