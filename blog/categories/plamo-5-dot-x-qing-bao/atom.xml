@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-01-18T01:31:02+09:00</updated>
+  <updated>2014-01-18T01:38:27+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -146,13 +146,9 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
 
 <ul>
 <li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
-<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</li>
+<li><p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</p></li>
+<li><p><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html">アナウンスへのリンク</a></p></li>
 </ul>
-
-
-<!-- TODO:
-* [アナウンスへのリンク]()
- -->
 
 ]]></content>
   </entry>
