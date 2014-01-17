@@ -21,6 +21,4 @@ DVD イメージは以下からダウンロードできます．
 * ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso (64bit)
 * ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso (32bit)
 
-<!-- TODO:
-* [アナウンスへのリンク]()
- -->
+* [アナウンスへのリンク](http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html)
