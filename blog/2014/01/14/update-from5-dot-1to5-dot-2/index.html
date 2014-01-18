@@ -98,32 +98,35 @@
 
 <p>以下は <a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201401/msg00020.html">メーリングリスト投稿</a> からの抜粋です．</p>
 
-<blockquote><p>ずいぶん遅くなりましたが，FTPサイトの Update/5.1_5.2/ 以下に，
+<pre>
+ずいぶん遅くなりましたが，FTPサイトの Update/5.1_5.2/ 以下に，
 32ビット版(x86/)，64ビット版(x86_64)それぞれの更新されたパッケージを
-まとめてみました．</p>
+まとめてみました．
 
-<p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/Update/5.1_5.2/">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/Update/5.1_5.2/</a>{x86,x86_64}/plamo/
+ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/Update/5.1_5.2/{x86,x86_64}/plamo/
   00_base/        02_x11/         04_xapps/       06_xfce/        10_lof/
-  01_minimum/     03_xclassics/   05_ext/         07_kde/         11_mate/</p>
+  01_minimum/     03_xclassics/   05_ext/         07_kde/         11_mate/
 
-<p>各ディレクトリは Plamo-5.1 のソフトウェアカテゴリに対応しているので，
+各ディレクトリは Plamo-5.1 のソフトウェアカテゴリに対応しているので，
 ディレクトリごとダウンロード後，インストールされたカテゴリに合わせて，
-各ディレクトリ中の update.sh を実行すれば必要な更新を行うようにしています．</p>
+各ディレクトリ中の update.sh を実行すれば必要な更新を行うようにしています．
 
-<p>なお，設定ファイルの修正のみでバージョンが上がっているパッケージは，既
+なお，設定ファイルの修正のみでバージョンが上がっているパッケージは，既
 存の設定ファイルを上書きしてしまうのもマズいので，パッチ等で必要な修正を
-施すようにしてみました．</p>
+施すようにしてみました．
 
-<p># そういう処理は 00_base/update.sh に集中しているので，興味ある方は実行<br/>
-# 前にご確認ください．</p>
+# そういう処理は 00_base/update.sh に集中しているので，興味ある方は実行<br/>
+# 前にご確認ください．
 
-<p>一応，手もとのVirtualBox上では特に問題なく 5.1 &ndash;> 5.2 に更新できていま
+一応，手もとのVirtualBox上では特に問題なく 5.1 -> 5.2 に更新できていま
 すが，念のため，環境に応じて修正された設定ファイル等はバックアップをお
-願いします．</p>
+願いします．
 
-<p>なお，たいていの環境では大丈夫だと思うものの，update.sh を実行する前に
+なお，たいていの環境では大丈夫だと思うものの，update.sh を実行する前に
 telinit S でシングルユーザーモードに落して不要なサーバ類を止めておく方
-が安全でしょう．</p></blockquote>
+が安全でしょう．
+</pre>
+
 </div>
 
 
