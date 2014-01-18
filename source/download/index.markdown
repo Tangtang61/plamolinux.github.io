@@ -9,9 +9,9 @@ footer: true
 
 Plamo Linux は以下のサイトからダウンロード可能です．
 
-* [ftp.ne.jp](ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/)
-* [Ring Server Project](ftp://ftp.ring.gr.jp/pub/linux/Plamo/)
-* [plamo.linet.gr.jp](ftp://plamo.linet.gr.jp/pub/)
+* ftp.ne.jp [ftp](ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/) / [http](http://ftp.ne.jp/pub/Linux/distributions/plamolinux/)
+* Ring Server Project [ftp](ftp://ftp.ring.gr.jp/pub/linux/Plamo/) / [http](http://www.ring.gr.jp/pub/linux/Plamo/)
+* plamo.linet.gr.jp [ftp](ftp://plamo.linet.gr.jp/pub/)
 
 plamo.linet.gr.jp はおうちサーバで回線が遅いので ftp.ne.jp か ring をおすすめします．
 
