@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-01-18T12:16:28+09:00</updated>
+  <updated>2014-01-18T12:33:50+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -220,6 +220,37 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
 <li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046">玩式草子 「第46回　Plamo-5.1 released」</a></li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Plamo Linux における仮想化環境(1)]]></title>
+    <link href="http://plamolinux.github.io/blog/2012/01/25/plamo-virtual-env-1/"/>
+    <updated>2012-01-25T12:20:55+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2012/01/25/plamo-virtual-env-1</id>
+    <content type="html"><![CDATA[<p>Plamo Linux 上で使える仮想化技術について書いてみたいと思います．</p>
+
+<p>仮想化の技術も一般的になり，一つのサーバ上で複数の仮想マシンを動かしたり，デスクトップ機上でも評価やお試しのために仮想マシンを動かしたりすることが多くなってきていると思います．</p>
+
+<p>Linux 自身も kernel が持つ機能を使った kvm という仕組みを使って仮想マシンを動かすことが可能なのはご存知な方も多いと思います．Plamo Linux をサーバとして，その上でサーバ目的の仮想マシンを動かす，ということはあまりないかもしれませんが，普段使っているデスクトップ上で仮想マシンを動かしてみたい事は多いと思います．</p>
+
+<p>今リリースされている Plamo64-1.0 では，仮想マシンを動かす事が可能なパッケージを contrib に作成しています (Plamo-4.73 の頃から徐々に整備していってました)．仮想化環境を構築するのに関係するパッケージは contrib 以下の Virtualization ディレクトリにまとめています．</p>
+
+<p>Plamo Linux では以下の仕組みを使った仮想マシンを動かすためのパッケージが揃っています．</p>
+
+<ul>
+<li>ハイパーバイザ型仮想マシンである KVM</li>
+<li>コンテナ型仮想マシンである lxc (Linux Container)</li>
+</ul>
+
+
+<p>ハイパーバイザ型は，一般的にまず「仮想マシン」と聞いた時に思い浮かべるタイプで KVM もこちらに入ります．こちらは情報も多いですし，イメージもわきやすいかと思います．Linux 上で他の OS を動かすことも可能です．</p>
+
+<p>それに対して，コンテナ型は既存カーネルの上で複数の隔離された環境を動かすものです．こちらはあまり聞いたことがない方も多いかと思います．普通の Linux 環境でも chroot を使って独立したツリー構造の下でコマンドを実行することは可能ですが，コンテナはこのような環境より更に隔離レベルが上がっており，それぞれの環境内でネットワークやユーザ(uid/gid)等が独立して定義可能です．</p>
+
+<p>このような仕組みなので，Windows や FreeBSD を動かすことは出来ません．異なる Linux ディストリビューションを動かすことは可能ですが，カーネルは共通なので厳密に Plamo の上で Debian を動かせたとしても，全く Debian と同じではありませんが，ライブラリやコマンド類は Debian のパッケージがインストールされますので，Debian と同じように使用可能です．コンテナはカーネルに入っている様々な機能を組み合わせて実現しますが，それを簡単につかえるツールとしてまとめたものに lxcというものがあります．他に libvirt というライブラリを通して linux のコンテナを扱う事も可能です．</p>
+
+<p>最近の Ubuntu や Redhat や Debian でも当然両方とも動かすことは可能ですが，Plamo でもこの両方を扱う事が可能になっています．</p>
 ]]></content>
   </entry>
   
