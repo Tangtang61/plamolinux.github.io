@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-01-18T12:33:50+09:00</updated>
+  <updated>2014-01-27T16:23:17+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,72 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libimobiledevice 1.1.4]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/01/27/libimobiledevice-1-dot-1-4-p3/"/>
+    <updated>2014-01-27T16:20:27+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/01/27/libimobiledevice-1-dot-1-4-p3</id>
+    <content type="html"><![CDATA[<p>libimobiledevice にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2142">CVE-2013-2142</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/gnome_parts.txz/libimobiledevice-1.1.4-i586-P3.txz">libimobiledevice-1.1.4-i586-P3.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/gnome_parts.txz/libimobiledevice-1.1.4-x86_64-P3.txz">libimobiledevice-1.1.4-x86_64-P3.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tiff 4.0.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/01/27/tiff-4-dot-0-3-p2/"/>
+    <updated>2014-01-27T16:12:25+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/01/27/tiff-4-dot-0-3-p2</id>
+    <content type="html"><![CDATA[<p>libtiff にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-4231">CVE-2013-4231</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/tiff-4.0.3-i586-P2.txz">tiff-4.0.3-i586-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/tiff-4.0.3-x86_64-P2.txz">tiff-4.0.3-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nss 3.15.4]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/01/27/nss-3-dot-15-dot-4/"/>
+    <updated>2014-01-27T16:06:41+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/01/27/nss-3-dot-15-dot-4</id>
+    <content type="html"><![CDATA[<p>nss にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://developer.mozilla.org/ja/docs/NSS/NSS_3.15.4_release_notes">NSS 3.15.4 release notes</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.15.4-i586-P1.txz">nss-3.15.4-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.15.4-x86_64-P1.txz">nss-3.15.4-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[BIND 9.9.4-P2]]></title>
@@ -53,31 +119,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/pixman-0.32.4-i586-P1.txz">pixman-0.32.4-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/pixman-0.32.4-x86_64-P1.txz">pixman-0.32.4-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenSSL 1.0.1f]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/01/10/update-to-openssl-1-dot-0-1f/"/>
-    <updated>2014-01-10T15:23:03+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/01/10/update-to-openssl-1-dot-0-1f</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1f がリリースされています．</p>
-
-<p>詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.openssl.org/news/openssl-1.0.1-notes.html">OpenSSL 1.0.1 Branch Release notes</a></li>
-<li><a href="http://www.openssl.org/news/vulnerabilities.html">OpenSSL vulnerabilities</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1f-i586-P1.txz">openssl-1.0.1f-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1f-x86_64-P1.txz">openssl-1.0.1f-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

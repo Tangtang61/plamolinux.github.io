@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Plamo Linux における仮想化環境(1) - Plamo Linux</title>
+  <title>Nss 3.15.4 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="Plamo Linux 上で使える仮想化技術について書いてみたいと思います． 仮想化の技術も一般的になり，一つのサーバ上で複数の仮想マシンを動かしたり，デスクトップ機上でも評価やお試しのために仮想マシンを動かしたりすることが多くなってきていると思います． Linux 自身も kernel &hellip;">
+  <meta name="description" content="nss にセキュリティホールが発見されています．詳しくは以下をご覧ください． NSS 3.15.4 release notes パッケージをリリースしました． nss-3.15.4-i586-P1.txz (32bit)
+nss-3.15.4-x86_64-P1.txz (64bit) ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2012/01/25/plamo-virtual-env-1">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/01/27/nss-3-dot-15-dot-4">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +71,7 @@
   
   <header>
     
-      <h1 class="entry-title">Plamo Linux における仮想化環境(1)</h1>
+      <h1 class="entry-title">Nss 3.15.4</h1>
     
     
       <p class="meta">
@@ -86,36 +87,27 @@
   
 
 
-<time datetime="2012-01-25T12:20:55+09:00" pubdate data-updated="true">Jan 25<span>th</span>, 2012</time>
+<time datetime="2014-01-27T16:06:41+09:00" pubdate data-updated="true">Jan 27<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Plamo Linux 上で使える仮想化技術について書いてみたいと思います．</p>
-
-<p>仮想化の技術も一般的になり，一つのサーバ上で複数の仮想マシンを動かしたり，デスクトップ機上でも評価やお試しのために仮想マシンを動かしたりすることが多くなってきていると思います．</p>
-
-<p>Linux 自身も kernel が持つ機能を使った kvm という仕組みを使って仮想マシンを動かすことが可能なのはご存知な方も多いと思います．Plamo Linux をサーバとして，その上でサーバ目的の仮想マシンを動かす，ということはあまりないかもしれませんが，普段使っているデスクトップ上で仮想マシンを動かしてみたい事は多いと思います．</p>
-
-<p>今リリースされている Plamo64-1.0 では，仮想マシンを動かす事が可能なパッケージを contrib に作成しています (Plamo-4.73 の頃から徐々に整備していってました)．仮想化環境を構築するのに関係するパッケージは contrib 以下の Virtualization ディレクトリにまとめています．</p>
-
-<p>Plamo Linux では以下の仕組みを使った仮想マシンを動かすためのパッケージが揃っています．</p>
+<div class="entry-content"><p>nss にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
 
 <ul>
-<li>ハイパーバイザ型仮想マシンである KVM</li>
-<li>コンテナ型仮想マシンである lxc (Linux Container)</li>
+<li><a href="https://developer.mozilla.org/ja/docs/NSS/NSS_3.15.4_release_notes">NSS 3.15.4 release notes</a></li>
 </ul>
 
 
-<p>ハイパーバイザ型は，一般的にまず「仮想マシン」と聞いた時に思い浮かべるタイプで KVM もこちらに入ります．こちらは情報も多いですし，イメージもわきやすいかと思います．Linux 上で他の OS を動かすことも可能です．</p>
+<p>パッケージをリリースしました．</p>
 
-<p>それに対して，コンテナ型は既存カーネルの上で複数の隔離された環境を動かすものです．こちらはあまり聞いたことがない方も多いかと思います．普通の Linux 環境でも chroot を使って独立したツリー構造の下でコマンドを実行することは可能ですが，コンテナはこのような環境より更に隔離レベルが上がっており，それぞれの環境内でネットワークやユーザ(uid/gid)等が独立して定義可能です．</p>
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.15.4-i586-P1.txz">nss-3.15.4-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.15.4-x86_64-P1.txz">nss-3.15.4-x86_64-P1.txz (64bit)</a></li>
+</ul>
 
-<p>このような仕組みなので，Windows や FreeBSD を動かすことは出来ません．異なる Linux ディストリビューションを動かすことは可能ですが，カーネルは共通なので厳密に Plamo の上で Debian を動かせたとしても，全く Debian と同じではありませんが，ライブラリやコマンド類は Debian のパッケージがインストールされますので，Debian と同じように使用可能です．コンテナはカーネルに入っている様々な機能を組み合わせて実現しますが，それを簡単につかえるツールとしてまとめたものに lxcというものがあります．他に libvirt というライブラリを通して linux のコンテナを扱う事も可能です．</p>
-
-<p>最近の Ubuntu や Redhat や Debian でも当然両方とも動かすことは可能ですが，Plamo でもこの両方を扱う事が可能になっています．</p>
 </div>
 
 
@@ -138,12 +130,12 @@
   
 
 
-<time datetime="2012-01-25T12:20:55+09:00" pubdate data-updated="true">Jan 25<span>th</span>, 2012</time>
+<time datetime="2014-01-27T16:06:41+09:00" pubdate data-updated="true">Jan 27<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境</a>
+    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
   
 </span>
 
@@ -152,7 +144,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2012/01/25/plamo-virtual-env-1/" data-via="" data-counturl="http://plamolinux.github.io/blog/2012/01/25/plamo-virtual-env-1/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/01/27/nss-3-dot-15-dot-4/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/01/27/nss-3-dot-15-dot-4/" >Tweet</a>
   
   
   
@@ -161,8 +153,10 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/01/18/p-plamo-5-dot-2/" title="Previous Post: P-Plamo 5.2 リリース">&laquo; P-Plamo 5.2 リリース</a>
       
-        <a class="basic-alignment right" href="/blog/2013/05/22/plamo-5-dot-1-release/" title="Next Post: Plamo 5.1 リリース">Plamo 5.1 リリース &raquo;</a>
+      
+        <a class="basic-alignment right" href="/blog/2014/01/27/tiff-4-dot-0-3-p2/" title="Next Post: tiff 4.0.3">tiff 4.0.3 &raquo;</a>
       
     </p>
   </footer>
