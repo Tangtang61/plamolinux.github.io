@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-02-12T21:44:07+09:00</updated>
+  <updated>2014-02-18T17:04:36+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Gnutls 2.12.23]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/02/18/gnutls-2-dot-12-dot-23/"/>
+    <updated>2014-02-18T16:55:19+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/02/18/gnutls-2-dot-12-dot-23</id>
+    <content type="html"><![CDATA[<p>GnuTLS にセキュリティホールが見つかっています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.gnutls.org/security.html#GNUTLS-SA-2014-1">GNUTLS-SA-2014-1(CVE-2014-1959)</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i586-P2.txz">gnutls-2.12.23-i586-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P2.txz">gnutls-2.12.23-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 24.3.0]]></title>
