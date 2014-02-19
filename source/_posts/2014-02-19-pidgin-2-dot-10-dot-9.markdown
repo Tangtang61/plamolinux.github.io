@@ -1,0 +1,15 @@
+---
+layout: post
+title: "pidgin 2.10.9"
+date: 2014-02-19 16:10:30 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+セキュリティホール修正を含む pidgin 2.10.9 がリリースされています．詳しくは以下をご覧ください．
+
+* [Pidgin Security Advisories](http://www.pidgin.im/news/security/)
+
+パッケージをリリースしました．
+
+* [pidgin-2.10.9-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/gnome_parts.txz/pidgin-2.10.9-i586-P1.txz)
+* [pidgin-2.10.9-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/gnome_parts.txz/pidgin-2.10.9-x86_64-P1.txz)
