@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-02-19T16:15:12+09:00</updated>
+  <updated>2014-03-05T17:36:21+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GnuTLS にセキュリティホール]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/03/05/gnutls-cve-2014-0092/"/>
+    <updated>2014-03-05T17:32:56+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/03/05/gnutls-cve-2014-0092</id>
+    <content type="html"><![CDATA[<p>GnuTLS にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.gnutls.org/security.html#GNUTLS-SA-2014-2">GNUTLS-SA-2014-2(CVE-2014-0092)</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i586-P3.txz">gnutls-2.12.23-i586-P3.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P3.txz">gnutls-2.12.23-x86_64-P3.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pidgin 2.10.9]]></title>
@@ -98,28 +120,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-27.0-i586-P1.txz">firefox-27.0-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.3-x86_64-P1.txz">nspr-4.10.3-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-27.0-x86_64-P1.txz">firefox-27.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Curl 7.35.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/02/03/curl-7-dot-35-dot-0/"/>
-    <updated>2014-02-03T18:08:52+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/02/03/curl-7-dot-35-dot-0</id>
-    <content type="html"><![CDATA[<p>curl にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://curl.haxx.se/docs/adv_20140129.html">libcurl re-use of wrong HTTP NTLM connection</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.35.0-i586-P1.txz">curl-7.35.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.35.0-x86_64-P1.txz">curl-7.35.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
