@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-03-21T12:09:10+09:00</updated>
+  <updated>2014-03-24T16:08:36+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libpng 1.6.10]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/03/24/libpng-1-dot-6-10/"/>
+    <updated>2014-03-24T16:04:36+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/03/24/libpng-1-dot-6-10</id>
+    <content type="html"><![CDATA[<p>セキュリティホール修正を含む libpng 1.6.10 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0333">CVE-2014-0333</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.10-i586-P1.txz">libpng-1.6.10-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.10-x86_64-P1.txz">libpng-1.6.10-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 28.0]]></title>
@@ -472,48 +494,6 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
 <li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
 <li><p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</p></li>
 <li><p><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html">アナウンスへのリンク</a></p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Plamo 5.1 リリース]]></title>
-    <link href="http://plamolinux.github.io/blog/2013/05/22/plamo-5-dot-1-release/"/>
-    <updated>2013-05-22T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2013/05/22/plamo-5-dot-1-release</id>
-    <content type="html"><![CDATA[<p>Plamo-5.1 をリリースしました．</p>
-
-<p>以下はメーリングリストへの投稿の抜粋です．</p>
-
-<pre><code>すでに一部の人はお気付きのことと思いますが，先週の22日くらいまでの更新
-でPlamo-5.1ということにしてDVDイメージを作成，公開しました．
-
-$ ls -lh plamo-5.1*
--rw-r--r-- 1 kojima plamo 3.1G 2013-05-22 16:26 plamo-5.1_x86_64_dvd.iso
--rw-r--r-- 1 kojima plamo   59 2013-05-25 10:37 plamo-5.1_x86_64_dvd.iso.md5sum
--rw-r--r-- 1 kojima plamo 3.3G 2013-05-22 16:21 plamo-5.1_x86_dvd.iso
--rw-r--r-- 1 kojima plamo   56 2013-05-25 10:38 plamo-5.1_x86_dvd.iso.md5sum
-
-すでに kddlabs にもミラーいただいているようなので，こちらの方が回線が太
-くてお勧めです．
-
-ftp://ftp.kddlabs.co.jp/020/Linux/packages/plamolinux/
-plamo-5.1_x86_64_dvd.iso                plamo-5.1_x86_dvd.iso
-plamo-5.1_x86_64_dvd.iso.md5sum         plamo-5.1_x86_dvd.iso.md5sum
-
-よく見ると md5sum の日付けが3日ほど遅れているのに気づくと思いますが，
-DVD名から日付けを抜く際に直した結果なのでご心配なく．
-
-今回はPlamo-5.0からのメンテナンスリリースなので，Plamo-5.0からのアップ
-デート集も用意してみました．
-</code></pre>
-
-<p>アップデートを使用する場合の注意点等がありますので以下を参照して下さい。</p>
-
-<ul>
-<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201305/msg00018.html">アナウンスへのリンク</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046">玩式草子 「第46回　Plamo-5.1 released」</a></li>
 </ul>
 
 ]]></content>
