@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-03-24T16:08:36+09:00</updated>
+  <updated>2014-03-26T15:59:43+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 24.4.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/03/26/thunderbird-24-dot-4-0/"/>
+    <updated>2014-03-26T15:55:05+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/03/26/thunderbird-24-dot-4-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホール修正を含む Thunderbird 24.4.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/thunderbird/24.4.0/releasenotes/">Thunderbird 24.4.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-24.4.0-i586-P1.txz">thunderbird-24.4.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-24.4.0-x86_64-P1.txz">thunderbird-24.4.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Libpng 1.6.10]]></title>
@@ -462,38 +484,6 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1f-i586-P1.txz">openssl-1.0.1f-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1f-x86_64-P1.txz">openssl-1.0.1f-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Plamo 5.2 リリース]]></title>
-    <link href="http://plamolinux.github.io/blog/2013/12/29/plamo5-dot-2released/"/>
-    <updated>2013-12-29T12:36:02+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2013/12/29/plamo5-dot-2released</id>
-    <content type="html"><![CDATA[<p>Plamo-5.2 をリリースしました．</p>
-
-<p>Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください．</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053">玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2</a></li>
-</ul>
-
-
-<p>他に，メンテナであるこじまさんのブログの 12 月あたりに色々と関連するメモがあります．</p>
-
-<ul>
-<li><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima">http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima</a></li>
-</ul>
-
-
-<p>DVD イメージは以下からダウンロードできます．</p>
-
-<ul>
-<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
-<li><p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</p></li>
-<li><p><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html">アナウンスへのリンク</a></p></li>
 </ul>
 
 ]]></content>
