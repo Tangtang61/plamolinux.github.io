@@ -1,0 +1,16 @@
+---
+layout: post
+title: "nss 3.16"
+date: 2014-04-01 17:50:29 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+
+セキュリティホールの修正を含む nss 3.16 がリリースされています．詳しくは以下をご覧ください．
+
+* [NSS 3.16 release notes](https://developer.mozilla.org/en-US/docs/NSS/NSS_3.16_release_notes)
+
+パッケージをリリースしました．
+
+* [nss-3.16-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.16-i586-P1.txz)
+* [nss-3.16-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.16-x86_64-P1.txz)
