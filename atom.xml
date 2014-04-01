@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-03-26T15:59:43+09:00</updated>
+  <updated>2014-04-01T17:53:29+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nss 3.16]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/04/01/nss-3-dot-16/"/>
+    <updated>2014-04-01T17:50:29+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/04/01/nss-3-dot-16</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む nss 3.16 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/NSS/NSS_3.16_release_notes">NSS 3.16 release notes</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.16-i586-P1.txz">nss-3.16-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.16-x86_64-P1.txz">nss-3.16-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 24.4.0]]></title>
@@ -459,31 +481,6 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/pixman-0.32.4-i586-P1.txz">pixman-0.32.4-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/pixman-0.32.4-x86_64-P1.txz">pixman-0.32.4-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenSSL 1.0.1f]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/01/10/update-to-openssl-1-dot-0-1f/"/>
-    <updated>2014-01-10T15:23:03+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/01/10/update-to-openssl-1-dot-0-1f</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1f がリリースされています．</p>
-
-<p>詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.openssl.org/news/openssl-1.0.1-notes.html">OpenSSL 1.0.1 Branch Release notes</a></li>
-<li><a href="http://www.openssl.org/news/vulnerabilities.html">OpenSSL vulnerabilities</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1f-i586-P1.txz">openssl-1.0.1f-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1f-x86_64-P1.txz">openssl-1.0.1f-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
