@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-04-01T17:53:29+09:00</updated>
+  <updated>2014-04-02T16:21:06+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[curl-7.36.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/04/02/curl-7-dot-36-dot-0/"/>
+    <updated>2014-04-02T16:18:11+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/04/02/curl-7-dot-36-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.36.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/docs/adv_20140326A.html">libcurl wrong re-use of connections</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20140326B.html">libcurl IP address wildcard certificate validation</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.36.0-i586-P1.txz">curl-7.36.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.36.0-x86_64-P1.txz">curl-7.36.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nss 3.16]]></title>
@@ -104,28 +127,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.15.5-x86_64-P1.txz">nss-3.15.5-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/AV.txz/libvpx-1.3.0-x86_64-P1.txz">libvpx-1.3.0-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-28.0-x86_64-P1.txz">firefox-28.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apache Httpd 2.4.9]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/03/17/httpd-2-dot-4-9/"/>
-    <updated>2014-03-17T15:14:27+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/03/17/httpd-2-dot-4-9</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.9 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.9 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.9-i586-P1.txz">httpd-2.4.9-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.9-x86_64-P1.txz">httpd-2.4.9-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

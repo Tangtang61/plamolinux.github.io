@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-04-01T17:53:29+09:00</updated>
+  <updated>2014-04-02T16:21:06+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[curl-7.36.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/04/02/curl-7-dot-36-dot-0/"/>
+    <updated>2014-04-02T16:18:11+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/04/02/curl-7-dot-36-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.36.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/docs/adv_20140326A.html">libcurl wrong re-use of connections</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20140326B.html">libcurl IP address wildcard certificate validation</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.36.0-i586-P1.txz">curl-7.36.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.36.0-x86_64-P1.txz">curl-7.36.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nss 3.16]]></title>
@@ -459,29 +482,6 @@ ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/Update/5.1_5.2/{x86,x86_64}/p
 telinit S でシングルユーザーモードに落して不要なサーバ類を止めておく方
 が安全でしょう．
 </pre>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pixman 0.32.4]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/01/10/update-to-pixman-0-dot-32-dot-4/"/>
-    <updated>2014-01-10T16:16:54+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/01/10/update-to-pixman-0-dot-32-dot-4</id>
-    <content type="html"><![CDATA[<p>pixman にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://bugs.freedesktop.org/show_bug.cgi?id=67484">Bug 67484 &ndash; Corrupted CustomShape crashes Xorg</a></li>
-<li><a href="http://secunia.com/advisories/55661/">pixman &ldquo;pixman_trapezoid_valid()&rdquo; Integer Underflow Vulnerability</a> (secunia)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/pixman-0.32.4-i586-P1.txz">pixman-0.32.4-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/pixman-0.32.4-x86_64-P1.txz">pixman-0.32.4-x86_64-P1.txz (64bit)</a></li>
-</ul>
 
 ]]></content>
   </entry>
