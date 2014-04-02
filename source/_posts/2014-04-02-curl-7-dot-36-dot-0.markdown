@@ -1,0 +1,19 @@
+---
+layout: post
+title: "curl-7.36.0"
+date: 2014-04-02 16:18:11 +0900
+comments: true
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+
+セキュリティホールの修正を含む curl 7.36.0 がリリースされています．詳しくは以下をご覧ください．
+
+* [libcurl wrong re-use of connections](http://curl.haxx.se/docs/adv_20140326A.html)
+* [libcurl IP address wildcard certificate validation](http://curl.haxx.se/docs/adv_20140326B.html)
+
+対策パッケージをリリースしました．
+
+* [curl-7.36.0-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.36.0-i586-P1.txz)
+* [curl-7.36.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.36.0-x86_64-P1.txz)
+
+
