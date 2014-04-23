@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-04-22T20:32:03+09:00</updated>
+  <updated>2014-04-23T18:40:12+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Yaml 0.1.6]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/04/23/yaml-0-dot-1-6/"/>
+    <updated>2014-04-23T18:32:40+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/04/23/yaml-0-dot-1-6</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libyaml 0.1.6 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2525">CVE-2014-2525</a> (NVD)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i586-P1.txz">yaml-0.1.6-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P1.txz">yaml-0.1.6-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Openjpeg 1.5.2]]></title>
@@ -439,28 +461,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/tiff-4.0.3-i586-P2.txz">tiff-4.0.3-i586-P2.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/tiff-4.0.3-x86_64-P2.txz">tiff-4.0.3-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nss 3.15.4]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/01/27/nss-3-dot-15-dot-4/"/>
-    <updated>2014-01-27T16:06:41+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/01/27/nss-3-dot-15-dot-4</id>
-    <content type="html"><![CDATA[<p>nss にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://developer.mozilla.org/ja/docs/NSS/NSS_3.15.4_release_notes">NSS 3.15.4 release notes</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.15.4-i586-P1.txz">nss-3.15.4-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.15.4-x86_64-P1.txz">nss-3.15.4-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
