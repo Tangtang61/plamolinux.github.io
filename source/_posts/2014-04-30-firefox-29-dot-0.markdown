@@ -1,0 +1,16 @@
+---
+layout: post
+title: "firefox 29.0"
+date: 2014-04-30 15:31:34 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+
+セキュリティホール修正を含む firefox 29.0 がリリースされています．詳しくは以下をご覧ください．
+
+* [Firefox 29.0 リリースノート](http://www.mozilla.jp/firefox/29.0/releasenotes/)
+
+パッケージをリリースしました．
+
+* [firefox-29.0-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-29.0-i586-P1.txz)
+* [firefox-29.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-29.0-x86_64-P1.txz)
