@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
+  <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
+  <link href="http://plamolinux.github.io/"/>
+  <updated>2014-05-18T21:57:25+09:00</updated>
+  <id>http://plamolinux.github.io/</id>
+  <author>
+    <name><![CDATA[Plamo Linux Project]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Lxc-gihyo-01]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo/"/>
+    <updated>2014-05-18T21:09:11+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo</id>
+    <content type="html"><![CDATA[<p> gihyo.jp で、加藤んさのん「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」の連載が始まりました。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">連載</a></li>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
+</ul>
+
+
+<p>カテゴリは仮想化環境なんだろうけど、とりあえず追加してみました。</p>
+]]></content>
+  </entry>
+  
+</feed>

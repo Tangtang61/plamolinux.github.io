@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-05-01T16:11:59+09:00</updated>
+  <updated>2014-05-18T21:57:25+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lxc-gihyo-01]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo/"/>
+    <updated>2014-05-18T21:09:11+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo</id>
+    <content type="html"><![CDATA[<p> gihyo.jp で、加藤んさのん「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」の連載が始まりました。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">連載</a></li>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
+</ul>
+
+
+<p>カテゴリは仮想化環境なんだろうけど、とりあえず追加してみました。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 24.5.0]]></title>
@@ -439,28 +456,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-27.0-i586-P1.txz">firefox-27.0-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.3-x86_64-P1.txz">nspr-4.10.3-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-27.0-x86_64-P1.txz">firefox-27.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Curl 7.35.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/02/03/curl-7-dot-35-dot-0/"/>
-    <updated>2014-02-03T18:08:52+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/02/03/curl-7-dot-35-dot-0</id>
-    <content type="html"><![CDATA[<p>curl にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://curl.haxx.se/docs/adv_20140129.html">libcurl re-use of wrong HTTP NTLM connection</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.35.0-i586-P1.txz">curl-7.35.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.35.0-x86_64-P1.txz">curl-7.35.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
