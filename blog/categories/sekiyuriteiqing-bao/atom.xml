@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-05-20T12:53:19+09:00</updated>
+  <updated>2014-05-21T16:46:31+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,72 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[wireshark-1.10.7]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7/"/>
+    <updated>2014-05-21T16:27:12+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.wireshark.org/security/wnpa-sec-2014-06.html">wnpa-sec-2014-06 · RTP dissector crash</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.7-i586-P1.txz">wireshark-1.10.7-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.7-x86_64-P1.txz">wireshark-1.10.7-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[dovecot-2.2.13]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/15/dovecot-2-dot-2-13/"/>
+    <updated>2014-05-15T16:40:39+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/15/dovecot-2-dot-2-13</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む dovecot 2.2.13 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://dovecot.org/list/dovecot-news/2014-May/000273.html">v2.2.13 released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/dovecot-2.2.13-i586-P1.txz">dovecot-2.2.13-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/dovecot-2.2.13-x86_64-P1.txz">dovecot-2.2.13-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Php 5.5.12]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/02/php-5-dot-5-12/"/>
+    <updated>2014-05-02T20:47:41+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/02/php-5-dot-5-12</id>
+    <content type="html"><![CDATA[<p>PHP 5.5.12 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.php.net/ChangeLog-5.php#5.5.12">PHP 5 ChangeLog</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.12-i586-P1.txz">php-5.5.12-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.12-x86_64-P1.txz">php-5.5.12-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 24.5.0]]></title>
@@ -52,74 +118,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-29.0-i586-P1.txz">firefox-29.0-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-29.0-x86_64-P1.txz">firefox-29.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yaml 0.1.6]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/04/23/yaml-0-dot-1-6/"/>
-    <updated>2014-04-23T18:32:40+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/04/23/yaml-0-dot-1-6</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libyaml 0.1.6 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2525">CVE-2014-2525</a> (NVD)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i586-P1.txz">yaml-0.1.6-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P1.txz">yaml-0.1.6-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openjpeg 1.5.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/04/22/openjpeg-1-dot-5-2/"/>
-    <updated>2014-04-22T20:29:10+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/04/22/openjpeg-1-dot-5-2</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む openjpeg 1.5.2 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://openjpeg.googlecode.com/svn/tags/version.1.5.2/NEWS">http://openjpeg.googlecode.com/svn/tags/version.1.5.2/NEWS</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/openjpeg-1.5.2-i586-P1.txz">openjpeg-1.5.2-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/openjpeg-1.5.2-x86_64-P1.txz">openjpeg-1.5.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openssl 1.0.1g]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/04/08/openssl-1-dot-0-1g/"/>
-    <updated>2014-04-08T20:49:24+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/04/08/openssl-1-dot-0-1g</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1g がリリースされています．</p>
-
-<p>詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.openssl.org/news/secadv_20140407.txt">TLS heartbeat read overrun (CVE-2014-0160)</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1g-i586-P1.txz">openssl-1.0.1g-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1g-x86_64-P1.txz">openssl-1.0.1g-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

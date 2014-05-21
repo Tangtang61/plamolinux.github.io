@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-05-20T12:53:19+09:00</updated>
+  <updated>2014-05-21T16:46:31+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[wireshark-1.10.7]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7/"/>
+    <updated>2014-05-21T16:27:12+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.wireshark.org/security/wnpa-sec-2014-06.html">wnpa-sec-2014-06 · RTP dissector crash</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.7-i586-P1.txz">wireshark-1.10.7-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.7-x86_64-P1.txz">wireshark-1.10.7-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC 空間を歩む　第一歩]]></title>
@@ -22,6 +44,72 @@
 
 <ul>
 <li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[dovecot-2.2.13]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/15/dovecot-2-dot-2-13/"/>
+    <updated>2014-05-15T16:40:39+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/15/dovecot-2-dot-2-13</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む dovecot 2.2.13 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://dovecot.org/list/dovecot-news/2014-May/000273.html">v2.2.13 released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/dovecot-2.2.13-i586-P1.txz">dovecot-2.2.13-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/dovecot-2.2.13-x86_64-P1.txz">dovecot-2.2.13-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 29.0.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/12/firefox-29-dot-0-1/"/>
+    <updated>2014-05-12T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/12/firefox-29-dot-0-1</id>
+    <content type="html"><![CDATA[<p>firefox 29.0.1 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/29.0.1/releasenotes/">Firefox 29.0.1 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-29.0.1-i586-P1.txz">firefox-29.0.1-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-29.0.1-x86_64-P1.txz">firefox-29.0.1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Php 5.5.12]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/02/php-5-dot-5-12/"/>
+    <updated>2014-05-02T20:47:41+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/02/php-5-dot-5-12</id>
+    <content type="html"><![CDATA[<p>PHP 5.5.12 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.php.net/ChangeLog-5.php#5.5.12">PHP 5 ChangeLog</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.12-i586-P1.txz">php-5.5.12-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.12-x86_64-P1.txz">php-5.5.12-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -363,96 +451,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i586-P3.txz">gnutls-2.12.23-i586-P3.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P3.txz">gnutls-2.12.23-x86_64-P3.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pidgin 2.10.9]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/02/19/pidgin-2-dot-10-dot-9/"/>
-    <updated>2014-02-19T16:10:30+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/02/19/pidgin-2-dot-10-dot-9</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む pidgin 2.10.9 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.pidgin.im/news/security/">Pidgin Security Advisories</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/gnome_parts.txz/pidgin-2.10.9-i586-P1.txz">pidgin-2.10.9-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/gnome_parts.txz/pidgin-2.10.9-x86_64-P1.txz">pidgin-2.10.9-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gnutls 2.12.23]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/02/18/gnutls-2-dot-12-dot-23/"/>
-    <updated>2014-02-18T16:55:19+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/02/18/gnutls-2-dot-12-dot-23</id>
-    <content type="html"><![CDATA[<p>GnuTLS にセキュリティホールが見つかっています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.gnutls.org/security.html#GNUTLS-SA-2014-1">GNUTLS-SA-2014-1(CVE-2014-1959)</a></li>
-</ul>
-
-
-<p>パッチを適用したパッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i586-P2.txz">gnutls-2.12.23-i586-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P2.txz">gnutls-2.12.23-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 24.3.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/02/12/thunderbird-24-dot-3-0/"/>
-    <updated>2014-02-12T21:39:23+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/02/12/thunderbird-24-dot-3-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む thunderbird 24.3.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/24.3.0/releasenotes/">Thunderbird 24.3.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-24.3.0-i586-P1.txz">thunderbird-24.3.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-24.3.0-x86_64-P1.txz">thunderbird-24.3.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 27.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/02/07/firefox-27-dot-0/"/>
-    <updated>2014-02-07T18:38:47+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/02/07/firefox-27-dot-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む firefox 27.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/27.0/releasenotes/">Firefox 27.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．nspr パッケージも同時に Update する必要があります．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.10.3-i586-P1.txz">nspr-4.10.3-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-27.0-i586-P1.txz">firefox-27.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.3-x86_64-P1.txz">nspr-4.10.3-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-27.0-x86_64-P1.txz">firefox-27.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
