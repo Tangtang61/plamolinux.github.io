@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-05-30T21:12:03+09:00</updated>
+  <updated>2014-05-31T14:57:00+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC 空間を歩む　第二歩]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/05/31/lxc-gihyo-02/"/>
+    <updated>2014-05-31T14:38:45+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/05/31/lxc-gihyo-02</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC 空間を歩む　第一歩]]></title>
