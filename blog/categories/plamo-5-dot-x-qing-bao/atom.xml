@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-06-06T15:46:46+09:00</updated>
+  <updated>2014-06-06T15:51:53+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[openssl-1.0.1h]]></title>
+    <title type="html"><![CDATA[Openssl 1.0.1h]]></title>
     <link href="http://plamolinux.github.io/blog/2014/06/06/openssl-1-dot-0-1h/"/>
     <updated>2014-06-06T15:44:11+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/06/06/openssl-1-dot-0-1h</id>
@@ -60,7 +60,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[wireshark-1.10.7]]></title>
+    <title type="html"><![CDATA[Wireshark 1.10.7]]></title>
     <link href="http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7/"/>
     <updated>2014-05-21T16:27:12+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7</id>
@@ -82,7 +82,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[dovecot-2.2.13]]></title>
+    <title type="html"><![CDATA[Dovecot 2.2.13]]></title>
     <link href="http://plamolinux.github.io/blog/2014/05/15/dovecot-2-dot-2-13/"/>
     <updated>2014-05-15T16:40:39+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/05/15/dovecot-2-dot-2-13</id>
