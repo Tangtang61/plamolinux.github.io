@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-06-12T12:55:39+09:00</updated>
+  <updated>2014-06-12T14:54:02+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 30.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/06/12/firefox-30-dot-0/"/>
+    <updated>2014-06-12T14:49:34+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/06/12/firefox-30-dot-0</id>
+    <content type="html"><![CDATA[<p>firefox 30.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/30.0/releasenotes/">Firefox 30.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-30.0-i586-P1.txz">firefox-30.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-30.0-x86_64-P1.txz">firefox-30.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>nspr 4.10.6 パッケージも更新しており、これも同時にインストールする必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.10.6-i586-P1.txz">nspr-4.10.6-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.6-x86_64-P1.txz">nspr-4.10.6-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gnutls 2.12.23]]></title>
@@ -98,28 +128,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.7-i586-P1.txz">wireshark-1.10.7-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.7-x86_64-P1.txz">wireshark-1.10.7-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Dovecot 2.2.13]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/05/15/dovecot-2-dot-2-13/"/>
-    <updated>2014-05-15T16:40:39+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/05/15/dovecot-2-dot-2-13</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む dovecot 2.2.13 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://dovecot.org/list/dovecot-news/2014-May/000273.html">v2.2.13 released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/dovecot-2.2.13-i586-P1.txz">dovecot-2.2.13-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/dovecot-2.2.13-x86_64-P1.txz">dovecot-2.2.13-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
