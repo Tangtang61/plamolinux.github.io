@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Plamo 5.2 リリース - Plamo Linux</title>
+  <title>LXC 空間を歩む　三歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="Plamo-5.2 をリリースしました． Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください． 玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2 他に，メンテナであるこじまさんのブログの 12 &hellip;">
+  <meta name="description" content="
+第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1） ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2013/12/29/plamo5-dot-2released">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/06/12/lxc-gihyo-03">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +71,7 @@
   
   <header>
     
-      <h1 class="entry-title">Plamo 5.2 リリース</h1>
+      <h1 class="entry-title">LXC 空間を歩む　三歩め</h1>
     
     
       <p class="meta">
@@ -86,35 +87,15 @@
   
 
 
-<time datetime="2013-12-29T12:36:02+09:00" pubdate data-updated="true">Dec 29<span>th</span>, 2013</time>
+<time datetime="2014-06-12T12:46:27+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Plamo-5.2 をリリースしました．</p>
-
-<p>Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください．</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053">玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2</a></li>
-</ul>
-
-
-<p>他に，メンテナであるこじまさんのブログの 12 月あたりに色々と関連するメモがあります．</p>
-
-<ul>
-<li><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima">http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima</a></li>
-</ul>
-
-
-<p>DVD イメージは以下からダウンロードできます．</p>
-
-<ul>
-<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
-<li><p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</p></li>
-<li><p><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html">アナウンスへのリンク</a></p></li>
+<div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
 </ul>
 
 </div>
@@ -139,12 +120,12 @@
   
 
 
-<time datetime="2013-12-29T12:36:02+09:00" pubdate data-updated="true">Dec 29<span>th</span>, 2013</time>
+<time datetime="2014-06-12T12:46:27+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/ririsuqing-bao/'>リリース情報</a>
+    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
   
 </span>
 
@@ -153,7 +134,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2013/12/29/plamo5-dot-2released/" data-via="" data-counturl="http://plamolinux.github.io/blog/2013/12/29/plamo5-dot-2released/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/06/12/lxc-gihyo-03/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/06/12/lxc-gihyo-03/" >Tweet</a>
   
   
   
@@ -162,10 +143,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/05/22/plamo-5-dot-1-release/" title="Previous Post: Plamo 5.1 リリース">&laquo; Plamo 5.1 リリース</a>
+        <a class="basic-alignment left" href="/blog/2014/06/10/gnutls-2-dot-12-dot-23/" title="Previous Post: gnutls 2.12.23">&laquo; gnutls 2.12.23</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/01/10/update-to-openssl-1-dot-0-1f/" title="Next Post: OpenSSL 1.0.1f">OpenSSL 1.0.1f &raquo;</a>
       
     </p>
   </footer>
