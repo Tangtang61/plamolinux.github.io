@@ -1,0 +1,20 @@
+---
+layout: post
+title: "firefox 30.0"
+date: 2014-06-12 14:49:34 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+firefox 30.0 がリリースされています．詳しくは以下をご覧ください．
+
+* [Firefox 30.0 リリースノート](http://www.mozilla.jp/firefox/30.0/releasenotes/)
+
+パッケージをリリースしました．
+
+* [firefox-30.0-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-30.0-i586-P1.txz)
+* [firefox-30.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-30.0-x86_64-P1.txz)
+
+nspr 4.10.6 パッケージも更新しており、これも同時にインストールする必要があります。
+
+* [nspr-4.10.6-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.10.6-i586-P1.txz)
+* [nspr-4.10.6-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.6-x86_64-P1.txz)
