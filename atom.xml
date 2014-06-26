@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-06-12T14:54:02+09:00</updated>
+  <updated>2014-06-26T15:46:54+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC 空間を歩む　四歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/06/26/lxc-gihyo-04/"/>
+    <updated>2014-06-26T15:27:16+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/06/26/lxc-gihyo-04</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0004">第4回　Linuxカーネルのコンテナ機能［3］ ─cgroupとは？（その2）</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 30.0]]></title>
@@ -411,28 +423,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.16-i586-P1.txz">nss-3.16-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.16-x86_64-P1.txz">nss-3.16-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 24.4.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/03/26/thunderbird-24-dot-4-0/"/>
-    <updated>2014-03-26T15:55:05+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/03/26/thunderbird-24-dot-4-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む Thunderbird 24.4.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/24.4.0/releasenotes/">Thunderbird 24.4.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-24.4.0-i586-P1.txz">thunderbird-24.4.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-24.4.0-x86_64-P1.txz">thunderbird-24.4.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
