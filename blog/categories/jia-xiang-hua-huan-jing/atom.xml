@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-07-02T15:48:30+09:00</updated>
+  <updated>2014-07-10T14:18:36+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC 空間を歩む　五歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/07/10/lxc-gihyo-05/"/>
+    <updated>2014-07-10T12:54:36+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/07/10/lxc-gihyo-05</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0005">第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3）</a></li>
+</ul>
+
+
+<blockquote><pre><code>サブシステム紹介（続き）
+cgroup の今後
+まとめ
+LXC-JPグループ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC 空間を歩む　四歩め]]></title>
@@ -22,6 +40,10 @@
 <li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0004">第4回　Linuxカーネルのコンテナ機能［3］ ─cgroupとは？（その2）</a></li>
 </ul>
 
+
+<blockquote><pre><code>サブシステム
+まとめ
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -34,6 +56,11 @@
 <li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
 </ul>
 
+
+<blockquote><pre><code>cgroupファイルシステム
+cgroupの階層構造
+まとめ
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -46,6 +73,14 @@
 <li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
 </ul>
 
+
+<blockquote><pre><code>コンテナの仕組み
+コンテナのメリット
+コンテナのデメリット
+Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
+まとめ
+LXC公式サイトの翻訳
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -60,6 +95,12 @@
 <li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
 </ul>
 
+
+<blockquote><pre><code>はじめに
+LXCとLinuxにおけるコンテナ技術
+まずは使ってみましょう
+次回以降について
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
