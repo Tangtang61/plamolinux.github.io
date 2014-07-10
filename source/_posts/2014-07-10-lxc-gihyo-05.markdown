@@ -1,0 +1,15 @@
+---
+layout: post
+title: "LXC 空間を歩む　五歩め"
+date: 2014-07-10 12:54:36 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+* [第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3）](http://gihyo.jp/admin/serial/01/linux_containers/0005)
+
+>
+    サブシステム紹介（続き）
+    cgroup の今後
+    まとめ
+    LXC-JPグループ

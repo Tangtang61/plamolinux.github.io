@@ -8,3 +8,6 @@ categories: ["仮想化環境"]
 
 * [第4回　Linuxカーネルのコンテナ機能［3］ ─cgroupとは？（その2）](http://gihyo.jp/admin/serial/01/linux_containers/0004)
 
+>
+    サブシステム
+    まとめ
