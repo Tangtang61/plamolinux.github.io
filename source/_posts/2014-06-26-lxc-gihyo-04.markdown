@@ -8,6 +8,8 @@ categories: ["仮想化環境"]
 
 * [第4回　Linuxカーネルのコンテナ機能［3］ ─cgroupとは？（その2）](http://gihyo.jp/admin/serial/01/linux_containers/0004)
 
+もう、実践して（確認）理解しないと分からないレベルだなぁ？、だけど、理解できればコンテナ以外でも有益な利用方法があるのかなぁ?って感じだったと思う。< bar-mtom i(M.Tomi)
+
 >
     サブシステム
     まとめ

@@ -10,6 +10,8 @@ categories: ["仮想化環境"]
 
 * [第1回　LXCとコンテナの基本](http://gihyo.jp/admin/serial/01/linux_containers/0001)
 
+まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ < bar-mtomi (M.Tomi)
+
 >
     はじめに
     LXCとLinuxにおけるコンテナ技術

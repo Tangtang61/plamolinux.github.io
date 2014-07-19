@@ -8,6 +8,8 @@ categories: ["仮想化環境"]
 
 * [第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？](http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1)
 
+うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  < bar-mtomi (M.Tomi)
+
 >
     コンテナの仕組み
     コンテナのメリット
