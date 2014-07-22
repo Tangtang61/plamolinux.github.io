@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Apache httpd 2.4.10"
+date: 2014-07-22 18:50:18 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+
+セキュリティホールの修正を含む Apache httpd 2.4.10 がリリースされています．詳しくは以下をご覧ください．
+
+* [Apache HTTP Server 2.4.10 Released](http://www.apache.org/dist/httpd/Announcement2.4.html)
+* [Apache HTTP Server 2.4.10 がリリースされました](http://www.apache.jp/news/apache-http-server-2.4.10-released)
+
+パッケージをリリースしました．
+
+* [httpd-2.4.10-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.10-i586-P1.txz)
+* [httpd-2.4.10-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.10-x86_64-P1.txz)
