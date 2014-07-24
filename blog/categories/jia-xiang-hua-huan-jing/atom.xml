@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-07-22T18:52:41+09:00</updated>
+  <updated>2014-07-24T21:18:44+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC 空間を歩む　六歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06/"/>
+    <updated>2014-07-24T21:05:48+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0006?ard=1406203785">第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク</a></li>
+</ul>
+
+
+<p>加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>コンテナとネットワーク名前空間
+ホストのインターフェースの使用
+veth
+macvlan
+まとめ
+LXC日本語ページの移行
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC 空間を歩む　五歩め]]></title>
@@ -89,28 +111,6 @@ cgroupの階層構造
 Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
 まとめ
 LXC公式サイトの翻訳
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　第一歩]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo/"/>
-    <updated>2014-05-18T21:09:11+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo</id>
-    <content type="html"><![CDATA[<p> gihyo.jp で、加藤さんの連載 <a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」</a> が始まりました。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
-</ul>
-
-
-<p>まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>はじめに
-LXCとLinuxにおけるコンテナ技術
-まずは使ってみましょう
-次回以降について
 </code></pre></blockquote>
 ]]></content>
   </entry>
