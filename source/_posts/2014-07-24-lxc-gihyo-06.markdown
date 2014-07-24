@@ -1,0 +1,19 @@
+---
+layout: post
+title: "LXC 空間を歩む　六歩め"
+date: 2014-07-24 21:05:48 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+* [第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク](http://gihyo.jp/admin/serial/01/linux_containers/0006?ard=1406203785)
+
+加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 < bar-mtomi
+
+>
+    コンテナとネットワーク名前空間
+    ホストのインターフェースの使用
+    veth
+    macvlan
+    まとめ
+    LXC日本語ページの移行
