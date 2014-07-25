@@ -1,0 +1,20 @@
+---
+layout: post
+title: "firefox-31.0"
+date: 2014-07-25 14:55:50 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+
+セキュリティホールの修正を含む firefox 31.0 がリリースされています。詳しくは以下をご覧ください。
+
+* [Firefox 31.0 リリースノート](http://www.mozilla.jp/firefox/31.0/releasenotes/)
+
+パッケージをリリースしました．sqlite, nss パッケージも同時に Update する必要があります．
+
+* [sqlite-3.8.5-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/sqlite-3.8.5-i586-P1.txz)
+* [nss-3.16.3-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.16.3-i586-P1.txz)
+* [firefox-31.0-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-31.0-i586-P1.txz)
+* [sqlite-3.8.5-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/sqlite-3.8.5-x86_64-P1.txz)
+* [nss-3.16.3-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.16.3-x86_64-P1.txz)
+* [firefox-31.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-31.0-x86_64-P1.txz)
