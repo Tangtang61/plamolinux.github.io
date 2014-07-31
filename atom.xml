@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-07-25T15:05:23+09:00</updated>
+  <updated>2014-07-31T20:31:01+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,11 +14,33 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Thunderbird 31.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/07/31/thunderbird-31-dot-0/"/>
+    <updated>2014-07-31T20:28:37+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/07/31/thunderbird-31-dot-0</id>
+    <content type="html"><![CDATA[<p>Thunderbird 31.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/thunderbird/31.0/releasenotes/">Thunderbird 31.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-31.0-i586-P1.txz">thunderbird-31.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-31.0-x86_64-P1.txz">thunderbird-31.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[firefox-31.0]]></title>
     <link href="http://plamolinux.github.io/blog/2014/07/25/firefox-31-dot-0/"/>
     <updated>2014-07-25T14:55:50+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/07/25/firefox-31-dot-0</id>
-    <content type="html"><![CDATA[<p>firefox 31.0 がリリースされています。詳しくは以下をご覧ください。</p>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 31.0 がリリースされています。詳しくは以下をご覧ください。</p>
 
 <ul>
 <li><a href="http://www.mozilla.jp/firefox/31.0/releasenotes/">Firefox 31.0 リリースノート</a></li>
@@ -433,28 +455,6 @@ LXCとLinuxにおけるコンテナ技術
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-29.0.1-i586-P1.txz">firefox-29.0.1-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-29.0.1-x86_64-P1.txz">firefox-29.0.1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 5.5.12]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/05/02/php-5-dot-5-12/"/>
-    <updated>2014-05-02T20:47:41+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/05/02/php-5-dot-5-12</id>
-    <content type="html"><![CDATA[<p>PHP 5.5.12 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.php.net/ChangeLog-5.php#5.5.12">PHP 5 ChangeLog</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.12-i586-P1.txz">php-5.5.12-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.12-x86_64-P1.txz">php-5.5.12-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

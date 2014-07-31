@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="libimobiledevice にセキュリティホールが発見されています．詳しくは以下をご覧ください． CVE-2013-2142 パッチを適用したパッケージをリリースしました． libimobiledevice-1.1.4-i586-P3.txz (32bit)
-libimobiledevice &hellip;">
+  <meta name="description" content="curl にセキュリティホールが発見されています．詳しくは以下をご覧ください． libcurl re-use of wrong HTTP NTLM connection 対策パッケージをリリースしました． curl-7.35.0-i586-P1.txz (32bit)
+curl-7.35.0- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,55 @@ libimobiledevice &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/02/03/curl-7-dot-35-dot-0/">Curl 7.35.0</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-03T18:08:52+09:00" pubdate data-updated="true">Feb 3<span>rd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>curl にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/docs/adv_20140129.html">libcurl re-use of wrong HTTP NTLM connection</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.35.0-i586-P1.txz">curl-7.35.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.35.0-x86_64-P1.txz">curl-7.35.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -552,75 +601,6 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/22/plamo-5-dot-1-release/">Plamo 5.1 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-22T00:00:00+09:00" pubdate data-updated="true">May 22<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo-5.1 をリリースしました．</p>
-
-<p>以下はメーリングリストへの投稿の抜粋です．</p>
-
-<pre><code>すでに一部の人はお気付きのことと思いますが，先週の22日くらいまでの更新
-でPlamo-5.1ということにしてDVDイメージを作成，公開しました．
-
-$ ls -lh plamo-5.1*
--rw-r--r-- 1 kojima plamo 3.1G 2013-05-22 16:26 plamo-5.1_x86_64_dvd.iso
--rw-r--r-- 1 kojima plamo   59 2013-05-25 10:37 plamo-5.1_x86_64_dvd.iso.md5sum
--rw-r--r-- 1 kojima plamo 3.3G 2013-05-22 16:21 plamo-5.1_x86_dvd.iso
--rw-r--r-- 1 kojima plamo   56 2013-05-25 10:38 plamo-5.1_x86_dvd.iso.md5sum
-
-すでに kddlabs にもミラーいただいているようなので，こちらの方が回線が太
-くてお勧めです．
-
-ftp://ftp.kddlabs.co.jp/020/Linux/packages/plamolinux/
-plamo-5.1_x86_64_dvd.iso                plamo-5.1_x86_dvd.iso
-plamo-5.1_x86_64_dvd.iso.md5sum         plamo-5.1_x86_dvd.iso.md5sum
-
-よく見ると md5sum の日付けが3日ほど遅れているのに気づくと思いますが，
-DVD名から日付けを抜く際に直した結果なのでご心配なく．
-
-今回はPlamo-5.0からのメンテナンスリリースなので，Plamo-5.0からのアップ
-デート集も用意してみました．
-</code></pre>
-
-<p>アップデートを使用する場合の注意点等がありますので以下を参照して下さい。</p>
-
-<ul>
-<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201305/msg00018.html">アナウンスへのリンク</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046">玩式草子 「第46回　Plamo-5.1 released」</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/6/">&larr; Older</a>
@@ -636,6 +616,10 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -938,10 +922,14 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (42)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (38)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (6)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (43)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (38)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (6)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/07/31/thunderbird-31-dot-0/">Thunderbird 31.0</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/07/25/firefox-31-dot-0/">firefox-31.0</a>
@@ -957,10 +945,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     
       <li class="post">
         <a href="/blog/2014/07/11/samba-3-dot-6-24/">Samba 3.6.24</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/07/10/lxc-gihyo-05/">LXC 空間を歩む　五歩め</a>
       </li>
     
   </ul>
