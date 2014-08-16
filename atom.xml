@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-07-31T20:31:01+09:00</updated>
+  <updated>2014-08-16T15:27:50+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07/"/>
+    <updated>2014-08-16T15:11:48+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
+
+<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
+コンテナのネストができるのか！  &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LXCの歴史
+LXCの特徴
+LXCの気になる点
+まとめ
+最近のLXCのリリース
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 31.0]]></title>
@@ -433,28 +452,6 @@ LXCとLinuxにおけるコンテナ技術
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/dovecot-2.2.13-i586-P1.txz">dovecot-2.2.13-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/dovecot-2.2.13-x86_64-P1.txz">dovecot-2.2.13-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 29.0.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/05/12/firefox-29-dot-0-1/"/>
-    <updated>2014-05-12T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/05/12/firefox-29-dot-0-1</id>
-    <content type="html"><![CDATA[<p>firefox 29.0.1 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/29.0.1/releasenotes/">Firefox 29.0.1 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-29.0.1-i586-P1.txz">firefox-29.0.1-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-29.0.1-x86_64-P1.txz">firefox-29.0.1-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

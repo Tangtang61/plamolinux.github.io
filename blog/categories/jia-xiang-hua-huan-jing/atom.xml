@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-07-31T20:31:01+09:00</updated>
+  <updated>2014-08-16T15:27:50+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07/"/>
+    <updated>2014-08-16T15:11:48+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
+
+<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
+コンテナのネストができるのか！  &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LXCの歴史
+LXCの特徴
+LXCの気になる点
+まとめ
+最近のLXCのリリース
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC 空間を歩む　六歩め]]></title>
@@ -89,28 +108,6 @@ LXC-JPグループ
 <blockquote><pre><code>cgroupファイルシステム
 cgroupの階層構造
 まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　第二歩]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/05/31/lxc-gihyo-02/"/>
-    <updated>2014-05-31T14:38:45+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/05/31/lxc-gihyo-02</id>
-    <content type="html"><![CDATA[<ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
-</ul>
-
-
-<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>コンテナの仕組み
-コンテナのメリット
-コンテナのデメリット
-Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
-まとめ
-LXC公式サイトの翻訳
 </code></pre></blockquote>
 ]]></content>
   </entry>
