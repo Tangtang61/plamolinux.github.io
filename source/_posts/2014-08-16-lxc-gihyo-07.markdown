@@ -1,0 +1,19 @@
+---
+layout: post
+title: "LXC 空間を歩む　七歩め"
+date: 2014-08-16 15:11:48 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第7回　LXCの歴史と特徴](http://gihyo.jp/admin/serial/01/linux_containers/0007)
+
+コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？   
+コンテナのネストができるのか！  < bar-mtomi
+
+>
+    LXCの歴史
+    LXCの特徴
+    LXCの気になる点
+    まとめ
+    最近のLXCのリリース
