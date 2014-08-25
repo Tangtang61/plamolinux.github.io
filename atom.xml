@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-08-25T19:26:11+09:00</updated>
+  <updated>2014-08-25T19:31:07+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 5.5.16]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/08/25/php-5-dot-5-16/"/>
+    <updated>2014-08-25T19:29:21+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/08/25/php-5-dot-5-16</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.5.16 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.php.net/ChangeLog-5.php#5.5.16">PHP 5 ChangeLog</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.16-i586-P1.txz">php-5.5.16-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.16-x86_64-P1.txz">php-5.5.16-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
@@ -435,28 +457,6 @@ LXC公式サイトの翻訳
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.13-i586-P1.txz">php-5.5.13-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.13-x86_64-P1.txz">php-5.5.13-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wireshark 1.10.7]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7/"/>
-    <updated>2014-05-21T16:27:12+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.wireshark.org/security/wnpa-sec-2014-06.html">wnpa-sec-2014-06 · RTP dissector crash</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.7-i586-P1.txz">wireshark-1.10.7-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.7-x86_64-P1.txz">wireshark-1.10.7-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
