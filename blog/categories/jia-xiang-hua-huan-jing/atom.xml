@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-08-25T19:31:07+09:00</updated>
+  <updated>2014-08-28T21:48:53+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC 空間を歩む　八歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/"/>
+    <updated>2014-08-28T21:45:50+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
+
+<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
+Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
+共通オプション
+コンテナの作成 ? lxc-create
+コンテナの情報表示 ? lxc-ls, lxc-info
+コンテナの起動 ? lxc-start
+コンテナの停止・リブート ? lxc-stop
+コンテナ内での作業
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
@@ -88,25 +110,6 @@ LXC-JPグループ
 <p>もう、実践して（確認）理解しないと分からないレベルだなぁ？、だけど、理解できればコンテナ以外でも有益な利用方法があるのかなぁ?って感じだったと思う。&lt; bar-mtom i(M.Tomi)</p>
 
 <blockquote><pre><code>サブシステム
-まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　三歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/06/12/lxc-gihyo-03/"/>
-    <updated>2014-06-12T12:46:27+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/06/12/lxc-gihyo-03</id>
-    <content type="html"><![CDATA[<ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
-</ul>
-
-
-<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>cgroupファイルシステム
-cgroupの階層構造
 まとめ
 </code></pre></blockquote>
 ]]></content>

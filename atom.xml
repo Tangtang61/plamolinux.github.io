@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-08-25T19:31:07+09:00</updated>
+  <updated>2014-08-28T21:48:53+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC 空間を歩む　八歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/"/>
+    <updated>2014-08-28T21:45:50+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
+
+<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
+Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
+共通オプション
+コンテナの作成 ? lxc-create
+コンテナの情報表示 ? lxc-ls, lxc-info
+コンテナの起動 ? lxc-start
+コンテナの停止・リブート ? lxc-stop
+コンテナ内での作業
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 5.5.16]]></title>
@@ -437,28 +459,6 @@ Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
 まとめ
 LXC公式サイトの翻訳
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 5.5.13]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/05/30/php-5-dot-5-13/"/>
-    <updated>2014-05-30T21:08:51+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/05/30/php-5-dot-5-13</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.5.13 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.php.net/ChangeLog-5.php#5.5.13">PHP 5 ChangeLog</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.13-i586-P1.txz">php-5.5.13-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.13-x86_64-P1.txz">php-5.5.13-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   

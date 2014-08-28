@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Php 5.5.14 - Plamo Linux</title>
+  <title>LXC 空間を歩む　八歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む PHP 5.5.14 がリリースされています．詳しくは以下をご覧ください． PHP 5 ChangeLog パッケージをリリースしました． php-5.5.14-i586-P1.txz (32bit)
-php-5.5.14-x86_64-P1.txz (64bit) ">
+  <meta name="description" content="*第8回　LXCの基本操作［1］ 各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi Ubuntuパッケージ使用時の各種パス &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ php-5.5.14-x86_64-P1.txz (64bit) ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/06/30/php-5-dot-5-14">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -71,7 +70,7 @@ php-5.5.14-x86_64-P1.txz (64bit) ">
   
   <header>
     
-      <h1 class="entry-title">Php 5.5.14</h1>
+      <h1 class="entry-title">LXC 空間を歩む　八歩め</h1>
     
     
       <p class="meta">
@@ -87,27 +86,27 @@ php-5.5.14-x86_64-P1.txz (64bit) ">
   
 
 
-<time datetime="2014-06-30T00:00:00+09:00" pubdate data-updated="true">Jun 30<span>th</span>, 2014</time>
+<time datetime="2014-08-28T21:45:50+09:00" pubdate data-updated="true">Aug 28<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>セキュリティホールの修正を含む PHP 5.5.14 がリリースされています．詳しくは以下をご覧ください．</p>
+<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
 
-<ul>
-<li><a href="http://www.php.net/ChangeLog-5.php#5.5.14">PHP 5 ChangeLog</a></li>
-</ul>
+<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
 
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.14-i586-P1.txz">php-5.5.14-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.14-x86_64-P1.txz">php-5.5.14-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
+<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
+Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
+共通オプション
+コンテナの作成 ? lxc-create
+コンテナの情報表示 ? lxc-ls, lxc-info
+コンテナの起動 ? lxc-start
+コンテナの停止・リブート ? lxc-stop
+コンテナ内での作業
+まとめ
+</code></pre></blockquote>
 </div>
 
 
@@ -130,12 +129,12 @@ php-5.5.14-x86_64-P1.txz (64bit) ">
   
 
 
-<time datetime="2014-06-30T00:00:00+09:00" pubdate data-updated="true">Jun 30<span>th</span>, 2014</time>
+<time datetime="2014-08-28T21:45:50+09:00" pubdate data-updated="true">Aug 28<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
+    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
   
 </span>
 
@@ -144,7 +143,7 @@ php-5.5.14-x86_64-P1.txz (64bit) ">
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/06/30/php-5-dot-5-14/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/06/30/php-5-dot-5-14/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/" >Tweet</a>
   
   
   
@@ -153,10 +152,8 @@ php-5.5.14-x86_64-P1.txz (64bit) ">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/06/27/gnupg-2-dot-0-24/" title="Previous Post: gnupg 2.0.24">&laquo; gnupg 2.0.24</a>
+        <a class="basic-alignment left" href="/blog/2014/08/25/php-5-dot-5-16/" title="Previous Post: php 5.5.16">&laquo; php 5.5.16</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/07/10/lxc-gihyo-05/" title="Next Post: LXC 空間を歩む　五歩め">LXC 空間を歩む　五歩め &raquo;</a>
       
     </p>
   </footer>
