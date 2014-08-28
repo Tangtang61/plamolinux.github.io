@@ -1,0 +1,22 @@
+---
+layout: post
+title: "LXC 空間を歩む　八歩め"
+date: 2014-08-28 21:45:50 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第8回　LXCの基本操作［1］](http://gihyo.jp/admin/serial/01/linux_containers/0008)
+
+各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ < bar-mtomi
+
+>
+    Ubuntuパッケージ使用時の各種パス
+    Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
+    共通オプション
+    コンテナの作成 ? lxc-create
+    コンテナの情報表示 ? lxc-ls, lxc-info
+    コンテナの起動 ? lxc-start
+    コンテナの停止・リブート ? lxc-stop
+    コンテナ内での作業
+    まとめ
