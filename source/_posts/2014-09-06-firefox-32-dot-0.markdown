@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "firefox-32.0"
+title: "firefox 32.0"
 date: 2014-09-06 15:55:58 +0900
 comments: false
 categories: ["Plamo 5.x 情報", "セキュリティ情報"]
