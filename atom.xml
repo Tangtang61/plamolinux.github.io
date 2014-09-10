@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-09-06T16:14:17+09:00</updated>
+  <updated>2014-09-10T19:04:31+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,7 +14,51 @@
 
   
   <entry>
-    <title type="html"><![CDATA[firefox-32.0]]></title>
+    <title type="html"><![CDATA[Procmail 3.22]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/09/10/procmail-3-dot-22/"/>
+    <updated>2014-09-10T19:00:48+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/09/10/procmail-3-dot-22</id>
+    <content type="html"><![CDATA[<p>procmail 3.22 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-3618">CVE-2014-3618</a></li>
+</ul>
+
+
+<p>パッチを適用した P2 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/procmail-3.22-i586-P2.txz">procmail-3.22-i586-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/procmail-3.22-x86_64-P2.txz">procmail-3.22-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 31.1.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/09/09/thunderbird-31-dot-1-0/"/>
+    <updated>2014-09-09T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/09/09/thunderbird-31-dot-1-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 31.1.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/thunderbird/31.1.0/releasenotes/">Thunderbird 31.1.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-31.1.0-i586-P1.txz">thunderbird-31.1.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-31.1.0-x86_64-P1.txz">thunderbird-31.1.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 32.0]]></title>
     <link href="http://plamolinux.github.io/blog/2014/09/06/firefox-32-dot-0/"/>
     <updated>2014-09-06T15:55:58+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/09/06/firefox-32-dot-0</id>
@@ -411,55 +455,6 @@ LXC-JPグループ
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-24.6.0-x86_64-P1.txz">thunderbird-24.6.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 30.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/06/12/firefox-30-dot-0/"/>
-    <updated>2014-06-12T14:49:34+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/06/12/firefox-30-dot-0</id>
-    <content type="html"><![CDATA[<p>firefox 30.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/30.0/releasenotes/">Firefox 30.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-30.0-i586-P1.txz">firefox-30.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-30.0-x86_64-P1.txz">firefox-30.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>nspr 4.10.6 パッケージも更新しており、これも同時にインストールする必要があります。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.10.6-i586-P1.txz">nspr-4.10.6-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.6-x86_64-P1.txz">nspr-4.10.6-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　三歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/06/12/lxc-gihyo-03/"/>
-    <updated>2014-06-12T12:46:27+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/06/12/lxc-gihyo-03</id>
-    <content type="html"><![CDATA[<ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
-</ul>
-
-
-<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>cgroupファイルシステム
-cgroupの階層構造
-まとめ
-</code></pre></blockquote>
 ]]></content>
   </entry>
   
