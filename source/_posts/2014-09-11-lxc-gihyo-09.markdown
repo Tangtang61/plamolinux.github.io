@@ -1,0 +1,18 @@
+---
+layout: post
+title: "LXC　空間を歩む　九歩め"
+date: 2014-09-11 12:58:49 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第9回　LXCの基本操作［2］](http://gihyo.jp/admin/serial/01/linux_containers/0009)
+
+今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 < bar-mtomi
+
+>
+    コンテナの削除
+    cgroup設定の確認，変更
+    コンテナのクローン
+    コンテナのスナップショットの取得
+    まとめ
