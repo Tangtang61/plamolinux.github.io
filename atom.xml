@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-09-10T19:04:31+09:00</updated>
+  <updated>2014-09-11T13:26:35+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　九歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/09/11/lxc-gihyo-09/"/>
+    <updated>2014-09-11T12:58:49+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/09/11/lxc-gihyo-09</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0009">第9回　LXCの基本操作［2］</a></p>
+
+<p>今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>コンテナの削除
+cgroup設定の確認，変更
+コンテナのクローン
+コンテナのスナップショットの取得
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Procmail 3.22]]></title>
@@ -127,7 +145,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　八歩め]]></title>
+    <title type="html"><![CDATA[LXC　空間を歩む　八歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/"/>
     <updated>2014-08-28T21:45:50+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08</id>
@@ -171,7 +189,7 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
+    <title type="html"><![CDATA[LXC　空間を歩む　七歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07/"/>
     <updated>2014-08-16T15:11:48+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07</id>
@@ -287,7 +305,7 @@ LXCの気になる点
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　六歩め]]></title>
+    <title type="html"><![CDATA[LXC　空間を歩む　六歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06/"/>
     <updated>2014-07-24T21:05:48+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06</id>
@@ -354,7 +372,7 @@ LXC日本語ページの移行
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　五歩め]]></title>
+    <title type="html"><![CDATA[LXC　空間を歩む　五歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/07/10/lxc-gihyo-05/"/>
     <updated>2014-07-10T12:54:36+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/07/10/lxc-gihyo-05</id>
@@ -419,7 +437,7 @@ LXC-JPグループ
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　四歩め]]></title>
+    <title type="html"><![CDATA[LXC　空間を歩む　四歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/06/26/lxc-gihyo-04/"/>
     <updated>2014-06-26T15:27:16+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/06/26/lxc-gihyo-04</id>
@@ -433,28 +451,6 @@ LXC-JPグループ
 <blockquote><pre><code>サブシステム
 まとめ
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 24.6.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/06/16/thunderbird-24-dot-6-0/"/>
-    <updated>2014-06-16T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/06/16/thunderbird-24-dot-6-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正がなされた Thunderbird 24.6.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/24.6.0/releasenotes/">Thunderbird 24.6.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-24.6.0-i586-P1.txz">thunderbird-24.6.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-24.6.0-x86_64-P1.txz">thunderbird-24.6.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
