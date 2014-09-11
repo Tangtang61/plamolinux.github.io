@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-09-11T13:26:35+09:00</updated>
+  <updated>2014-09-11T15:30:38+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -89,6 +89,8 @@ cgroup設定の確認，変更
 
 <p>パッケージをリリースしました． <br/>
 <a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html">但し 32bit 版はコンパイラの最適化を無効にしています．</a></p>
+
+<p>*<a href="http://plamo.linet.gr.jp/wiki/index.php?%C9%D4%B6%F1%B9%E7%CA%F3%B9%F0%2F5.0%20x86_64%2F48">注意点があります (PlamoLinux Wiki)</a></p>
 
 <ul>
 <li><p><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-32.0-i586-P1.txz">firefox-32.0-i586-P1.txz (32bit)</a></p></li>
