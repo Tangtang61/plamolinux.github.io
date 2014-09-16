@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC 空間を歩む　六歩め - Plamo Linux</title>
+  <title>Glibc, Gccなどの更新 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク 加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt &hellip;">
+  <meta name="description" content="glibc, gcc などの基本的なパッケージが 8/4 付で更新されています。詳しくは Change.Log をご覧ください。 gcc 4.8.3
+glibc 2.19 これ以降に更新されるパッケージは gcc 4.8.3 でコンパイルされ、glibc 2.19 に依存します。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +72,7 @@
   
   <header>
     
-      <h1 class="entry-title">LXC 空間を歩む　六歩め</h1>
+      <h1 class="entry-title">Glibc, Gccなどの更新</h1>
     
     
       <p class="meta">
@@ -86,27 +88,22 @@
   
 
 
-<time datetime="2014-07-24T21:05:48+09:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
+<time datetime="2014-08-05T00:00:00+09:00" pubdate data-updated="true">Aug 5<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0006?ard=1406203785">第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク</a></li>
+<div class="entry-content"><p>glibc, gcc などの基本的なパッケージが 8/4 付で更新されています。詳しくは Change.Log をご覧ください。</p>
+
+<ul>
+<li>gcc 4.8.3</li>
+<li>glibc 2.19</li>
 </ul>
 
 
-<p>加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>コンテナとネットワーク名前空間
-ホストのインターフェースの使用
-veth
-macvlan
-まとめ
-LXC日本語ページの移行
-</code></pre></blockquote>
+<p>これ以降に更新されるパッケージは gcc 4.8.3 でコンパイルされ、glibc 2.19 に依存します。</p>
 </div>
 
 
@@ -129,12 +126,12 @@ LXC日本語ページの移行
   
 
 
-<time datetime="2014-07-24T21:05:48+09:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
+<time datetime="2014-08-05T00:00:00+09:00" pubdate data-updated="true">Aug 5<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
+    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>
   
 </span>
 
@@ -143,7 +140,7 @@ LXC日本語ページの移行
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/" >Tweet</a>
   
   
   
@@ -152,10 +149,10 @@ LXC日本語ページの移行
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/07/22/apache-2-dot-4-10/" title="Previous Post: Apache httpd 2.4.10">&laquo; Apache httpd 2.4.10</a>
+        <a class="basic-alignment left" href="/blog/2014/07/31/thunderbird-31-dot-0/" title="Previous Post: thunderbird 31.0">&laquo; thunderbird 31.0</a>
       
       
-        <a class="basic-alignment right" href="/blog/2014/07/25/firefox-31-dot-0/" title="Next Post: firefox-31.0">firefox-31.0 &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2014/08/11/openssl-1-dot-0-1i/" title="Next Post: openssl 1.0.1i">openssl 1.0.1i &raquo;</a>
       
     </p>
   </footer>
