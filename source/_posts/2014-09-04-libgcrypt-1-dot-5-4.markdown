@@ -13,3 +13,5 @@ categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 
 * [libgcrypt-1.5.4-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-i586-P1.txz)
 * [libgcrypt-1.5.4-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-x86_64-P1.txz)
+
+(このパッケージは新しいパッケージに依存します。[こちらをご参照ください](blog/2014/08/05/glibc-gcc/)。)
