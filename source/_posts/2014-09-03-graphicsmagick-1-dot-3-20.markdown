@@ -17,4 +17,4 @@ GraphicsMagick に脆弱性が発見されています。詳しくは以下を�
 * [libwebp-0.4.1-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/libwebp-0.4.1-x86_64-P1.txz)
 * [GraphicsMagick-1.3.20-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/GraphicsMagick-1.3.20-x86_64-P1.txz)
 
-(このパッケージは新しいパッケージに依存します。[こちらをご参照ください](blog/2014/08/05/glibc-gcc/)。)
+(このパッケージは新しいパッケージに依存します。[こちらをご参照ください](/blog/2014/08/05/glibc-gcc/)。)

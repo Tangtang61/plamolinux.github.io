@@ -17,4 +17,4 @@ firefox 32.0.1 がリリースされています(firefox 32.0 ではセキュリ
 * [firefox-32.0.1-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-32.0.1-i586-P1.txz)
 * [firefox-32.0.1-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-32.0.1-x86_64-P1.txz)
 
-(このパッケージは新しいパッケージに依存します。[こちらをご参照ください](blog/2014/08/05/glibc-gcc/)。)
+(このパッケージは新しいパッケージに依存します。[こちらをご参照ください](/blog/2014/08/05/glibc-gcc/)。)

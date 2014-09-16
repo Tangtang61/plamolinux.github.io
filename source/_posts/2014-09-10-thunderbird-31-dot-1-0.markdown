@@ -14,4 +14,4 @@ categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 * [thunderbird-31.1.0-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-31.1.0-i586-P1.txz)
 * [thunderbird-31.1.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-31.1.0-x86_64-P1.txz)
 
-(このパッケージは新しいパッケージに依存します。[こちらをご参照ください](blog/2014/08/05/glibc-gcc/)。)
+(このパッケージは新しいパッケージに依存します。[こちらをご参照ください](/blog/2014/08/05/glibc-gcc/)。)
