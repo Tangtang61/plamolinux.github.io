@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-09-27T13:29:21+09:00</updated>
+  <updated>2014-10-01T16:52:43+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -53,7 +53,7 @@ cgroup設定の確認，変更
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　八歩め]]></title>
+    <title type="html"><![CDATA[LXC 空間を歩む　八歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/"/>
     <updated>2014-08-28T21:45:50+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08</id>
@@ -75,7 +75,7 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　七歩め]]></title>
+    <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07/"/>
     <updated>2014-08-16T15:11:48+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07</id>
@@ -94,7 +94,7 @@ LXCの気になる点
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　六歩め]]></title>
+    <title type="html"><![CDATA[LXC 空間を歩む　六歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06/"/>
     <updated>2014-07-24T21:05:48+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06</id>
