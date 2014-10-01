@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-10-01T16:52:26+09:00</updated>
+  <updated>2014-10-01T16:54:51+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -18,7 +18,7 @@
     <link href="http://plamolinux.github.io/blog/2014/10/01/bash-4-dot-2-49/"/>
     <updated>2014-10-01T16:51:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/10/01/bash-4-dot-2-49</id>
-    <content type="html"><![CDATA[<p>(2014-10-01 更新)</p>
+    <content type="html"><![CDATA[<p>(2014-10-01 bash 4.2.49 情報から更新)</p>
 
 <p>bash に脆弱性が発見されています。詳しくは以下などをご覧ください。</p>
 
