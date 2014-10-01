@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "bash 4.2.49"
-date: 2014-09-26 19:20:45 +0900
+title: "bash 4.2.50"
+date: 2014-10-01 16:51:00 +0900
 comments: false
 categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 ---
+
+(2014-10-01 bash 4.2.49 情報から更新)
 
 bash に脆弱性が発見されています。詳しくは以下などをご覧ください。
 
@@ -12,7 +14,7 @@ bash に脆弱性が発見されています。詳しくは以下などをご覧
 
 対策パッケージをリリースしました。
 
-* [bash-4.2.49-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/bash-4.2.49-i586-P1.txz)
-* [bash-4.2.49-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/bash-4.2.49-x86_64-P1.txz)
+* [bash-4.2.50-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/bash-4.2.50-i586-P1.txz)
+* [bash-4.2.50-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/bash-4.2.50-x86_64-P1.txz)
 
 (このパッケージは新しいパッケージに依存します。[こちらをご参照ください](/blog/2014/08/05/glibc-gcc/)。)
