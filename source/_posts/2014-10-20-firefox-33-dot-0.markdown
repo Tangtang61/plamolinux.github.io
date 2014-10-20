@@ -10,9 +10,11 @@ categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 
 * [Firefox 33.0 リリースノート](http://www.mozilla.jp/firefox/33.0/releasenotes/)
 
-パッケージをリリースしました．[但し 32bit 版はコンパイラの最適化を無効にしています](http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html)。
+パッケージをリリースしました．[但し 32bit 版はコンパイラの最適化を無効にしています](http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html)。nss パッケージも同時に Update する必要があります。
 
+* [nss-3.17.2-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.17.2-i586-P1.txz)
 * [firefox-33.0-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-33.0-i586-P1.txz)
+* [nss-3.17.2-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.17.2-x86_64-P1.txz)
 * [firefox-33.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-33.0-x86_64-P1.txz)
 
 (このパッケージは新しいパッケージに依存します。[こちらをご参照ください](/blog/2014/08/05/glibc-gcc/)。)
