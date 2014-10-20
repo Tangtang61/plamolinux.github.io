@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-10-20T16:43:23+09:00</updated>
+  <updated>2014-10-20T17:25:22+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -25,10 +25,12 @@
 </ul>
 
 
-<p>パッケージをリリースしました．<a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html">但し 32bit 版はコンパイラの最適化を無効にしています</a>。</p>
+<p>パッケージをリリースしました．<a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html">但し 32bit 版はコンパイラの最適化を無効にしています</a>。nss パッケージも同時に Update する必要があります。</p>
 
 <ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.17.2-i586-P1.txz">nss-3.17.2-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-33.0-i586-P1.txz">firefox-33.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.17.2-x86_64-P1.txz">nss-3.17.2-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-33.0-x86_64-P1.txz">firefox-33.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
