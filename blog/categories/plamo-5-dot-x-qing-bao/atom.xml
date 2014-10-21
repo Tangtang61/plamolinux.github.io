@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-10-20T17:25:22+09:00</updated>
+  <updated>2014-10-21T20:55:50+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[php-5.5.18]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/10/21/php-5-dot-5-18/"/>
+    <updated>2014-10-21T20:53:29+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/10/21/php-5-dot-5-18</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.5.18 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.php.net/ChangeLog-5.php#5.5.18">PHP 5 ChangeLog</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.18-i586-P1.txz">php-5.5.18-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.18-x86_64-P1.txz">php-5.5.18-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[firefox-33.0]]></title>
@@ -110,30 +134,6 @@
 <li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?%C9%D4%B6%F1%B9%E7%CA%F3%B9%F0%2F5.0%20x86_64%2F48">注意点があります (PlamoLinux Wiki)</a></p></li>
 <li><p><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-32.0.3-i586-P1.txz">firefox-32.0.3-i586-P1.txz (32bit)</a></p></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-32.0.3-x86_64-P1.txz">firefox-32.0.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Procmail 3.22]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/09/10/procmail-3-dot-22/"/>
-    <updated>2014-09-10T19:00:48+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/09/10/procmail-3-dot-22</id>
-    <content type="html"><![CDATA[<p>procmail 3.22 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-3618">CVE-2014-3618</a></li>
-</ul>
-
-
-<p>パッチを適用した P2 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/procmail-3.22-i586-P2.txz">procmail-3.22-i586-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/procmail-3.22-x86_64-P2.txz">procmail-3.22-x86_64-P2.txz (64bit)</a></li>
 </ul>
 
 
