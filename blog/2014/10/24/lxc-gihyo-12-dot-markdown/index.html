@@ -5,14 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　十歩め - Plamo Linux</title>
+  <title>LXC　空間を歩む　十二歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第10回　LXCの基本操作［3］ FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング &hellip;">
+  <meta name="description" content="*第12回　LXCの設定［2］ Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi セキュリティ機能
+ネットワーク
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +20,7 @@ LXCのシステム設定
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10-dot-markdown">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -73,7 +72,7 @@ LXCのシステム設定
   
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　十歩め</h1>
+      <h1 class="entry-title">LXC　空間を歩む　十二歩め</h1>
     
     
       <p class="meta">
@@ -89,26 +88,23 @@ LXCのシステム設定
   
 
 
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
+<time datetime="2014-10-24T17:11:55+09:00" pubdate data-updated="true">Oct 24<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
+<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
 
-<p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
+<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
 
-<blockquote><pre><code>アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング
-指定したコンテナの状態への待機
-Ubuntu 14.04 LTSのcgroup管理
+<blockquote></blockquote>
+
+<pre><code>セキュリティ機能
+ネットワーク
 まとめ
-第4回 コンテナ型仮想化の情報交換会＠東京
-</code></pre></blockquote>
+</code></pre>
 </div>
 
 
@@ -131,7 +127,7 @@ Ubuntu 14.04 LTSのcgroup管理
   
 
 
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
+<time datetime="2014-10-24T17:11:55+09:00" pubdate data-updated="true">Oct 24<span>th</span>, 2014</time>
       
 
 <span class="categories">
@@ -145,7 +141,7 @@ Ubuntu 14.04 LTSのcgroup管理
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10-dot-markdown/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10-dot-markdown/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/" >Tweet</a>
   
   
   
@@ -154,10 +150,8 @@ Ubuntu 14.04 LTSのcgroup管理
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/09/26/firefox-32-dot-0/" title="Previous Post: firefox 32.0.3">&laquo; firefox 32.0.3</a>
+        <a class="basic-alignment left" href="/blog/2014/10/21/php-5-dot-5-18/" title="Previous Post: php 5.5.18">&laquo; php 5.5.18</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/10/07/bash-4-dot-2-49/" title="Next Post: bash 4.2.53">bash 4.2.53 &raquo;</a>
       
     </p>
   </footer>

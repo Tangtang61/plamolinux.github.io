@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-10-21T20:58:40+09:00</updated>
+  <updated>2014-10-24T17:18:32+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　十二歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/"/>
+    <updated>2014-10-24T17:11:55+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
+
+<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
+
+<blockquote></blockquote>
+
+<pre><code>セキュリティ機能
+ネットワーク
+まとめ
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十一歩め]]></title>
@@ -71,7 +89,7 @@ cgroup設定の確認，変更
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　八歩め]]></title>
+    <title type="html"><![CDATA[LXC　空間を歩む　八歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/"/>
     <updated>2014-08-28T21:45:50+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08</id>
@@ -88,25 +106,6 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
 コンテナの停止・リブート ? lxc-stop
 コンテナ内での作業
 まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07/"/>
-    <updated>2014-08-16T15:11:48+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
-
-<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
-コンテナのネストができるのか！  &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LXCの歴史
-LXCの特徴
-LXCの気になる点
-まとめ
-最近のLXCのリリース
 </code></pre></blockquote>
 ]]></content>
   </entry>

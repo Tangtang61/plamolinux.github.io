@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-10-21T20:58:40+09:00</updated>
+  <updated>2014-10-24T17:18:32+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　十二歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/"/>
+    <updated>2014-10-24T17:11:55+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
+
+<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
+
+<blockquote></blockquote>
+
+<pre><code>セキュリティ機能
+ネットワーク
+まとめ
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 5.5.18]]></title>
@@ -297,7 +315,7 @@ cgroup設定の確認，変更
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　八歩め]]></title>
+    <title type="html"><![CDATA[LXC　空間を歩む　八歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/"/>
     <updated>2014-08-28T21:45:50+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08</id>
@@ -343,7 +361,7 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
+    <title type="html"><![CDATA[LXC　空間を歩む　七歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07/"/>
     <updated>2014-08-16T15:11:48+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07</id>
@@ -448,32 +466,6 @@ LXCの気になる点
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-31.0-i586-P1.txz">thunderbird-31.0-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-31.0-x86_64-P1.txz">thunderbird-31.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[firefox-31.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/07/25/firefox-31-dot-0/"/>
-    <updated>2014-07-25T14:55:50+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/07/25/firefox-31-dot-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 31.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/31.0/releasenotes/">Firefox 31.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．sqlite, nss パッケージも同時に Update する必要があります．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/sqlite-3.8.5-i586-P1.txz">sqlite-3.8.5-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.16.3-i586-P1.txz">nss-3.16.3-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-31.0-i586-P1.txz">firefox-31.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/sqlite-3.8.5-x86_64-P1.txz">sqlite-3.8.5-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.16.3-x86_64-P1.txz">nss-3.16.3-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-31.0-x86_64-P1.txz">firefox-31.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
