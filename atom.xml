@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-10-24T17:18:32+09:00</updated>
+  <updated>2014-10-29T17:51:03+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby 2.0.0-p594]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/10/29/ruby-2-dot-0-0-p594/"/>
+    <updated>2014-10-29T17:47:44+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/10/29/ruby-2-dot-0-0-p594</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ruby 2.0.0-p594 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.ruby-lang.org/ja/news/2014/10/27/ruby-2-0-0-p594-is-released/">Ruby 2.0.0-p594 リリース</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p594-i586-P1.txz">ruby-2.0.0_p594-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p594-x86_64-P1.txz">ruby-2.0.0_p594-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Libxml 2.9.2]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/10/29/libxml-2-dot-9-2/"/>
+    <updated>2014-10-29T17:36:13+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/10/29/libxml-2-dot-9-2</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libxml 2.9.2 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://xmlsoft.org/news.html">http://xmlsoft.org/news.html</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.2-i586-P1.txz">libxml2-2.9.2-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.2-x86_64-P1.txz">libxml2-2.9.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十二歩め]]></title>
@@ -315,7 +359,7 @@ cgroup設定の確認，変更
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　八歩め]]></title>
+    <title type="html"><![CDATA[LXC 空間を歩む　八歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/"/>
     <updated>2014-08-28T21:45:50+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08</id>
@@ -361,7 +405,7 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　七歩め]]></title>
+    <title type="html"><![CDATA[LXC 空間を歩む　七歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07/"/>
     <updated>2014-08-16T15:11:48+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07</id>
@@ -429,45 +473,6 @@ LXCの気になる点
 
 
 <p>(このパッケージは新しいパッケージに依存します。<a href="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Glibc, Gccなどの更新]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/"/>
-    <updated>2014-08-05T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/08/05/glibc-gcc</id>
-    <content type="html"><![CDATA[<p>glibc, gcc などの基本的なパッケージが 8/4 付で更新されています。詳しくは Change.Log をご覧ください。</p>
-
-<ul>
-<li>gcc 4.8.3</li>
-<li>glibc 2.19</li>
-</ul>
-
-
-<p>これ以降に更新されるパッケージは gcc 4.8.3 でコンパイルされ、glibc 2.19 に依存します。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 31.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/07/31/thunderbird-31-dot-0/"/>
-    <updated>2014-07-31T20:28:37+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/07/31/thunderbird-31-dot-0</id>
-    <content type="html"><![CDATA[<p>Thunderbird 31.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/31.0/releasenotes/">Thunderbird 31.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-31.0-i586-P1.txz">thunderbird-31.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-31.0-x86_64-P1.txz">thunderbird-31.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   

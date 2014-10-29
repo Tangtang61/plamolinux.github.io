@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="Plamo Linux 上で使える仮想化技術について書いてみたいと思います． 仮想化の技術も一般的になり，一つのサーバ上で複数の仮想マシンを動かしたり，デスクトップ機上でも評価やお試しのために仮想マシンを動かしたりすることが多くなってきていると思います． Linux 自身も kernel &hellip;">
+  <meta name="description" content="Plamo-5.2 をリリースしました． Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください． 玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2 他に，メンテナであるこじまさんのブログの 12 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,134 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/12/29/plamo5-dot-2released/">Plamo 5.2 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-29T12:36:02+09:00" pubdate data-updated="true">Dec 29<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo-5.2 をリリースしました．</p>
+
+<p>Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください．</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053">玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2</a></li>
+</ul>
+
+
+<p>他に，メンテナであるこじまさんのブログの 12 月あたりに色々と関連するメモがあります．</p>
+
+<ul>
+<li><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima">http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima</a></li>
+</ul>
+
+
+<p>DVD イメージは以下からダウンロードできます．</p>
+
+<ul>
+<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
+<li><p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</p></li>
+<li><p><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html">アナウンスへのリンク</a></p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/22/plamo-5-dot-1-release/">Plamo 5.1 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-22T00:00:00+09:00" pubdate data-updated="true">May 22<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo-5.1 をリリースしました．</p>
+
+<p>以下はメーリングリストへの投稿の抜粋です．</p>
+
+<pre><code>すでに一部の人はお気付きのことと思いますが，先週の22日くらいまでの更新
+でPlamo-5.1ということにしてDVDイメージを作成，公開しました．
+
+$ ls -lh plamo-5.1*
+-rw-r--r-- 1 kojima plamo 3.1G 2013-05-22 16:26 plamo-5.1_x86_64_dvd.iso
+-rw-r--r-- 1 kojima plamo   59 2013-05-25 10:37 plamo-5.1_x86_64_dvd.iso.md5sum
+-rw-r--r-- 1 kojima plamo 3.3G 2013-05-22 16:21 plamo-5.1_x86_dvd.iso
+-rw-r--r-- 1 kojima plamo   56 2013-05-25 10:38 plamo-5.1_x86_dvd.iso.md5sum
+
+すでに kddlabs にもミラーいただいているようなので，こちらの方が回線が太
+くてお勧めです．
+
+ftp://ftp.kddlabs.co.jp/020/Linux/packages/plamolinux/
+plamo-5.1_x86_64_dvd.iso                plamo-5.1_x86_dvd.iso
+plamo-5.1_x86_64_dvd.iso.md5sum         plamo-5.1_x86_dvd.iso.md5sum
+
+よく見ると md5sum の日付けが3日ほど遅れているのに気づくと思いますが，
+DVD名から日付けを抜く際に直した結果なのでご心配なく．
+
+今回はPlamo-5.0からのメンテナンスリリースなので，Plamo-5.0からのアップ
+デート集も用意してみました．
+</code></pre>
+
+<p>アップデートを使用する場合の注意点等がありますので以下を参照して下さい。</p>
+
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201305/msg00018.html">アナウンスへのリンク</a></li>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046">玩式草子 「第46回　Plamo-5.1 released」</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -145,6 +273,18 @@
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -551,10 +691,18 @@
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (56)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (50)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (12)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (52)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (12)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/10/29/ruby-2-dot-0-0-p594/">Ruby 2.0.0-p594</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/29/libxml-2-dot-9-2/">Libxml 2.9.2</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/10/24/lxc-gihyo-12-dot-markdown/">LXC　空間を歩む　十二歩め</a>
@@ -566,14 +714,6 @@
     
       <li class="post">
         <a href="/blog/2014/10/20/firefox-33-dot-0/">Firefox 33.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/20/openssl-1-dot-0-1j/">Openssl 1.0.1j</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/13/lxc-gihyo-11-dot-markdown/">LXC　空間を歩む　十一歩め</a>
       </li>
     
   </ul>

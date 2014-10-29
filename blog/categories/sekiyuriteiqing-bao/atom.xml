@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-10-24T17:18:32+09:00</updated>
+  <updated>2014-10-29T17:52:48+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby 2.0.0-p594]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/10/29/ruby-2-dot-0-0-p594/"/>
+    <updated>2014-10-29T17:47:44+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/10/29/ruby-2-dot-0-0-p594</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ruby 2.0.0-p594 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.ruby-lang.org/ja/news/2014/10/27/ruby-2-0-0-p594-is-released/">Ruby 2.0.0-p594 リリース</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p594-i586-P1.txz">ruby-2.0.0_p594-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p594-x86_64-P1.txz">ruby-2.0.0_p594-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Libxml 2.9.2]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/10/29/libxml-2-dot-9-2/"/>
+    <updated>2014-10-29T17:36:13+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/10/29/libxml-2-dot-9-2</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libxml 2.9.2 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://xmlsoft.org/news.html">http://xmlsoft.org/news.html</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.2-i586-P1.txz">libxml2-2.9.2-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.2-x86_64-P1.txz">libxml2-2.9.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 5.5.18]]></title>
@@ -82,58 +126,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1j-i586-P1.txz">openssl-1.0.1j-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1j-x86_64-P1.txz">openssl-1.0.1j-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bash 4.2.53]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/07/bash-4-dot-2-49/"/>
-    <updated>2014-10-07T15:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/07/bash-4-dot-2-49</id>
-    <content type="html"><![CDATA[<p>(2014-10-07 bash 4.2.50 情報から更新)<br/>
-(2014-10-01 bash 4.2.49 情報から更新)</p>
-
-<p>bash に脆弱性が発見されています。詳しくは以下などをご覧ください。</p>
-
-<ul>
-<li><a href="http://www.ipa.go.jp/security/ciadr/vul/20140926-bash.html">bash の脆弱性対策について(CVE-2014-6271 等)</a> (IPA)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/bash-4.2.53-i586-P1.txz">bash-4.2.53-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/bash-4.2.53-x86_64-P1.txz">bash-4.2.53-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 32.0.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/09/26/firefox-32-dot-0/"/>
-    <updated>2014-09-26T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/09/26/firefox-32-dot-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 32.0.3 がリリースされています。詳しくは以下をご覧ください。(2014-09-16: firefox 32.0 情報から更新, 2014-09-26: firefox 32.0.1 情報から更新)</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/32.0.3/releasenotes/">Firefox 32.0.3 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．<a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html">但し 32bit 版はコンパイラの最適化を無効にしています</a>。</p>
-
-<ul>
-<li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?%C9%D4%B6%F1%B9%E7%CA%F3%B9%F0%2F5.0%20x86_64%2F48">注意点があります (PlamoLinux Wiki)</a></p></li>
-<li><p><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-32.0.3-i586-P1.txz">firefox-32.0.3-i586-P1.txz (32bit)</a></p></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-32.0.3-x86_64-P1.txz">firefox-32.0.3-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 
