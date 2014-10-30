@@ -1,0 +1,16 @@
+---
+layout: post
+title: "wget 1.16"
+date: 2014-10-30 10:52:52 +0900
+comments: true
+categories: 
+---
+
+セキュリティホール修正を含む wget 1.16 がリリースされています。詳しくは以下をご覧ください。
+
+*[CVE-2014-4877](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-4877) (NVD)
+
+パッケージをリリースしました。
+
+* [wget-1.16-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/wget-1.16-i586-P1.txz)
+* [wget-1.16-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/wget-1.16-x86_64-P1.txz)
