@@ -9,11 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第9回　LXCの基本操作［2］ 今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 &lt; bar-mtomi コンテナの削除
-cgroup設定の確認，変更
-コンテナのクローン
-コンテナのスナップショットの取得
-まとめ ">
+  <meta name="description" content="セキュリティホールの修正を含む firefox 32.0.3 がリリースされています。詳しくは以下をご覧ください。(2014-09-16: firefox 32.0 情報から更新, 2014-09-26: firefox 32.0.1 情報から更新) Firefox 32.0.3 リリースノート &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +73,58 @@ cgroup設定の確認，変更
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/26/firefox-32-dot-0/">Firefox 32.0.3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-26T19:00:00+09:00" pubdate data-updated="true">Sep 26<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む firefox 32.0.3 がリリースされています。詳しくは以下をご覧ください。(2014-09-16: firefox 32.0 情報から更新, 2014-09-26: firefox 32.0.1 情報から更新)</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/32.0.3/releasenotes/">Firefox 32.0.3 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．<a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html">但し 32bit 版はコンパイラの最適化を無効にしています</a>。</p>
+
+<ul>
+<li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?%C9%D4%B6%F1%B9%E7%CA%F3%B9%F0%2F5.0%20x86_64%2F48">注意点があります (PlamoLinux Wiki)</a></p></li>
+<li><p><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-32.0.3-i586-P1.txz">firefox-32.0.3-i586-P1.txz (32bit)</a></p></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-32.0.3-x86_64-P1.txz">firefox-32.0.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -529,59 +577,6 @@ LXCの気になる点
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/11/openssl-1-dot-0-1i/">Openssl 1.0.1i</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-11T00:00:00+09:00" pubdate data-updated="true">Aug 11<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む OpenSSL 1.0.1i がリリースされています。</p>
-
-<p>詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.openssl.org/news/secadv_20140806.txt">OpenSSL Security Advisory [6 Aug 2014]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1i-i586-P1.txz">openssl-1.0.1i-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1i-x86_64-P1.txz">openssl-1.0.1i-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -597,6 +592,8 @@ LXCの気になる点
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
     
       
         
@@ -1021,6 +1018,10 @@ LXCの気になる点
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/10/30/wget-1-dot-16/">Wget 1.16</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/10/29/ruby-2-dot-0-0-p594/">Ruby 2.0.0-p594</a>
       </li>
     
@@ -1034,10 +1035,6 @@ LXCの気になる点
     
       <li class="post">
         <a href="/blog/2014/10/21/php-5-dot-5-18/">Php 5.5.18</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/20/firefox-33-dot-0/">Firefox 33.0</a>
       </li>
     
   </ul>

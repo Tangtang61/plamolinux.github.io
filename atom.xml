@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-10-29T17:51:03+09:00</updated>
+  <updated>2014-10-30T10:56:21+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wget 1.16]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/10/30/wget-1-dot-16/"/>
+    <updated>2014-10-30T10:52:52+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/10/30/wget-1-dot-16</id>
+    <content type="html"><![CDATA[<p>セキュリティホール修正を含む wget 1.16 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-4877">CVE-2014-4877</a> (NVD)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/wget-1.16-i586-P1.txz">wget-1.16-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/wget-1.16-x86_64-P1.txz">wget-1.16-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ruby 2.0.0-p594]]></title>
@@ -443,32 +465,6 @@ LXCの気になる点
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/file-5.19-i586-P1.txz">file-5.19-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/file-5.19-x86_64-P1.txz">file-5.19-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openssl 1.0.1i]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/08/11/openssl-1-dot-0-1i/"/>
-    <updated>2014-08-11T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/08/11/openssl-1-dot-0-1i</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1i がリリースされています。</p>
-
-<p>詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.openssl.org/news/secadv_20140806.txt">OpenSSL Security Advisory [6 Aug 2014]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1i-i586-P1.txz">openssl-1.0.1i-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1i-x86_64-P1.txz">openssl-1.0.1i-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 
