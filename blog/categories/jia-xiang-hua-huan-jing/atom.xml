@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-11-09T15:58:08+09:00</updated>
+  <updated>2014-11-20T16:39:28+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　十四歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/11/20/lxc-gihyo-14/"/>
+    <updated>2014-11-20T16:27:03+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/11/20/lxc-gihyo-14</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0014">第14回　LXCの構築・活用 [2] — コンテナを作成・構築する</a></p>
+
+<p>今回の内容はトレースして、自分なりに理解したいと思いました。良い内容です。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Plamoテンプレートを使ったコンテナの作成
+複数のユーザによるコンテナの作成とネットワーク構成
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十三歩め]]></title>
@@ -26,11 +42,9 @@
 が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
 た (^^; &lt; bar-mtomi</p>
 
-<blockquote></blockquote>
-
-<pre><code>Plamoテンプレートの内部紹介
+<blockquote><pre><code>Plamoテンプレートの内部紹介
 まとめ
-</code></pre>
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -43,12 +57,10 @@
 
 <p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
 
-<blockquote></blockquote>
-
-<pre><code>セキュリティ機能
+<blockquote><pre><code>セキュリティ機能
 ネットワーク
 まとめ
-</code></pre>
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -87,24 +99,6 @@ LXCのシステム設定
 Ubuntu 14.04 LTSのcgroup管理
 まとめ
 第4回 コンテナ型仮想化の情報交換会＠東京
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　九歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/09/11/lxc-gihyo-09/"/>
-    <updated>2014-09-11T12:58:49+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/09/11/lxc-gihyo-09</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0009">第9回　LXCの基本操作［2］</a></p>
-
-<p>今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>コンテナの削除
-cgroup設定の確認，変更
-コンテナのクローン
-コンテナのスナップショットの取得
-まとめ
 </code></pre></blockquote>
 ]]></content>
   </entry>

@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-11-09T15:57:30+09:00</updated>
+  <updated>2014-11-20T16:39:28+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　十四歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/11/20/lxc-gihyo-14/"/>
+    <updated>2014-11-20T16:27:03+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/11/20/lxc-gihyo-14</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0014">第14回　LXCの構築・活用 [2] — コンテナを作成・構築する</a></p>
+
+<p>今回の内容はトレースして、自分なりに理解したいと思いました。良い内容です。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Plamoテンプレートを使ったコンテナの作成
+複数のユーザによるコンテナの作成とネットワーク構成
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十三歩め]]></title>
@@ -26,11 +42,9 @@
 が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
 た (^^; &lt; bar-mtomi</p>
 
-<blockquote></blockquote>
-
-<pre><code>Plamoテンプレートの内部紹介
+<blockquote><pre><code>Plamoテンプレートの内部紹介
 まとめ
-</code></pre>
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -106,12 +120,10 @@
 
 <p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
 
-<blockquote></blockquote>
-
-<pre><code>セキュリティ機能
+<blockquote><pre><code>セキュリティ機能
 ネットワーク
 まとめ
-</code></pre>
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -441,25 +453,6 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
 
 
 <p>(このパッケージは新しいパッケージに依存します。<a href="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　七歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07/"/>
-    <updated>2014-08-16T15:11:48+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/08/16/lxc-gihyo-07</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
-
-<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
-コンテナのネストができるのか！  &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LXCの歴史
-LXCの特徴
-LXCの気になる点
-まとめ
-最近のLXCのリリース
-</code></pre></blockquote>
 ]]></content>
   </entry>
   
