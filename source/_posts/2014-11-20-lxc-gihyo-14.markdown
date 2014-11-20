@@ -1,0 +1,16 @@
+---
+layout: post
+title: "LXC　空間を歩む　十四歩め"
+date: 2014-11-20 16:27:03 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第14回　LXCの構築・活用 [2] — コンテナを作成・構築する](http://gihyo.jp/admin/serial/01/linux_containers/0014)
+
+今回の内容はトレースして、自分なりに理解したいと思いました。良い内容です。 < bar-mtomi
+
+>
+    Plamoテンプレートを使ったコンテナの作成
+    複数のユーザによるコンテナの作成とネットワーク構成
+    まとめ
