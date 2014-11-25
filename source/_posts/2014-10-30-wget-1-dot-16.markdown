@@ -8,7 +8,7 @@ categories:
 
 セキュリティホール修正を含む wget 1.16 がリリースされています。詳しくは以下をご覧ください。
 
-*[CVE-2014-4877](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-4877) (NVD)
+* [CVE-2014-4877](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-4877) (NVD)
 
 パッケージをリリースしました。
 
