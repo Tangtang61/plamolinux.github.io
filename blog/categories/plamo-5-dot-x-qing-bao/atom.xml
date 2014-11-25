@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-11-20T16:39:28+09:00</updated>
+  <updated>2014-11-25T16:47:58+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Curl 7.39.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/11/25/curl-7-dot-39-dot-0/"/>
+    <updated>2014-11-25T16:43:33+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/11/25/curl-7-dot-39-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.39.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/docs/adv_20141105.html">libcurl duphandle read out of bounds</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.39.0-i586-P1.txz">curl-7.39.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.39.0-x86_64-P1.txz">curl-7.39.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ruby 2.0.0-p594]]></title>
@@ -100,32 +122,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-33.0-i586-P1.txz">firefox-33.0-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.17.2-x86_64-P1.txz">nss-3.17.2-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-33.0-x86_64-P1.txz">firefox-33.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openssl 1.0.1j]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/20/openssl-1-dot-0-1j/"/>
-    <updated>2014-10-20T16:32:29+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/20/openssl-1-dot-0-1j</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1j がリリースされています。</p>
-
-<p>詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://www.openssl.org/news/secadv_20141015.txt">OpenSSL Security Advisory [15 Oct 2014]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1j-i586-P1.txz">openssl-1.0.1j-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1j-x86_64-P1.txz">openssl-1.0.1j-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 

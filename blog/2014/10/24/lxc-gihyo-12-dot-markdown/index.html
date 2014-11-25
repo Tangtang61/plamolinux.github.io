@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC 空間を歩む　八歩め - Plamo Linux</title>
+  <title>LXC　空間を歩む　十二歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第8回　LXCの基本操作［1］ 各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi Ubuntuパッケージ使用時の各種パス &hellip;">
+  <meta name="description" content="*第12回　LXCの設定［2］ Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi セキュリティ機能
+ネットワーク
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +72,7 @@
   
   <header>
     
-      <h1 class="entry-title">LXC 空間を歩む　八歩め</h1>
+      <h1 class="entry-title">LXC　空間を歩む　十二歩め</h1>
     
     
       <p class="meta">
@@ -86,27 +88,23 @@
   
 
 
-<time datetime="2014-08-28T21:45:50+09:00" pubdate data-updated="true">Aug 28<span>th</span>, 2014</time>
+<time datetime="2014-10-24T17:11:55+09:00" pubdate data-updated="true">Oct 24<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
+<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
 
-<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
+<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
 
-<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
-Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
-共通オプション
-コンテナの作成 ? lxc-create
-コンテナの情報表示 ? lxc-ls, lxc-info
-コンテナの起動 ? lxc-start
-コンテナの停止・リブート ? lxc-stop
-コンテナ内での作業
+<blockquote></blockquote>
+
+<pre><code>セキュリティ機能
+ネットワーク
 まとめ
-</code></pre></blockquote>
+</code></pre>
 </div>
 
 
@@ -129,7 +127,7 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
   
 
 
-<time datetime="2014-08-28T21:45:50+09:00" pubdate data-updated="true">Aug 28<span>th</span>, 2014</time>
+<time datetime="2014-10-24T17:11:55+09:00" pubdate data-updated="true">Oct 24<span>th</span>, 2014</time>
       
 
 <span class="categories">
@@ -143,7 +141,7 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/" >Tweet</a>
   
   
   
@@ -152,10 +150,10 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/08/25/php-5-dot-5-16/" title="Previous Post: php 5.5.16">&laquo; php 5.5.16</a>
+        <a class="basic-alignment left" href="/blog/2014/10/21/php-5-dot-5-18/" title="Previous Post: php 5.5.18">&laquo; php 5.5.18</a>
       
       
-        <a class="basic-alignment right" href="/blog/2014/09/03/graphicsmagick-1-dot-3-20/" title="Next Post: GraphicsMagick-1.3.20">GraphicsMagick-1.3.20 &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2014/10/29/libxml-2-dot-9-2/" title="Next Post: libxml 2.9.2">libxml 2.9.2 &raquo;</a>
       
     </p>
   </footer>
