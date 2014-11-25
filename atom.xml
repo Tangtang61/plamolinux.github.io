@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-11-25T16:47:58+09:00</updated>
+  <updated>2014-11-25T20:12:16+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby 2.0.0-p598]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/11/25/ruby-2-dot-0-0-p598/"/>
+    <updated>2014-11-25T20:08:42+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/11/25/ruby-2-dot-0-0-p598</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ruby 2.0.0-p598 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.ruby-lang.org/ja/news/2014/11/13/ruby-2-0-0-p598-is-released/">Ruby 2.0.0-p598 リリース</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p598-i586-P1.txz">ruby-2.0.0_p598-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p598-x86_64-P1.txz">ruby-2.0.0_p598-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Curl 7.39.0]]></title>
@@ -436,28 +458,6 @@ cgroup設定の確認，変更
 
 
 <p>(このパッケージは新しいパッケージに依存します。<a href="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC 空間を歩む　八歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08/"/>
-    <updated>2014-08-28T21:45:50+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/08/28/lxc-gihyo-08</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
-
-<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
-Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
-共通オプション
-コンテナの作成 ? lxc-create
-コンテナの情報表示 ? lxc-ls, lxc-info
-コンテナの起動 ? lxc-start
-コンテナの停止・リブート ? lxc-stop
-コンテナ内での作業
-まとめ
-</code></pre></blockquote>
 ]]></content>
   </entry>
   
