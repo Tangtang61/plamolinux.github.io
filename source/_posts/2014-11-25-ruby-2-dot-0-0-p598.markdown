@@ -1,0 +1,15 @@
+---
+layout: post
+title: "ruby 2.0.0-p598"
+date: 2014-11-25 20:08:42 +0900
+comments: true
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+セキュリティホールの修正を含む ruby 2.0.0-p598 がリリースされています。詳しくは以下をご覧ください。
+
+* [Ruby 2.0.0-p598 リリース](https://www.ruby-lang.org/ja/news/2014/11/13/ruby-2-0-0-p598-is-released/)
+
+パッケージをリリースしました。
+
+* [ruby-2.0.0_p598-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p598-i586-P1.txz)
+* [ruby-2.0.0_p598-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p598-x86_64-P1.txz)
