@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　十歩め - Plamo Linux</title>
+  <title>LXC 空間を歩む　第一歩 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第10回　LXCの基本操作［3］ FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング &hellip;">
+  <meta name="description" content="gihyo.jp で、加藤さんの連載 「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」 が始まりました。 第1回　LXCとコンテナの基本 まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi) はじめに &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@ LXCのシステム設定
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -73,7 +70,7 @@ LXCのシステム設定
   
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　十歩め</h1>
+      <h1 class="entry-title">LXC 空間を歩む　第一歩</h1>
     
     
       <p class="meta">
@@ -89,25 +86,26 @@ LXCのシステム設定
   
 
 
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
+<time datetime="2014-05-18T21:09:11+09:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
+<div class="entry-content"><p> gihyo.jp で、加藤さんの連載 <a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」</a> が始まりました。</p>
 
-<p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
+<ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
+</ul>
 
-<blockquote><pre><code>アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング
-指定したコンテナの状態への待機
-Ubuntu 14.04 LTSのcgroup管理
-まとめ
-第4回 コンテナ型仮想化の情報交換会＠東京
+
+<p>まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>はじめに
+LXCとLinuxにおけるコンテナ技術
+まずは使ってみましょう
+次回以降について
 </code></pre></blockquote>
 </div>
 
@@ -131,7 +129,7 @@ Ubuntu 14.04 LTSのcgroup管理
   
 
 
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
+<time datetime="2014-05-18T21:09:11+09:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
       
 
 <span class="categories">
@@ -145,7 +143,7 @@ Ubuntu 14.04 LTSのcgroup管理
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/05/18/lxc-gihyo/" >Tweet</a>
   
   
   
@@ -154,10 +152,10 @@ Ubuntu 14.04 LTSのcgroup管理
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/09/26/firefox-32-dot-0/" title="Previous Post: firefox 32.0.3">&laquo; firefox 32.0.3</a>
+        <a class="basic-alignment left" href="/blog/2014/05/15/dovecot-2-dot-2-13/" title="Previous Post: dovecot 2.2.13">&laquo; dovecot 2.2.13</a>
       
       
-        <a class="basic-alignment right" href="/blog/2014/10/07/bash-4-dot-2-49/" title="Next Post: bash 4.2.53">bash 4.2.53 &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2014/05/21/wireshark-1-dot-10-dot-7/" title="Next Post: wireshark 1.10.7">wireshark 1.10.7 &raquo;</a>
       
     </p>
   </footer>
@@ -170,6 +168,12 @@ Ubuntu 14.04 LTSのcgroup管理
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -614,10 +618,14 @@ Ubuntu 14.04 LTSのcgroup管理
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (60)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (54)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (15)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (15)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/12/09/bind-9-dot-9-6-p1/">Bind 9.9.6-P1</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/12/07/lxc-gihyo-15/">LXC　空間を歩む　十五歩め</a>
@@ -633,10 +641,6 @@ Ubuntu 14.04 LTSのcgroup管理
     
       <li class="post">
         <a href="/blog/2014/11/20/lxc-gihyo-14/">LXC　空間を歩む　十四歩め</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/11/09/lxc-gihyo-13/">LXC　空間を歩む　十三歩め</a>
       </li>
     
   </ul>
