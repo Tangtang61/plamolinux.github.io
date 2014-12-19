@@ -1,0 +1,16 @@
+---
+layout: post
+title: "LXC　空間を歩む　十六歩め"
+date: 2014-12-19 17:05:24 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間](http://gihyo.jp/admin/serial/01/linux_containers/0016)
+
+中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） < bar-mtomi
+
+>
+    ユーザ名前空間
+    まとめ
+    最近のLXC関連の動き
