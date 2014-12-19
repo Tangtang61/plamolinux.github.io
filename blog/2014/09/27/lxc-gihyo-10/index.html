@@ -5,13 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　十二歩め - Plamo Linux</title>
+  <title>LXC　空間を歩む　十歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第12回　LXCの設定［2］ Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi セキュリティ機能
-ネットワーク
-まとめ ">
+  <meta name="description" content="*第10回　LXCの基本操作［3］ FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi アプリケーションコンテナ
+LXCのシステム設定
+コンテナの一時停止，再開
+コンテナの状態のモニタリング &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -72,7 +73,7 @@
   
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　十二歩め</h1>
+      <h1 class="entry-title">LXC　空間を歩む　十歩め</h1>
     
     
       <p class="meta">
@@ -88,23 +89,26 @@
   
 
 
-<time datetime="2014-10-24T17:11:55+09:00" pubdate data-updated="true">Oct 24<span>th</span>, 2014</time>
+<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
+<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
 
-<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
+<p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
 
-<blockquote></blockquote>
-
-<pre><code>セキュリティ機能
-ネットワーク
+<blockquote><pre><code>アプリケーションコンテナ
+LXCのシステム設定
+コンテナの一時停止，再開
+コンテナの状態のモニタリング
+指定したコンテナの状態への待機
+Ubuntu 14.04 LTSのcgroup管理
 まとめ
-</code></pre>
+第4回 コンテナ型仮想化の情報交換会＠東京
+</code></pre></blockquote>
 </div>
 
 
@@ -127,7 +131,7 @@
   
 
 
-<time datetime="2014-10-24T17:11:55+09:00" pubdate data-updated="true">Oct 24<span>th</span>, 2014</time>
+<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
       
 
 <span class="categories">
@@ -141,7 +145,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10/" >Tweet</a>
   
   
   
@@ -150,10 +154,10 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/10/21/php-5-dot-5-18/" title="Previous Post: php 5.5.18">&laquo; php 5.5.18</a>
+        <a class="basic-alignment left" href="/blog/2014/09/26/firefox-32-dot-0/" title="Previous Post: firefox 32.0.3">&laquo; firefox 32.0.3</a>
       
       
-        <a class="basic-alignment right" href="/blog/2014/10/29/libxml-2-dot-9-2/" title="Next Post: libxml 2.9.2">libxml 2.9.2 &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2014/10/07/bash-4-dot-2-49/" title="Next Post: bash 4.2.53">bash 4.2.53 &raquo;</a>
       
     </p>
   </footer>
@@ -166,6 +170,10 @@
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -616,10 +624,14 @@
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (15)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (16)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/12/19/lxc-gihyo-16/">LXC　空間を歩む　十六歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/12/09/bind-9-dot-9-6-p1/">Bind 9.9.6-P1</a>
@@ -635,10 +647,6 @@
     
       <li class="post">
         <a href="/blog/2014/11/25/curl-7-dot-39-dot-0/">Curl 7.39.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/11/20/lxc-gihyo-14/">LXC　空間を歩む　十四歩め</a>
       </li>
     
   </ul>

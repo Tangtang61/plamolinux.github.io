@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-12-09T16:09:33+09:00</updated>
+  <updated>2014-12-19T17:12:40+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　十六歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2014/12/19/lxc-gihyo-16/"/>
+    <updated>2014-12-19T17:05:24+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2014/12/19/lxc-gihyo-16</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0016">第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間</a></p>
+
+<p>中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar-mtomi</p>
+
+<blockquote><pre><code>ユーザ名前空間
+まとめ
+最近のLXC関連の動き
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bind 9.9.6-P1]]></title>
@@ -128,11 +144,9 @@ OSSを経由してサウンドを出力する
 が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
 た (^^; &lt; bar-mtomi</p>
 
-<blockquote></blockquote>
-
-<pre><code>Plamoテンプレートの内部紹介
+<blockquote><pre><code>Plamoテンプレートの内部紹介
 まとめ
-</code></pre>
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -204,19 +218,17 @@ OSSを経由してサウンドを出力する
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十二歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/"/>
+    <link href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12/"/>
     <updated>2014-10-24T17:11:55+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown</id>
+    <id>http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
 
 <p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
 
-<blockquote></blockquote>
-
-<pre><code>セキュリティ機能
+<blockquote><pre><code>セキュリティ機能
 ネットワーク
 まとめ
-</code></pre>
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -298,9 +310,9 @@ OSSを経由してサウンドを出力する
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十一歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown/"/>
+    <link href="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11/"/>
     <updated>2014-10-13T13:08:05+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown</id>
+    <id>http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
 
 <p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
@@ -343,9 +355,9 @@ LXC 1.0.6
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10-dot-markdown/"/>
+    <link href="http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10/"/>
     <updated>2014-09-27T13:14:56+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10-dot-markdown</id>
+    <id>http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
 
 <p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
@@ -422,30 +434,6 @@ cgroup設定の確認，変更
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/procmail-3.22-i586-P2.txz">procmail-3.22-i586-P2.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/procmail-3.22-x86_64-P2.txz">procmail-3.22-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 31.1.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/09/09/thunderbird-31-dot-1-0/"/>
-    <updated>2014-09-09T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/09/09/thunderbird-31-dot-1-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 31.1.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/31.1.0/releasenotes/">Thunderbird 31.1.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-31.1.0-i586-P1.txz">thunderbird-31.1.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-31.1.0-x86_64-P1.txz">thunderbird-31.1.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 

@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　十一歩め - Plamo Linux</title>
+  <title>Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第11回　LXCの設定［1］ 今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^; &lt; bar-mtomi 設定ファイルの書式
-システムの設定
-コンテナの設定
-まとめ &hellip;">
+  <meta name="description" content="Plamo Linux 上で使える仮想化技術について書いてみたいと思います． 仮想化の技術も一般的になり，一つのサーバ上で複数の仮想マシンを動かしたり，デスクトップ機上でも評価やお試しのために仮想マシンを動かしたりすることが多くなってきていると思います． Linux 自身も kernel &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/page/9">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -68,12 +65,21 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div>
-<article class="hentry" role="article">
+      <div class="blog-index">
+  <article>
+      <p>Plamo Linux は Slackware をベースに，シンプルで見通しの良いシステムと，Linux の持つホビー性の持続を念頭に開発され，ユーザ自身の手で自分好みの Linux 環境を作り上げていく楽しみを味わう事ができる日本語 Linux ディストリビューションです．</p>
+<p>現在，最新版は Plamo-5.2 で，x86 版，x86_64 版をリリースしています．
+詳しくは <a href="http://plamolinux.github.io/blog/2013/12/29/plamo5-dot-2released/">Plamo-5.2 リリース</a> をご覧ください．</p>
+<p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
+  </article>
   
+  
+  
+    <article>
+      
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　十一歩め</h1>
+      <h1 class="entry-title"><a href="/blog/2012/01/25/plamo-virtual-env-1/">Plamo Linux における仮想化環境(1)</a></h1>
     
     
       <p class="meta">
@@ -89,84 +95,60 @@
   
 
 
-<time datetime="2014-10-13T13:08:05+09:00" pubdate data-updated="true">Oct 13<span>th</span>, 2014</time>
+<time datetime="2012-01-25T12:20:55+09:00" pubdate data-updated="true">Jan 25<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
+  <div class="entry-content"><p>Plamo Linux 上で使える仮想化技術について書いてみたいと思います．</p>
 
-<p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
+<p>仮想化の技術も一般的になり，一つのサーバ上で複数の仮想マシンを動かしたり，デスクトップ機上でも評価やお試しのために仮想マシンを動かしたりすることが多くなってきていると思います．</p>
 
-<blockquote><pre><code>設定ファイルの書式
-システムの設定
-コンテナの設定
-まとめ
-LXC 1.0.6
-</code></pre></blockquote>
+<p>Linux 自身も kernel が持つ機能を使った kvm という仕組みを使って仮想マシンを動かすことが可能なのはご存知な方も多いと思います．Plamo Linux をサーバとして，その上でサーバ目的の仮想マシンを動かす，ということはあまりないかもしれませんが，普段使っているデスクトップ上で仮想マシンを動かしてみたい事は多いと思います．</p>
+
+<p>今リリースされている Plamo64-1.0 では，仮想マシンを動かす事が可能なパッケージを contrib に作成しています (Plamo-4.73 の頃から徐々に整備していってました)．仮想化環境を構築するのに関係するパッケージは contrib 以下の Virtualization ディレクトリにまとめています．</p>
+
+<p>Plamo Linux では以下の仕組みを使った仮想マシンを動かすためのパッケージが揃っています．</p>
+
+<ul>
+<li>ハイパーバイザ型仮想マシンである KVM</li>
+<li>コンテナ型仮想マシンである lxc (Linux Container)</li>
+</ul>
+
+
+<p>ハイパーバイザ型は，一般的にまず「仮想マシン」と聞いた時に思い浮かべるタイプで KVM もこちらに入ります．こちらは情報も多いですし，イメージもわきやすいかと思います．Linux 上で他の OS を動かすことも可能です．</p>
+
+<p>それに対して，コンテナ型は既存カーネルの上で複数の隔離された環境を動かすものです．こちらはあまり聞いたことがない方も多いかと思います．普通の Linux 環境でも chroot を使って独立したツリー構造の下でコマンドを実行することは可能ですが，コンテナはこのような環境より更に隔離レベルが上がっており，それぞれの環境内でネットワークやユーザ(uid/gid)等が独立して定義可能です．</p>
+
+<p>このような仕組みなので，Windows や FreeBSD を動かすことは出来ません．異なる Linux ディストリビューションを動かすことは可能ですが，カーネルは共通なので厳密に Plamo の上で Debian を動かせたとしても，全く Debian と同じではありませんが，ライブラリやコマンド類は Debian のパッケージがインストールされますので，Debian と同じように使用可能です．コンテナはカーネルに入っている様々な機能を組み合わせて実現しますが，それを簡単につかえるツールとしてまとめたものに lxcというものがあります．他に libvirt というライブラリを通して linux のコンテナを扱う事も可能です．</p>
+
+<p>最近の Ubuntu や Redhat や Debian でも当然両方とも動かすことは可能ですが，Plamo でもこの両方を扱う事が可能になっています．</p>
 </div>
-
-
-  <footer>
-    <p class="meta">
-      
   
-
-<span class="byline author vcard">Posted by <span class="fn">Plamo Linux Project</span></span>
-
-      
-
-
-
-
-
-
-
-
   
 
 
-<time datetime="2014-10-13T13:08:05+09:00" pubdate data-updated="true">Oct 13<span>th</span>, 2014</time>
-      
-
-<span class="categories">
+    </article>
   
-    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
-  
-</span>
-
-
-    </p>
+  <div class="pagination">
     
-      <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown/" >Tweet</a>
-  
-  
-  
-</div>
-
+    <a href="/blog/archives">Blog Archives</a>
     
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2014/10/07/bash-4-dot-2-49/" title="Previous Post: bash 4.2.53">&laquo; bash 4.2.53</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2014/10/20/openssl-1-dot-0-1j/" title="Next Post: openssl 1.0.1j">openssl 1.0.1j &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
-
+    <a class="next" href="/blog/page/8/">Newer &rarr;</a>
+    
+  </div>
 </div>
-
 <aside class="sidebar">
   
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -617,10 +599,14 @@ LXC 1.0.6
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (15)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (3)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (16)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/12/19/lxc-gihyo-16/">LXC　空間を歩む　十六歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/12/09/bind-9-dot-9-6-p1/">Bind 9.9.6-P1</a>
@@ -638,10 +624,6 @@ LXC 1.0.6
         <a href="/blog/2014/11/25/curl-7-dot-39-dot-0/">Curl 7.39.0</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/11/20/lxc-gihyo-14/">LXC　空間を歩む　十四歩め</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -651,7 +633,6 @@ LXC 1.0.6
 
   
 </aside>
-
 
     </div>
   </div>
