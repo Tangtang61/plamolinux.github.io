@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-12-19T17:12:40+09:00</updated>
+  <updated>2014-12-31T21:46:44+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -78,25 +78,29 @@ OSSを経由してサウンドを出力する
 が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
 た (^^; &lt; bar-mtomi</p>
 
-<blockquote><pre><code>Plamoテンプレートの内部紹介
+<blockquote></blockquote>
+
+<pre><code>Plamoテンプレートの内部紹介
 まとめ
-</code></pre></blockquote>
+</code></pre>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十二歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12/"/>
+    <link href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/"/>
     <updated>2014-10-24T17:11:55+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12</id>
+    <id>http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
 
 <p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
 
-<blockquote><pre><code>セキュリティ機能
+<blockquote></blockquote>
+
+<pre><code>セキュリティ機能
 ネットワーク
 まとめ
-</code></pre></blockquote>
+</code></pre>
 ]]></content>
   </entry>
   
