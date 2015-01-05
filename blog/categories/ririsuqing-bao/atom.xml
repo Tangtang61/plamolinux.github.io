@@ -4,7 +4,7 @@
   <title><![CDATA[Category: リリース情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/ririsuqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2014-12-31T21:46:44+09:00</updated>
+  <updated>2015-01-05T16:01:23+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -19,6 +19,18 @@
     <updated>2014-12-31T21:36:33+09:00</updated>
     <id>http://plamolinux.github.io/blog/2014/12/31/plamo-5-dot-3-released</id>
     <content type="html"><![CDATA[<p>Plamo Linux 5.3 をリリースしました。</p>
+
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201412/msg00018.html">リリースアナウンス</a></li>
+</ul>
+
+
+<p>gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3 の特徴がまとめられています。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0065">玩式草子─ソフトウェアとたわむれる日々　第65回　やっと出ましたPlamo-5.3</a></li>
+</ul>
+
 
 <p>メーリングリストへの投稿の抜粋です。</p>
 
