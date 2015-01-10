@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-01-10T13:40:50+09:00</updated>
+  <updated>2015-01-10T14:50:32+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[パッケージ更新のチェック]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/10/package-tool-01/"/>
+    <updated>2015-01-10T14:31:45+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/10/package-tool-01</id>
+    <content type="html"><![CDATA[<p>Plamo Linux用更新パッケージチェック&amp;ダウンロードツールです。</p>
+
+<p>詳細は以下のリンク先を参照して下さい。</p>
+
+<ul>
+<li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima%2F2015-01-06">PlamoWikiのこじまさんの日記</a></p></li>
+<li><p><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201501/msg00003.html">メーリングリスト</a></p></li>
+</ul>
+
+
+<p>注意点をメーリングリストへの投稿から抜粋しておきます。</p>
+
+<pre><code>updatepkg では更新できない(すべきでない)パッケージはチェック対象外にし
+ていますが，-b オプションを指定するとそれらの情報も表示します．ただし，
+これらのパッケージを単純に updatepkg で更新しようとすると，既存の設定ファ
+イルを上書きしたり，installpkg/updatepkg が動かなくなったりするので，
+十分ご注意ください．
+
+なお，このスクリプトはPlamo-5.2でも動くものの，5.2から5.3へはパッケージ
+の追加や廃止を伴なう大規模な更新になっているため，このスクリプトだけで
+は実用的ではありません．そのため動作環境は「Plamo-5.3以降」とさせてくだ
+さい．
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Openssl 1.0.1k]]></title>
@@ -488,31 +519,6 @@ Ubuntu 14.04 LTSのcgroup管理
 まとめ
 第4回 コンテナ型仮想化の情報交換会＠東京
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 32.0.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/09/26/firefox-32-dot-0/"/>
-    <updated>2014-09-26T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/09/26/firefox-32-dot-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 32.0.3 がリリースされています。詳しくは以下をご覧ください。(2014-09-16: firefox 32.0 情報から更新, 2014-09-26: firefox 32.0.1 情報から更新)</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/32.0.3/releasenotes/">Firefox 32.0.3 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．<a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html">但し 32bit 版はコンパイラの最適化を無効にしています</a>。</p>
-
-<ul>
-<li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?%C9%D4%B6%F1%B9%E7%CA%F3%B9%F0%2F5.0%20x86_64%2F48">注意点があります (PlamoLinux Wiki)</a></p></li>
-<li><p><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-32.0.3-i586-P1.txz">firefox-32.0.3-i586-P1.txz (32bit)</a></p></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-32.0.3-x86_64-P1.txz">firefox-32.0.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
 ]]></content>
   </entry>
   

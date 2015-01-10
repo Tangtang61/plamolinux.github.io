@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む ruby 2.0.0-p594 がリリースされています。詳しくは以下をご覧ください。 Ruby 2.0.0-p594 リリース パッケージをリリースしました。 ruby-2.0.0_p594-i586-P1.txz (32bit)
-ruby-2.0.0_p594- &hellip;">
+  <meta name="description" content="セキュリティホール修正を含む wget 1.16 がリリースされています。詳しくは以下をご覧ください。 CVE-2014-4877 (NVD) パッケージをリリースしました。 wget-1.16-i586-P1.txz (32bit)
+wget-1.16-x86_64-P1.txz (64bit) ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,55 @@ ruby-2.0.0_p594- &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/30/wget-1-dot-16/">Wget 1.16</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-30T10:52:52+09:00" pubdate data-updated="true">Oct 30<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホール修正を含む wget 1.16 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-4877">CVE-2014-4877</a> (NVD)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/wget-1.16-i586-P1.txz">wget-1.16-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/wget-1.16-x86_64-P1.txz">wget-1.16-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -520,58 +569,6 @@ Ubuntu 14.04 LTSのcgroup管理
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/26/firefox-32-dot-0/">Firefox 32.0.3</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-26T19:00:00+09:00" pubdate data-updated="true">Sep 26<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む firefox 32.0.3 がリリースされています。詳しくは以下をご覧ください。(2014-09-16: firefox 32.0 情報から更新, 2014-09-26: firefox 32.0.1 情報から更新)</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/32.0.3/releasenotes/">Firefox 32.0.3 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．<a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html">但し 32bit 版はコンパイラの最適化を無効にしています</a>。</p>
-
-<ul>
-<li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?%C9%D4%B6%F1%B9%E7%CA%F3%B9%F0%2F5.0%20x86_64%2F48">注意点があります (PlamoLinux Wiki)</a></p></li>
-<li><p><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-32.0.3-i586-P1.txz">firefox-32.0.3-i586-P1.txz (32bit)</a></p></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-32.0.3-x86_64-P1.txz">firefox-32.0.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -587,6 +584,10 @@ Ubuntu 14.04 LTSのcgroup管理
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1057,10 +1058,14 @@ Ubuntu 14.04 LTSのcgroup管理
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (63)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (4)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (16)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (64)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (4)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (16)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/10/package-tool-01/">パッケージ更新のチェック</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/01/10/openssl-1-dot-0-1k/">Openssl 1.0.1k</a>
@@ -1076,10 +1081,6 @@ Ubuntu 14.04 LTSのcgroup管理
     
       <li class="post">
         <a href="/blog/2014/12/09/bind-9-dot-9-6-p1/">Bind 9.9.6-P1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/07/lxc-gihyo-15/">LXC　空間を歩む　十五歩め</a>
       </li>
     
   </ul>
