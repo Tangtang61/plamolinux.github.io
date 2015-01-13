@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-01-10T14:50:32+09:00</updated>
+  <updated>2015-01-13T20:27:42+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libjpeg-turbo 1.3.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/13/libjpeg-turbo-1-dot-3-1/"/>
+    <updated>2015-01-13T20:23:11+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/13/libjpeg-turbo-1-dot-3-1</id>
+    <content type="html"><![CDATA[<p>libjpeg-turbo にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=768369">https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=768369</a></li>
+</ul>
+
+
+<p>libjpeg-turbo パッケージを対応パッチ適用済みの 1.3.1 に更新しました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libjpeg_turbo-1.3.1-i686-P1.txz">libjpeg_turbo-1.3.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libjpeg_turbo-1.3.1-x86_64-P1.txz">libjpeg_turbo-1.3.1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[パッケージ更新のチェック]]></title>
@@ -178,28 +200,6 @@ LXCに関するソフトウェアが揃っています．LXCに関心のある�
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.6_P1-i586-P1.txz">bind-9.9.6_P1-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.6_P1-x86_64-P1.txz">bind-9.9.6_P1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ruby 2.0.0-p598]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/11/25/ruby-2-dot-0-0-p598/"/>
-    <updated>2014-11-25T20:08:42+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/11/25/ruby-2-dot-0-0-p598</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ruby 2.0.0-p598 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.ruby-lang.org/ja/news/2014/11/13/ruby-2-0-0-p598-is-released/">Ruby 2.0.0-p598 リリース</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p598-i586-P1.txz">ruby-2.0.0_p598-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p598-x86_64-P1.txz">ruby-2.0.0_p598-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
