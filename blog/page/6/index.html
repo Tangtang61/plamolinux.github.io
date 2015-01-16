@@ -9,9 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？ うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？ &lt; bar-mtomi (M.Tomi) コンテナの仕組み
-コンテナのメリット
-コンテナのデメリット &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。 wnpa-sec-2014-06 · RTP dissector crash パッケージをリリースしました。 wireshark-1.10.7-i586-P1.txz ( &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -81,104 +79,6 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC 空間を歩む　第二歩</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-31T14:38:45+09:00" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
-</ul>
-
-
-<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>コンテナの仕組み
-コンテナのメリット
-コンテナのデメリット
-Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
-まとめ
-LXC公式サイトの翻訳
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/30/php-5-dot-5-13/">Php 5.5.13</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-30T21:08:51+09:00" pubdate data-updated="true">May 30<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む PHP 5.5.13 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.php.net/ChangeLog-5.php#5.5.13">PHP 5 ChangeLog</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.13-i586-P1.txz">php-5.5.13-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.13-x86_64-P1.txz">php-5.5.13-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
       <h1 class="entry-title"><a href="/blog/2014/05/21/wireshark-1-dot-10-dot-7/">Wireshark 1.10.7</a></h1>
     
     
@@ -229,55 +129,6 @@ LXC公式サイトの翻訳
   <header>
     
       <h1 class="entry-title"><a href="/blog/2014/05/18/lxc-gihyo-01/">LXC　空間を歩む　第一歩</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-18T21:09:11+09:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p> gihyo.jp で、加藤さんの連載 <a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」</a> が始まりました。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
-</ul>
-
-
-<p>まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>はじめに
-LXCとLinuxにおけるコンテナ技術
-まずは使ってみましょう
-次回以降について
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/18/lxc-gihyo/">LXC 空間を歩む　第一歩</a></h1>
     
     
       <p class="meta">
@@ -566,6 +417,155 @@ LXCとLinuxにおけるコンテナ技術
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/23/yaml-0-dot-1-6/">Yaml 0.1.6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-23T18:32:40+09:00" pubdate data-updated="true">Apr 23<span>rd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む libyaml 0.1.6 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2525">CVE-2014-2525</a> (NVD)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i586-P1.txz">yaml-0.1.6-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P1.txz">yaml-0.1.6-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/22/openjpeg-1-dot-5-2/">Openjpeg 1.5.2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-22T20:29:10+09:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む openjpeg 1.5.2 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://openjpeg.googlecode.com/svn/tags/version.1.5.2/NEWS">http://openjpeg.googlecode.com/svn/tags/version.1.5.2/NEWS</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/openjpeg-1.5.2-i586-P1.txz">openjpeg-1.5.2-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/openjpeg-1.5.2-x86_64-P1.txz">openjpeg-1.5.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/08/openssl-1-dot-0-1g/">Openssl 1.0.1g</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-08T20:49:24+09:00" pubdate data-updated="true">Apr 8<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む OpenSSL 1.0.1g がリリースされています．</p>
+
+<p>詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.openssl.org/news/secadv_20140407.txt">TLS heartbeat read overrun (CVE-2014-0160)</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1g-i586-P1.txz">openssl-1.0.1g-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1g-x86_64-P1.txz">openssl-1.0.1g-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -581,6 +581,10 @@ LXCとLinuxにおけるコンテナ技術
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -663,10 +667,6 @@ LXCとLinuxにおけるコンテナ技術
       
         
       
-    
-      
-        
-      
         
       
     
@@ -688,14 +688,6 @@ LXCとLinuxにおけるコンテナ技術
     
       
         
-      
-    
-      
-        
-      
-        
-      
-    
       
         
       
@@ -854,10 +846,6 @@ LXCとLinuxにおけるコンテナ技術
     
       
         
-      
-        
-      
-    
       
         
       
@@ -1077,10 +1065,14 @@ LXCとLinuxにおけるコンテナ技術
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (65)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (4)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (20)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (65)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (4)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (17)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/16/lxc-gihyo-17/">LXC　空間を歩む　十七歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/01/13/libjpeg-turbo-1-dot-3-1/">Libjpeg-turbo 1.3.1</a>
@@ -1096,10 +1088,6 @@ LXCとLinuxにおけるコンテナ技術
     
       <li class="post">
         <a href="/blog/2014/12/31/plamo-5-dot-3-released/">Plamo 5.3 リリース</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/19/lxc-gihyo-16/">LXC　空間を歩む　十六歩め</a>
       </li>
     
   </ul>

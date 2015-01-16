@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-01-13T20:27:42+09:00</updated>
+  <updated>2015-01-16T16:47:42+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　十七歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/16/lxc-gihyo-17/"/>
+    <updated>2015-01-16T16:40:03+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/16/lxc-gihyo-17</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0017">第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用</a></p>
+
+<p>一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>一般ユーザでコンテナを利用できるディストリビューション
+一般ユーザでコンテナを利用する場合のOSでの準備
+UbuntuのLXCパッケージ使用時の各種パス
+一般ユーザでコンテナを利用する場合のLXCの設定
+一般ユーザでのコンテナの起動
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Libjpeg-turbo 1.3.1]]></title>
@@ -314,11 +333,9 @@ OSSを経由してサウンドを出力する
 が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
 た (^^; &lt; bar-mtomi</p>
 
-<blockquote></blockquote>
-
-<pre><code>Plamoテンプレートの内部紹介
+<blockquote><pre><code>Plamoテンプレートの内部紹介
 まとめ
-</code></pre>
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -385,24 +402,6 @@ OSSを経由してサウンドを出力する
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.2-x86_64-P1.txz">libxml2-2.9.2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十二歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown/"/>
-    <updated>2014-10-24T17:11:55+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12-dot-markdown</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
-
-<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
-
-<blockquote></blockquote>
-
-<pre><code>セキュリティ機能
-ネットワーク
-まとめ
-</code></pre>
 ]]></content>
   </entry>
   
@@ -500,9 +499,9 @@ OSSを経由してサウンドを出力する
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十一歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown/"/>
+    <link href="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11/"/>
     <updated>2014-10-13T13:08:05+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown</id>
+    <id>http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
 
 <p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
