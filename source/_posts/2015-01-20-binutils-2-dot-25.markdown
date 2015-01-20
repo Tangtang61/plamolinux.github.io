@@ -11,5 +11,5 @@ binutils 2.25 より前のバージョンにセキュリティホールが発見
 
 対策パッケージをリリースしました。
 
-* [binutils-2.25-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/binutils-2.25-i586-P1.txz)
+* [binutils-2.25-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/binutils-2.25-i686-P1.txz)
 * [binutils-2.25-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/binutils-2.25-x86_64-P1.txz)
