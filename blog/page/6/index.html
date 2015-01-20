@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。 wnpa-sec-2014-06 · RTP dissector crash パッケージをリリースしました。 wireshark-1.10.7-i586-P1.txz ( &hellip;">
+  <meta name="description" content="セキュリティホールの修正がなされた Thunderbird 24.6.0 がリリースされています。詳しくは以下をご覧ください。 Thunderbird 24.6.0 リリースノート パッケージをリリースしました． thunderbird-24.6.0-i586-P1.txz (32bit) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,356 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/16/thunderbird-24-dot-6-0/">Thunderbird 24.6.0</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-16T00:00:00+09:00" pubdate data-updated="true">Jun 16<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正がなされた Thunderbird 24.6.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/thunderbird/24.6.0/releasenotes/">Thunderbird 24.6.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-24.6.0-i586-P1.txz">thunderbird-24.6.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-24.6.0-x86_64-P1.txz">thunderbird-24.6.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/12/firefox-30-dot-0/">Firefox 30.0</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-12T14:49:34+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>firefox 30.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/30.0/releasenotes/">Firefox 30.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-30.0-i586-P1.txz">firefox-30.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-30.0-x86_64-P1.txz">firefox-30.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>nspr 4.10.6 パッケージも更新しており、これも同時にインストールする必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.10.6-i586-P1.txz">nspr-4.10.6-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.6-x86_64-P1.txz">nspr-4.10.6-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC 空間を歩む　三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-12T12:46:27+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
+</ul>
+
+
+<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>cgroupファイルシステム
+cgroupの階層構造
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/10/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-10T00:34:39+09:00" pubdate data-updated="true">Jun 10<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>GnuTLS にセキュリティホールが見つかっています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.gnutls.org/security.html#GNUTLS-SA-2014-3">GNUTLS-SA-2014-3(CVE-2014-1959)</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i586-P4.txz">gnutls-2.12.23-i586-P4.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P4.txz">gnutls-2.12.23-x86_64-P4.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/06/openssl-1-dot-0-1h/">Openssl 1.0.1h</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-06T15:44:11+09:00" pubdate data-updated="true">Jun 6<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む OpenSSL 1.0.1h がリリースされています。</p>
+
+<p>詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.openssl.org/news/secadv_20140605.txt">OpenSSL Security Advisory [05 Jun 2014]</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1h-i586-P1.txz">openssl-1.0.1h-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1h-x86_64-P1.txz">openssl-1.0.1h-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC 空間を歩む　第二歩</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-31T14:38:45+09:00" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
+</ul>
+
+
+<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>コンテナの仕組み
+コンテナのメリット
+コンテナのデメリット
+Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
+まとめ
+LXC公式サイトの翻訳
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/30/php-5-dot-5-13/">Php 5.5.13</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-30T21:08:51+09:00" pubdate data-updated="true">May 30<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む PHP 5.5.13 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.php.net/ChangeLog-5.php#5.5.13">PHP 5 ChangeLog</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.13-i586-P1.txz">php-5.5.13-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.13-x86_64-P1.txz">php-5.5.13-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -177,7 +527,7 @@ LXCとLinuxにおけるコンテナ技術
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/05/15/dovecot-2-dot-2-13/">Dovecot 2.2.13</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/05/18/lxc-gihyo/">LXC 空間を歩む　第一歩</a></h1>
     
     
       <p class="meta">
@@ -193,372 +543,27 @@ LXCとLinuxにおけるコンテナ技術
   
 
 
-<time datetime="2014-05-15T16:40:39+09:00" pubdate data-updated="true">May 15<span>th</span>, 2014</time>
+<time datetime="2014-05-18T21:09:11+09:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>セキュリティホールの修正を含む dovecot 2.2.13 がリリースされています。詳しくは以下をご覧ください。</p>
+  <div class="entry-content"><p> gihyo.jp で、加藤さんの連載 <a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」</a> が始まりました。</p>
 
 <ul>
-<li><a href="http://dovecot.org/list/dovecot-news/2014-May/000273.html">v2.2.13 released</a></li>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
 </ul>
 
 
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/dovecot-2.2.13-i586-P1.txz">dovecot-2.2.13-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/dovecot-2.2.13-x86_64-P1.txz">dovecot-2.2.13-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/12/firefox-29-dot-0-1/">Firefox 29.0.1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-12T00:00:00+09:00" pubdate data-updated="true">May 12<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>firefox 29.0.1 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/29.0.1/releasenotes/">Firefox 29.0.1 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-29.0.1-i586-P1.txz">firefox-29.0.1-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-29.0.1-x86_64-P1.txz">firefox-29.0.1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/02/php-5-dot-5-12/">Php 5.5.12</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-02T20:47:41+09:00" pubdate data-updated="true">May 2<span>nd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>PHP 5.5.12 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.php.net/ChangeLog-5.php#5.5.12">PHP 5 ChangeLog</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.12-i586-P1.txz">php-5.5.12-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.12-x86_64-P1.txz">php-5.5.12-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/01/thunderbird-24-dot-5-0/">Thunderbird 24.5.0</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-01T15:27:57+09:00" pubdate data-updated="true">May 1<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正がなされた Thunderbird 24.5.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/24.5.0/releasenotes/">Thunderbird 24.5.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-24.5.0-i586-P1.txz">thunderbird-24.5.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-24.5.0-x86_64-P1.txz">thunderbird-24.5.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/30/firefox-29-dot-0/">Firefox 29.0</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-30T15:31:34+09:00" pubdate data-updated="true">Apr 30<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホール修正を含む firefox 29.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/29.0/releasenotes/">Firefox 29.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-29.0-i586-P1.txz">firefox-29.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-29.0-x86_64-P1.txz">firefox-29.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/23/yaml-0-dot-1-6/">Yaml 0.1.6</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-23T18:32:40+09:00" pubdate data-updated="true">Apr 23<span>rd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む libyaml 0.1.6 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2525">CVE-2014-2525</a> (NVD)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i586-P1.txz">yaml-0.1.6-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P1.txz">yaml-0.1.6-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/22/openjpeg-1-dot-5-2/">Openjpeg 1.5.2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-22T20:29:10+09:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む openjpeg 1.5.2 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://openjpeg.googlecode.com/svn/tags/version.1.5.2/NEWS">http://openjpeg.googlecode.com/svn/tags/version.1.5.2/NEWS</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/openjpeg-1.5.2-i586-P1.txz">openjpeg-1.5.2-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/openjpeg-1.5.2-x86_64-P1.txz">openjpeg-1.5.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/08/openssl-1-dot-0-1g/">Openssl 1.0.1g</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-08T20:49:24+09:00" pubdate data-updated="true">Apr 8<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む OpenSSL 1.0.1g がリリースされています．</p>
-
-<p>詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.openssl.org/news/secadv_20140407.txt">TLS heartbeat read overrun (CVE-2014-0160)</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1g-i586-P1.txz">openssl-1.0.1g-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1g-x86_64-P1.txz">openssl-1.0.1g-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
+<p>まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>はじめに
+LXCとLinuxにおけるコンテナ技術
+まずは使ってみましょう
+次回以降について
+</code></pre></blockquote>
 </div>
   
   
@@ -581,6 +586,30 @@ LXCとLinuxにおけるコンテナ技術
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -667,50 +696,6 @@ LXCとLinuxにおけるコンテナ技術
       
         
       
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
     
       
         
@@ -734,18 +719,6 @@ LXCとLinuxにおけるコンテナ技術
         
       
     
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
       
         
       
@@ -789,9 +762,45 @@ LXCとLinuxにおけるコンテナ技術
       
         
       
+        
+      
     
       
         
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
       
         
       
@@ -846,6 +855,42 @@ LXCとLinuxにおけるコンテナ技術
     
       
         
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
       
         
       
@@ -1065,29 +1110,29 @@ LXCとLinuxにおけるコンテナ技術
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (65)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (4)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (17)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (4)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (21)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/01/20/firefox-35-dot-0/">Firefox 35.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/20/libevent-2-dot-0-22/">Libevent 2.0.22</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/20/binutils-2-dot-25/">Binutils 2.25</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/20/curl-7-dot-40-dot-0/">Curl 7.40.0</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/01/16/lxc-gihyo-17/">LXC　空間を歩む　十七歩め</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/01/13/libjpeg-turbo-1-dot-3-1/">Libjpeg-turbo 1.3.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/01/10/package-tool-01/">パッケージ更新のチェック</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/01/10/openssl-1-dot-0-1k/">Openssl 1.0.1k</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/31/plamo-5-dot-3-released/">Plamo 5.3 リリース</a>
       </li>
     
   </ul>
