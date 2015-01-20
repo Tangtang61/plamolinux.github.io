@@ -1,0 +1,16 @@
+---
+layout: post
+title: "curl 7.40.0"
+date: 2015-01-20 17:01:37 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+セキュリティホールの修正を含む curl 7.40.0 がリリースされています．詳しくは以下をご覧ください．
+
+* [libcurl/darwinssl certificate check bypass](http://curl.haxx.se/docs/adv_20150108A.html)
+* [URL request injection](http://curl.haxx.se/docs/adv_20150108B.html)
+
+対策パッケージをリリースしました．
+
+* [curl-7.40.0-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.40.0-i586-P1.txz)
+* [curl-7.40.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.40.0-x86_64-P1.txz)
