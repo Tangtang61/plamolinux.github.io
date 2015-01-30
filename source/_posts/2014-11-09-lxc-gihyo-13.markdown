@@ -15,6 +15,5 @@ categories: ["仮想化環境"]
 た (^^; < bar-mtomi
 
 >
-
     Plamoテンプレートの内部紹介
     まとめ

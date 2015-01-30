@@ -1,0 +1,20 @@
+---
+layout: post
+title: "LXC　空間を歩む　十八歩め"
+date: 2015-01-30 16:21:45 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs](http://gihyo.jp/admin/serial/01/linux_containers/0018)
+
+overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 < bar-mtomi
+
+>
+    overlayfsとは
+    overlayfsを使ってみる
+    3.18カーネルのoverlayfs
+    opaque（不透明）ディレクトリ
+    overlayfsを使う上での注意
+    overlayfsの将来
+    まとめ

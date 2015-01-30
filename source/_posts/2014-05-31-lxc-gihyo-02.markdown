@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LXC 空間を歩む　第二歩"
+title: "LXC　空間を歩む　第二歩"
 date: 2014-05-31 14:38:45 +0900
 comments: true
 categories: ["仮想化環境"]
