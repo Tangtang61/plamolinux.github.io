@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-01-20T17:24:27+09:00</updated>
+  <updated>2015-01-30T16:29:54+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　十八歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18/"/>
+    <updated>2015-01-30T16:21:45+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
+
+<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>overlayfsとは
+overlayfsを使ってみる
+3.18カーネルのoverlayfs
+opaque（不透明）ディレクトリ
+overlayfsを使う上での注意
+overlayfsの将来
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十七歩め]]></title>
@@ -81,27 +101,6 @@ OSSを経由してサウンドを出力する
 複数のユーザによるコンテナの作成とネットワーク構成
 まとめ
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十三歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/11/09/lxc-gihyo-13/"/>
-    <updated>2014-11-09T15:35:38+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/11/09/lxc-gihyo-13</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0013">第13回　LXCの構築・活用 [1] — テンプレートを紐解く</a></p>
-
-<p>今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。</p>
-
-<p>テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
-が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
-た (^^; &lt; bar-mtomi</p>
-
-<blockquote></blockquote>
-
-<pre><code>Plamoテンプレートの内部紹介
-まとめ
-</code></pre>
 ]]></content>
   </entry>
   

@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　十一歩め - Plamo Linux</title>
+  <title>LXC　空間を歩む　十八歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第11回　LXCの設定［1］ 今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^; &lt; bar-mtomi 設定ファイルの書式
-システムの設定
-コンテナの設定
-まとめ &hellip;">
+  <meta name="description" content="*第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi overlayfsとは &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -73,7 +70,7 @@
   
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　十一歩め</h1>
+      <h1 class="entry-title">LXC　空間を歩む　十八歩め</h1>
     
     
       <p class="meta">
@@ -89,22 +86,24 @@
   
 
 
-<time datetime="2014-10-13T13:08:05+09:00" pubdate data-updated="true">Oct 13<span>th</span>, 2014</time>
+<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
+<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
 
-<p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
+<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
 
-<blockquote><pre><code>設定ファイルの書式
-システムの設定
-コンテナの設定
+<blockquote><pre><code>overlayfsとは
+overlayfsを使ってみる
+3.18カーネルのoverlayfs
+opaque（不透明）ディレクトリ
+overlayfsを使う上での注意
+overlayfsの将来
 まとめ
-LXC 1.0.6
 </code></pre></blockquote>
 </div>
 
@@ -128,7 +127,7 @@ LXC 1.0.6
   
 
 
-<time datetime="2014-10-13T13:08:05+09:00" pubdate data-updated="true">Oct 13<span>th</span>, 2014</time>
+<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
       
 
 <span class="categories">
@@ -142,7 +141,7 @@ LXC 1.0.6
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/10/13/lxc-gihyo-11-dot-markdown/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18/" >Tweet</a>
   
   
   
@@ -151,10 +150,8 @@ LXC 1.0.6
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/10/13/lxc-gihyo-11/" title="Previous Post: LXC　空間を歩む　十一歩め">&laquo; LXC　空間を歩む　十一歩め</a>
+        <a class="basic-alignment left" href="/blog/2015/01/20/libevent-2-dot-0-22/" title="Previous Post: libevent 2.0.22">&laquo; libevent 2.0.22</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/10/20/openssl-1-dot-0-1j/" title="Next Post: openssl 1.0.1j">openssl 1.0.1j &raquo;</a>
       
     </p>
   </footer>
@@ -168,8 +165,6 @@ LXC 1.0.6
   <h1>Release Information</h1>
   <ul id="release_info">
     
-      
-        
       
         
       
@@ -277,10 +272,6 @@ LXC 1.0.6
       
         
       
-    
-      
-        
-      
         
       
     
@@ -302,14 +293,6 @@ LXC 1.0.6
     
       
         
-      
-    
-      
-        
-      
-        
-      
-    
       
         
       
@@ -468,10 +451,6 @@ LXC 1.0.6
     
       
         
-      
-        
-      
-    
       
         
       
@@ -691,13 +670,13 @@ LXC 1.0.6
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (4)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (21)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (68)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (60)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (4)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (18)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015/01/20/firefox-35-dot-0/">Firefox 35.0</a>
+        <a href="/blog/2015/01/30/lxc-gihyo-18/">LXC　空間を歩む　十八歩め</a>
       </li>
     
       <li class="post">
