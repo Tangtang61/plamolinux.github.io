@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-02-02T15:48:59+09:00</updated>
+  <updated>2015-02-02T16:29:42+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -108,6 +108,163 @@ overlayfsを使う上での注意
 overlayfsの将来
 まとめ
 </code></pre></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Util-linux 2.25.2]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/30/util-linux-2-dot-25-dot-2/"/>
+    <updated>2015-01-30T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/30/util-linux-2-dot-25-dot-2</id>
+    <content type="html"><![CDATA[<p>util-linux 2.25.2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1168485">Bug 1168485 &ndash; CVE-2014-9114 util-linux: command injection flaw in blkid</a> (Red Hat Bugzilla)</li>
+</ul>
+
+
+<p>パッチを適用した util-linux-2.25.2 のパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/util_linux-2.25.2-i686-P1.txz">util_linux-2.25.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/util_linux-2.25.2-x86_64-P1.txz">util_linux-2.25.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Patch 2.7.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/30/patch-2-dot-7-3/"/>
+    <updated>2015-01-30T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/30/patch-2-dot-7-3</id>
+    <content type="html"><![CDATA[<p>patch 2.7.1 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1196">CVE-2015-1196</a> (NVD)</li>
+</ul>
+
+
+<p>patch 2.7.3 のパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/patch-2.7.3-i686-P1.txz">patch-2.7.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/patch-2.7.3-x86_64-P1.txz">patch-2.7.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[File 5.22]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/30/file-5-dot-22/"/>
+    <updated>2015-01-30T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/30/file-5-dot-22</id>
+    <content type="html"><![CDATA[<p>file 5.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9621">CVE-2014-9621</a> (NVD)</li>
+</ul>
+
+
+<p>file 5.22 のパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/file-5.22-i686-P1.txz">file-5.22-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/file-5.22-x86_64-P1.txz">file-5.22-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mailx 12.5]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/29/mailx-12-dot-5/"/>
+    <updated>2015-01-29T16:15:16+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/29/mailx-12-dot-5</id>
+    <content type="html"><![CDATA[<p>mailx にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1162783">Bug 1162783 &ndash; CVE-2004-2771 CVE-2014-7844 mailx: command execution flaw</a> (Red Hat Bugzilla)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/mailx-12.5-i686-P1.txz">mailx-12.5-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/mailx-12.5-x86_64-P1.txz">mailx-12.5-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cpio 2.11]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/29/cpio-2-dot-11/"/>
+    <updated>2015-01-29T16:11:54+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/29/cpio-2-dot-11</id>
+    <content type="html"><![CDATA[<p>cpio にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9112">CVE-2014-9112</a> (NVD)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/cpio-2.11-i686-P2.txz">cpio-2.11-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/cpio-2.11-x86_64-P2.txz">cpio-2.11-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Jasper 1.900.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/27/jasper-1-dot-900-dot-1/"/>
+    <updated>2015-01-27T16:19:40+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/27/jasper-1-dot-900-dot-1</id>
+    <content type="html"><![CDATA[<p>jasper にセキュリティホールが発見されています。</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2014/JVNDB-2014-007788.html">JVNDB-2014-007788 JasPer の jpc_dec_process_sot 関数におけるサービス運用妨害 (DoS) の脆弱性</a></li>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2014/JVNDB-2014-007789.html">JVNDB-2014-007789 JasPer の jpc_qmfb.c におけるスタックベースのバッファオーバーフローの脆弱性</a></li>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8138">CVE-2014-8138</a> (NVD)</li>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8137">CVE-2014-8137</a> (NVD)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/jasper-1.900.1-i686-P4.txz">jasper-1.900.1-i686-P4.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/jasper-1.900.1-x86_64-P4.txz">jasper-1.900.1-x86_64-P4.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Php 5.6.5]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/26/php-5-dot-6-5/"/>
+    <updated>2015-01-26T16:26:27+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/26/php-5-dot-6-5</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.6.5 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jp.php.net/archive/2015.php#id2015-01-22-2">PHP 5.6.5 is available</a> (PHP)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.6.5-i686-P1.txz">php-5.6.5-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txzy/php-5.6.5-x86_64-P1.txz">php-5.6.5-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -423,149 +580,6 @@ LXCに関するソフトウェアが揃っています．LXCに関心のある�
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.6_P1-i586-P1.txz">bind-9.9.6_P1-i586-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.6_P1-x86_64-P1.txz">bind-9.9.6_P1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十五歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/12/07/lxc-gihyo-15/"/>
-    <updated>2014-12-07T17:11:50+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/12/07/lxc-gihyo-15</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0015">第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う</a></p>
-
-<p>今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Linuxにおける主なサウンドシステム・サウンドサーバ
-OSSを経由してサウンドを出力する
-コンテナ内でサウンドを出力する（OSS）
-コンテナ内でサウンドを出力する（ALSA）
-非特権コンテナ内でサウンドを出力する
-サウンドサーバを使ってコンテナ内のサウンドを出力する
-まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ruby 2.0.0-p598]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/11/25/ruby-2-dot-0-0-p598/"/>
-    <updated>2014-11-25T20:08:42+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/11/25/ruby-2-dot-0-0-p598</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ruby 2.0.0-p598 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.ruby-lang.org/ja/news/2014/11/13/ruby-2-0-0-p598-is-released/">Ruby 2.0.0-p598 リリース</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p598-i586-P1.txz">ruby-2.0.0_p598-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p598-x86_64-P1.txz">ruby-2.0.0_p598-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Curl 7.39.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/11/25/curl-7-dot-39-dot-0/"/>
-    <updated>2014-11-25T16:43:33+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/11/25/curl-7-dot-39-dot-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.39.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://curl.haxx.se/docs/adv_20141105.html">libcurl duphandle read out of bounds</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.39.0-i586-P1.txz">curl-7.39.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.39.0-x86_64-P1.txz">curl-7.39.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十四歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/11/20/lxc-gihyo-14/"/>
-    <updated>2014-11-20T16:27:03+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/11/20/lxc-gihyo-14</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0014">第14回　LXCの構築・活用 [2] — コンテナを作成・構築する</a></p>
-
-<p>今回の内容はトレースして、自分なりに理解したいと思いました。良い内容です。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Plamoテンプレートを使ったコンテナの作成
-複数のユーザによるコンテナの作成とネットワーク構成
-まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十三歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/11/09/lxc-gihyo-13/"/>
-    <updated>2014-11-09T15:35:38+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/11/09/lxc-gihyo-13</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0013">第13回　LXCの構築・活用 [1] — テンプレートを紐解く</a></p>
-
-<p>今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。</p>
-
-<p>テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
-が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
-た (^^; &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Plamoテンプレートの内部紹介
-まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wget 1.16]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/30/wget-1-dot-16/"/>
-    <updated>2014-10-30T10:52:52+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/30/wget-1-dot-16</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む wget 1.16 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-4877">CVE-2014-4877</a> (NVD)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/wget-1.16-i586-P1.txz">wget-1.16-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/wget-1.16-x86_64-P1.txz">wget-1.16-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ruby 2.0.0-p594]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/29/ruby-2-dot-0-0-p594/"/>
-    <updated>2014-10-29T17:47:44+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/29/ruby-2-dot-0-0-p594</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ruby 2.0.0-p594 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.ruby-lang.org/ja/news/2014/10/27/ruby-2-0-0-p594-is-released/">Ruby 2.0.0-p594 リリース</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p594-i586-P1.txz">ruby-2.0.0_p594-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p594-x86_64-P1.txz">ruby-2.0.0_p594-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
