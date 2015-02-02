@@ -2,7 +2,7 @@
 layout: post
 title: "binutils 2.25"
 date: 2015-01-20 17:05:46 +0900
-comments: true
+comments: false
 categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 ---
 binutils 2.25 より前のバージョンにセキュリティホールが発見されています。詳しくは以下をご覧ください。

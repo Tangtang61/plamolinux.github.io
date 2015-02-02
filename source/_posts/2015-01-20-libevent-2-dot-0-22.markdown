@@ -1,8 +1,8 @@
 ---
 layout: post
-title: libevent 2.0.22
+title: "libevent 2.0.22"
 date: 2015-01-20 17:08:46 +0900
-comments: true
+comments: false
 categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 ---
 libevent 2.0.22 より前のバージョンにセキュリティホールが発見されています。詳しくは以下をご覧ください。
