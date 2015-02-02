@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-01-30T16:29:54+09:00</updated>
+  <updated>2015-02-02T15:48:59+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,84 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Plamo 5.3.1 リリース]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/02/02/plamo-5-dot-3-1-release/"/>
+    <updated>2015-02-02T15:42:31+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/02/02/plamo-5-dot-3-1-release</id>
+    <content type="html"><![CDATA[<p>Plamo Linux 5.3.1 をリリースしました。</p>
+
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201502/msg00000.html">リリースアナウンス</a></li>
+</ul>
+
+
+<p>gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3.1 の詳細がまとめられています。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0066">玩式草子─ソフトウェアとたわむれる日々　第66回　Plamo-5.3.1とget_pkginfoスクリプト</a></li>
+</ul>
+
+
+<p>メーリングリストへの投稿です。</p>
+
+<pre><code>昨年末にリリースしたPlamo-5.3の改訂版となる，Plamo-5.3.1を1月末にリリー
+スしました．
+
+$ ls -lh plamo-5.3.1*
+-rw-r--r-- 1 kojima plamo 3.5G  1月 30 22:49 plamo-5.3.1_x86_64_dvd.iso
+-rw-r--r-- 1 kojima plamo   61  1月 30 22:49 plamo-5.3.1_x86_64_dvd.iso.md5sum
+-rw-r--r-- 1 kojima plamo 3.7G  1月 30 22:50 plamo-5.3.1_x86_dvd.iso
+-rw-r--r-- 1 kojima plamo   58  1月 30 22:50 plamo-5.3.1_x86_dvd.iso.md5sum
+
+すでに ring.yamanashi.ac.jp にはミラーいただいているものの，ringサーバ全
+体に届くにはもう少し時間がかかるようです．
+
+このリリースの詳細については，gihyo.jpのサイトで公開している連載記事に
+まとめているので，そちらでご確認くださいませ．
+
+http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0066
+
+あわせて，Plamo-5.2から5.3.1への更新集(アップデータ)を，
+Update/5.2_5.3.1/ 以下に公開したので，Plamo-5.2をご利用の方はこちらを
+ご利用ください．
+
+$ ls -F Update/5.2_5.3.1/
+README.kernel_update  README.update  x86/  x86_64/
+
+$ ls -F Update/5.2_5.3.1/x86_64/$ ls -F Update/5.2_5.3.1/x86_64/
+00_base/  01_minimum/  02_x11/  03_xclassics/  04_xapps/  05_ext/
+...
+
+$ ls -F Update/5.2_5.3.1/x86_64/00_base/
+bash-4.2.53-x86_64-P1.txz        libgcc-4.8.4-x86_64-P1.txz           openssl-1.0.1k-x86_64-P1.txz
+coreutils-8.23-x86_64-P2.txz     linux_firmware-201501-noarch-P1.txz  shadow-git_20130908-x86_64-P3.txz
+dhcp-4.2.7-x86_64-P1.txz         linux_pam-1.1.8-x86_64-P1.txz        sudo-1.8.11p2-x86_64-P1.txz
+file-5.22-x86_64-P1.txz          lsb_release-1.4-noarch-P3.txz        update.sh*
+...
+
+アップデータは，従来同様，00_baseから11_mateのカテゴリごとに分け，各ディ
+レクトリには更新用の update.sh を置いてますので，ディレクトリごとダウ
+ンロードして，そのディレクトリの update.sh を実行すれば更新できるはずです
+(が，あまり細かくテストしてないので何かあったらごめんなさい ;-)
+
+# カーネルは update.sh では更新しないので，README.kernel_update を参考
+# に手動で更新してください．
+
+Plamo-5.3 からは，get_pkginfo.py というスクリプトを使って更新されたパッ
+ケージを簡単にダウンロードできるのでアップデータとしては提供していません．
+
+get_pkginfo.py は https://github.com/plamolinux/get_pkginfo から入手でき，
+上記 gihyo.jp の記事でも簡単に触れているのでご参照ください．
+
+バグやトラブルレポート，各種要望等は，従来同様，plamo.linet.gr.jp の
+wiki ページやこの ML へお気軽に連絡ください．
+
+それでは，今後とも Plamo Linux をよろしくお願いします．
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　十八歩め]]></title>
@@ -30,6 +108,29 @@ overlayfsを使う上での注意
 overlayfsの将来
 まとめ
 </code></pre></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 35.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/01/20/firefox-35-dot-0/"/>
+    <updated>2015-01-20T17:13:38+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/01/20/firefox-35-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 35.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/35.0/releasenotes/">Firefox 35.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-35.0-i686-P1.txz">firefox-35.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-35.0-x86_64-P1.txz">firefox-35.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -467,44 +568,6 @@ OSSを経由してサウンドを出力する
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p594-x86_64-P1.txz">ruby-2.0.0_p594-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Libxml 2.9.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/29/libxml-2-dot-9-2/"/>
-    <updated>2014-10-29T17:36:13+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/29/libxml-2-dot-9-2</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libxml 2.9.2 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://xmlsoft.org/news.html">http://xmlsoft.org/news.html</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.2-i586-P1.txz">libxml2-2.9.2-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.2-x86_64-P1.txz">libxml2-2.9.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十二歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12/"/>
-    <updated>2014-10-24T17:11:55+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/10/24/lxc-gihyo-12</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
-
-<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>セキュリティ機能
-ネットワーク
-まとめ
-</code></pre></blockquote>
 ]]></content>
   </entry>
   

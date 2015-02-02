@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: 仮想化環境 - Plamo Linux</title>
+  <title>Plamo 5.3.1 リリース - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="Category: 仮想化環境">
+  <meta name="description" content="Plamo Linux 5.3.1 をリリースしました。 リリースアナウンス gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3.1 の詳細がまとめられています。 玩式草子─ソフトウェアとたわむれる日々　第66回　Plamo-5.3. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.ioblog/categories/jia-xiang-hua-huan-jing">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/02/02/plamo-5-dot-3-1-release">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -66,276 +66,153 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: 仮想化環境</h1>
+    
+      <h1 class="entry-title">Plamo 5.3.1 リリース</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-02T15:42:31+09:00" pubdate data-updated="true">Feb 2<span>nd</span>, 2015</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Plamo Linux 5.3.1 をリリースしました。</p>
 
-  
-  <h2>2015</h2>
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201502/msg00000.html">リリースアナウンス</a></li>
+</ul>
 
-<article>
-  
-<h1><a href="/blog/2015/01/30/lxc-gihyo-18/">LXC　空間を歩む　十八歩め</a></h1>
-<time datetime="2015-01-30T16:21:45+09:00" pubdate><span class='month'>Jan</span> <span class='day'>30</span> <span class='year'>2015</span></time>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
+<p>gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3.1 の詳細がまとめられています。</p>
 
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0066">玩式草子─ソフトウェアとたわむれる日々　第66回　Plamo-5.3.1とget_pkginfoスクリプト</a></li>
+</ul>
 
-</article>
 
+<p>メーリングリストへの投稿です。</p>
 
+<pre><code>昨年末にリリースしたPlamo-5.3の改訂版となる，Plamo-5.3.1を1月末にリリー
+スしました．
 
-<article>
-  
-<h1><a href="/blog/2015/01/16/lxc-gihyo-17/">LXC　空間を歩む　十七歩め</a></h1>
-<time datetime="2015-01-16T16:40:03+09:00" pubdate><span class='month'>Jan</span> <span class='day'>16</span> <span class='year'>2015</span></time>
+$ ls -lh plamo-5.3.1*
+-rw-r--r-- 1 kojima plamo 3.5G  1月 30 22:49 plamo-5.3.1_x86_64_dvd.iso
+-rw-r--r-- 1 kojima plamo   61  1月 30 22:49 plamo-5.3.1_x86_64_dvd.iso.md5sum
+-rw-r--r-- 1 kojima plamo 3.7G  1月 30 22:50 plamo-5.3.1_x86_dvd.iso
+-rw-r--r-- 1 kojima plamo   58  1月 30 22:50 plamo-5.3.1_x86_dvd.iso.md5sum
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
+すでに ring.yamanashi.ac.jp にはミラーいただいているものの，ringサーバ全
+体に届くにはもう少し時間がかかるようです．
 
+このリリースの詳細については，gihyo.jpのサイトで公開している連載記事に
+まとめているので，そちらでご確認くださいませ．
 
-</article>
+http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0066
 
+あわせて，Plamo-5.2から5.3.1への更新集(アップデータ)を，
+Update/5.2_5.3.1/ 以下に公開したので，Plamo-5.2をご利用の方はこちらを
+ご利用ください．
 
+$ ls -F Update/5.2_5.3.1/
+README.kernel_update  README.update  x86/  x86_64/
 
-  
-  <h2>2014</h2>
+$ ls -F Update/5.2_5.3.1/x86_64/$ ls -F Update/5.2_5.3.1/x86_64/
+00_base/  01_minimum/  02_x11/  03_xclassics/  04_xapps/  05_ext/
+...
 
-<article>
-  
-<h1><a href="/blog/2014/12/19/lxc-gihyo-16/">LXC　空間を歩む　十六歩め</a></h1>
-<time datetime="2014-12-19T17:05:24+09:00" pubdate><span class='month'>Dec</span> <span class='day'>19</span> <span class='year'>2014</span></time>
+$ ls -F Update/5.2_5.3.1/x86_64/00_base/
+bash-4.2.53-x86_64-P1.txz        libgcc-4.8.4-x86_64-P1.txz           openssl-1.0.1k-x86_64-P1.txz
+coreutils-8.23-x86_64-P2.txz     linux_firmware-201501-noarch-P1.txz  shadow-git_20130908-x86_64-P3.txz
+dhcp-4.2.7-x86_64-P1.txz         linux_pam-1.1.8-x86_64-P1.txz        sudo-1.8.11p2-x86_64-P1.txz
+file-5.22-x86_64-P1.txz          lsb_release-1.4-noarch-P3.txz        update.sh*
+...
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
+アップデータは，従来同様，00_baseから11_mateのカテゴリごとに分け，各ディ
+レクトリには更新用の update.sh を置いてますので，ディレクトリごとダウ
+ンロードして，そのディレクトリの update.sh を実行すれば更新できるはずです
+(が，あまり細かくテストしてないので何かあったらごめんなさい ;-)
 
+# カーネルは update.sh では更新しないので，README.kernel_update を参考
+# に手動で更新してください．
 
-</article>
+Plamo-5.3 からは，get_pkginfo.py というスクリプトを使って更新されたパッ
+ケージを簡単にダウンロードできるのでアップデータとしては提供していません．
 
+get_pkginfo.py は https://github.com/plamolinux/get_pkginfo から入手でき，
+上記 gihyo.jp の記事でも簡単に触れているのでご参照ください．
 
+バグやトラブルレポート，各種要望等は，従来同様，plamo.linet.gr.jp の
+wiki ページやこの ML へお気軽に連絡ください．
 
-<article>
-  
-<h1><a href="/blog/2014/12/07/lxc-gihyo-15/">LXC　空間を歩む　十五歩め</a></h1>
-<time datetime="2014-12-07T17:11:50+09:00" pubdate><span class='month'>Dec</span> <span class='day'>07</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/11/20/lxc-gihyo-14/">LXC　空間を歩む　十四歩め</a></h1>
-<time datetime="2014-11-20T16:27:03+09:00" pubdate><span class='month'>Nov</span> <span class='day'>20</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/11/09/lxc-gihyo-13/">LXC　空間を歩む　十三歩め</a></h1>
-<time datetime="2014-11-09T15:35:38+09:00" pubdate><span class='month'>Nov</span> <span class='day'>09</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/10/24/lxc-gihyo-12/">LXC　空間を歩む　十二歩め</a></h1>
-<time datetime="2014-10-24T17:11:55+09:00" pubdate><span class='month'>Oct</span> <span class='day'>24</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/10/13/lxc-gihyo-11/">LXC　空間を歩む　十一歩め</a></h1>
-<time datetime="2014-10-13T13:08:05+09:00" pubdate><span class='month'>Oct</span> <span class='day'>13</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/09/27/lxc-gihyo-10/">LXC　空間を歩む　十歩め</a></h1>
-<time datetime="2014-09-27T13:14:56+09:00" pubdate><span class='month'>Sep</span> <span class='day'>27</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/09/11/lxc-gihyo-09/">LXC　空間を歩む　九歩め</a></h1>
-<time datetime="2014-09-11T12:58:49+09:00" pubdate><span class='month'>Sep</span> <span class='day'>11</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/08/28/lxc-gihyo-08/">LXC　空間を歩む　八歩め</a></h1>
-<time datetime="2014-08-28T21:45:50+09:00" pubdate><span class='month'>Aug</span> <span class='day'>28</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/08/16/lxc-gihyo-07/">LXC　空間を歩む　七歩め</a></h1>
-<time datetime="2014-08-16T15:11:48+09:00" pubdate><span class='month'>Aug</span> <span class='day'>16</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/07/24/lxc-gihyo-06/">LXC　空間を歩む　六歩め</a></h1>
-<time datetime="2014-07-24T21:05:48+09:00" pubdate><span class='month'>Jul</span> <span class='day'>24</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/07/10/lxc-gihyo-05/">LXC　空間を歩む　五歩め</a></h1>
-<time datetime="2014-07-10T12:54:36+09:00" pubdate><span class='month'>Jul</span> <span class='day'>10</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/06/26/lxc-gihyo-04/">LXC　空間を歩む　四歩め</a></h1>
-<time datetime="2014-06-26T15:27:16+09:00" pubdate><span class='month'>Jun</span> <span class='day'>26</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC　空間を歩む　三歩め</a></h1>
-<time datetime="2014-06-12T12:46:27+09:00" pubdate><span class='month'>Jun</span> <span class='day'>12</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC　空間を歩む　第二歩</a></h1>
-<time datetime="2014-05-31T14:38:45+09:00" pubdate><span class='month'>May</span> <span class='day'>31</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/05/18/lxc-gihyo-01/">LXC　空間を歩む　第一歩</a></h1>
-<time datetime="2014-05-18T21:09:11+09:00" pubdate><span class='month'>May</span> <span class='day'>18</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a></span>
-</footer>
-
-
-</article>
-
+それでは，今後とも Plamo Linux をよろしくお願いします．
+</code></pre>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Plamo Linux Project</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-02T15:42:31+09:00" pubdate data-updated="true">Feb 2<span>nd</span>, 2015</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/ririsuqing-bao/'>リリース情報</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/02/02/plamo-5-dot-3-1-release/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/02/02/plamo-5-dot-3-1-release/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/30/lxc-gihyo-18/" title="Previous Post: LXC　空間を歩む　十八歩め">&laquo; LXC　空間を歩む　十八歩め</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
