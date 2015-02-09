@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-02-06T15:34:22+09:00</updated>
+  <updated>2015-02-09T17:33:10+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Yaml 0.1.6]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/02/09/yaml-0-dot-1-6/"/>
+    <updated>2015-02-09T17:27:35+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/02/09/yaml-0-dot-1-6</id>
+    <content type="html"><![CDATA[<p>libyaml 0.1.6 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9130">CVE-2014-9130</a> (nvd)</li>
+</ul>
+
+
+<p>パッチを適用した yaml-0.1.6 のパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i686-P2.txz">yaml-0.1.6-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P2.txz">yaml-0.1.6-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wireshark 1.10.12]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/02/09/wireshark-1-dot-10-dot-12/"/>
+    <updated>2015-02-09T17:22:46+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/02/09/wireshark-1-dot-10-dot-12</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む wireshark 1.10.12 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-01.html">wnpa-sec-2015-01 · WCCP dissector crash</a></li>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-02.html">wnpa-sec-2015-02 · LPP dissector crash</a></li>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-03.html">wnpa-sec-2015-03 · DEC DNA Routing Protocol dissector crash</a></li>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-04.html">wnpa-sec-2015-04 · SMTP dissector crash</a></li>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-05.html">wnpa-sec-2015-05 · TLS/SSL decryption crash</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.12-i686-P1.txz">wireshark-1.10.12-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.12-x86_64-P1.txz">wireshark-1.10.12-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ntp 4.2.8p1]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/02/09/ntp-4-dot-2-8p1/"/>
+    <updated>2015-02-09T17:19:11+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/02/09/ntp-4-dot-2-8p1</id>
+    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://jvn.jp/vu/JVNVU96605606/">JVNVU#96605606: Network Time Protocol daemon (ntpd) に複数の脆弱性</a> (jvn)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p1-i686-P1.txz">ntp-4.2.8p1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p1-x86_64-P1.txz">ntp-4.2.8p1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Httpd 2.4.12]]></title>
@@ -52,72 +122,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/util_linux-2.25.2-i686-P1.txz">util_linux-2.25.2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/util_linux-2.25.2-x86_64-P1.txz">util_linux-2.25.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Patch 2.7.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/01/30/patch-2-dot-7-3/"/>
-    <updated>2015-01-30T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/01/30/patch-2-dot-7-3</id>
-    <content type="html"><![CDATA[<p>patch 2.7.1 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1196">CVE-2015-1196</a> (NVD)</li>
-</ul>
-
-
-<p>patch 2.7.3 のパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/patch-2.7.3-i686-P1.txz">patch-2.7.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/patch-2.7.3-x86_64-P1.txz">patch-2.7.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[File 5.22]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/01/30/file-5-dot-22/"/>
-    <updated>2015-01-30T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/01/30/file-5-dot-22</id>
-    <content type="html"><![CDATA[<p>file 5.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9621">CVE-2014-9621</a> (NVD)</li>
-</ul>
-
-
-<p>file 5.22 のパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/file-5.22-i686-P1.txz">file-5.22-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/file-5.22-x86_64-P1.txz">file-5.22-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mailx 12.5]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/01/29/mailx-12-dot-5/"/>
-    <updated>2015-01-29T16:15:16+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/01/29/mailx-12-dot-5</id>
-    <content type="html"><![CDATA[<p>mailx にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1162783">Bug 1162783 &ndash; CVE-2004-2771 CVE-2014-7844 mailx: command execution flaw</a> (Red Hat Bugzilla)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/mailx-12.5-i686-P1.txz">mailx-12.5-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/mailx-12.5-x86_64-P1.txz">mailx-12.5-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
