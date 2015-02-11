@@ -1,0 +1,19 @@
+---
+layout: post
+title: "LXC　空間を歩む　十九歩め"
+date: 2015-02-11 15:13:18 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第19回　LXCの構築・活用 [5] ─いろいろなストレージバックエンドの利用](http://gihyo.jp/admin/serial/01/linux_containers/0019)
+
+なんか頭の中グルグルになってます。ホスト（ベース）マシンのファイルシステムは ext4 で、その上で利用できるって事かなぁ？ < bar-mtomi
+
+>
+    ストレージバックエンドの種類
+    コピーによるクローン
+    aufs，overlayfsを使ったクローン
+    overlayfs，aufsを使ったクローンの際の注意点
+    まとめ
+    LXC 1.1.0
