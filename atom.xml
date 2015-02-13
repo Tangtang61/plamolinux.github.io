@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-02-13T15:35:03+09:00</updated>
+  <updated>2015-02-13T18:14:39+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Grep 2.20]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/02/13/grep-2-dot-20/"/>
+    <updated>2015-02-13T18:10:19+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/02/13/grep-2-dot-20</id>
+    <content type="html"><![CDATA[<p>grep 2.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://debbugs.gnu.org/cgi/bugreport.cgi?bug=19563">#19563 &ndash; grep -F: fix a heap buffer (read) overrun &ndash; GNU bug report logs</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/grep-2.20-i686-P2.txz">grep-2.20-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/grep-2.20-x86_64-P2.txz">grep-2.20-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sudo 1.8.12]]></title>
@@ -488,25 +510,6 @@ overlayfsの将来
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.40.0-x86_64-P1.txz">curl-7.40.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十七歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/01/16/lxc-gihyo-17/"/>
-    <updated>2015-01-16T16:40:03+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/01/16/lxc-gihyo-17</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0017">第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用</a></p>
-
-<p>一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>一般ユーザでコンテナを利用できるディストリビューション
-一般ユーザでコンテナを利用する場合のOSでの準備
-UbuntuのLXCパッケージ使用時の各種パス
-一般ユーザでコンテナを利用する場合のLXCの設定
-一般ユーザでのコンテナの起動
-まとめ
-</code></pre></blockquote>
 ]]></content>
   </entry>
   

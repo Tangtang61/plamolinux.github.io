@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-02-13T15:36:17+09:00</updated>
+  <updated>2015-02-13T18:15:28+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Grep 2.20]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/02/13/grep-2-dot-20/"/>
+    <updated>2015-02-13T18:10:19+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/02/13/grep-2-dot-20</id>
+    <content type="html"><![CDATA[<p>grep 2.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://debbugs.gnu.org/cgi/bugreport.cgi?bug=19563">#19563 &ndash; grep -F: fix a heap buffer (read) overrun &ndash; GNU bug report logs</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/grep-2.20-i686-P2.txz">grep-2.20-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/grep-2.20-x86_64-P2.txz">grep-2.20-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sudo 1.8.12]]></title>
@@ -100,28 +122,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p1-i686-P1.txz">ntp-4.2.8p1-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p1-x86_64-P1.txz">ntp-4.2.8p1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Httpd 2.4.12]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/02/03/httpd-2-dot-4-12/"/>
-    <updated>2015-02-03T19:23:35+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/02/03/httpd-2-dot-4-12</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.12 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.12 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.12-i586-P1.txz">httpd-2.4.12-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.12-x86_64-P1.txz">httpd-2.4.12-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
