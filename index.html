@@ -9,9 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第19回　LXCの構築・活用 [5] ─いろいろなストレージバックエンドの利用 なんか頭の中グルグルになってます。ホスト（ベース）マシンのファイルシステムは ext4 で、その上で利用できるって事かなぁ？ &lt; bar-mtomi ストレージバックエンドの種類
-コピーによるクローン
-aufs &hellip;">
+  <meta name="description" content="sudo にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Arbitrary file access via TZ environment variable 対策パッケージをリリースしました。 sudo-1.8.12-i686-P1.txz (32bit)
+sudo-1.8. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +74,55 @@ aufs &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/13/sudo-1-dot-8-12/">Sudo 1.8.12</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-13T15:32:40+09:00" pubdate data-updated="true">Feb 13<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>sudo にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.sudo.ws/sudo/alerts/tz.html">Arbitrary file access via TZ environment variable</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/sudo-1.8.12-i686-P1.txz">sudo-1.8.12-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/sudo-1.8.12-x86_64-P1.txz">sudo-1.8.12-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -572,55 +620,6 @@ overlayfsの将来
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/30/file-5-dot-22/">File 5.22</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-30T00:00:00+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>file 5.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9621">CVE-2014-9621</a> (NVD)</li>
-</ul>
-
-
-<p>file 5.22 のパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/file-5.22-i686-P1.txz">file-5.22-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/file-5.22-x86_64-P1.txz">file-5.22-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -634,6 +633,12 @@ overlayfsの将来
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1226,10 +1231,14 @@ overlayfsの将来
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (81)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (72)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (19)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (82)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (73)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (19)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/02/13/sudo-1-dot-8-12/">Sudo 1.8.12</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/02/11/lxc-gihyo-19/">LXC　空間を歩む　十九歩め</a>
@@ -1245,10 +1254,6 @@ overlayfsの将来
     
       <li class="post">
         <a href="/blog/2015/02/09/ntp-4-dot-2-8p1/">Ntp 4.2.8p1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/02/03/httpd-2-dot-4-12/">Httpd 2.4.12</a>
       </li>
     
   </ul>
