@@ -13,5 +13,5 @@ categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 
 パッケージをリリースしました．
 
-* [freetype-2.5.5-i586-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/TTfont.txz/freetype-2.5.5-i586-P1.txz)
+* [freetype-2.5.5-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/TTfont.txz/freetype-2.5.5-i686-P1.txz)
 * [freetype-2.5.5-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/TTfont.txz/freetype-2.5.5-x86_64-P1.txz)
