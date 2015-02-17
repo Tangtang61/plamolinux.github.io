@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-02-13T21:06:25+09:00</updated>
+  <updated>2015-02-17T15:59:38+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Freetype 2.5.5]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/02/17/freetype-2-dot-5-5/"/>
+    <updated>2015-02-17T15:51:12+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/02/17/freetype-2-dot-5-5</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む freetype 2.5.5 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/</a></li>
+<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.5/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.5/</a></li>
+<li>その他 CVE-2014-9656 〜 CVE-2014-9675 までの修正が行われています。<a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9675">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9675</a> 等をご覧ください。</li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/TTfont.txz/freetype-2.5.5-i686-P1.txz">freetype-2.5.5-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/TTfont.txz/freetype-2.5.5-x86_64-P1.txz">freetype-2.5.5-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[E2fsprogs]]></title>
@@ -96,32 +120,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i686-P2.txz">yaml-0.1.6-i686-P2.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P2.txz">yaml-0.1.6-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wireshark 1.10.12]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/02/09/wireshark-1-dot-10-dot-12/"/>
-    <updated>2015-02-09T17:22:46+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/02/09/wireshark-1-dot-10-dot-12</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む wireshark 1.10.12 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-01.html">wnpa-sec-2015-01 · WCCP dissector crash</a></li>
-<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-02.html">wnpa-sec-2015-02 · LPP dissector crash</a></li>
-<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-03.html">wnpa-sec-2015-03 · DEC DNA Routing Protocol dissector crash</a></li>
-<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-04.html">wnpa-sec-2015-04 · SMTP dissector crash</a></li>
-<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-05.html">wnpa-sec-2015-05 · TLS/SSL decryption crash</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.12-i686-P1.txz">wireshark-1.10.12-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.12-x86_64-P1.txz">wireshark-1.10.12-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
