@@ -362,7 +362,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2015/01/26/php-5-dot-6-5/</loc>
-        <lastmod>2015-02-04T16:48:00+09:00</lastmod>
+        <lastmod>2015-02-24T19:19:11+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2015/01/27/jasper-1-dot-900-dot-1/</loc>
@@ -433,12 +433,20 @@
         <lastmod>2015-02-17T15:58:04+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2015/02/24/php-5-dot-6-6/</loc>
+        <lastmod>2015-02-24T19:16:25+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2015/02/24/bind-9-dot-9-6-p2/</loc>
+        <lastmod>2015-02-24T19:24:20+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/about/</loc>
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2015-02-17T15:58:04+09:00</lastmod>
+        <lastmod>2015-02-24T19:24:20+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -450,7 +458,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2015-02-17T15:58:04+09:00</lastmod>
+        <lastmod>2015-02-24T19:24:20+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>

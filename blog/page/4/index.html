@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む ruby 2.0.0-p598 がリリースされています。詳しくは以下をご覧ください。 Ruby 2.0.0-p598 リリース パッケージをリリースしました。 ruby-2.0.0_p598-i586-P1.txz (32bit)
-ruby-2.0.0_p598- &hellip;">
+  <meta name="description" content="bind にセキュリティホールが発見されています．詳しくは以下をご覧ください． （緊急）複数のDNSソフトウェアにおける脆弱性（システム資源の過度な消費）について（2014年12月9日公開） パッケージをリリースしました． bind-9.9.6_P1-i586-P1.txz (32bit) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,102 @@ ruby-2.0.0_p598- &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/09/bind-9-dot-9-6-p1/">Bind 9.9.6-P1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-09T16:05:14+09:00" pubdate data-updated="true">Dec 9<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://jprs.jp/tech/security/2014-12-09-multiple-impl-vuln-delegation-limit.html">（緊急）複数のDNSソフトウェアにおける脆弱性（システム資源の過度な消費）について（2014年12月9日公開）</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.6_P1-i586-P1.txz">bind-9.9.6_P1-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.6_P1-x86_64-P1.txz">bind-9.9.6_P1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/07/lxc-gihyo-15/">LXC　空間を歩む　十五歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-07T17:11:50+09:00" pubdate data-updated="true">Dec 7<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0015">第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う</a></p>
+
+<p>今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Linuxにおける主なサウンドシステム・サウンドサーバ
+OSSを経由してサウンドを出力する
+コンテナ内でサウンドを出力する（OSS）
+コンテナ内でサウンドを出力する（ALSA）
+非特権コンテナ内でサウンドを出力する
+サウンドサーバを使ってコンテナ内のサウンドを出力する
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -452,110 +547,6 @@ ruby-2.0.0_p598- &hellip;">
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/21/php-5-dot-5-18/">Php 5.5.18</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-21T20:53:29+09:00" pubdate data-updated="true">Oct 21<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む PHP 5.5.18 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.php.net/ChangeLog-5.php#5.5.18">PHP 5 ChangeLog</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.5.18-i586-P1.txz">php-5.5.18-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.5.18-x86_64-P1.txz">php-5.5.18-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/20/firefox-33-dot-0/">Firefox 33.0</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-20T16:35:45+09:00" pubdate data-updated="true">Oct 20<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む firefox 33.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/33.0/releasenotes/">Firefox 33.0 リリースノート</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．<a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201409/msg00000.html">但し 32bit 版はコンパイラの最適化を無効にしています</a>。nss パッケージも同時に Update する必要があります。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.17.2-i586-P1.txz">nss-3.17.2-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-33.0-i586-P1.txz">firefox-33.0-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.17.2-x86_64-P1.txz">nss-3.17.2-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-33.0-x86_64-P1.txz">firefox-33.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -571,6 +562,18 @@ ruby-2.0.0_p598- &hellip;">
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1187,10 +1190,18 @@ ruby-2.0.0_p598- &hellip;">
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (85)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (76)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (19)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (87)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (78)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (19)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/02/24/bind-9-dot-9-6-p2/">Bind 9.9.6-P2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/02/24/php-5-dot-6-6/">Php 5.6.6</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/02/17/freetype-2-dot-5-5/">Freetype 2.5.5</a>
@@ -1202,14 +1213,6 @@ ruby-2.0.0_p598- &hellip;">
     
       <li class="post">
         <a href="/blog/2015/02/13/grep-2-dot-20/">Grep 2.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/02/13/sudo-1-dot-8-12/">Sudo 1.8.12</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/02/11/lxc-gihyo-19/">LXC　空間を歩む　十九歩め</a>
       </li>
     
   </ul>
