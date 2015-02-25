@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　十八歩め - Plamo Linux</title>
+  <title>LXC　空間を歩む　二十歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi overlayfsとは &hellip;">
+  <meta name="description" content="*第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2） もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi Btrfsをストレージバックエンドとして使う場合の準備
+Btrfsを使ったコンテナの作成
+Btrfsを使ったコンテナのクローン &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +72,7 @@
   
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　十八歩め</h1>
+      <h1 class="entry-title">LXC　空間を歩む　二十歩め</h1>
     
     
       <p class="meta">
@@ -86,23 +88,21 @@
   
 
 
-<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+<time datetime="2015-02-25T14:28:51+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
+<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0020">第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2）</a></p>
 
-<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
+<p> もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi</p>
 
-<blockquote><pre><code>overlayfsとは
-overlayfsを使ってみる
-3.18カーネルのoverlayfs
-opaque（不透明）ディレクトリ
-overlayfsを使う上での注意
-overlayfsの将来
+<blockquote><pre><code>Btrfsをストレージバックエンドとして使う場合の準備
+Btrfsを使ったコンテナの作成
+Btrfsを使ったコンテナのクローン
+Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
 まとめ
 </code></pre></blockquote>
 </div>
@@ -127,7 +127,7 @@ overlayfsの将来
   
 
 
-<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+<time datetime="2015-02-25T14:28:51+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
       
 
 <span class="categories">
@@ -141,7 +141,7 @@ overlayfsの将来
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20/" >Tweet</a>
   
   
   
@@ -150,10 +150,8 @@ overlayfsの将来
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/01/30/util-linux-2-dot-25-dot-2/" title="Previous Post: util-linux 2.25.2">&laquo; util-linux 2.25.2</a>
+        <a class="basic-alignment left" href="/blog/2015/02/24/bind-9-dot-9-6-p2/" title="Previous Post: bind 9.9.6-P2">&laquo; bind 9.9.6-P2</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/02/02/plamo-5-dot-3-1-release/" title="Next Post: Plamo 5.3.1 リリース">Plamo 5.3.1 リリース &raquo;</a>
       
     </p>
   </footer>

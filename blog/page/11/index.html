@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="libtiff にセキュリティホールが発見されています．詳しくは以下をご覧ください． CVE-2013-4231 パッチを適用したパッケージをリリースしました． tiff-4.0.3-i586-P2.txz (32bit)
-tiff-4.0.3-x86_64-P2.txz (64bit) ">
+  <meta name="description" content="libimobiledevice にセキュリティホールが発見されています．詳しくは以下をご覧ください． CVE-2013-2142 パッチを適用したパッケージをリリースしました． libimobiledevice-1.1.4-i586-P3.txz (32bit)
+libimobiledevice &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,55 @@ tiff-4.0.3-x86_64-P2.txz (64bit) ">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/27/libimobiledevice-1-dot-1-4-p3/">Libimobiledevice 1.1.4</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-27T16:20:27+09:00" pubdate data-updated="true">Jan 27<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>libimobiledevice にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2142">CVE-2013-2142</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/gnome_parts.txz/libimobiledevice-1.1.4-i586-P3.txz">libimobiledevice-1.1.4-i586-P3.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/gnome_parts.txz/libimobiledevice-1.1.4-x86_64-P3.txz">libimobiledevice-1.1.4-x86_64-P3.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -572,65 +621,9 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/01/25/plamo-virtual-env-1/">Plamo Linux における仮想化環境(1)</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-01-25T12:20:55+09:00" pubdate data-updated="true">Jan 25<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo Linux 上で使える仮想化技術について書いてみたいと思います．</p>
-
-<p>仮想化の技術も一般的になり，一つのサーバ上で複数の仮想マシンを動かしたり，デスクトップ機上でも評価やお試しのために仮想マシンを動かしたりすることが多くなってきていると思います．</p>
-
-<p>Linux 自身も kernel が持つ機能を使った kvm という仕組みを使って仮想マシンを動かすことが可能なのはご存知な方も多いと思います．Plamo Linux をサーバとして，その上でサーバ目的の仮想マシンを動かす，ということはあまりないかもしれませんが，普段使っているデスクトップ上で仮想マシンを動かしてみたい事は多いと思います．</p>
-
-<p>今リリースされている Plamo64-1.0 では，仮想マシンを動かす事が可能なパッケージを contrib に作成しています (Plamo-4.73 の頃から徐々に整備していってました)．仮想化環境を構築するのに関係するパッケージは contrib 以下の Virtualization ディレクトリにまとめています．</p>
-
-<p>Plamo Linux では以下の仕組みを使った仮想マシンを動かすためのパッケージが揃っています．</p>
-
-<ul>
-<li>ハイパーバイザ型仮想マシンである KVM</li>
-<li>コンテナ型仮想マシンである lxc (Linux Container)</li>
-</ul>
-
-
-<p>ハイパーバイザ型は，一般的にまず「仮想マシン」と聞いた時に思い浮かべるタイプで KVM もこちらに入ります．こちらは情報も多いですし，イメージもわきやすいかと思います．Linux 上で他の OS を動かすことも可能です．</p>
-
-<p>それに対して，コンテナ型は既存カーネルの上で複数の隔離された環境を動かすものです．こちらはあまり聞いたことがない方も多いかと思います．普通の Linux 環境でも chroot を使って独立したツリー構造の下でコマンドを実行することは可能ですが，コンテナはこのような環境より更に隔離レベルが上がっており，それぞれの環境内でネットワークやユーザ(uid/gid)等が独立して定義可能です．</p>
-
-<p>このような仕組みなので，Windows や FreeBSD を動かすことは出来ません．異なる Linux ディストリビューションを動かすことは可能ですが，カーネルは共通なので厳密に Plamo の上で Debian を動かせたとしても，全く Debian と同じではありませんが，ライブラリやコマンド類は Debian のパッケージがインストールされますので，Debian と同じように使用可能です．コンテナはカーネルに入っている様々な機能を組み合わせて実現しますが，それを簡単につかえるツールとしてまとめたものに lxcというものがあります．他に libvirt というライブラリを通して linux のコンテナを扱う事も可能です．</p>
-
-<p>最近の Ubuntu や Redhat や Debian でも当然両方とも動かすことは可能ですが，Plamo でもこの両方を扱う事が可能になっています．</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
+    
+      <a class="prev" href="/blog/page/12/">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
@@ -643,6 +636,10 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1271,10 +1268,14 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (87)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (78)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (19)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (87)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (78)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (20)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/02/25/lxc-gihyo-20/">LXC　空間を歩む　二十歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/02/24/bind-9-dot-9-6-p2/">Bind 9.9.6-P2</a>
@@ -1290,10 +1291,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     
       <li class="post">
         <a href="/blog/2015/02/13/e2fsprogs/">E2fsprogs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/02/13/grep-2-dot-20/">Grep 2.20</a>
       </li>
     
   </ul>

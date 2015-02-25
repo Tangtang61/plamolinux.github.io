@@ -9,8 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="bind にセキュリティホールが発見されています．詳しくは以下をご覧ください． BIND 9.xの脆弱性（DNSサービスの停止）について（2015年2月19日公開） (JPRS) パッケージをリリースしました． bind-9.9.6_P2-i686-P1.txz (32bit)
-bind-9.9. &hellip;">
+  <meta name="description" content="*第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2） もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi Btrfsをストレージバックエンドとして使う場合の準備
+Btrfsを使ったコンテナの作成
+Btrfsを使ったコンテナのクローン &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +75,51 @@ bind-9.9. &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/25/lxc-gihyo-20/">LXC　空間を歩む　二十歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-25T14:28:51+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0020">第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2）</a></p>
+
+<p> もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Btrfsをストレージバックエンドとして使う場合の準備
+Btrfsを使ったコンテナの作成
+Btrfsを使ったコンテナのクローン
+Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -519,55 +565,6 @@ LXC 1.1.0
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/09/ntp-4-dot-2-8p1/">Ntp 4.2.8p1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-09T17:19:11+09:00" pubdate data-updated="true">Feb 9<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://jvn.jp/vu/JVNVU96605606/">JVNVU#96605606: Network Time Protocol daemon (ntpd) に複数の脆弱性</a> (jvn)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p1-i686-P1.txz">ntp-4.2.8p1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p1-x86_64-P1.txz">ntp-4.2.8p1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -581,6 +578,10 @@ LXC 1.1.0
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1209,10 +1210,14 @@ LXC 1.1.0
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (87)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (78)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (19)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (87)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (78)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (20)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/02/25/lxc-gihyo-20/">LXC　空間を歩む　二十歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/02/24/bind-9-dot-9-6-p2/">Bind 9.9.6-P2</a>
@@ -1228,10 +1233,6 @@ LXC 1.1.0
     
       <li class="post">
         <a href="/blog/2015/02/13/e2fsprogs/">E2fsprogs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/02/13/grep-2-dot-20/">Grep 2.20</a>
       </li>
     
   </ul>
