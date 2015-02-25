@@ -1,0 +1,18 @@
+---
+layout: post
+title: "LXC　空間を歩む　二十歩め"
+date: 2015-02-25 14:28:51 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2）](http://gihyo.jp/admin/serial/01/linux_containers/0020)
+
+ もう亜空間通信プローブを設けないと理解できない。 < bar-mtomi
+
+>
+    Btrfsをストレージバックエンドとして使う場合の準備
+    Btrfsを使ったコンテナの作成
+    Btrfsを使ったコンテナのクローン
+    Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
+    まとめ
