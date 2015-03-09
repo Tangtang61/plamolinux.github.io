@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-06T19:22:02+09:00</updated>
+  <updated>2015-03-09T17:29:31+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 31.5]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/02/thunderbird-31-dot-5/"/>
+    <updated>2015-03-02T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/02/thunderbird-31-dot-5</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 31.5.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/thunderbird/31.5.0/releasenotes/">Thunderbird 31.5.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-31.5.0-i686-P1.txz">thunderbird-31.5.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-31.5.0-x86_64-P1.txz">thunderbird-31.5.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 36.0]]></title>
@@ -484,28 +506,6 @@ overlayfsの将来
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/file-5.22-i686-P1.txz">file-5.22-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/file-5.22-x86_64-P1.txz">file-5.22-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mailx 12.5]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/01/29/mailx-12-dot-5/"/>
-    <updated>2015-01-29T16:15:16+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/01/29/mailx-12-dot-5</id>
-    <content type="html"><![CDATA[<p>mailx にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1162783">Bug 1162783 &ndash; CVE-2004-2771 CVE-2014-7844 mailx: command execution flaw</a> (Red Hat Bugzilla)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/mailx-12.5-i686-P1.txz">mailx-12.5-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/mailx-12.5-x86_64-P1.txz">mailx-12.5-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
