@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-09T17:29:31+09:00</updated>
+  <updated>2015-03-11T20:15:38+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Xdg-utils 1.1.0-rc3]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3/"/>
+    <updated>2015-03-11T20:11:36+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3</id>
+    <content type="html"><![CDATA[<p>xdg-utils にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugs.freedesktop.org/show_bug.cgi?id=66670">Bug 66670 &ndash; xdg-open: command injection vulnerability </a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/xdg_utils-1.1.0_rc3-noarch-P1.txz">xdg_utils-1.1.0_rc3-noarch-P1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 31.5]]></title>
@@ -101,28 +122,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.6_P2-i686-P1.txz">bind-9.9.6_P2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.6_P2-x86_64-P1.txz">bind-9.9.6_P2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 5.6.6]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/02/24/php-5-dot-6-6/"/>
-    <updated>2015-02-24T19:14:02+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/02/24/php-5-dot-6-6</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.6.6 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jp.php.net/archive/2015.php#id2015-02-19-2">PHP 5.6.6 is available</a> (PHP)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.6.6-i686-P1.txz">php-5.6.6-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.6.6-x86_64-P1.txz">php-5.6.6-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
