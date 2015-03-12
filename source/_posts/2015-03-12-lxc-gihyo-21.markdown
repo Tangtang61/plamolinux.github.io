@@ -1,0 +1,19 @@
+---
+layout: post
+title: "LXC　空間を歩む　二十一歩め"
+date: 2015-03-12 13:20:04 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM）](http://gihyo.jp/admin/serial/01/linux_containers/0021)
+
+色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ < bar-mtomi
+
+>
+    LVMをストレージバックエンドとして使う場合の準備
+    LVMを使ったコンテナ用のシステム設定と作成時のオプション
+    LVMを使ったコンテナの作成
+    LVMを使ったコンテナのクローン
+    Thin Provisioning 機能の利用
+    まとめ
