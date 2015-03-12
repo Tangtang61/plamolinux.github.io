@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-11T20:15:38+09:00</updated>
+  <updated>2015-03-12T13:31:21+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十一歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21/"/>
+    <updated>2015-03-12T13:20:04+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0021">第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM）</a></p>
+
+<p>色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LVMをストレージバックエンドとして使う場合の準備
+LVMを使ったコンテナ用のシステム設定と作成時のオプション
+LVMを使ったコンテナの作成
+LVMを使ったコンテナのクローン
+Thin Provisioning 機能の利用
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十歩め]]></title>
@@ -85,22 +104,6 @@ UbuntuのLXCパッケージ使用時の各種パス
 一般ユーザでコンテナを利用する場合のLXCの設定
 一般ユーザでのコンテナの起動
 まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十六歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2014/12/19/lxc-gihyo-16/"/>
-    <updated>2014-12-19T17:05:24+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2014/12/19/lxc-gihyo-16</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0016">第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間</a></p>
-
-<p>中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar-mtomi</p>
-
-<blockquote><pre><code>ユーザ名前空間
-まとめ
-最近のLXC関連の動き
 </code></pre></blockquote>
 ]]></content>
   </entry>

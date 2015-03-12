@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-11T20:14:52+09:00</updated>
+  <updated>2015-03-12T13:31:21+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十一歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21/"/>
+    <updated>2015-03-12T13:20:04+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0021">第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM）</a></p>
+
+<p>色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LVMをストレージバックエンドとして使う場合の準備
+LVMを使ったコンテナ用のシステム設定と作成時のオプション
+LVMを使ったコンテナの作成
+LVMを使ったコンテナのクローン
+Thin Provisioning 機能の利用
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Xdg-utils 1.1.0-rc3]]></title>
@@ -483,28 +502,6 @@ overlayfsの将来
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/util_linux-2.25.2-i686-P1.txz">util_linux-2.25.2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/util_linux-2.25.2-x86_64-P1.txz">util_linux-2.25.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Patch 2.7.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/01/30/patch-2-dot-7-3/"/>
-    <updated>2015-01-30T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/01/30/patch-2-dot-7-3</id>
-    <content type="html"><![CDATA[<p>patch 2.7.1 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1196">CVE-2015-1196</a> (NVD)</li>
-</ul>
-
-
-<p>patch 2.7.3 のパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/patch-2.7.3-i686-P1.txz">patch-2.7.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/patch-2.7.3-x86_64-P1.txz">patch-2.7.3-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

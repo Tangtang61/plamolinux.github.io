@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Openssl 1.0.1i - Plamo Linux</title>
+  <title>LXC　空間を歩む　二十一歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む OpenSSL 1.0.1i がリリースされています。 詳しくは以下をご覧ください． OpenSSL Security Advisory [6 Aug 2014] パッケージをリリースしました． openssl-1.0.1i-i586-P1.txz (32bit) &hellip;">
+  <meta name="description" content="*第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM） 色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/08/11/openssl-1-dot-0-1i">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +70,7 @@
   
   <header>
     
-      <h1 class="entry-title">Openssl 1.0.1i</h1>
+      <h1 class="entry-title">LXC　空間を歩む　二十一歩め</h1>
     
     
       <p class="meta">
@@ -86,31 +86,24 @@
   
 
 
-<time datetime="2014-08-11T00:00:00+09:00" pubdate data-updated="true">Aug 11<span>th</span>, 2014</time>
+<time datetime="2015-03-12T13:20:04+09:00" pubdate data-updated="true">Mar 12<span>th</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>セキュリティホールの修正を含む OpenSSL 1.0.1i がリリースされています。</p>
+<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0021">第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM）</a></p>
 
-<p>詳しくは以下をご覧ください．</p>
+<p>色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi</p>
 
-<ul>
-<li><a href="http://www.openssl.org/news/secadv_20140806.txt">OpenSSL Security Advisory [6 Aug 2014]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1i-i586-P1.txz">openssl-1.0.1i-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1i-x86_64-P1.txz">openssl-1.0.1i-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
+<blockquote><pre><code>LVMをストレージバックエンドとして使う場合の準備
+LVMを使ったコンテナ用のシステム設定と作成時のオプション
+LVMを使ったコンテナの作成
+LVMを使ったコンテナのクローン
+Thin Provisioning 機能の利用
+まとめ
+</code></pre></blockquote>
 </div>
 
 
@@ -133,12 +126,12 @@
   
 
 
-<time datetime="2014-08-11T00:00:00+09:00" pubdate data-updated="true">Aug 11<span>th</span>, 2014</time>
+<time datetime="2015-03-12T13:20:04+09:00" pubdate data-updated="true">Mar 12<span>th</span>, 2015</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
+    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
   
 </span>
 
@@ -147,7 +140,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/08/11/openssl-1-dot-0-1i/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/08/11/openssl-1-dot-0-1i/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21/" >Tweet</a>
   
   
   
@@ -156,10 +149,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/08/05/glibc-gcc/" title="Previous Post: glibc, gccなどの更新">&laquo; glibc, gccなどの更新</a>
+        <a class="basic-alignment left" href="/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3/" title="Previous Post: xdg-utils 1.1.0-rc3">&laquo; xdg-utils 1.1.0-rc3</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/08/12/file-5-dot-19/" title="Next Post: file 5.19">file 5.19 &raquo;</a>
       
     </p>
   </footer>
