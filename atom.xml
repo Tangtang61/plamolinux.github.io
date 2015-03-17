@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-12T13:31:21+09:00</updated>
+  <updated>2015-03-17T20:33:05+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libgcrypt 1.5.4]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/17/libgcrypt-1-dot-5-4/"/>
+    <updated>2015-03-17T20:29:52+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/17/libgcrypt-1-dot-5-4</id>
+    <content type="html"><![CDATA[<p>libgcrypt にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1198145">https://bugzilla.redhat.com/show_bug.cgi?id=1198145</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1198147">https://bugzilla.redhat.com/show_bug.cgi?id=1198147</a></li>
+</ul>
+
+
+<p>パッチを適用した対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-i686-P2.txz">libgcrypt-1.5.4-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-x86_64-P2.txz">libgcrypt-1.5.4-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十一歩め]]></title>
@@ -482,28 +505,6 @@ overlayfsを使う上での注意
 overlayfsの将来
 まとめ
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Util-linux 2.25.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/01/30/util-linux-2-dot-25-dot-2/"/>
-    <updated>2015-01-30T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/01/30/util-linux-2-dot-25-dot-2</id>
-    <content type="html"><![CDATA[<p>util-linux 2.25.2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1168485">Bug 1168485 &ndash; CVE-2014-9114 util-linux: command injection flaw in blkid</a> (Red Hat Bugzilla)</li>
-</ul>
-
-
-<p>パッチを適用した util-linux-2.25.2 のパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/util_linux-2.25.2-i686-P1.txz">util_linux-2.25.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/util_linux-2.25.2-x86_64-P1.txz">util_linux-2.25.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   

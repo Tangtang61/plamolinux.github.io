@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-12T13:31:21+09:00</updated>
+  <updated>2015-03-17T20:33:56+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libgcrypt 1.5.4]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/17/libgcrypt-1-dot-5-4/"/>
+    <updated>2015-03-17T20:29:52+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/17/libgcrypt-1-dot-5-4</id>
+    <content type="html"><![CDATA[<p>libgcrypt にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1198145">https://bugzilla.redhat.com/show_bug.cgi?id=1198145</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1198147">https://bugzilla.redhat.com/show_bug.cgi?id=1198147</a></li>
+</ul>
+
+
+<p>パッチを適用した対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-i686-P2.txz">libgcrypt-1.5.4-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-x86_64-P2.txz">libgcrypt-1.5.4-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Xdg-utils 1.1.0-rc3]]></title>
@@ -100,28 +123,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/samba-3.6.25-i686-P1.txz">samba-3.6.25-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/samba-3.6.25-x86_64-P1.txz">samba-3.6.25-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.6-P2]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/02/24/bind-9-dot-9-6-p2/"/>
-    <updated>2015-02-24T19:18:32+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/02/24/bind-9-dot-9-6-p2</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://jprs.jp/tech/security/2015-02-19-bind9-vuln-managed-trust-anchors.html">BIND 9.xの脆弱性（DNSサービスの停止）について（2015年2月19日公開）</a> (JPRS)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.6_P2-i686-P1.txz">bind-9.9.6_P2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.6_P2-x86_64-P1.txz">bind-9.9.6_P2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
