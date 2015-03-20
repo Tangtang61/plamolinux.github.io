@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　二十歩め - Plamo Linux</title>
+  <title>Libssh2 1.5.0 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2） もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi Btrfsをストレージバックエンドとして使う場合の準備
-Btrfsを使ったコンテナの作成
-Btrfsを使ったコンテナのクローン &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む libssh2 1.5.0 がリリースされています。詳しくは以下をご覧ください。 Using SSH_MSG_KEXINIT data unbounded パッケージをリリースしました． libssh2-1.5.0-i686-P1.txz (32bit) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ Btrfsを使ったコンテナのクローン &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/03/20/libssh2-1-dot-5-0">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -72,7 +70,7 @@ Btrfsを使ったコンテナのクローン &hellip;">
   
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　二十歩め</h1>
+      <h1 class="entry-title">Libssh2 1.5.0</h1>
     
     
       <p class="meta">
@@ -88,23 +86,27 @@ Btrfsを使ったコンテナのクローン &hellip;">
   
 
 
-<time datetime="2015-02-25T14:28:51+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
+<time datetime="2015-03-20T18:38:17+09:00" pubdate data-updated="true">Mar 20<span>th</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0020">第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2）</a></p>
+<div class="entry-content"><p>セキュリティホールの修正を含む libssh2 1.5.0 がリリースされています。詳しくは以下をご覧ください。</p>
 
-<p> もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi</p>
+<ul>
+<li><a href="http://www.libssh2.org/adv_20150311.html">Using SSH_MSG_KEXINIT data unbounded</a></li>
+</ul>
 
-<blockquote><pre><code>Btrfsをストレージバックエンドとして使う場合の準備
-Btrfsを使ったコンテナの作成
-Btrfsを使ったコンテナのクローン
-Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
-まとめ
-</code></pre></blockquote>
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/libssh2-1.5.0-i686-P1.txz">libssh2-1.5.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/libssh2-1.5.0-x86_64-P1.txz">libssh2-1.5.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
 </div>
 
 
@@ -127,12 +129,12 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
   
 
 
-<time datetime="2015-02-25T14:28:51+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
+<time datetime="2015-03-20T18:38:17+09:00" pubdate data-updated="true">Mar 20<span>th</span>, 2015</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
+    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
   
 </span>
 
@@ -141,7 +143,7 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/03/20/libssh2-1-dot-5-0/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/03/20/libssh2-1-dot-5-0/" >Tweet</a>
   
   
   
@@ -150,10 +152,8 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/02/24/bind-9-dot-9-6-p2/" title="Previous Post: bind 9.9.6-P2">&laquo; bind 9.9.6-P2</a>
+        <a class="basic-alignment left" href="/blog/2015/03/20/openssl-1-dot-0-1m/" title="Previous Post: OpenSSL 1.0.1m">&laquo; OpenSSL 1.0.1m</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/02/25/samba-3-dot-6-25/" title="Next Post: samba 3.6.25">samba 3.6.25 &raquo;</a>
       
     </p>
   </footer>
