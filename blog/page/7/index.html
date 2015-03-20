@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む PHP 5.5.16 がリリースされています．詳しくは以下をご覧ください． PHP 5 ChangeLog パッケージをリリースしました． php-5.5.16-i586-P1.txz (32bit)
-php-5.5.16-x86_64-P1.txz (64bit &hellip;">
+  <meta name="description" content="*第8回　LXCの基本操作［1］ 各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi Ubuntuパッケージ使用時の各種パス &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,55 @@ php-5.5.16-x86_64-P1.txz (64bit &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/28/lxc-gihyo-08/">LXC　空間を歩む　八歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-28T21:45:50+09:00" pubdate data-updated="true">Aug 28<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
+
+<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
+Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
+共通オプション
+コンテナの作成 ? lxc-create
+コンテナの情報表示 ? lxc-ls, lxc-info
+コンテナの起動 ? lxc-start
+コンテナの停止・リブート ? lxc-stop
+コンテナ内での作業
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -524,55 +572,6 @@ LXC日本語ページの移行
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/07/11/samba-3-dot-6-24/">Samba 3.6.24</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-07-11T18:48:30+09:00" pubdate data-updated="true">Jul 11<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>samba にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.samba.org/samba/latest_news.html#4.1.9">Samba 4.1.9, 4.0.19 and 3.6.24 Security Releases Available for Download</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/samba-3.6.24-i586-P1.txz">samba-3.6.24-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/samba-3.6.24-x86_64-P1.txz">samba-3.6.24-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -588,6 +587,12 @@ LXC日本語ページの移行
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1254,10 +1259,14 @@ LXC日本語ページの移行
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (92)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (83)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (21)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (93)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (84)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (21)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/03/20/openssl-1-dot-0-1m/">OpenSSL 1.0.1m</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/03/17/libgcrypt-1-dot-5-4/">Libgcrypt 1.5.4</a>
@@ -1273,10 +1282,6 @@ LXC日本語ページの移行
     
       <li class="post">
         <a href="/blog/2015/03/02/thunderbird-31-dot-5/">Thunderbird 31.5</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/01/firefox-36-dot-0/">Firefox 36.0</a>
       </li>
     
   </ul>
