@@ -2,7 +2,7 @@
 layout: post
 title: "OpenSSL 1.0.1m"
 date: 2015-03-20 18:26:36 +0900
-comments: true
+comments: false
 categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 ---
 
