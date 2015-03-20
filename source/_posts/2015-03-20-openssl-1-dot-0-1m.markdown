@@ -1,0 +1,16 @@
+---
+layout: post
+title: "OpenSSL 1.0.1m"
+date: 2015-03-20 18:26:36 +0900
+comments: true
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+
+セキュリティホールの修正を含む OpenSSL 1.0.1m がリリースされています。詳しくは以下をご覧ください。
+
+* [OpenSSL Security Advisory [19 Mar 2015]](http://www.openssl.org/news/secadv_20150319.txt)
+
+パッケージをリリースしました．
+
+* [openssl-1.0.1m-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1m-i686-P1.txz)
+* [openssl-1.0.1m-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1m-x86_64-P1.txz)
