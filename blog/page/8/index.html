@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク 加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む firefox 31.0 がリリースされています。詳しくは以下をご覧ください。 Firefox 31.0 リリースノート パッケージをリリースしました．sqlite, nss パッケージも同時に Update する必要があります． sqlite-3.8.5-i586 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,59 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/07/25/firefox-31-dot-0/">firefox-31.0</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-25T14:55:50+09:00" pubdate data-updated="true">Jul 25<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む firefox 31.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/31.0/releasenotes/">Firefox 31.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．sqlite, nss パッケージも同時に Update する必要があります．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/sqlite-3.8.5-i586-P1.txz">sqlite-3.8.5-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.16.3-i586-P1.txz">nss-3.16.3-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-31.0-i586-P1.txz">firefox-31.0-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/sqlite-3.8.5-x86_64-P1.txz">sqlite-3.8.5-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.16.3-x86_64-P1.txz">nss-3.16.3-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-31.0-x86_64-P1.txz">firefox-31.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -519,52 +572,6 @@ LXC-JPグループ
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC　空間を歩む　三歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-06-12T12:46:27+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
-</ul>
-
-
-<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>cgroupファイルシステム
-cgroupの階層構造
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/9/">&larr; Older</a>
@@ -580,6 +587,12 @@ cgroupの階層構造
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1264,10 +1277,14 @@ cgroupの階層構造
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (95)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (86)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (21)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (96)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (87)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (21)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/03/23/librsvg-2-dot-40-dot-8/">Librsvg 2.40.8</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/03/23/php-5-dot-6-7/">Php 5.6.7</a>
@@ -1283,10 +1300,6 @@ cgroupの階層構造
     
       <li class="post">
         <a href="/blog/2015/03/17/libgcrypt-1-dot-5-4/">Libgcrypt 1.5.4</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/12/lxc-gihyo-21/">LXC　空間を歩む　二十一歩め</a>
       </li>
     
   </ul>

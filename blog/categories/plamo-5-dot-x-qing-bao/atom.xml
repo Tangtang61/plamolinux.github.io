@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-23T15:34:45+09:00</updated>
+  <updated>2015-03-23T18:40:05+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Librsvg 2.40.8]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/23/librsvg-2-dot-40-dot-8/"/>
+    <updated>2015-03-23T18:33:45+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/23/librsvg-2-dot-40-dot-8</id>
+    <content type="html"><![CDATA[<p>librsvg 2.40.8 のパッケージをリリースしました。2.40.7 にはセキュリティホールの修正が含まれているようです。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/librsvg-2.40.8-i686-P1.txz">librsvg-2.40.8-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/librsvg-2.40.8-x86_64-P1.txz">librsvg-2.40.8-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 5.6.7]]></title>
@@ -97,27 +112,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-i686-P2.txz">libgcrypt-1.5.4-i686-P2.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-x86_64-P2.txz">libgcrypt-1.5.4-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Xdg-utils 1.1.0-rc3]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3/"/>
-    <updated>2015-03-11T20:11:36+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3</id>
-    <content type="html"><![CDATA[<p>xdg-utils にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugs.freedesktop.org/show_bug.cgi?id=66670">Bug 66670 &ndash; xdg-open: command injection vulnerability </a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/xdg_utils-1.1.0_rc3-noarch-P1.txz">xdg_utils-1.1.0_rc3-noarch-P1.txz</a></li>
 </ul>
 
 ]]></content>
