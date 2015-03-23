@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む Apache httpd 2.4.10 がリリースされています．詳しくは以下をご覧ください． Apache HTTP Server 2.4.10 Released
-Apache HTTP Server 2.4.10 がリリースされました パッケージをリリースしました &hellip;">
+  <meta name="description" content="第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク 加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,55 @@ Apache HTTP Server 2.4.10 がリリースされました パッケージをリ�
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/07/24/lxc-gihyo-06/">LXC　空間を歩む　六歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-24T21:05:48+09:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0006?ard=1406203785">第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク</a></li>
+</ul>
+
+
+<p>加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>コンテナとネットワーク名前空間
+ホストのインターフェースの使用
+veth
+macvlan
+まとめ
+LXC日本語ページの移行
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -517,55 +565,6 @@ cgroupの階層構造
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/06/10/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-06-10T00:34:39+09:00" pubdate data-updated="true">Jun 10<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>GnuTLS にセキュリティホールが見つかっています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.gnutls.org/security.html#GNUTLS-SA-2014-3">GNUTLS-SA-2014-3(CVE-2014-1959)</a></li>
-</ul>
-
-
-<p>パッチを適用したパッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i586-P4.txz">gnutls-2.12.23-i586-P4.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P4.txz">gnutls-2.12.23-x86_64-P4.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/9/">&larr; Older</a>
@@ -581,6 +580,12 @@ cgroupの階層構造
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1259,10 +1264,14 @@ cgroupの階層構造
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (94)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (85)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (21)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (95)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (86)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (21)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/03/23/php-5-dot-6-7/">Php 5.6.7</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/03/20/libssh2-1-dot-5-0/">Libssh2 1.5.0</a>
@@ -1278,10 +1287,6 @@ cgroupの階層構造
     
       <li class="post">
         <a href="/blog/2015/03/12/lxc-gihyo-21/">LXC　空間を歩む　二十一歩め</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3/">Xdg-utils 1.1.0-rc3</a>
       </li>
     
   </ul>
