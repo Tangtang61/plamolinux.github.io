@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Plamo Linux の Download"
-date: 2013-11-25 00:05
+date: 2015-03-23 00:00
 comments: false
 sharing: false
 footer: true
@@ -15,3 +15,8 @@ Plamo Linux は以下のサイトからダウンロード可能です．
 
 plamo.linet.gr.jp はおうちサーバで回線が遅いので ftp.ne.jp か ring をおすすめします．
 
+最新版のツリーのみ以下からも取得できます。
+
+* repository.plamolinux.org
+    * パッケージツリー : http://repository.plamolinux.org/pub/linux/Plamo/
+    * ISOイメージ : http://repository.plamolinux.org/isos/
