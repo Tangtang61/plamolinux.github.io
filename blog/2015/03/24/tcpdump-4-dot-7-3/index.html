@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　十八歩め - Plamo Linux</title>
+  <title>Tcpdump 4.7.3 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi overlayfsとは &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む tcpdump 4.7.3 がリリースされています。詳しくは以下をご覧ください。 tcpdump 4.7.2 remote crashes パッケージをリリースしました。(libpcap も同時に更新しました) libpcap-1.7.2-i686-P1.txz ( &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/03/24/tcpdump-4-dot-7-3">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +70,7 @@
   
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　十八歩め</h1>
+      <h1 class="entry-title">Tcpdump 4.7.3</h1>
     
     
       <p class="meta">
@@ -86,25 +86,29 @@
   
 
 
-<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+<time datetime="2015-03-24T17:39:54+09:00" pubdate data-updated="true">Mar 24<span>th</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
+<div class="entry-content"><p>セキュリティホールの修正を含む tcpdump 4.7.3 がリリースされています。詳しくは以下をご覧ください。</p>
 
-<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
+<ul>
+<li><a href="http://seclists.org/bugtraq/2015/Mar/33">tcpdump 4.7.2 remote crashes</a></li>
+</ul>
 
-<blockquote><pre><code>overlayfsとは
-overlayfsを使ってみる
-3.18カーネルのoverlayfs
-opaque（不透明）ディレクトリ
-overlayfsを使う上での注意
-overlayfsの将来
-まとめ
-</code></pre></blockquote>
+
+<p>パッケージをリリースしました。(libpcap も同時に更新しました)</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/libpcap-1.7.2-i686-P1.txz">libpcap-1.7.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/tcpdump-4.7.3-i686-P1.txz">tcpdump-4.7.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/libpcap-1.7.2-x86_64-P1.txz">libpcap-1.7.2-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/tcpdump-4.7.3-x86_64-P1.txz">tcpdump-4.7.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
 </div>
 
 
@@ -127,12 +131,12 @@ overlayfsの将来
   
 
 
-<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+<time datetime="2015-03-24T17:39:54+09:00" pubdate data-updated="true">Mar 24<span>th</span>, 2015</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
+    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
   
 </span>
 
@@ -141,7 +145,7 @@ overlayfsの将来
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/01/30/lxc-gihyo-18/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/03/24/tcpdump-4-dot-7-3/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/03/24/tcpdump-4-dot-7-3/" >Tweet</a>
   
   
   
@@ -150,10 +154,8 @@ overlayfsの将来
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/01/30/util-linux-2-dot-25-dot-2/" title="Previous Post: util-linux 2.25.2">&laquo; util-linux 2.25.2</a>
+        <a class="basic-alignment left" href="/blog/2015/03/23/librsvg-2-dot-40-dot-8/" title="Previous Post: librsvg 2.40.8">&laquo; librsvg 2.40.8</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/02/02/plamo-5-dot-3-1-release/" title="Next Post: Plamo 5.3.1 リリース">Plamo 5.3.1 リリース &raquo;</a>
       
     </p>
   </footer>
