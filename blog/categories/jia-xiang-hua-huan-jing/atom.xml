@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-25T16:09:26+09:00</updated>
+  <updated>2015-03-28T16:50:20+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十二歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/28/lxc-gihyo-22/"/>
+    <updated>2015-03-28T16:41:03+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/28/lxc-gihyo-22</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0022">第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop）</a></p>
+
+<p>今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LVMを使ったコンテナに対するlxc-snapshotコマンドの実行
+loopストレージバックエンドを使ったコンテナの作成
+loopストレージバックエンドを使ったコンテナのクローンとスナップショット
+まとめ
+LXC 1.1.1
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十一歩め]]></title>
@@ -84,25 +102,6 @@ overlayfsを使ってみる
 opaque（不透明）ディレクトリ
 overlayfsを使う上での注意
 overlayfsの将来
-まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　十七歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/01/16/lxc-gihyo-17/"/>
-    <updated>2015-01-16T16:40:03+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/01/16/lxc-gihyo-17</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0017">第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用</a></p>
-
-<p>一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>一般ユーザでコンテナを利用できるディストリビューション
-一般ユーザでコンテナを利用する場合のOSでの準備
-UbuntuのLXCパッケージ使用時の各種パス
-一般ユーザでコンテナを利用する場合のLXCの設定
-一般ユーザでのコンテナの起動
 まとめ
 </code></pre></blockquote>
 ]]></content>

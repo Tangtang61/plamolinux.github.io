@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-03-25T16:08:38+09:00</updated>
+  <updated>2015-03-28T16:50:20+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,11 +14,30 @@
 
   
   <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十二歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/03/28/lxc-gihyo-22/"/>
+    <updated>2015-03-28T16:41:03+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/03/28/lxc-gihyo-22</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0022">第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop）</a></p>
+
+<p>今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LVMを使ったコンテナに対するlxc-snapshotコマンドの実行
+loopストレージバックエンドを使ったコンテナの作成
+loopストレージバックエンドを使ったコンテナのクローンとスナップショット
+まとめ
+LXC 1.1.1
+</code></pre></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Firefox 36.0.4]]></title>
     <link href="http://plamolinux.github.io/blog/2015/03/25/firefox-36-dot-0/"/>
     <updated>2015-03-25T00:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/03/25/firefox-36-dot-0</id>
     <content type="html"><![CDATA[<ul>
+<li>2015-03-01 公開</li>
 <li>2015-03-06 更新: 36.0.1パッケージリリースしたのでリンクを修正しています</li>
 <li>2015-03-25 更新: 36.0.4 リリースに伴いパッケージ、リンク等を修正</li>
 </ul>
@@ -426,28 +445,6 @@ overlayfs，aufsを使ったクローンの際の注意点
 まとめ
 LXC 1.1.0
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yaml 0.1.6]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/02/09/yaml-0-dot-1-6/"/>
-    <updated>2015-02-09T17:27:35+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/02/09/yaml-0-dot-1-6</id>
-    <content type="html"><![CDATA[<p>libyaml 0.1.6 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9130">CVE-2014-9130</a> (nvd)</li>
-</ul>
-
-
-<p>パッチを適用した yaml-0.1.6 のパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i686-P2.txz">yaml-0.1.6-i686-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P2.txz">yaml-0.1.6-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
