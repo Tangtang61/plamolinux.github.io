@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LXC　空間を歩む　二十一歩め - Plamo Linux</title>
+  <title>Firefox 37.0 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM） 色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む firefox 37.0 がリリースされています。詳しくは以下をご覧ください。 Firefox 37.0 リリースノート
+Firefox セキュリティアドバイザリ パッケージをリリースしました。nspr、nss のパッケージも更新してください。 nss-3.18- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/04/02/firefox-37-dot-0">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +71,7 @@
   
   <header>
     
-      <h1 class="entry-title">LXC　空間を歩む　二十一歩め</h1>
+      <h1 class="entry-title">Firefox 37.0</h1>
     
     
       <p class="meta">
@@ -86,24 +87,30 @@
   
 
 
-<time datetime="2015-03-12T13:20:04+09:00" pubdate data-updated="true">Mar 12<span>th</span>, 2015</time>
+<time datetime="2015-04-02T00:25:19+09:00" pubdate data-updated="true">Apr 2<span>nd</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0021">第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM）</a></p>
+<div class="entry-content"><p>セキュリティホールの修正を含む firefox 37.0 がリリースされています。詳しくは以下をご覧ください。</p>
 
-<p>色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi</p>
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/37.0/releasenotes/">Firefox 37.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
 
-<blockquote><pre><code>LVMをストレージバックエンドとして使う場合の準備
-LVMを使ったコンテナ用のシステム設定と作成時のオプション
-LVMを使ったコンテナの作成
-LVMを使ったコンテナのクローン
-Thin Provisioning 機能の利用
-まとめ
-</code></pre></blockquote>
+
+<p>パッケージをリリースしました。nspr、nss のパッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.18-i686-P1.txz">nss-3.18-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-37.0-i686-P1.txz">firefox-37.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.18-x86_64-P1.txz">nss-3.18-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-37.0-x86_64-P1.txz">firefox-37.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
 </div>
 
 
@@ -126,12 +133,12 @@ Thin Provisioning 機能の利用
   
 
 
-<time datetime="2015-03-12T13:20:04+09:00" pubdate data-updated="true">Mar 12<span>th</span>, 2015</time>
+<time datetime="2015-04-02T00:25:19+09:00" pubdate data-updated="true">Apr 2<span>nd</span>, 2015</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
+    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
   
 </span>
 
@@ -140,7 +147,7 @@ Thin Provisioning 機能の利用
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/04/02/firefox-37-dot-0/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/04/02/firefox-37-dot-0/" >Tweet</a>
   
   
   
@@ -149,10 +156,8 @@ Thin Provisioning 機能の利用
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3/" title="Previous Post: xdg-utils 1.1.0-rc3">&laquo; xdg-utils 1.1.0-rc3</a>
+        <a class="basic-alignment left" href="/blog/2015/03/28/lxc-gihyo-22/" title="Previous Post: LXC　空間を歩む　二十二歩め">&laquo; LXC　空間を歩む　二十二歩め</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/03/17/libgcrypt-1-dot-5-4/" title="Next Post: libgcrypt 1.5.4">libgcrypt 1.5.4 &raquo;</a>
       
     </p>
   </footer>

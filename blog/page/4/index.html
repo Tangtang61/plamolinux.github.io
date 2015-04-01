@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="cpio にセキュリティホールが発見されています。詳しくは以下をご覧ください。 CVE-2014-9112 (NVD) 対策パッケージをリリースしました。 cpio-2.11-i686-P2.txz (32bit)
-cpio-2.11-x86_64-P2.txz (64bit) ">
+  <meta name="description" content="mailx にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Bug 1162783 &ndash; CVE-2004-2771 CVE-2014-7844 mailx: command execution flaw (Red Hat Bugzilla) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,55 @@ cpio-2.11-x86_64-P2.txz (64bit) ">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/29/mailx-12-dot-5/">Mailx 12.5</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-29T16:15:16+09:00" pubdate data-updated="true">Jan 29<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>mailx にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1162783">Bug 1162783 &ndash; CVE-2004-2771 CVE-2014-7844 mailx: command execution flaw</a> (Red Hat Bugzilla)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/mailx-12.5-i686-P1.txz">mailx-12.5-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/mailx-12.5-x86_64-P1.txz">mailx-12.5-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -518,64 +566,6 @@ UbuntuのLXCパッケージ使用時の各種パス
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/10/package-tool-01/">パッケージ更新のチェック</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-10T14:31:45+09:00" pubdate data-updated="true">Jan 10<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo Linux用更新パッケージチェック&amp;ダウンロードツールです。</p>
-
-<p>詳細は以下のリンク先を参照して下さい。</p>
-
-<ul>
-<li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima%2F2015-01-06">PlamoWikiのこじまさんの日記</a></p></li>
-<li><p><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201501/msg00003.html">メーリングリスト</a></p></li>
-</ul>
-
-
-<p>注意点をメーリングリストへの投稿から抜粋しておきます。</p>
-
-<pre><code>updatepkg では更新できない(すべきでない)パッケージはチェック対象外にし
-ていますが，-b オプションを指定するとそれらの情報も表示します．ただし，
-これらのパッケージを単純に updatepkg で更新しようとすると，既存の設定ファ
-イルを上書きしたり，installpkg/updatepkg が動かなくなったりするので，
-十分ご注意ください．
-
-なお，このスクリプトはPlamo-5.2でも動くものの，5.2から5.3へはパッケージ
-の追加や廃止を伴なう大規模な更新になっているため，このスクリプトだけで
-は実用的ではありません．そのため動作環境は「Plamo-5.3以降」とさせてくだ
-さい．
-</code></pre>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -591,6 +581,12 @@ UbuntuのLXCパッケージ使用時の各種パス
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1291,10 +1287,14 @@ UbuntuのLXCパッケージ使用時の各種パス
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (97)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (88)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (98)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (89)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/04/02/firefox-37-dot-0/">Firefox 37.0</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/03/28/lxc-gihyo-22/">LXC　空間を歩む　二十二歩め</a>
@@ -1310,10 +1310,6 @@ UbuntuのLXCパッケージ使用時の各種パス
     
       <li class="post">
         <a href="/blog/2015/03/23/librsvg-2-dot-40-dot-8/">Librsvg 2.40.8</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/23/php-5-dot-6-7/">Php 5.6.7</a>
       </li>
     
   </ul>
