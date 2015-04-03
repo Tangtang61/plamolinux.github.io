@@ -8,6 +8,7 @@ categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 GnuTLS にセキュリティホールが見つかっています．詳しくは以下をご覧ください．
 
 * [GNUTLS-SA-2015-1(CVE-2015-0282)](http://www.gnutls.org/security.html#GNUTLS-SA-2015-1)
+* [Bug 1196323 &ndash; CVE-2015-0294 gnutls: certificate algorithm consistency checking issue](https://bugzilla.redhat.com/show_bug.cgi?id=1196323) (Red Hat Bugzilla)
 
 パッチを適用したパッケージをリリースしました．
 
