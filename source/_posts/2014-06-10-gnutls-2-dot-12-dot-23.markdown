@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "gnutls 2.12.23"
-date: 2014-06-10 00:34:39 +0900
+date: 2015-04-03 00:00:00 +0900
 comments: false
 categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 ---
 GnuTLS にセキュリティホールが見つかっています．詳しくは以下をご覧ください．
 
-* [GNUTLS-SA-2014-3(CVE-2014-1959)](http://www.gnutls.org/security.html#GNUTLS-SA-2014-3)
+* [GNUTLS-SA-2015-1(CVE-2015-0282)](http://www.gnutls.org/security.html#GNUTLS-SA-2015-1)
 
 パッチを適用したパッケージをリリースしました．
 
-* [gnutls-2.12.23-i586-P4.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i586-P4.txz)
-* [gnutls-2.12.23-x86_64-P4.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P4.txz)
+* [gnutls-2.12.23-i686-P5.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i686-P5.txz)
+* [gnutls-2.12.23-x86_64-P5.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P5.txz)
