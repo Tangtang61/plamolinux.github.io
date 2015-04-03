@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-04-03T19:31:57+09:00</updated>
+  <updated>2015-04-03T19:39:44+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -22,6 +22,7 @@
 
 <ul>
 <li><a href="http://www.gnutls.org/security.html#GNUTLS-SA-2015-1">GNUTLS-SA-2015-1(CVE-2015-0282)</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1196323">Bug 1196323 &ndash; CVE-2015-0294 gnutls: certificate algorithm consistency checking issue</a> (Red Hat Bugzilla)</li>
 </ul>
 
 
