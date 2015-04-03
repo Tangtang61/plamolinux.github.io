@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホール修正を含む wget 1.16 がリリースされています。詳しくは以下をご覧ください。 CVE-2014-4877 (NVD) パッケージをリリースしました。 wget-1.16-i586-P1.txz (32bit)
-wget-1.16-x86_64-P1.txz (64bit) ">
+  <meta name="description" content="*第13回　LXCの構築・活用 [1] — テンプレートを紐解く 今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。 テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
+が、私のスクリプト理解力（ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,52 @@ wget-1.16-x86_64-P1.txz (64bit) ">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/11/09/lxc-gihyo-13/">LXC　空間を歩む　十三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-11-09T15:35:38+09:00" pubdate data-updated="true">Nov 9<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0013">第13回　LXCの構築・活用 [1] — テンプレートを紐解く</a></p>
+
+<p>今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。</p>
+
+<p>テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
+が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
+た (^^; &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Plamoテンプレートの内部紹介
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -521,54 +567,6 @@ LXC 1.0.6
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/27/lxc-gihyo-10/">LXC　空間を歩む　十歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
-
-<p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
-
-<blockquote><pre><code>アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング
-指定したコンテナの状態への待機
-Ubuntu 14.04 LTSのcgroup管理
-まとめ
-第4回 コンテナ型仮想化の情報交換会＠東京
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -584,6 +582,12 @@ Ubuntu 14.04 LTSのcgroup管理
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1056,12 +1060,6 @@ Ubuntu 14.04 LTSのcgroup管理
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1296,6 +1294,10 @@ Ubuntu 14.04 LTSのcgroup管理
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/04/03/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/04/02/firefox-37-dot-0/">Firefox 37.0</a>
       </li>
     
@@ -1309,10 +1311,6 @@ Ubuntu 14.04 LTSのcgroup管理
     
       <li class="post">
         <a href="/blog/2015/03/24/tcpdump-4-dot-7-3/">Tcpdump 4.7.3</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/23/librsvg-2-dot-40-dot-8/">Librsvg 2.40.8</a>
       </li>
     
   </ul>
