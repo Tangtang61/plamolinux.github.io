@@ -49,10 +49,6 @@
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2014/02/07/firefox-27-dot-0/</loc>
-        <lastmod>2014-12-09T16:13:32+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2014/02/12/thunderbird-24-dot-3-0/</loc>
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
@@ -78,10 +74,6 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2014/03/17/httpd-2-dot-4-9/</loc>
-        <lastmod>2014-12-09T16:13:32+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://plamolinux.github.io/blog/2014/03/20/firefox-28-dot-0/</loc>
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
@@ -117,19 +109,11 @@
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2014/04/30/firefox-29-dot-0/</loc>
-        <lastmod>2014-12-09T16:13:32+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2014/05/01/thunderbird-24-dot-5-0/</loc>
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2014/05/02/php-5-dot-5-12/</loc>
-        <lastmod>2014-12-09T16:13:32+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://plamolinux.github.io/blog/2014/05/12/firefox-29-dot-0-1/</loc>
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
@@ -159,10 +143,6 @@
     <url>
         <loc>http://plamolinux.github.io/blog/2014/06/12/lxc-gihyo-03/</loc>
         <lastmod>2015-02-02T15:26:47+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://plamolinux.github.io/blog/2014/06/12/firefox-30-dot-0/</loc>
-        <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2014/06/16/thunderbird-24-dot-6-0/</loc>
@@ -195,10 +175,6 @@
     <url>
         <loc>http://plamolinux.github.io/blog/2014/07/24/lxc-gihyo-06/</loc>
         <lastmod>2015-02-02T15:26:47+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://plamolinux.github.io/blog/2014/07/25/firefox-31-dot-0/</loc>
-        <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2014/07/31/thunderbird-31-dot-0/</loc>
@@ -249,10 +225,6 @@
         <lastmod>2015-02-02T15:26:47+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2014/09/26/firefox-32-dot-0/</loc>
-        <lastmod>2014-12-09T16:13:32+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2014/09/27/lxc-gihyo-10/</loc>
         <lastmod>2015-01-05T15:56:25+09:00</lastmod>
     </url>
@@ -266,10 +238,6 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2014/10/20/openssl-1-dot-0-1j/</loc>
-        <lastmod>2014-12-09T16:13:32+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://plamolinux.github.io/blog/2014/10/20/firefox-33-dot-0/</loc>
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
@@ -351,10 +319,6 @@
     <url>
         <loc>http://plamolinux.github.io/blog/2015/01/20/libevent-2-dot-0-22/</loc>
         <lastmod>2015-01-20T17:15:12+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://plamolinux.github.io/blog/2015/01/20/firefox-35-dot-0/</loc>
-        <lastmod>2015-02-06T15:33:01+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2015/01/26/php-5-dot-6-5/</loc>
