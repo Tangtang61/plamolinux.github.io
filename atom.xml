@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-04-05T12:04:41+09:00</updated>
+  <updated>2015-04-06T17:21:38+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elfutils 0.161]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/04/06/elfutils/"/>
+    <updated>2015-04-06T17:19:11+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/04/06/elfutils</id>
+    <content type="html"><![CDATA[<p>elfutils にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9447">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9447</a></li>
+</ul>
+
+
+<p>パッチを適用した対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/elfutils-0.161-i686-P2.txz">elfutils-0.161-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/elfutils-0.161-x86_64-P2.txz">elfutils-0.161-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gnutls 2.12.23]]></title>
@@ -428,28 +450,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/e2fsprogs-1.42.12-i686-P1.txz">e2fsprogs-1.42.12-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/e2fsprogs-1.42.12-x86_64-P1.txz">e2fsprogs-1.42.12-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Grep 2.20]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/02/13/grep-2-dot-20/"/>
-    <updated>2015-02-13T18:10:19+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/02/13/grep-2-dot-20</id>
-    <content type="html"><![CDATA[<p>grep 2.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://debbugs.gnu.org/cgi/bugreport.cgi?bug=19563">#19563 &ndash; grep -F: fix a heap buffer (read) overrun &ndash; GNU bug report logs</a></li>
-</ul>
-
-
-<p>パッチを適用したパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/grep-2.20-i686-P2.txz">grep-2.20-i686-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/grep-2.20-x86_64-P2.txz">grep-2.20-x86_64-P2.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

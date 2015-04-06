@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM） 色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi &hellip;">
+  <meta name="description" content="libgcrypt にセキュリティホールが発見されています。詳しくは以下をご覧ください。 https://bugzilla.redhat.com/show_bug.cgi?id=1198145
+https://bugzilla.redhat.com/show_bug.cgi?id=1198147 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,56 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/03/17/libgcrypt-1-dot-5-4/">Libgcrypt 1.5.4</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-17T20:29:52+09:00" pubdate data-updated="true">Mar 17<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>libgcrypt にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1198145">https://bugzilla.redhat.com/show_bug.cgi?id=1198145</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1198147">https://bugzilla.redhat.com/show_bug.cgi?id=1198147</a></li>
+</ul>
+
+
+<p>パッチを適用した対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-i686-P2.txz">libgcrypt-1.5.4-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libgcrypt-1.5.4-x86_64-P2.txz">libgcrypt-1.5.4-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -509,55 +560,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/13/grep-2-dot-20/">Grep 2.20</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-13T18:10:19+09:00" pubdate data-updated="true">Feb 13<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>grep 2.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://debbugs.gnu.org/cgi/bugreport.cgi?bug=19563">#19563 &ndash; grep -F: fix a heap buffer (read) overrun &ndash; GNU bug report logs</a></li>
-</ul>
-
-
-<p>パッチを適用したパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/grep-2.20-i686-P2.txz">grep-2.20-i686-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/grep-2.20-x86_64-P2.txz">grep-2.20-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -573,6 +575,12 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1279,10 +1287,14 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (98)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (89)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (99)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (90)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/04/06/elfutils/">Elfutils 0.161</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/04/03/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a>
@@ -1298,10 +1310,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     
       <li class="post">
         <a href="/blog/2015/03/25/firefox-36-dot-0/">Firefox 36.0.4</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/24/tcpdump-4-dot-7-3/">Tcpdump 4.7.3</a>
       </li>
     
   </ul>

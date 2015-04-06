@@ -9,10 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第10回　LXCの基本操作［3］ FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング &hellip;">
+  <meta name="description" content="(2014-10-07 bash 4.2.50 情報から更新)
+(2014-10-01 bash 4.2.49 情報から更新) bash に脆弱性が発見されています。詳しくは以下などをご覧ください。 bash の脆弱性対策について(CVE-2014-6271 等) (IPA) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +74,60 @@ LXCのシステム設定
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/07/bash-4-dot-2-49/">Bash 4.2.53</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-07T15:00:00+09:00" pubdate data-updated="true">Oct 7<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>(2014-10-07 bash 4.2.50 情報から更新)<br/>
+(2014-10-01 bash 4.2.49 情報から更新)</p>
+
+<p>bash に脆弱性が発見されています。詳しくは以下などをご覧ください。</p>
+
+<ul>
+<li><a href="http://www.ipa.go.jp/security/ciadr/vul/20140926-bash.html">bash の脆弱性対策について(CVE-2014-6271 等)</a> (IPA)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/bash-4.2.53-i586-P1.txz">bash-4.2.53-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/bash-4.2.53-x86_64-P1.txz">bash-4.2.53-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -528,52 +580,6 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/16/lxc-gihyo-07/">LXC　空間を歩む　七歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-16T15:11:48+09:00" pubdate data-updated="true">Aug 16<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
-
-<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
-コンテナのネストができるのか！  &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LXCの歴史
-LXCの特徴
-LXCの気になる点
-まとめ
-最近のLXCのリリース
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -589,6 +595,12 @@ LXCの気になる点
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1295,10 +1307,14 @@ LXCの気になる点
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (98)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (89)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (99)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (90)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/04/06/elfutils/">Elfutils 0.161</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/04/03/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a>
@@ -1314,10 +1330,6 @@ LXCの気になる点
     
       <li class="post">
         <a href="/blog/2015/03/25/firefox-36-dot-0/">Firefox 36.0.4</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/24/tcpdump-4-dot-7-3/">Tcpdump 4.7.3</a>
       </li>
     
   </ul>
