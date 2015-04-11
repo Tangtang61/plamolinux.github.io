@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="libjpeg-turbo にセキュリティホールが発見されています。詳しくは以下をご覧ください。 https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=768369 libjpeg-turbo パッケージを対応パッチ適用済みの 1.3.1 &hellip;">
+  <meta name="description" content="*第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用 一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi 一般ユーザでコンテナを利用できるディストリビューション &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,52 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/16/lxc-gihyo-17/">LXC　空間を歩む　十七歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-16T16:40:03+09:00" pubdate data-updated="true">Jan 16<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0017">第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用</a></p>
+
+<p>一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>一般ユーザでコンテナを利用できるディストリビューション
+一般ユーザでコンテナを利用する場合のOSでの準備
+UbuntuのLXCパッケージ使用時の各種パス
+一般ユーザでコンテナを利用する場合のLXCの設定
+一般ユーザでのコンテナの起動
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -589,49 +635,6 @@ OSSを経由してサウンドを出力する
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/11/20/lxc-gihyo-14/">LXC　空間を歩む　十四歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-11-20T16:27:03+09:00" pubdate data-updated="true">Nov 20<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0014">第14回　LXCの構築・活用 [2] — コンテナを作成・構築する</a></p>
-
-<p>今回の内容はトレースして、自分なりに理解したいと思いました。良い内容です。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Plamoテンプレートを使ったコンテナの作成
-複数のユーザによるコンテナの作成とネットワーク構成
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/6/">&larr; Older</a>
@@ -647,6 +650,10 @@ OSSを経由してサウンドを出力する
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1301,10 +1308,14 @@ OSSを経由してサウンドを出力する
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (89)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (81)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (89)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (81)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (23)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/04/11/lxc-gihyo-23/">LXC　空間を歩む　二十三歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/04/08/tiff/">Tiff 4.0.3</a>
@@ -1320,10 +1331,6 @@ OSSを経由してサウンドを出力する
     
       <li class="post">
         <a href="/blog/2015/04/03/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/28/lxc-gihyo-22/">LXC　空間を歩む　二十二歩め</a>
       </li>
     
   </ul>

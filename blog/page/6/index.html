@@ -9,8 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第13回　LXCの構築・活用 [1] — テンプレートを紐解く 今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。 テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
-が、私のスクリプト理解力（ &hellip;">
+  <meta name="description" content="*第14回　LXCの構築・活用 [2] — コンテナを作成・構築する 今回の内容はトレースして、自分なりに理解したいと思いました。良い内容です。 &lt; bar-mtomi Plamoテンプレートを使ったコンテナの作成
+複数のユーザによるコンテナの作成とネットワーク構成
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +75,49 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/11/20/lxc-gihyo-14/">LXC　空間を歩む　十四歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-11-20T16:27:03+09:00" pubdate data-updated="true">Nov 20<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0014">第14回　LXCの構築・活用 [2] — コンテナを作成・構築する</a></p>
+
+<p>今回の内容はトレースして、自分なりに理解したいと思いました。良い内容です。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Plamoテンプレートを使ったコンテナの作成
+複数のユーザによるコンテナの作成とネットワーク構成
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -514,54 +558,6 @@ LXC 1.0.6
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/27/lxc-gihyo-10/">LXC　空間を歩む　十歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
-
-<p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
-
-<blockquote><pre><code>アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング
-指定したコンテナの状態への待機
-Ubuntu 14.04 LTSのcgroup管理
-まとめ
-第4回 コンテナ型仮想化の情報交換会＠東京
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -577,6 +573,10 @@ Ubuntu 14.04 LTSのcgroup管理
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1231,10 +1231,14 @@ Ubuntu 14.04 LTSのcgroup管理
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (89)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (81)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (89)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (81)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (23)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/04/11/lxc-gihyo-23/">LXC　空間を歩む　二十三歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/04/08/tiff/">Tiff 4.0.3</a>
@@ -1250,10 +1254,6 @@ Ubuntu 14.04 LTSのcgroup管理
     
       <li class="post">
         <a href="/blog/2015/04/03/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/28/lxc-gihyo-22/">LXC　空間を歩む　二十二歩め</a>
       </li>
     
   </ul>

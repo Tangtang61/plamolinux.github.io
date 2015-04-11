@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="libtiff にセキュリティホールが発見されています．詳しくは以下をご覧ください． http://openwall.com/lists/oss-security/2015/01/24/15
-http://openwall.com/lists/oss-security/2015/02/07/5 &hellip;">
+  <meta name="description" content="*第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1) ephemeral の意味をしらべて、そうなのか？ … でも &mdash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi lxc-start- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,52 @@ http://openwall.com/lists/oss-security/2015/02/07/5 &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/11/lxc-gihyo-23/">LXC　空間を歩む　二十三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-11T14:37:30+09:00" pubdate data-updated="true">Apr 11<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0023">第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1)</a></p>
+
+<p>ephemeral の意味をしらべて、そうなのか？ … でも &mdash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>lxc-start-ephemeralコマンドの概要
+まずは使ってみましょう
+lxc-start-ephemeralコマンドのオプション
+lxc-start-ephemeralコマンドの仕組みとフック
+lxc-start-ephemeralのその他の使い方
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -512,55 +557,6 @@ LXC 1.1.1
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/20/openssl-1-dot-0-1m/">OpenSSL 1.0.1m</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-20T18:26:36+09:00" pubdate data-updated="true">Mar 20<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む OpenSSL 1.0.1m がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.openssl.org/news/secadv_20150319.txt">OpenSSL Security Advisory [19 Mar 2015]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1m-i686-P1.txz">openssl-1.0.1m-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1m-x86_64-P1.txz">openssl-1.0.1m-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -574,6 +570,10 @@ LXC 1.1.1
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1228,10 +1228,14 @@ LXC 1.1.1
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (89)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (81)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (22)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (89)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (81)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (23)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/04/11/lxc-gihyo-23/">LXC　空間を歩む　二十三歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/04/08/tiff/">Tiff 4.0.3</a>
@@ -1247,10 +1251,6 @@ LXC 1.1.1
     
       <li class="post">
         <a href="/blog/2015/04/03/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/28/lxc-gihyo-22/">LXC　空間を歩む　二十二歩め</a>
       </li>
     
   </ul>
