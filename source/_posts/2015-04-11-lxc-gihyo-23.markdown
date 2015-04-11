@@ -1,0 +1,19 @@
+---
+layout: post
+title: "LXC　空間を歩む　二十三歩め"
+date: 2015-04-11 14:37:30 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1)](http://gihyo.jp/admin/serial/01/linux_containers/0023)
+
+ephemeral の意味をしらべて、そうなのか？ … でも --keep-data でコンテナイメージを残せるんだ。 < bar-mtomi
+
+>
+    lxc-start-ephemeralコマンドの概要
+    まずは使ってみましょう
+    lxc-start-ephemeralコマンドのオプション
+    lxc-start-ephemeralコマンドの仕組みとフック
+    lxc-start-ephemeralのその他の使い方
+    まとめ
