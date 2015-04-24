@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-04-11T15:03:21+09:00</updated>
+  <updated>2015-04-24T16:10:52+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 5.6.8]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/04/24/php/"/>
+    <updated>2015-04-24T15:31:35+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/04/24/php</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.6.8 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://php.net/archive/2015.php#id2015-04-16-2">PHP 5.6.8 is available</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.6.8-i686-P1.txz">php-5.6.8-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.6.8-x86_64-P1.txz">php-5.6.8-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十三歩め]]></title>
@@ -177,28 +199,6 @@ LXC 1.1.1
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/librsvg-2.40.8-i686-P1.txz">librsvg-2.40.8-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/librsvg-2.40.8-x86_64-P1.txz">librsvg-2.40.8-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 5.6.7]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/03/23/php-5-dot-6-7/"/>
-    <updated>2015-03-23T15:31:35+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/03/23/php-5-dot-6-7</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.6.7 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jp.php.net/archive/2015.php#id2015-03-20-2">PHP 5.6.7 is available</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.6.7-i686-P1.txz">php-5.6.7-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.6.7-x86_64-P1.txz">php-5.6.7-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
