@@ -9,8 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む PHP 5.6.8 がリリースされています。詳しくは以下をご覧ください。 PHP 5.6.8 is available パッケージをリリースしました。 php-5.6.8-i686-P1.txz (32bit)
-php-5.6.8-x86_64-P1.txz ( &hellip;">
+  <meta name="description" content="ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。 CVE-2015-1798
+CVE-2015-1799 対策パッケージをリリースしました。 ntp-4.2.8p2-i686-P1.txz (32bit)
+ntp-4.2.8p2-x86_64-P1.txz (64bit &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +75,56 @@ php-5.6.8-x86_64-P1.txz ( &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/24/ntp/">Ntp 4.2.8p2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-24T17:19:11+09:00" pubdate data-updated="true">Apr 24<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1798">CVE-2015-1798</a></li>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1799">CVE-2015-1799</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p2-i686-P1.txz">ntp-4.2.8p2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p2-x86_64-P1.txz">ntp-4.2.8p2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -509,55 +560,6 @@ LXC 1.1.1
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/20/libssh2-1-dot-5-0/">Libssh2 1.5.0</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-20T18:38:17+09:00" pubdate data-updated="true">Mar 20<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む libssh2 1.5.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.libssh2.org/adv_20150311.html">Using SSH_MSG_KEXINIT data unbounded</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/libssh2-1.5.0-i686-P1.txz">libssh2-1.5.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/libssh2-1.5.0-x86_64-P1.txz">libssh2-1.5.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -581,28 +583,6 @@ LXC 1.1.1
       
         
       
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
         
       
     
@@ -612,34 +592,6 @@ LXC 1.1.1
     
       
         
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
       
         
       
@@ -699,6 +651,22 @@ LXC 1.1.1
       
         
       
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
         
       
     
@@ -708,6 +676,40 @@ LXC 1.1.1
     
       
         
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
       
         
       
@@ -1235,6 +1237,10 @@ LXC 1.1.1
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/04/24/ntp/">Ntp 4.2.8p2</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/04/24/php/">Php 5.6.8</a>
       </li>
     
@@ -1248,10 +1254,6 @@ LXC 1.1.1
     
       <li class="post">
         <a href="/blog/2015/04/08/firefox-37-dot-0/">Firefox 37.0.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/06/elfutils/">Elfutils 0.161</a>
       </li>
     
   </ul>
