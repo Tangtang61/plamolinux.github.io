@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "php 5.6.8"
-date: 2015-03-23 15:31:35 +0900
+date: 2015-04-24 15:31:35 +0900
 comments: false
 categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 ---
