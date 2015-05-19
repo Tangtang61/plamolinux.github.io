@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-05-18T19:29:48+09:00</updated>
+  <updated>2015-05-19T19:08:31+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 31.6.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/05/19/thunderbird-31-dot-6/"/>
+    <updated>2015-05-19T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/05/19/thunderbird-31-dot-6</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 31.6.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/thunderbird/31.6.0/releasenotes/">Thunderbird 31.6.0 リリースノート</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-31.6.0-i686-P1.txz">thunderbird-31.6.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-31.6.0-x86_64-P1.txz">thunderbird-31.6.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 38.0.1]]></title>
@@ -103,28 +125,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/tiff-4.0.3-i686-P3.txz">tiff-4.0.3-i686-P3.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/tiff-4.0.3-x86_64-P3.txz">tiff-4.0.3-x86_64-P3.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elfutils 0.161]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/04/06/elfutils/"/>
-    <updated>2015-04-06T17:19:11+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/04/06/elfutils</id>
-    <content type="html"><![CDATA[<p>elfutils にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9447">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9447</a></li>
-</ul>
-
-
-<p>パッチを適用した対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/elfutils-0.161-i686-P2.txz">elfutils-0.161-i686-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/elfutils-0.161-x86_64-P2.txz">elfutils-0.161-x86_64-P2.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
