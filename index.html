@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む Thunderbird 31.6.0 がリリースされています。詳しくは以下をご覧ください。 Thunderbird 31.6.0 リリースノート パッケージをリリースしました． thunderbird-31.6.0-i686-P1.txz (32bit) &hellip;">
+  <meta name="description" content="qemu に脆弱性が発見されています。詳しくは以下をご覧ください。 VENOM Vulnerability パッチを適用した対策パッケージをリリースしました。 qemu-2.0.0-i686-P2.txz
+qemu-2.0.0-x86_64-P2.txz ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,55 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/05/19/qemu-2-dot-0-0/">Qemu 2.0.0</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-05-19T20:04:14+09:00" pubdate data-updated="true">May 19<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>qemu に脆弱性が発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://venom.crowdstrike.com/">VENOM Vulnerability</a></li>
+</ul>
+
+
+<p>パッチを適用した対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/qemu-2.0.0-i686-P2.txz">qemu-2.0.0-i686-P2.txz</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/qemu-2.0.0-x86_64-P2.txz">qemu-2.0.0-x86_64-P2.txz</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -518,51 +568,6 @@ lxc-start-ephemeralのその他の使い方
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/28/lxc-gihyo-22/">LXC　空間を歩む　二十二歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-28T16:41:03+09:00" pubdate data-updated="true">Mar 28<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0022">第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop）</a></p>
-
-<p>今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LVMを使ったコンテナに対するlxc-snapshotコマンドの実行
-loopストレージバックエンドを使ったコンテナの作成
-loopストレージバックエンドを使ったコンテナのクローンとスナップショット
-まとめ
-LXC 1.1.1
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -576,6 +581,12 @@ LXC 1.1.1
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1238,10 +1249,14 @@ LXC 1.1.1
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (89)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (81)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (24)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (90)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (82)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (24)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/05/19/qemu-2-dot-0-0/">Qemu 2.0.0</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/05/19/thunderbird-31-dot-6/">Thunderbird 31.6.0</a>
@@ -1257,10 +1272,6 @@ LXC 1.1.1
     
       <li class="post">
         <a href="/blog/2015/04/24/ntp/">Ntp 4.2.8p2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/24/php/">Php 5.6.8</a>
       </li>
     
   </ul>
