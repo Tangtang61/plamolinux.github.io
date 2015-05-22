@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む ruby 2.0.0-p598 がリリースされています。詳しくは以下をご覧ください。 Ruby 2.0.0-p598 リリース パッケージをリリースしました。 ruby-2.0.0_p598-i586-P1.txz (32bit)
-ruby-2.0.0_p598- &hellip;">
+  <meta name="description" content="*第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う 今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi Linuxにおける主なサウンドシステム・ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,53 @@ ruby-2.0.0_p598- &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/07/lxc-gihyo-15/">LXC　空間を歩む　十五歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-07T17:11:50+09:00" pubdate data-updated="true">Dec 7<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0015">第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う</a></p>
+
+<p>今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Linuxにおける主なサウンドシステム・サウンドサーバ
+OSSを経由してサウンドを出力する
+コンテナ内でサウンドを出力する（OSS）
+コンテナ内でサウンドを出力する（ALSA）
+非特権コンテナ内でサウンドを出力する
+サウンドサーバを使ってコンテナ内のサウンドを出力する
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -503,59 +549,6 @@ ruby-2.0.0_p598- &hellip;">
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/20/openssl-1-dot-0-1j/">Openssl 1.0.1j</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-20T16:32:29+09:00" pubdate data-updated="true">Oct 20<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む OpenSSL 1.0.1j がリリースされています。</p>
-
-<p>詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://www.openssl.org/news/secadv_20141015.txt">OpenSSL Security Advisory [15 Oct 2014]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1j-i586-P1.txz">openssl-1.0.1j-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1j-x86_64-P1.txz">openssl-1.0.1j-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -593,9 +586,15 @@ ruby-2.0.0_p598- &hellip;">
       
         
       
+        
+      
     
       
         
+      
+        
+      
+    
       
         
       
@@ -1239,10 +1238,18 @@ ruby-2.0.0_p598- &hellip;">
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (90)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (82)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (24)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (91)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (83)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (24)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/05/22/libssh-0-dot-6-5/">Libssh 0.6.5</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/22/php-5-dot-6-9/">Php 5.6.9</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/05/19/qemu-2-dot-0-0/">Qemu 2.0.0</a>
@@ -1254,14 +1261,6 @@ ruby-2.0.0_p598- &hellip;">
     
       <li class="post">
         <a href="/blog/2015/05/14/firefox-38-dot-0/">Firefox 38.0.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/28/lxc-gihyo-24/">LXC　空間を歩む　二十四歩め</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/24/ntp/">Ntp 4.2.8p2</a>
       </li>
     
   </ul>

@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop） 今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi LVMを使ったコンテナに対するlxc-snapshotコマンドの実行 &hellip;">
+  <meta name="description" content="GnuTLS にセキュリティホールが見つかっています．詳しくは以下をご覧ください． GNUTLS-SA-2015-1(CVE-2015-0282)
+Bug 1196323 &ndash; CVE-2015-0294 gnutls: certificate algorithm consistency &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,56 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/03/gnutls-2-dot-12-dot-23/">Gnutls 2.12.23</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-03T00:00:00+09:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>GnuTLS にセキュリティホールが見つかっています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.gnutls.org/security.html#GNUTLS-SA-2015-1">GNUTLS-SA-2015-1(CVE-2015-0282)</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1196323">Bug 1196323 &ndash; CVE-2015-0294 gnutls: certificate algorithm consistency checking issue</a> (Red Hat Bugzilla)</li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i686-P5.txz">gnutls-2.12.23-i686-P5.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P5.txz">gnutls-2.12.23-x86_64-P5.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -503,51 +554,6 @@ Thin Provisioning 機能の利用
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/25/lxc-gihyo-20/">LXC　空間を歩む　二十歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-25T14:28:51+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0020">第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2）</a></p>
-
-<p> もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Btrfsをストレージバックエンドとして使う場合の準備
-Btrfsを使ったコンテナの作成
-Btrfsを使ったコンテナのクローン
-Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -585,9 +591,15 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
       
         
       
+        
+      
     
       
         
+      
+        
+      
+    
       
         
       
@@ -1231,10 +1243,18 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (90)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (82)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (24)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (91)</a></li><li><a href='/blog/categories/plamo-linux-niokerujia-xiang-hua-huan-jing/'>Plamo Linux における仮想化環境 (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (83)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (24)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/05/22/libssh-0-dot-6-5/">Libssh 0.6.5</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/22/php-5-dot-6-9/">Php 5.6.9</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/05/19/qemu-2-dot-0-0/">Qemu 2.0.0</a>
@@ -1246,14 +1266,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     
       <li class="post">
         <a href="/blog/2015/05/14/firefox-38-dot-0/">Firefox 38.0.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/28/lxc-gihyo-24/">LXC　空間を歩む　二十四歩め</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/24/ntp/">Ntp 4.2.8p2</a>
       </li>
     
   </ul>
