@@ -6,7 +6,7 @@ comments: false
 categories: ["Plamo 5.x 情報", "セキュリティ情報"]
 ---
 
-セキュリティホールの修正を含む libssh 1.5.0 がリリースされています。詳しくは以下をご覧ください。
+セキュリティホールの修正を含む libssh 0.6.5 がリリースされています。詳しくは以下をご覧ください。
 
 * [libssh 0.6.5 (Security and bugfix release)](https://www.libssh.org/2015/04/30/libssh-0-6-5-security-and-bugfix-release/) (libssh)
 
