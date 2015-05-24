@@ -1,0 +1,17 @@
+---
+layout: post
+title: "LXC　空間を歩む　二十五歩め"
+date: 2015-05-24 16:19:31 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第25回　LXCの構築・活用 [11] ─lxc-autostartコマンドによるコンテナの自動起動](http://gihyo.jp/admin/serial/01/linux_containers/0025)
+
+自動で複数起動する場合は必要な機能だなぁ < bar-mtomi
+
+>
+    設定
+    lxc-autostartコマンドの実行
+    Ubuntu起動時のlxc-autostartの使用
+    まとめ
