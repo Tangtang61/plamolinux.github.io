@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-05-22T16:12:21+09:00</updated>
+  <updated>2015-05-24T16:25:42+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十五歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25/"/>
+    <updated>2015-05-24T16:19:31+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0025">第25回　LXCの構築・活用 [11] ─lxc-autostartコマンドによるコンテナの自動起動</a></p>
+
+<p>自動で複数起動する場合は必要な機能だなぁ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>設定
+lxc-autostartコマンドの実行
+Ubuntu起動時のlxc-autostartの使用
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十四歩め]]></title>
@@ -84,24 +101,6 @@ LVMを使ったコンテナ用のシステム設定と作成時のオプショ�
 LVMを使ったコンテナの作成
 LVMを使ったコンテナのクローン
 Thin Provisioning 機能の利用
-まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20/"/>
-    <updated>2015-02-25T14:28:51+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0020">第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2）</a></p>
-
-<p> もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Btrfsをストレージバックエンドとして使う場合の準備
-Btrfsを使ったコンテナの作成
-Btrfsを使ったコンテナのクローン
-Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
 まとめ
 </code></pre></blockquote>
 ]]></content>

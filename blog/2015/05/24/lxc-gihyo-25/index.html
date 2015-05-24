@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Wireshark 1.10.7 - Plamo Linux</title>
+  <title>LXC　空間を歩む　二十五歩め - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。 wnpa-sec-2014-06 · RTP dissector crash パッケージをリリースしました。 wireshark-1.10.7-i586-P1.txz ( &hellip;">
+  <meta name="description" content="*第25回　LXCの構築・活用 [11] ─lxc-autostartコマンドによるコンテナの自動起動 自動で複数起動する場合は必要な機能だなぁ &lt; bar-mtomi 設定
+lxc-autostartコマンドの実行
+Ubuntu起動時のlxc-autostartの使用
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +73,7 @@
   
   <header>
     
-      <h1 class="entry-title">Wireshark 1.10.7</h1>
+      <h1 class="entry-title">LXC　空間を歩む　二十五歩め</h1>
     
     
       <p class="meta">
@@ -86,27 +89,22 @@
   
 
 
-<time datetime="2014-05-21T16:27:12+09:00" pubdate data-updated="true">May 21<span>st</span>, 2014</time>
+<time datetime="2015-05-24T16:19:31+09:00" pubdate data-updated="true">May 24<span>th</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。</p>
+<div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0025">第25回　LXCの構築・活用 [11] ─lxc-autostartコマンドによるコンテナの自動起動</a></p>
 
-<ul>
-<li><a href="http://www.wireshark.org/security/wnpa-sec-2014-06.html">wnpa-sec-2014-06 · RTP dissector crash</a></li>
-</ul>
+<p>自動で複数起動する場合は必要な機能だなぁ &lt; bar-mtomi</p>
 
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.7-i586-P1.txz">wireshark-1.10.7-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.7-x86_64-P1.txz">wireshark-1.10.7-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
+<blockquote><pre><code>設定
+lxc-autostartコマンドの実行
+Ubuntu起動時のlxc-autostartの使用
+まとめ
+</code></pre></blockquote>
 </div>
 
 
@@ -129,12 +127,12 @@
   
 
 
-<time datetime="2014-05-21T16:27:12+09:00" pubdate data-updated="true">May 21<span>st</span>, 2014</time>
+<time datetime="2015-05-24T16:19:31+09:00" pubdate data-updated="true">May 24<span>th</span>, 2015</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
+    <a class='category' href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境</a>
   
 </span>
 
@@ -143,7 +141,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/05/21/wireshark-1-dot-10-dot-7/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25/" >Tweet</a>
   
   
   
@@ -152,10 +150,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/05/18/lxc-gihyo-01/" title="Previous Post: LXC　空間を歩む　第一歩">&laquo; LXC　空間を歩む　第一歩</a>
+        <a class="basic-alignment left" href="/blog/2015/05/22/libssh-0-dot-6-5/" title="Previous Post: libssh 0.6.5">&laquo; libssh 0.6.5</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/05/30/php-5-dot-5-13/" title="Next Post: php 5.5.13">php 5.5.13 &raquo;</a>
       
     </p>
   </footer>
