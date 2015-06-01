@@ -9,8 +9,11 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="procmail 3.22 にセキュリティホールが発見されています。詳しくは以下をご覧ください。 CVE-2014-3618 パッチを適用した P2 パッケージをリリースしました。 procmail-3.22-i586-P2.txz (32bit)
-procmail-3.22-x86_64-P2. &hellip;">
+  <meta name="description" content="*第9回　LXCの基本操作［2］ 今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 &lt; bar-mtomi コンテナの削除
+cgroup設定の確認，変更
+コンテナのクローン
+コンテナのスナップショットの取得
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +77,51 @@ procmail-3.22-x86_64-P2. &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/11/lxc-gihyo-09/">LXC　空間を歩む　九歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-11T12:58:49+09:00" pubdate data-updated="true">Sep 11<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0009">第9回　LXCの基本操作［2］</a></p>
+
+<p>今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>コンテナの削除
+cgroup設定の確認，変更
+コンテナのクローン
+コンテナのスナップショットの取得
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -522,54 +570,6 @@ LXC日本語ページの移行
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/07/10/lxc-gihyo-05/">LXC　空間を歩む　五歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-07-10T12:54:36+09:00" pubdate data-updated="true">Jul 10<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0005">第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3）</a></li>
-</ul>
-
-
-<p>もう読むだけではダメだ。 名前空間, cgroup, サブシステム等と LXC （コンテナ &lt;&mdash; 使ってないし） と、ホストがらみの関係 ！？ &lt; bar-mtomi (M.Tomi)<br/>
-　　いや？ コンテナに（限らず？）於いては、ホストに影響を与えない様にするためか？ &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>サブシステム紹介（続き）
-cgroup の今後
-まとめ
-LXC-JPグループ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -585,6 +585,16 @@ LXC-JPグループ
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2015/06/01/p-plamo-5-dot-3-1/">P-Plamo 5.3.1 リリース</a>
+          </li>
+        
+      
     
       
         
@@ -1083,10 +1093,14 @@ LXC-JPグループ
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (1)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (5)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (25)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (25)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/06/01/p-plamo-5-dot-3-1/">P-Plamo 5.3.1 リリース</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/05/26/fuse-2-dot-9-4/">Fuse 2.9.4</a>
@@ -1102,10 +1116,6 @@ LXC-JPグループ
     
       <li class="post">
         <a href="/blog/2015/05/22/libssh-0-dot-6-5/">Libssh 0.6.5</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/05/22/php-5-dot-6-9/">Php 5.6.9</a>
       </li>
     
   </ul>
