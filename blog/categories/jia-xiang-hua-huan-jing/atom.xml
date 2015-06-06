@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-06-01T16:26:09+09:00</updated>
+  <updated>2015-06-06T15:23:37+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十六歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/06/06/lxc-gihyo-26/"/>
+    <updated>2015-06-06T15:08:37+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/06/06/lxc-gihyo-26</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0026">第26回　LXCの構築・活用［12］ ─ APIと言語バインディング</a></p>
+
+<p>えっ～！ ビックリした。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>C言語 から
+Python から
+まとめ
+連載のお礼と今後
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十五歩め]]></title>
@@ -83,25 +100,6 @@ loopストレージバックエンドを使ったコンテナの作成
 loopストレージバックエンドを使ったコンテナのクローンとスナップショット
 まとめ
 LXC 1.1.1
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十一歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21/"/>
-    <updated>2015-03-12T13:20:04+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/03/12/lxc-gihyo-21</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0021">第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM）</a></p>
-
-<p>色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LVMをストレージバックエンドとして使う場合の準備
-LVMを使ったコンテナ用のシステム設定と作成時のオプション
-LVMを使ったコンテナの作成
-LVMを使ったコンテナのクローン
-Thin Provisioning 機能の利用
-まとめ
 </code></pre></blockquote>
 ]]></content>
   </entry>

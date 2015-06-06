@@ -9,9 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。 CVE-2015-1798
-CVE-2015-1799 対策パッケージをリリースしました。 ntp-4.2.8p2-i686-P1.txz (32bit)
-ntp-4.2.8p2-x86_64-P1.txz (64bit &hellip;">
+  <meta name="description" content="*第24回　LXCの構築・活用［10］─ フック(2) 実際に利用してないから一口感想もできなくなってきたので、疑問に思った事を書いておこう。
+仮想マシンがホストを道連れにしてフリーズする等はあるのだろうか? &lt; bar-mtomi フックの仕様
+コンテナ開始前のフック &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,53 @@ ntp-4.2.8p2-x86_64-P1.txz (64bit &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/28/lxc-gihyo-24/">LXC　空間を歩む　二十四歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-28T12:31:31+09:00" pubdate data-updated="true">Apr 28<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0024">第24回　LXCの構築・活用［10］─ フック(2)</a></p>
+
+<p>実際に利用してないから一口感想もできなくなってきたので、疑問に思った事を書いておこう。
+仮想マシンがホストを道連れにしてフリーズする等はあるのだろうか? &lt; bar-mtomi</p>
+
+<blockquote><pre><code>フックの仕様
+コンテナ開始前のフック
+コンテナ終了後のフック
+コンテナのクローン時のフック
+まとめ
+LXC 1.1.2
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -508,55 +555,6 @@ LXC 1.1.1
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/20/openssl-1-dot-0-1m/">OpenSSL 1.0.1m</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-20T18:26:36+09:00" pubdate data-updated="true">Mar 20<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む OpenSSL 1.0.1m がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.openssl.org/news/secadv_20150319.txt">OpenSSL Security Advisory [19 Mar 2015]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1m-i686-P1.txz">openssl-1.0.1m-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1m-x86_64-P1.txz">openssl-1.0.1m-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -572,6 +570,10 @@ LXC 1.1.1
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1080,10 +1082,14 @@ LXC 1.1.1
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (25)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/06/06/lxc-gihyo-26/">LXC　空間を歩む　二十六歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/06/01/p-plamo-5-dot-3-1/">P-Plamo 5.3.1 リリース</a>
@@ -1099,10 +1105,6 @@ LXC 1.1.1
     
       <li class="post">
         <a href="/blog/2015/05/24/lxc-gihyo-25/">LXC　空間を歩む　二十五歩め</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/05/22/libssh-0-dot-6-5/">Libssh 0.6.5</a>
       </li>
     
   </ul>

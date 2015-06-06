@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う 今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi Linuxにおける主なサウンドシステム・ &hellip;">
+  <meta name="description" content="*第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間 中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,49 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/19/lxc-gihyo-16/">LXC　空間を歩む　十六歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-19T17:05:24+09:00" pubdate data-updated="true">Dec 19<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0016">第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間</a></p>
+
+<p>中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar-mtomi</p>
+
+<blockquote><pre><code>ユーザ名前空間
+まとめ
+最近のLXC関連の動き
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -499,54 +542,6 @@ LXC 1.0.6
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/27/lxc-gihyo-10/">LXC　空間を歩む　十歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
-
-<p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
-
-<blockquote><pre><code>アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング
-指定したコンテナの状態への待機
-Ubuntu 14.04 LTSのcgroup管理
-まとめ
-第4回 コンテナ型仮想化の情報交換会＠東京
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -562,6 +557,10 @@ Ubuntu 14.04 LTSのcgroup管理
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1070,10 +1069,14 @@ Ubuntu 14.04 LTSのcgroup管理
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (25)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (61)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/06/06/lxc-gihyo-26/">LXC　空間を歩む　二十六歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/06/01/p-plamo-5-dot-3-1/">P-Plamo 5.3.1 リリース</a>
@@ -1089,10 +1092,6 @@ Ubuntu 14.04 LTSのcgroup管理
     
       <li class="post">
         <a href="/blog/2015/05/24/lxc-gihyo-25/">LXC　空間を歩む　二十五歩め</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/05/22/libssh-0-dot-6-5/">Libssh 0.6.5</a>
       </li>
     
   </ul>
