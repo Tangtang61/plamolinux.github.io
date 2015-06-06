@@ -1,0 +1,17 @@
+---
+layout: post
+title: "LXC　空間を歩む　二十六歩め"
+date: 2015-06-06 15:08:37 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第26回　LXCの構築・活用［12］ ─ APIと言語バインディング](http://gihyo.jp/admin/serial/01/linux_containers/0026)
+
+えっ～！ ビックリした。 < bar-mtomi
+
+>
+    C言語 から
+    Python から
+    まとめ
+    連載のお礼と今後
