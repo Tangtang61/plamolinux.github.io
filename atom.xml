@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-06-10T18:12:50+09:00</updated>
+  <updated>2015-06-12T18:26:23+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenSSL 1.0.1n]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/06/12/openssl-1-dot-0-1n/"/>
+    <updated>2015-06-12T18:26:36+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/06/12/openssl-1-dot-0-1n</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1n がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.openssl.org/news/secadv_20150611.txt">OpenSSL Security Advisory [11 Jun 2015]</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1n-i686-P1.txz">openssl-1.0.1n-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1n-x86_64-P1.txz">openssl-1.0.1n-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Libtasn1 2.14]]></title>
@@ -413,30 +435,6 @@ loopストレージバックエンドを使ったコンテナのクローンと�
 まとめ
 LXC 1.1.1
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tcpdump 4.7.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/03/24/tcpdump-4-dot-7-3/"/>
-    <updated>2015-03-24T17:39:54+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/03/24/tcpdump-4-dot-7-3</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む tcpdump 4.7.3 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://seclists.org/bugtraq/2015/Mar/33">tcpdump 4.7.2 remote crashes</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。(libpcap も同時に更新しました)</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/libpcap-1.7.2-i686-P1.txz">libpcap-1.7.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/tcpdump-4.7.3-i686-P1.txz">tcpdump-4.7.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/libpcap-1.7.2-x86_64-P1.txz">libpcap-1.7.2-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/tcpdump-4.7.3-x86_64-P1.txz">tcpdump-4.7.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
