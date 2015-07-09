@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-06-17T15:20:57+09:00</updated>
+  <updated>2015-07-09T15:06:25+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bind 9.9.7-P1]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/07/09/bind-9-dot-9-7-p1/"/>
+    <updated>2015-07-09T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/07/09/bind-9-dot-9-7-p1</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://jprs.jp/tech/security/2015-07-08-bind9-vuln-dnssec-validation.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（2015年7月8日公開）</a> (JPRS)</li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.7_P1-i686-P1.txz">bind-9.9.7_P1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.7_P1-x86_64-P1.txz">bind-9.9.7_P1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 5.6.10]]></title>
@@ -417,24 +439,6 @@ lxc-start-ephemeralのその他の使い方
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P5.txz">gnutls-2.12.23-x86_64-P5.txz (64bit)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十二歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/03/28/lxc-gihyo-22/"/>
-    <updated>2015-03-28T16:41:03+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/03/28/lxc-gihyo-22</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0022">第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop）</a></p>
-
-<p>今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LVMを使ったコンテナに対するlxc-snapshotコマンドの実行
-loopストレージバックエンドを使ったコンテナの作成
-loopストレージバックエンドを使ったコンテナのクローンとスナップショット
-まとめ
-LXC 1.1.1
-</code></pre></blockquote>
 ]]></content>
   </entry>
   

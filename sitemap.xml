@@ -257,10 +257,6 @@
         <lastmod>2015-02-17T15:58:04+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2015/02/24/bind-9-dot-9-6-p2/</loc>
-        <lastmod>2015-02-24T19:24:20+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2015/02/25/lxc-gihyo-20/</loc>
         <lastmod>2015-02-25T16:00:24+09:00</lastmod>
     </url>
@@ -373,12 +369,16 @@
         <lastmod>2015-06-17T15:19:54+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2015/07/09/bind-9-dot-9-7-p1/</loc>
+        <lastmod>2015-07-09T15:04:21+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/about/</loc>
         <lastmod>2014-12-09T16:13:32+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2015-06-17T15:19:54+09:00</lastmod>
+        <lastmod>2015-07-09T15:04:21+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -390,7 +390,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2015-06-17T15:19:54+09:00</lastmod>
+        <lastmod>2015-07-09T15:04:21+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>
