@@ -1,0 +1,16 @@
+---
+layout: post
+title: "OpenSSL 1.0.1p"
+date: 2015-07-10 16:30:00 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+
+セキュリティホールの修正を含む OpenSSL 1.0.1p がリリースされています。詳しくは以下をご覧ください。
+
+* [OpenSSL Security Advisory [9 Jul 2015]](https://www.openssl.org/news/secadv_20150709.txt)
+
+パッケージをリリースしました．
+
+* [openssl-1.0.1p-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1p-i686-P1.txz)
+* [openssl-1.0.1p-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1p-x86_64-P1.txz)
