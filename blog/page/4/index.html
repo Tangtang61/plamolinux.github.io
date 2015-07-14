@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="e2fsprogs 1.42.12 より前のバージョンにセキュリティホールが発見されています。詳しくは以下をご覧ください。 #2015-002 e2fsprogs input sanitization errors (oCERT) 対策パッケージをリリースしました。 e2fsprogs-1.42. &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む freetype 2.5.5 がリリースされています．詳しくは以下をご覧ください． http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/
+http://sourceforge.net/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,57 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/17/freetype-2-dot-5-5/">Freetype 2.5.5</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-17T15:51:12+09:00" pubdate data-updated="true">Feb 17<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む freetype 2.5.5 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/</a></li>
+<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.5/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.5/</a></li>
+<li>その他 CVE-2014-9656 〜 CVE-2014-9675 までの修正が行われています。<a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9675">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9675</a> 等をご覧ください。</li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/TTfont.txz/freetype-2.5.5-i686-P1.txz">freetype-2.5.5-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/TTfont.txz/freetype-2.5.5-x86_64-P1.txz">freetype-2.5.5-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -570,55 +622,6 @@ overlayfsの将来
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/30/util-linux-2-dot-25-dot-2/">Util-linux 2.25.2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-30T00:00:00+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>util-linux 2.25.2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1168485">Bug 1168485 &ndash; CVE-2014-9114 util-linux: command injection flaw in blkid</a> (Red Hat Bugzilla)</li>
-</ul>
-
-
-<p>パッチを適用した util-linux-2.25.2 のパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/util_linux-2.25.2-i686-P1.txz">util_linux-2.25.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/util_linux-2.25.2-x86_64-P1.txz">util_linux-2.25.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -634,6 +637,18 @@ overlayfsの将来
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -717,12 +732,6 @@ overlayfsの将来
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1156,10 +1165,18 @@ overlayfsの将来
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (63)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (64)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/07/14/stunnel-5-dot-20/">Stunnel 5.20</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/14/ntp-4-dot-2-8p3/">Ntp 4.2.8p3</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/07/10/openssl-1-dot-0-1p/">OpenSSL 1.0.1p</a>
@@ -1171,14 +1188,6 @@ overlayfsの将来
     
       <li class="post">
         <a href="/blog/2015/07/09/bind-9-dot-9-7-p1/">Bind 9.9.7-P1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/06/17/php-5-dot-6-10/">Php 5.6.10</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/06/10/libtasn1-2-dot-14/">Libtasn1 2.14</a>
       </li>
     
   </ul>
