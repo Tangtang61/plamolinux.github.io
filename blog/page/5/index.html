@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="util-linux 2.25.2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Bug 1168485 &ndash; CVE-2014-9114 util-linux: command injection flaw in blkid (Red Hat Bugzilla &hellip;">
+  <meta name="description" content="*第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi overlayfsとは &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,53 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/30/lxc-gihyo-18/">LXC　空間を歩む　十八歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
+
+<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>overlayfsとは
+overlayfsを使ってみる
+3.18カーネルのoverlayfs
+opaque（不透明）ディレクトリ
+overlayfsを使う上での注意
+overlayfsの将来
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -519,52 +566,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/16/lxc-gihyo-17/">LXC　空間を歩む　十七歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-16T16:40:03+09:00" pubdate data-updated="true">Jan 16<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0017">第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用</a></p>
-
-<p>一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>一般ユーザでコンテナを利用できるディストリビューション
-一般ユーザでコンテナを利用する場合のOSでの準備
-UbuntuのLXCパッケージ使用時の各種パス
-一般ユーザでコンテナを利用する場合のLXCの設定
-一般ユーザでのコンテナの起動
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/6/">&larr; Older</a>
@@ -580,6 +581,12 @@ UbuntuのLXCパッケージ使用時の各種パス
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1057,18 +1064,6 @@ UbuntuのLXCパッケージ使用時の各種パス
         
       
         
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
           <li class="post">
             <a href="/blog/2014/01/18/p-plamo-5-dot-2/">P-Plamo 5.2 リリース</a>
           </li>
@@ -1108,10 +1103,14 @@ UbuntuのLXCパッケージ使用時の各種パス
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (64)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (63)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/07/15/php-5-dot-6-11/">Php 5.6.11</a>
@@ -1127,10 +1126,6 @@ UbuntuのLXCパッケージ使用時の各種パス
     
       <li class="post">
         <a href="/blog/2015/07/14/ntp-4-dot-2-8p3/">Ntp 4.2.8p3</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/10/openssl-1-dot-0-1p/">OpenSSL 1.0.1p</a>
       </li>
     
   </ul>

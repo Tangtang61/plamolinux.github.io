@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>GnuTLS にセキュリティホール - Plamo Linux</title>
+  <title>Libzip 0.11.2 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="GnuTLS にセキュリティホールが発見されています．詳しくは以下をご覧ください． GNUTLS-SA-2014-2(CVE-2014-0092) 対策パッケージをリリースしました． gnutls-2.12.23-i586-P3.txz (32bit)
-gnutls-2.12.23-x86_64- &hellip;">
+  <meta name="description" content="libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。 JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性 (JVN &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ gnutls-2.12.23-x86_64- &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2014/03/05/gnutls-cve-2014-0092">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/07/16/libzip-0-dot-11-dot-2">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -71,7 +70,7 @@ gnutls-2.12.23-x86_64- &hellip;">
   
   <header>
     
-      <h1 class="entry-title">GnuTLS にセキュリティホール</h1>
+      <h1 class="entry-title">Libzip 0.11.2</h1>
     
     
       <p class="meta">
@@ -87,25 +86,25 @@ gnutls-2.12.23-x86_64- &hellip;">
   
 
 
-<time datetime="2014-03-05T17:32:56+09:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+<time datetime="2015-07-16T16:21:07+09:00" pubdate data-updated="true">Jul 16<span>th</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>GnuTLS にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+<div class="entry-content"><p>libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
 
 <ul>
-<li><a href="http://www.gnutls.org/security.html#GNUTLS-SA-2014-2">GNUTLS-SA-2014-2(CVE-2014-0092)</a></li>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002001.html">JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性</a> (JVN iPedia)</li>
 </ul>
 
 
-<p>対策パッケージをリリースしました．</p>
+<p>パッチを適用した libzip 0.11.2 パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-i586-P3.txz">gnutls-2.12.23-i586-P3.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-2.12.23-x86_64-P3.txz">gnutls-2.12.23-x86_64-P3.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libzip-0.11.2-i686-P1.txz">libzip-0.11.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libzip-0.11.2-x86_64-P1.txz">libzip-0.11.2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 </div>
@@ -130,7 +129,7 @@ gnutls-2.12.23-x86_64- &hellip;">
   
 
 
-<time datetime="2014-03-05T17:32:56+09:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+<time datetime="2015-07-16T16:21:07+09:00" pubdate data-updated="true">Jul 16<span>th</span>, 2015</time>
       
 
 <span class="categories">
@@ -144,7 +143,7 @@ gnutls-2.12.23-x86_64- &hellip;">
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2014/03/05/gnutls-cve-2014-0092/" data-via="" data-counturl="http://plamolinux.github.io/blog/2014/03/05/gnutls-cve-2014-0092/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/07/16/libzip-0-dot-11-dot-2/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/07/16/libzip-0-dot-11-dot-2/" >Tweet</a>
   
   
   
@@ -153,10 +152,8 @@ gnutls-2.12.23-x86_64- &hellip;">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/19/pidgin-2-dot-10-dot-9/" title="Previous Post: pidgin 2.10.9">&laquo; pidgin 2.10.9</a>
+        <a class="basic-alignment left" href="/blog/2015/07/15/php-5-dot-6-11/" title="Previous Post: php 5.6.11">&laquo; php 5.6.11</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/13/freetype-2-dot-5-3/" title="Next Post: freetype 2.5.3">freetype 2.5.3 &raquo;</a>
       
     </p>
   </footer>
@@ -169,6 +166,12 @@ gnutls-2.12.23-x86_64- &hellip;">
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -646,18 +649,6 @@ gnutls-2.12.23-x86_64- &hellip;">
         
       
         
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
           <li class="post">
             <a href="/blog/2014/01/18/p-plamo-5-dot-2/">P-Plamo 5.2 リリース</a>
           </li>
@@ -697,10 +688,14 @@ gnutls-2.12.23-x86_64- &hellip;">
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (64)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (63)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/07/15/php-5-dot-6-11/">Php 5.6.11</a>
@@ -716,10 +711,6 @@ gnutls-2.12.23-x86_64- &hellip;">
     
       <li class="post">
         <a href="/blog/2015/07/14/ntp-4-dot-2-8p3/">Ntp 4.2.8p3</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/10/openssl-1-dot-0-1p/">OpenSSL 1.0.1p</a>
       </li>
     
   </ul>
