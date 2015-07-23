@@ -1,0 +1,16 @@
+---
+layout: post
+title: "httpd 2.4.16"
+date: 2015-07-23 00:00:00 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+セキュリティホールの修正を含む Apache httpd 2.4.16 がリリースされています．詳しくは以下をご覧ください．
+
+* [Apache HTTP Server 2.4.16 Released](http://www.apache.org/dist/httpd/Announcement2.4.html)
+* [Fixed in Apache httpd 2.4.16](http://httpd.apache.org/security/vulnerabilities_24.html#2.4.16)
+
+パッケージをリリースしました．
+
+* [httpd-2.4.16-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.16-i686-P1.txz)
+* [httpd-2.4.16-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.16-x86_64-P1.txz)
