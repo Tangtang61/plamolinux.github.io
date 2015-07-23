@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用 一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi 一般ユーザでコンテナを利用できるディストリビューション &hellip;">
+  <meta name="description" content="binutils 2.25 より前のバージョンにセキュリティホールが発見されています。詳しくは以下をご覧ください。 CVE-2014-8484 (NVD) 対策パッケージをリリースしました。 binutils-2.25-i686-P1.txz (32bit)
+binutils-2.25- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,55 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/20/binutils-2-dot-25/">Binutils 2.25</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-20T17:05:46+09:00" pubdate data-updated="true">Jan 20<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>binutils 2.25 より前のバージョンにセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8484">CVE-2014-8484</a> (NVD)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/binutils-2.25-i686-P1.txz">binutils-2.25-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/binutils-2.25-x86_64-P1.txz">binutils-2.25-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -575,55 +625,6 @@ OSSを経由してサウンドを出力する
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/30/wget-1-dot-16/">Wget 1.16</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-30T10:52:52+09:00" pubdate data-updated="true">Oct 30<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホール修正を含む wget 1.16 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-4877">CVE-2014-4877</a> (NVD)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/wget-1.16-i586-P1.txz">wget-1.16-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/wget-1.16-x86_64-P1.txz">wget-1.16-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -639,6 +640,24 @@ OSSを経由してサウンドを出力する
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -858,24 +877,12 @@ OSSを経由してサウンドを出力する
         
       
         
-      
-    
-      
-        
-      
-        
           <li class="post">
             <a href="/blog/2015/02/02/plamo-5-dot-3-1-release/">Plamo 5.3.1 リリース</a>
           </li>
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1047,12 +1054,6 @@ OSSを経由してサウンドを出力する
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1167,23 +1168,23 @@ OSSを経由してサウンドを出力する
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/07/23/curl-7-dot-43-dot-0/">Curl 7.40.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/23/mariadb-5-dot-5-44/">Mariadb 5.5.44</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/23/httpd-2-dot-4-16/">Httpd 2.4.16</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a>
       </li>
     
       <li class="post">
         <a href="/blog/2015/07/15/php-5-dot-6-11/">Php 5.6.11</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/15/thunderbird-38-dot-0-1/">Thunderbird 38.0.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/14/stunnel-5-dot-20/">Stunnel 5.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/14/ntp-4-dot-2-8p3/">Ntp 4.2.8p3</a>
       </li>
     
   </ul>

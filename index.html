@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。 JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性 (JVN &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください． Fixed in 7.43.0 &ndash; June 17 2015
+Re-using authenticated connection when unauthenticated &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,161 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/23/curl-7-dot-43-dot-0/">Curl 7.40.0</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-23T17:00:00+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/changes.html#7_43_0">Fixed in 7.43.0 &ndash; June 17 2015</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422A.html">Re-using authenticated connection when unauthenticated</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422B.html">Negotiate not treated as connection-oriented</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422C.html">cookie parser out of boundary memory access</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422D.html">host name out of boundary memory access</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150429.html">sensitive HTTP server headers also sent to proxies</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150617A.html">lingering HTTP credentials in connection re-use</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150617B.html">SMB send off unrelated memory contents</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.43.0-i686-P1.txz">curl-7.43.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.43.0-x86_64-P1.txz">curl-7.43.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/23/mariadb-5-dot-5-44/">Mariadb 5.5.44</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-23T16:51:43+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む MariaDB 5.5.44 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://mariadb.com/kb/en/mariadb/security/">Security Vulnerabilities Fixed in MariaDB</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/mariadb-5.5.44-i686-P1.txz">mariadb-5.5.44-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/mariadb-5.5.44-x86_64-P1.txz">mariadb-5.5.44-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/23/httpd-2-dot-4-16/">Httpd 2.4.16</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-23T00:00:00+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む Apache httpd 2.4.16 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.16 Released</a></li>
+<li><a href="http://httpd.apache.org/security/vulnerabilities_24.html#2.4.16">Fixed in Apache httpd 2.4.16</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.16-i686-P1.txz">httpd-2.4.16-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.16-x86_64-P1.txz">httpd-2.4.16-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -421,146 +577,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/09/bind-9-dot-9-7-p1/">Bind 9.9.7-P1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-09T00:00:00+09:00" pubdate data-updated="true">Jul 9<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://jprs.jp/tech/security/2015-07-08-bind9-vuln-dnssec-validation.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（2015年7月8日公開）</a> (JPRS)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.7_P1-i686-P1.txz">bind-9.9.7_P1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.7_P1-x86_64-P1.txz">bind-9.9.7_P1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/06/10/libtasn1-2-dot-14/">Libtasn1 2.14</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-06-10T18:05:51+09:00" pubdate data-updated="true">Jun 10<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>libtasn1 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2806">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2806</a></li>
-</ul>
-
-
-<p>libtasn1 2.14 に対策パッチを適用したパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libtasn1-2.14-i686-P1.txz">libtasn1-2.14-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libtasn1-2.14-x86_64-P1.txz">libtasn1-2.14-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/06/09/plamo-linux-utf8/">Plamo LinuxをUTF-8で使う</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-06-09T16:44:14+09:00" pubdate data-updated="true">Jun 9<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">玩式草子─ソフトウェアとたわむれる日々</a> に 「Plamo LinuxをUTF-8で使う」 方法が記載されています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0069">第69回　Plamo LinuxをUTF-8で使う［その1］</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0070">第70回　Plamo LinuxをUTF-8で使う［その2］</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -574,6 +590,24 @@
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -793,24 +827,12 @@
         
       
         
-      
-    
-      
-        
-      
-        
           <li class="post">
             <a href="/blog/2015/02/02/plamo-5-dot-3-1-release/">Plamo 5.3.1 リリース</a>
           </li>
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -982,12 +1004,6 @@
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1102,23 +1118,23 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/07/23/curl-7-dot-43-dot-0/">Curl 7.40.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/23/mariadb-5-dot-5-44/">Mariadb 5.5.44</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/23/httpd-2-dot-4-16/">Httpd 2.4.16</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a>
       </li>
     
       <li class="post">
         <a href="/blog/2015/07/15/php-5-dot-6-11/">Php 5.6.11</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/15/thunderbird-38-dot-0-1/">Thunderbird 38.0.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/14/stunnel-5-dot-20/">Stunnel 5.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/14/ntp-4-dot-2-8p3/">Ntp 4.2.8p3</a>
       </li>
     
   </ul>

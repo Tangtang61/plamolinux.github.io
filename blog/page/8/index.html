@@ -9,11 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第7回　LXCの歴史と特徴 コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ コンテナのネストができるのか！ &lt; bar-mtomi LXCの歴史
-LXCの特徴
-LXCの気になる点
-まとめ
-最近のLXCのリリース ">
+  <meta name="description" content="*第8回　LXCの基本操作［1］ 各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi Ubuntuパッケージ使用時の各種パス &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +73,55 @@ LXCの気になる点
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/28/lxc-gihyo-08/">LXC　空間を歩む　八歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-28T21:45:50+09:00" pubdate data-updated="true">Aug 28<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
+
+<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
+Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
+共通オプション
+コンテナの作成 ? lxc-create
+コンテナの情報表示 ? lxc-ls, lxc-info
+コンテナの起動 ? lxc-start
+コンテナの停止・リブート ? lxc-stop
+コンテナ内での作業
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -264,56 +309,6 @@ macvlan
 まとめ
 LXC日本語ページの移行
 </code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/07/22/apache-2-dot-4-10/">Apache Httpd 2.4.10</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-07-22T18:50:18+09:00" pubdate data-updated="true">Jul 22<span>nd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む Apache httpd 2.4.10 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.10 Released</a></li>
-<li><a href="http://www.apache.jp/news/apache-http-server-2.4.10-released">Apache HTTP Server 2.4.10 がリリースされました</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.10-i586-P1.txz">httpd-2.4.10-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.10-x86_64-P1.txz">httpd-2.4.10-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 </div>
   
   
@@ -631,6 +626,24 @@ LXC公式サイトの翻訳
       
         
       
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
     
       
         
@@ -792,24 +805,12 @@ LXC公式サイトの翻訳
         
       
         
-      
-    
-      
-        
-      
-        
           <li class="post">
             <a href="/blog/2015/02/02/plamo-5-dot-3-1-release/">Plamo 5.3.1 リリース</a>
           </li>
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -981,12 +982,6 @@ LXC公式サイトの翻訳
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1101,23 +1096,23 @@ LXC公式サイトの翻訳
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/07/23/curl-7-dot-43-dot-0/">Curl 7.40.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/23/mariadb-5-dot-5-44/">Mariadb 5.5.44</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/07/23/httpd-2-dot-4-16/">Httpd 2.4.16</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a>
       </li>
     
       <li class="post">
         <a href="/blog/2015/07/15/php-5-dot-6-11/">Php 5.6.11</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/15/thunderbird-38-dot-0-1/">Thunderbird 38.0.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/14/stunnel-5-dot-20/">Stunnel 5.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/14/ntp-4-dot-2-8p3/">Ntp 4.2.8p3</a>
       </li>
     
   </ul>

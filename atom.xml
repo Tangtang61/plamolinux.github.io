@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-07-16T16:26:36+09:00</updated>
+  <updated>2015-07-23T17:03:48+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,80 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Curl 7.40.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/07/23/curl-7-dot-43-dot-0/"/>
+    <updated>2015-07-23T17:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/07/23/curl-7-dot-43-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/changes.html#7_43_0">Fixed in 7.43.0 &ndash; June 17 2015</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422A.html">Re-using authenticated connection when unauthenticated</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422B.html">Negotiate not treated as connection-oriented</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422C.html">cookie parser out of boundary memory access</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422D.html">host name out of boundary memory access</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150429.html">sensitive HTTP server headers also sent to proxies</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150617A.html">lingering HTTP credentials in connection re-use</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150617B.html">SMB send off unrelated memory contents</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.43.0-i686-P1.txz">curl-7.43.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.43.0-x86_64-P1.txz">curl-7.43.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mariadb 5.5.44]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/07/23/mariadb-5-dot-5-44/"/>
+    <updated>2015-07-23T16:51:43+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/07/23/mariadb-5-dot-5-44</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む MariaDB 5.5.44 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://mariadb.com/kb/en/mariadb/security/">Security Vulnerabilities Fixed in MariaDB</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/mariadb-5.5.44-i686-P1.txz">mariadb-5.5.44-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/mariadb-5.5.44-x86_64-P1.txz">mariadb-5.5.44-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Httpd 2.4.16]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/07/23/httpd-2-dot-4-16/"/>
+    <updated>2015-07-23T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/07/23/httpd-2-dot-4-16</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.16 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.16 Released</a></li>
+<li><a href="http://httpd.apache.org/security/vulnerabilities_24.html#2.4.16">Fixed in Apache httpd 2.4.16</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.16-i686-P1.txz">httpd-2.4.16-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.16-x86_64-P1.txz">httpd-2.4.16-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Libzip 0.11.2]]></title>
@@ -372,68 +446,6 @@ Ubuntu起動時のlxc-autostartの使用
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/qemu-2.0.0-i686-P2.txz">qemu-2.0.0-i686-P2.txz</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/qemu-2.0.0-x86_64-P2.txz">qemu-2.0.0-x86_64-P2.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十四歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/04/28/lxc-gihyo-24/"/>
-    <updated>2015-04-28T12:31:31+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/04/28/lxc-gihyo-24</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0024">第24回　LXCの構築・活用［10］─ フック(2)</a></p>
-
-<p>実際に利用してないから一口感想もできなくなってきたので、疑問に思った事を書いておこう。
-仮想マシンがホストを道連れにしてフリーズする等はあるのだろうか? &lt; bar-mtomi</p>
-
-<blockquote><pre><code>フックの仕様
-コンテナ開始前のフック
-コンテナ終了後のフック
-コンテナのクローン時のフック
-まとめ
-LXC 1.1.2
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十三歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/04/11/lxc-gihyo-23/"/>
-    <updated>2015-04-11T14:37:30+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/04/11/lxc-gihyo-23</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0023">第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1)</a></p>
-
-<p>ephemeral の意味をしらべて、そうなのか？ … でも &mdash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>lxc-start-ephemeralコマンドの概要
-まずは使ってみましょう
-lxc-start-ephemeralコマンドのオプション
-lxc-start-ephemeralコマンドの仕組みとフック
-lxc-start-ephemeralのその他の使い方
-まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tiff 4.0.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/04/08/tiff/"/>
-    <updated>2015-04-08T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/04/08/tiff</id>
-    <content type="html"><![CDATA[<p>libtiff にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://openwall.com/lists/oss-security/2015/01/24/15">http://openwall.com/lists/oss-security/2015/01/24/15</a></li>
-<li><a href="http://openwall.com/lists/oss-security/2015/02/07/5">http://openwall.com/lists/oss-security/2015/02/07/5</a></li>
-</ul>
-
-
-<p>パッチを適用したパッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/tiff-4.0.3-i686-P3.txz">tiff-4.0.3-i686-P3.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/tiff-4.0.3-x86_64-P3.txz">tiff-4.0.3-x86_64-P3.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
