@@ -1,0 +1,22 @@
+---
+layout: post
+title: "curl 7.40.0"
+date: 2015-07-23 17:00:00 +0900
+comments: false
+categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+---
+セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください．
+
+* [Fixed in 7.43.0 - June 17 2015](http://curl.haxx.se/changes.html#7_43_0)
+* [Re-using authenticated connection when unauthenticated](http://curl.haxx.se/docs/adv_20150422A.html)
+* [Negotiate not treated as connection-oriented](http://curl.haxx.se/docs/adv_20150422B.html)
+* [cookie parser out of boundary memory access](http://curl.haxx.se/docs/adv_20150422C.html)
+* [host name out of boundary memory access](http://curl.haxx.se/docs/adv_20150422D.html)
+* [sensitive HTTP server headers also sent to proxies](http://curl.haxx.se/docs/adv_20150429.html)
+* [lingering HTTP credentials in connection re-use](http://curl.haxx.se/docs/adv_20150617A.html)
+* [SMB send off unrelated memory contents](http://curl.haxx.se/docs/adv_20150617B.html)
+
+対策パッケージをリリースしました．
+
+* [curl-7.43.0-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.43.0-i686-P1.txz)
+* [curl-7.43.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.43.0-x86_64-P1.txz)
