@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第8回　LXCの基本操作［1］ 各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi Ubuntuパッケージ使用時の各種パス &hellip;">
+  <meta name="description" content="GraphicsMagick に脆弱性が発見されています。詳しくは以下をご覧ください。 Changelog 対策パッケージをリリースしました。libwebp パッケージも同時に更新する必要があります。 libwebp-0.4.1-i586-P1.txz (32bit)
+GraphicsMagick &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,59 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/03/graphicsmagick-1-dot-3-20/">GraphicsMagick-1.3.20</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-03T01:30:56+09:00" pubdate data-updated="true">Sep 3<span>rd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>GraphicsMagick に脆弱性が発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.graphicsmagick.org/Changelog.html">Changelog</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。libwebp パッケージも同時に更新する必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/libwebp-0.4.1-i586-P1.txz">libwebp-0.4.1-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/GraphicsMagick-1.3.20-i586-P1.txz">GraphicsMagick-1.3.20-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/libwebp-0.4.1-x86_64-P1.txz">libwebp-0.4.1-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/GraphicsMagick-1.3.20-x86_64-P1.txz">GraphicsMagick-1.3.20-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -504,55 +558,6 @@ cgroupの階層構造
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC　空間を歩む　第二歩</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-31T14:38:45+09:00" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
-</ul>
-
-
-<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>コンテナの仕組み
-コンテナのメリット
-コンテナのデメリット
-Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
-まとめ
-LXC公式サイトの翻訳
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/9/">&larr; Older</a>
@@ -568,6 +573,12 @@ LXC公式サイトの翻訳
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1090,10 +1101,14 @@ LXC公式サイトの翻訳
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (63)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (64)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (26)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/07/29/libxml2-2-dot-9-2/">Libxml2 2.9.2</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/07/23/curl-7-dot-43-dot-0/">Curl 7.43.0</a>
@@ -1109,10 +1124,6 @@ LXC公式サイトの翻訳
     
       <li class="post">
         <a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/15/php-5-dot-6-11/">Php 5.6.11</a>
       </li>
     
   </ul>

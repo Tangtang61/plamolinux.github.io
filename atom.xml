@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-07-23T17:06:35+09:00</updated>
+  <updated>2015-07-29T15:17:05+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libxml2 2.9.2]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/07/29/libxml2-2-dot-9-2/"/>
+    <updated>2015-07-29T15:10:25+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/07/29/libxml2-2-dot-9-2</id>
+    <content type="html"><![CDATA[<p>libxml2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-1819">Bug 1211278 CVE-2015-1819 libxml2: denial of service processing a crafted XML document</a> (Red Hat Bugzilla)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.2-i686-P3.txz">libxml2-2.9.2-i686-P3.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.2-x86_64-P3.txz">libxml2-2.9.2-x86_64-P3.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Curl 7.43.0]]></title>
@@ -424,28 +446,6 @@ Ubuntu起動時のlxc-autostartの使用
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/07_kde/libssh-0.6.5-i686-P1.txz">libssh-0.6.5-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/07_kde/libssh-0.6.5-x86_64-P1.txz">libssh-0.6.5-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Qemu 2.0.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/05/19/qemu-2-dot-0-0/"/>
-    <updated>2015-05-19T20:04:14+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/05/19/qemu-2-dot-0-0</id>
-    <content type="html"><![CDATA[<p>qemu に脆弱性が発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://venom.crowdstrike.com/">VENOM Vulnerability</a></li>
-</ul>
-
-
-<p>パッチを適用した対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/qemu-2.0.0-i686-P2.txz">qemu-2.0.0-i686-P2.txz</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/qemu-2.0.0-x86_64-P2.txz">qemu-2.0.0-x86_64-P2.txz</a></li>
 </ul>
 
 ]]></content>
