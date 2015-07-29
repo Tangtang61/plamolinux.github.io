@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-07-29T15:59:12+09:00</updated>
+  <updated>2015-07-29T16:03:53+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Bind 9.9.7-P1]]></title>
+    <title type="html"><![CDATA[Bind 9.9.7-P2]]></title>
     <link href="http://plamolinux.github.io/blog/2015/07/29/bind-9-dot-9-7-p2/"/>
     <updated>2015-07-29T16:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/07/29/bind-9-dot-9-7-p2</id>
