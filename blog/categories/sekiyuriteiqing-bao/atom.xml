@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-07-29T16:03:53+09:00</updated>
+  <updated>2015-07-30T19:26:41+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Subversion 1.7.20]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/07/30/subversion-1-dot-7-20/"/>
+    <updated>2015-07-30T19:23:09+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/07/30/subversion-1-dot-7-20</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む subversion 1.7.20 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002129.html">JVNDB-2015-002129 Subversion の mod_dav_svn および svnserve サーバにおけるサービス運用妨害 (DoS) の脆弱性</a> (JVN iPedia)</li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/subversion-1.7.20-i686-P1.txz">subversion-1.7.20-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/subversion-1.7.20-x86_64-P1.txz">subversion-1.7.20-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bind 9.9.7-P2]]></title>
@@ -103,29 +125,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/mariadb-5.5.44-i686-P1.txz">mariadb-5.5.44-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/mariadb-5.5.44-x86_64-P1.txz">mariadb-5.5.44-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Httpd 2.4.16]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/07/23/httpd-2-dot-4-16/"/>
-    <updated>2015-07-23T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/07/23/httpd-2-dot-4-16</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.16 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.16 Released</a></li>
-<li><a href="http://httpd.apache.org/security/vulnerabilities_24.html#2.4.16">Fixed in Apache httpd 2.4.16</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.16-i686-P1.txz">httpd-2.4.16-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.16-x86_64-P1.txz">httpd-2.4.16-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
