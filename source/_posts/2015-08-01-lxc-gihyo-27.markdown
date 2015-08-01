@@ -1,0 +1,18 @@
+---
+layout: post
+title: "LXC　空間を歩む　二十七歩め"
+date: 2015-08-01 16:26:58 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第27回　LXCへのコミット［1］](http://gihyo.jp/admin/serial/01/linux_containers/0027)
+
+こんな話しを聞きたかったと、ずっと思ってました。たまに連載途中に入れて下さい。 < bar-mtomi
+
+>
+    日本語マニュアル
+    Plamo Linuxテンプレート
+    初めてのバグフィックス
+    非特権コンテナの動作に関わるパッチ
+    まとめ
