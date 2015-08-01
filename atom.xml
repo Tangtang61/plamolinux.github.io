@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-07-30T19:26:41+09:00</updated>
+  <updated>2015-08-01T16:33:05+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十七歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/08/01/lxc-gihyo-27/"/>
+    <updated>2015-08-01T16:26:58+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/08/01/lxc-gihyo-27</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0027">第27回　LXCへのコミット［1］</a></p>
+
+<p>こんな話しを聞きたかったと、ずっと思ってました。たまに連載途中に入れて下さい。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>日本語マニュアル
+Plamo Linuxテンプレート
+初めてのバグフィックス
+非特権コンテナの動作に関わるパッチ
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Subversion 1.7.20]]></title>
@@ -431,23 +449,6 @@ Python から
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/dovecot-2.2.18-x86_64-P1.txz">dovecot-2.2.18-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十五歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25/"/>
-    <updated>2015-05-24T16:19:31+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0025">第25回　LXCの構築・活用 [11] ─lxc-autostartコマンドによるコンテナの自動起動</a></p>
-
-<p>自動で複数起動する場合は必要な機能だなぁ &lt; bar-mtomi</p>
-
-<blockquote><pre><code>設定
-lxc-autostartコマンドの実行
-Ubuntu起動時のlxc-autostartの使用
-まとめ
-</code></pre></blockquote>
 ]]></content>
   </entry>
   
