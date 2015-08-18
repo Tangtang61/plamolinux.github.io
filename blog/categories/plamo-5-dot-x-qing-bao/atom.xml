@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-08-01T16:33:05+09:00</updated>
+  <updated>2015-08-18T19:33:44+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 40.0.2]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/08/18/firefox-40-dot-0-2/"/>
+    <updated>2015-08-18T21:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/08/18/firefox-40-dot-0-2</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 40.0.2 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/40.0.2/releasenotes/">Firefox 40.0.2 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。libpng パッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.18-i686-P1.txz">libpng-1.6.18-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-40.0.2-i686-P1.txz">firefox-40.0.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.18-x86_64-P1.txz">libpng-1.6.18-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-39.0-x86_64-P1.txz">firefox-40.0.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Subversion 1.7.20]]></title>
@@ -103,28 +128,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.43.0-i686-P1.txz">curl-7.43.0-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.43.0-x86_64-P1.txz">curl-7.43.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mariadb 5.5.44]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/07/23/mariadb-5-dot-5-44/"/>
-    <updated>2015-07-23T16:51:43+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/07/23/mariadb-5-dot-5-44</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む MariaDB 5.5.44 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://mariadb.com/kb/en/mariadb/security/">Security Vulnerabilities Fixed in MariaDB</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/mariadb-5.5.44-i686-P1.txz">mariadb-5.5.44-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/mariadb-5.5.44-x86_64-P1.txz">mariadb-5.5.44-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
