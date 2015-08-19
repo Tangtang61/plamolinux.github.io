@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む Thunderbird 38.0.1 がリリースされています。詳しくは以下をご覧ください。 Thunderbird 38.0.1 リリースノート
-Thunderbird セキュリティアドバイザリ パッケージをリリースしました． thunderbird-38.0.1- &hellip;">
+  <meta name="description" content="libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。 JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性 (JVN &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,55 @@ Thunderbird セキュリティアドバイザリ パッケージをリリース�
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-16T16:21:07+09:00" pubdate data-updated="true">Jul 16<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002001.html">JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性</a> (JVN iPedia)</li>
+</ul>
+
+
+<p>パッチを適用した libzip 0.11.2 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libzip-0.11.2-i686-P1.txz">libzip-0.11.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libzip-0.11.2-x86_64-P1.txz">libzip-0.11.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -508,55 +556,6 @@ Python から
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/05/26/dovecot-2-dot-2-18/">Dovecot 2.2.18</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-05-26T00:00:00+09:00" pubdate data-updated="true">May 26<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>dovecot 2.2.18 がリリースされています。詳しくは以下をご覧ください。前のパッケージ 2.2.13 以降のセキュリティホールの修正を含みます。</p>
-
-<ul>
-<li><a href="http://dovecot.org/list/dovecot-news/2015-May/000294.html">v2.2.18 released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/dovecot-2.2.18-i686-P1.txz">dovecot-2.2.18-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/dovecot-2.2.18-x86_64-P1.txz">dovecot-2.2.18-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -572,6 +571,12 @@ Python から
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -918,12 +923,6 @@ Python から
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1116,6 +1115,10 @@ Python から
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/08/19/ruby-2-dot-0-0-p647/">Ruby 2.0.0-p647</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/08/19/php-5-dot-6-12/">Php 5.6.12</a>
       </li>
     
@@ -1129,10 +1132,6 @@ Python から
     
       <li class="post">
         <a href="/blog/2015/07/30/subversion-1-dot-7-20/">Subversion 1.7.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/29/bind-9-dot-9-7-p2/">Bind 9.9.7-P2</a>
       </li>
     
   </ul>

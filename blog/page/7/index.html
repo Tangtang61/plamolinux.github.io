@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む ruby 2.0.0-p598 がリリースされています。詳しくは以下をご覧ください。 Ruby 2.0.0-p598 リリース パッケージをリリースしました。 ruby-2.0.0_p598-i586-P1.txz (32bit)
-ruby-2.0.0_p598- &hellip;">
+  <meta name="description" content="*第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う 今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi Linuxにおける主なサウンドシステム・ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,7 +79,7 @@ ruby-2.0.0_p598- &hellip;">
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/11/25/ruby-2-dot-0-0-p598/">Ruby 2.0.0-p598</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/12/07/lxc-gihyo-15/">LXC　空間を歩む　十五歩め</a></h1>
     
     
       <p class="meta">
@@ -96,27 +95,25 @@ ruby-2.0.0_p598- &hellip;">
   
 
 
-<time datetime="2014-11-25T20:08:42+09:00" pubdate data-updated="true">Nov 25<span>th</span>, 2014</time>
+<time datetime="2014-12-07T17:11:50+09:00" pubdate data-updated="true">Dec 7<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>セキュリティホールの修正を含む ruby 2.0.0-p598 がリリースされています。詳しくは以下をご覧ください。</p>
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0015">第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う</a></p>
 
-<ul>
-<li><a href="https://www.ruby-lang.org/ja/news/2014/11/13/ruby-2-0-0-p598-is-released/">Ruby 2.0.0-p598 リリース</a></li>
-</ul>
+<p>今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi</p>
 
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p598-i586-P1.txz">ruby-2.0.0_p598-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p598-x86_64-P1.txz">ruby-2.0.0_p598-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
+<blockquote><pre><code>Linuxにおける主なサウンドシステム・サウンドサーバ
+OSSを経由してサウンドを出力する
+コンテナ内でサウンドを出力する（OSS）
+コンテナ内でサウンドを出力する（ALSA）
+非特権コンテナ内でサウンドを出力する
+サウンドサーバを使ってコンテナ内のサウンドを出力する
+まとめ
+</code></pre></blockquote>
 </div>
   
   
@@ -577,6 +574,12 @@ cgroup設定の確認，変更
       
         
       
+        
+      
+    
+      
+        
+      
     
       
         
@@ -907,12 +910,6 @@ cgroup設定の確認，変更
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1105,6 +1102,10 @@ cgroup設定の確認，変更
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/08/19/ruby-2-dot-0-0-p647/">Ruby 2.0.0-p647</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/08/19/php-5-dot-6-12/">Php 5.6.12</a>
       </li>
     
@@ -1118,10 +1119,6 @@ cgroup設定の確認，変更
     
       <li class="post">
         <a href="/blog/2015/07/30/subversion-1-dot-7-20/">Subversion 1.7.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/29/bind-9-dot-9-7-p2/">Bind 9.9.7-P2</a>
       </li>
     
   </ul>

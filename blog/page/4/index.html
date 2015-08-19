@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="librsvg 2.40.8 のパッケージをリリースしました。2.40.7 にはセキュリティホールの修正が含まれているようです。 librsvg-2.40.8-i686-P1.txz (32bit)
-librsvg-2.40.8-x86_64-P1.txz (64bit) ">
+  <meta name="description" content="セキュリティホールの修正を含む tcpdump 4.7.3 がリリースされています。詳しくは以下をご覧ください。 tcpdump 4.7.2 remote crashes パッケージをリリースしました。(libpcap も同時に更新しました) libpcap-1.7.2-i686-P1.txz ( &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,57 @@ librsvg-2.40.8-x86_64-P1.txz (64bit) ">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/03/24/tcpdump-4-dot-7-3/">Tcpdump 4.7.3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-24T17:39:54+09:00" pubdate data-updated="true">Mar 24<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む tcpdump 4.7.3 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://seclists.org/bugtraq/2015/Mar/33">tcpdump 4.7.2 remote crashes</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。(libpcap も同時に更新しました)</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/libpcap-1.7.2-i686-P1.txz">libpcap-1.7.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/tcpdump-4.7.3-i686-P1.txz">tcpdump-4.7.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/libpcap-1.7.2-x86_64-P1.txz">libpcap-1.7.2-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/tcpdump-4.7.3-x86_64-P1.txz">tcpdump-4.7.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -504,55 +554,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/13/grep-2-dot-20/">Grep 2.20</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-13T18:10:19+09:00" pubdate data-updated="true">Feb 13<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>grep 2.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://debbugs.gnu.org/cgi/bugreport.cgi?bug=19563">#19563 &ndash; grep -F: fix a heap buffer (read) overrun &ndash; GNU bug report logs</a></li>
-</ul>
-
-
-<p>パッチを適用したパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/grep-2.20-i686-P2.txz">grep-2.20-i686-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/grep-2.20-x86_64-P2.txz">grep-2.20-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -568,6 +569,12 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -914,12 +921,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1112,6 +1113,10 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/08/19/ruby-2-dot-0-0-p647/">Ruby 2.0.0-p647</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/08/19/php-5-dot-6-12/">Php 5.6.12</a>
       </li>
     
@@ -1125,10 +1130,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     
       <li class="post">
         <a href="/blog/2015/07/30/subversion-1-dot-7-20/">Subversion 1.7.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/29/bind-9-dot-9-7-p2/">Bind 9.9.7-P2</a>
       </li>
     
   </ul>
