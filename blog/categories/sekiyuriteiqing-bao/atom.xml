@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-08-19T20:44:26+09:00</updated>
+  <updated>2015-08-19T20:45:52+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -28,7 +28,7 @@
 <p>パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p647-i686-P1.txz">ruby-2.0.0_p647-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p647-i686-P1.txz">ruby-2.0.0_p647-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p647-x86_64-P1.txz">ruby-2.0.0_p647-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
