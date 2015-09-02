@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間 中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar- &hellip;">
+  <meta name="description" content="Plamo Linux 5.3 をリリースしました。 リリースアナウンス gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3 の特徴がまとめられています。 玩式草子─ソフトウェアとたわむれる日々　第65回　やっと出ましたPlamo-5.3 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,126 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/31/plamo-5-dot-3-released/">Plamo 5.3 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-31T21:36:33+09:00" pubdate data-updated="true">Dec 31<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo Linux 5.3 をリリースしました。</p>
+
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201412/msg00018.html">リリースアナウンス</a></li>
+</ul>
+
+
+<p>gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3 の特徴がまとめられています。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0065">玩式草子─ソフトウェアとたわむれる日々　第65回　やっと出ましたPlamo-5.3</a></li>
+</ul>
+
+
+<p>メーリングリストへの投稿の抜粋です。</p>
+
+<pre><code>最低でも年に一度はリリースを，，と進めていた作業がだいたい片づいたので，
+昨晩までの更新をまとめて Plamo Linux 5.3 としてリリースすることにしました．
+
+$ ls -lh plamo-5.3*
+-rw-r--r-- 1 kojima users 3.5G 12月 31日  01:28 plamo-5.3_x86_64_dvd.iso
+-rw-r--r-- 1 kojima users   59 12月 31日  01:28 plamo-5.3_x86_64_dvd.iso.md5sum
+-rw-r--r-- 1 kojima users 3.7G 12月 31日  01:28 plamo-5.3_x86_dvd.iso
+-rw-r--r-- 1 kojima users   56 12月 31日  01:28 plamo-5.3_x86_dvd.iso.md5sum
+
+DVDイメージは plamo.linet.gr.jp で公開しているものの，ここはお家サーバ
+で回線が細いため，すでにミラーしていただいている山梨大学の ring サーバ
+あたりから入手されることをお勧めします．
+
+ftp://ring.yamanashi.ac.jp/pub/linux/Plamo/
+
+以下，DVDに置いたREADME.EUCからの抜粋
+----------------------------------------
+○Plamo-5.3について(2014-12-30)
+
+従来，半年に一度くらいのペースで新版をリリースしていたものの，
+今回はPlamo-5.2を公開後，丸一年空いてしまいました．
+そのため今回の更新は，バージョン番号的にはメンテナンス・リリースという位置付けなものの，
+カーネル(3.17.6)のみならず，GCC(4.8.4)，Glibc(2.20)，xorg-server(1.16.3)など，
+OSの中核部分のパーツを更新した，メジャーバージョンアップに近い更新になっています．
+そのため，Plamo-5.2が動作していたマシンにインストールしても正しく動作しない可能性
+があるのでご注意ください．
+
+今回更新した主要なソフトウェアは以下の通りです．
+
+- kernel-3.17.6(with aufs/unicon/overlayfs パッチ)
+- GCC-4.8.4
+- Glibc-2.20
+- MesaLib-10.2.9
+- xorg-server-1.16.3
+- Emacs-24.4
+- ffmpeg-2.4.4
+- firefox-34/thunderbird-31
+- Qt-4.6/Gtk-3.14.4/Gtk-2.24.22
+- LibreOffice-4.2.8.2
+- mate-1.8.1
+- KDE-4.14.3
+- cups-2.0.0
+
+最近，メンテナの加藤さんと田向さんが LXC の開発にも参加されていることもあって，
+contrib/Virtualization/ 以下には gihyo.jp の連載記事(「LXCで学ぶ仮想化技術」
+http://gihyo.jp/admin/serial/01/linux_containers/0001)でも取りあげている
+LXCに関するソフトウェアが揃っています．LXCに関心のある方はぜひお試しください．
+(以下略)
+
+-------------------------------
+
+上述のように，何とか年内リリースを，ということで最後の方はかなり慌しい
+作業となったので，更新忘れやチェック漏れがあるかも知れません．それらは
+随時MLやwikiのページ等で報告しますので，適宜対応をお願いします．
+
+また，今回もメンテナンス・リリースということでPlamo-5.2からのアップデー
+タを用意したいとは思っているものの，リリース間隔が長かったこともあり，
+現時点では更新が必要なパッケージの全容を把握できていません．そのため，
+アップデータを公開するのは早くても1月の中旬ぐらいになりそうです．
+
+最後になりましたが，今回の更新も，開発に協力いただいているメンテナの方々
+のご努力のおかげでまとめることができました．まとめ役として改めて御礼申
+しあげます．m(_ _)m
+
+また，私を含めたメンテナがメンテナンスを続けていけるのは，Plamo Linux
+を支持していただいている皆さまの存在のおかげです．メンテナ代表として，
+今年一年のご支援，ご協力に御礼申しあげると共に，来年もよろしくお願いし
+ます．m(_ _)m
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -493,54 +613,6 @@ LXC 1.0.6
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/27/lxc-gihyo-10/">LXC　空間を歩む　十歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
-
-<p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
-
-<blockquote><pre><code>アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング
-指定したコンテナの状態への待機
-Ubuntu 14.04 LTSのcgroup管理
-まとめ
-第4回 コンテナ型仮想化の情報交換会＠東京
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -560,8 +632,6 @@ Ubuntu 14.04 LTSのcgroup管理
       
         
       
-        
-      
     
       
         
@@ -584,9 +654,15 @@ Ubuntu 14.04 LTSのcgroup管理
       
         
       
+        
+      
     
       
         
+      
+        
+      
+    
       
         
       
@@ -1100,10 +1176,22 @@ Ubuntu 14.04 LTSのcgroup管理
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/ganshiki-soushi/">玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/thunderbird-38-dot-2-0/">Thunderbird 38.0.1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/firefox-40-dot-0-3/">Firefox 40.0.3</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/08/26/openssh-7-dot-1p1/">Openssh 7.1p1</a>
@@ -1111,18 +1199,6 @@ Ubuntu 14.04 LTSのcgroup管理
     
       <li class="post">
         <a href="/blog/2015/08/19/ruby-2-dot-0-0-p647/">Ruby 2.0.0-p647</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/19/php-5-dot-6-12/">Php 5.6.12</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/18/firefox-40-dot-0-2/">Firefox 40.0.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/01/lxc-gihyo-27/">LXC　空間を歩む　二十七歩め</a>
       </li>
     
   </ul>

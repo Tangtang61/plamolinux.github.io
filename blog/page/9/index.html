@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む GnuPG 2.0.24 がリリースされています．詳しくは以下をご覧ください． [Announce] [security fix] GnuPG 2.0.24 released パッケージをリリースしました。 gnupg-2.0.24-i586-P1.txz ( &hellip;">
+  <meta name="description" content="第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3） もう読むだけではダメだ。 名前空間, cgroup, サブシステム等と LXC （コンテナ &lt;&mdash; 使ってないし） と、ホストがらみの関係 ！？ &lt; bar-mtomi (M.Tomi)
+　　 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,54 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/07/10/lxc-gihyo-05/">LXC　空間を歩む　五歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-10T12:54:36+09:00" pubdate data-updated="true">Jul 10<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0005">第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3）</a></li>
+</ul>
+
+
+<p>もう読むだけではダメだ。 名前空間, cgroup, サブシステム等と LXC （コンテナ &lt;&mdash; 使ってないし） と、ホストがらみの関係 ！？ &lt; bar-mtomi (M.Tomi)<br/>
+　　いや？ コンテナに（限らず？）於いては、ホストに影響を与えない様にするためか？ &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>サブシステム紹介（続き）
+cgroup の今後
+まとめ
+LXC-JPグループ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -508,55 +557,6 @@ LXCとLinuxにおけるコンテナ技術
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/13/freetype-2-dot-5-3/">Freetype 2.5.3</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-13T15:45:52+09:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む freetype 2.5.3 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.3/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.3/</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/TTfont.txz/freetype-2.5.3-i586-P1.txz">freetype-2.5.3-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/TTfont.txz/freetype-2.5.3-x86_64-P1.txz">freetype-2.5.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/10/">&larr; Older</a>
@@ -576,8 +576,6 @@ LXCとLinuxにおけるコンテナ技術
       
         
       
-        
-      
     
       
         
@@ -600,9 +598,15 @@ LXCとLinuxにおけるコンテナ技術
       
         
       
+        
+      
     
       
         
+      
+        
+      
+    
       
         
       
@@ -1116,10 +1120,22 @@ LXCとLinuxにおけるコンテナ技術
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/ganshiki-soushi/">玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/thunderbird-38-dot-2-0/">Thunderbird 38.0.1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/firefox-40-dot-0-3/">Firefox 40.0.3</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/08/26/openssh-7-dot-1p1/">Openssh 7.1p1</a>
@@ -1127,18 +1143,6 @@ LXCとLinuxにおけるコンテナ技術
     
       <li class="post">
         <a href="/blog/2015/08/19/ruby-2-dot-0-0-p647/">Ruby 2.0.0-p647</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/19/php-5-dot-6-12/">Php 5.6.12</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/18/firefox-40-dot-0-2/">Firefox 40.0.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/01/lxc-gihyo-27/">LXC　空間を歩む　二十七歩め</a>
       </li>
     
   </ul>

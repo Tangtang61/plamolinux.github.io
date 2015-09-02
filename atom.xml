@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-08-26T16:46:04+09:00</updated>
+  <updated>2015-09-02T16:06:25+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/09/02/ganshiki-soushi/"/>
+    <updated>2015-09-02T15:38:34+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/09/02/ganshiki-soushi</id>
+    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0073">第73回　「お講」文書をディジタル化する［その1］</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 38.0.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/09/02/thunderbird-38-dot-2-0/"/>
+    <updated>2015-09-02T13:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/09/02/thunderbird-38-dot-2-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 38.2.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/thunderbird/38.2.0/releasenotes/">Thunderbird 38.2.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-38.2.0-i686-P1.txz">thunderbird-38.2.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-38.2.0-x86_64-P1.txz">thunderbird-38.2.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 40.0.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/09/02/firefox-40-dot-0-3/"/>
+    <updated>2015-09-02T12:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/09/02/firefox-40-dot-0-3</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 40.0.3 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/40.0.3/releasenotes/">Firefox 40.0.3 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。libpng パッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.18-i686-P1.txz">libpng-1.6.18-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-40.0.3-i686-P1.txz">firefox-40.0.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.18-x86_64-P1.txz">libpng-1.6.18-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-40.0.3-x86_64-P1.txz">firefox-40.0.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Openssh 7.1p1]]></title>
@@ -74,31 +136,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.6.12-i686-P1.txz">php-5.6.12-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.6.12-x86_64-P1.txz">php-5.6.12-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 40.0.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/08/18/firefox-40-dot-0-2/"/>
-    <updated>2015-08-18T21:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/08/18/firefox-40-dot-0-2</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 40.0.2 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/40.0.2/releasenotes/">Firefox 40.0.2 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。libpng パッケージも更新してください。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.18-i686-P1.txz">libpng-1.6.18-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-40.0.2-i686-P1.txz">firefox-40.0.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.18-x86_64-P1.txz">libpng-1.6.18-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-40.0.2-x86_64-P1.txz">firefox-40.0.2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -285,29 +322,6 @@ Plamo Linuxテンプレート
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Thunderbird 38.0.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/07/15/thunderbird-38-dot-0-1/"/>
-    <updated>2015-07-15T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/07/15/thunderbird-38-dot-0-1</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 38.0.1 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/38.0.1/releasenotes/">Thunderbird 38.0.1 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-38.0.1-i686-P1.txz">thunderbird-38.0.1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-38.0.1-x86_64-P1.txz">thunderbird-38.0.1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Stunnel 5.20]]></title>
     <link href="http://plamolinux.github.io/blog/2015/07/14/stunnel-5-dot-20/"/>
     <updated>2015-07-14T15:51:33+09:00</updated>
@@ -424,31 +438,6 @@ Python から
 まとめ
 連載のお礼と今後
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[P-Plamo 5.3.1 リリース]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/06/01/p-plamo-5-dot-3-1/"/>
-    <updated>2015-06-01T16:16:41+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/06/01/p-plamo-5-dot-3-1</id>
-    <content type="html"><![CDATA[<p>P-Plamo 5.3.1 をリリースしました。以下から入手可能です。</p>
-
-<ul>
-<li><a href="http://www.ring.gr.jp/pub/linux/Plamo/">http://www.ring.gr.jp/pub/linux/Plamo/</a>
-
-<ul>
-<li>P-Plamo-5.3.1_x86_dvd.iso</li>
-<li>P-Plamo-5.3.1_x86_dvd.iso.md5sum</li>
-<li>P-Plamo-5.3.1_x86_64_dvd.iso</li>
-<li>P-Plamo-5.3.1_x86_64_dvd.iso.md5sum</li>
-<li>P-Plamo-5.3.1_mini_cd.iso</li>
-<li>P-Plamo-5.3.1_mini_cd.iso.md5sum</li>
-</ul>
-</li>
-<li>メーリングリストに<a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201505/msg00009.html">告知と簡単な使い方</a>が投稿されていますのでご覧ください。</li>
-</ul>
-
 ]]></content>
   </entry>
   

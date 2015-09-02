@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む Apache httpd 2.4.16 がリリースされています．詳しくは以下をご覧ください． Apache HTTP Server 2.4.16 Released
-Fixed in Apache httpd 2.4.16 パッケージをリリースしました． httpd- &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください． Fixed in 7.43.0 &ndash; June 17 2015
+Re-using authenticated connection when unauthenticated &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,111 @@ Fixed in Apache httpd 2.4.16 パッケージをリリースしました． httpd
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/23/curl-7-dot-43-dot-0/">Curl 7.43.0</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-23T17:00:00+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/changes.html#7_43_0">Fixed in 7.43.0 &ndash; June 17 2015</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422A.html">Re-using authenticated connection when unauthenticated</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422B.html">Negotiate not treated as connection-oriented</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422C.html">cookie parser out of boundary memory access</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150422D.html">host name out of boundary memory access</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150429.html">sensitive HTTP server headers also sent to proxies</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150617A.html">lingering HTTP credentials in connection re-use</a></li>
+<li><a href="http://curl.haxx.se/docs/adv_20150617B.html">SMB send off unrelated memory contents</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.43.0-i686-P1.txz">curl-7.43.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.43.0-x86_64-P1.txz">curl-7.43.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/23/mariadb-5-dot-5-44/">Mariadb 5.5.44</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-23T16:51:43+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む MariaDB 5.5.44 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://mariadb.com/kb/en/mariadb/security/">Security Vulnerabilities Fixed in MariaDB</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/mariadb-5.5.44-i686-P1.txz">mariadb-5.5.44-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/mariadb-5.5.44-x86_64-P1.txz">mariadb-5.5.44-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -165,56 +270,6 @@ Fixed in Apache httpd 2.4.16 パッケージをリリースしました． httpd
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libzip-0.11.2-i686-P1.txz">libzip-0.11.2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libzip-0.11.2-x86_64-P1.txz">libzip-0.11.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/15/thunderbird-38-dot-0-1/">Thunderbird 38.0.1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-15T00:00:00+09:00" pubdate data-updated="true">Jul 15<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む Thunderbird 38.0.1 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/38.0.1/releasenotes/">Thunderbird 38.0.1 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-38.0.1-i686-P1.txz">thunderbird-38.0.1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-38.0.1-x86_64-P1.txz">thunderbird-38.0.1-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 </div>
@@ -506,58 +561,6 @@ Python から
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/06/01/p-plamo-5-dot-3-1/">P-Plamo 5.3.1 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-06-01T16:16:41+09:00" pubdate data-updated="true">Jun 1<span>st</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>P-Plamo 5.3.1 をリリースしました。以下から入手可能です。</p>
-
-<ul>
-<li><a href="http://www.ring.gr.jp/pub/linux/Plamo/">http://www.ring.gr.jp/pub/linux/Plamo/</a>
-
-<ul>
-<li>P-Plamo-5.3.1_x86_dvd.iso</li>
-<li>P-Plamo-5.3.1_x86_dvd.iso.md5sum</li>
-<li>P-Plamo-5.3.1_x86_64_dvd.iso</li>
-<li>P-Plamo-5.3.1_x86_64_dvd.iso.md5sum</li>
-<li>P-Plamo-5.3.1_mini_cd.iso</li>
-<li>P-Plamo-5.3.1_mini_cd.iso.md5sum</li>
-</ul>
-</li>
-<li>メーリングリストに<a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201505/msg00009.html">告知と簡単な使い方</a>が投稿されていますのでご覧ください。</li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -577,8 +580,6 @@ Python から
       
         
       
-        
-      
     
       
         
@@ -601,9 +602,15 @@ Python から
       
         
       
+        
+      
     
       
         
+      
+        
+      
+    
       
         
       
@@ -1117,10 +1124,22 @@ Python から
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/ganshiki-soushi/">玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/thunderbird-38-dot-2-0/">Thunderbird 38.0.1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/firefox-40-dot-0-3/">Firefox 40.0.3</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/08/26/openssh-7-dot-1p1/">Openssh 7.1p1</a>
@@ -1128,18 +1147,6 @@ Python から
     
       <li class="post">
         <a href="/blog/2015/08/19/ruby-2-dot-0-0-p647/">Ruby 2.0.0-p647</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/19/php-5-dot-6-12/">Php 5.6.12</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/18/firefox-40-dot-0-2/">Firefox 40.0.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/01/lxc-gihyo-27/">LXC　空間を歩む　二十七歩め</a>
       </li>
     
   </ul>
