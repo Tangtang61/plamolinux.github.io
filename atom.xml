@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-09-02T16:06:25+09:00</updated>
+  <updated>2015-09-04T16:28:59+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bind 9.9.7-P3]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/09/04/bind-9-dot-9-7-p3/"/>
+    <updated>2015-09-04T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/09/04/bind-9-dot-9-7-p3</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://jprs.jp/tech/security/2015-09-03-bind9-vuln-dnskey.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（2015年9月3日公開）</a> (JPRS)</li>
+<li><a href="http://jprs.jp/tech/security/2015-09-03-bind9-vuln-openpgpkey.html">（緊急）BIND 9.10.2/9.9.7の脆弱性（DNSサービスの停止）について（2015年9月3日公開）</a> (JPRS)</li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.7_P3-i686-P1.txz">bind-9.9.7_P3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.7_P3-x86_64-P1.txz">bind-9.9.7_P3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］]]></title>
@@ -176,28 +199,6 @@ Plamo Linuxテンプレート
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/subversion-1.7.20-i686-P1.txz">subversion-1.7.20-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/subversion-1.7.20-x86_64-P1.txz">subversion-1.7.20-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.7-P2]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/07/29/bind-9-dot-9-7-p2/"/>
-    <updated>2015-07-29T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/07/29/bind-9-dot-9-7-p2</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://jprs.jp/tech/security/2015-07-29-bind9-vuln-tkey.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（2015年7月29日公開）</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.7_P2-i686-P1.txz">bind-9.9.7_P2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.7_P2-x86_64-P1.txz">bind-9.9.7_P2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
