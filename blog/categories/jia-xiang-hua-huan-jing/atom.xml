@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
+  <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
+  <link href="http://plamolinux.github.io/"/>
+  <updated>2015-09-08T18:22:10+09:00</updated>
+  <id>http://plamolinux.github.io/</id>
+  <author>
+    <name><![CDATA[Plamo Linux Project]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十七歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/08/01/lxc-gihyo-27/"/>
+    <updated>2015-08-01T16:26:58+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/08/01/lxc-gihyo-27</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0027">第27回　LXCへのコミット［1］</a></p>
+
+<p>こんな話しを聞きたかったと、ずっと思ってました。たまに連載途中に入れて下さい。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>日本語マニュアル
+Plamo Linuxテンプレート
+初めてのバグフィックス
+非特権コンテナの動作に関わるパッチ
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十六歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/06/06/lxc-gihyo-26/"/>
+    <updated>2015-06-06T15:08:37+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/06/06/lxc-gihyo-26</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0026">第26回　LXCの構築・活用［12］ ─ APIと言語バインディング</a></p>
+
+<p>えっ～！ ビックリした。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>C言語 から
+Python から
+まとめ
+連載のお礼と今後
+</code></pre></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十五歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25/"/>
+    <updated>2015-05-24T16:19:31+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0025">第25回　LXCの構築・活用 [11] ─lxc-autostartコマンドによるコンテナの自動起動</a></p>
+
+<p>自動で複数起動する場合は必要な機能だなぁ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>設定
+lxc-autostartコマンドの実行
+Ubuntu起動時のlxc-autostartの使用
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十四歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/04/28/lxc-gihyo-24/"/>
+    <updated>2015-04-28T12:31:31+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/04/28/lxc-gihyo-24</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0024">第24回　LXCの構築・活用［10］─ フック(2)</a></p>
+
+<p>実際に利用してないから一口感想もできなくなってきたので、疑問に思った事を書いておこう。
+仮想マシンがホストを道連れにしてフリーズする等はあるのだろうか? &lt; bar-mtomi</p>
+
+<blockquote><pre><code>フックの仕様
+コンテナ開始前のフック
+コンテナ終了後のフック
+コンテナのクローン時のフック
+まとめ
+LXC 1.1.2
+</code></pre></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十三歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/04/11/lxc-gihyo-23/"/>
+    <updated>2015-04-11T14:37:30+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/04/11/lxc-gihyo-23</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0023">第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1)</a></p>
+
+<p>ephemeral の意味をしらべて、そうなのか？ … でも &mdash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>lxc-start-ephemeralコマンドの概要
+まずは使ってみましょう
+lxc-start-ephemeralコマンドのオプション
+lxc-start-ephemeralコマンドの仕組みとフック
+lxc-start-ephemeralのその他の使い方
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

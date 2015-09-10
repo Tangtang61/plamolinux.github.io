@@ -1,0 +1,1189 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Plamo Linux</title>
+  <meta name="author" content="Plamo Linux Project">
+
+  
+  <meta name="description" content="第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3） もう読むだけではダメだ。 名前空間, cgroup, サブシステム等と LXC （コンテナ &lt;&mdash; 使ってないし） と、ホストがらみの関係 ！？ &lt; bar-mtomi (M.Tomi)
+　　 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://plamolinux.github.io/blog/page/9">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/"><img src="/images/garland_logo.jpg"> Plamo Linux</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:plamolinux.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/about/">About</a></li>
+  <li><a href="/download/">Download</a></li>
+  <li><a href="/ml/">Mailing List</a></li>
+  <li><a href="/history/">History</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  <article>
+      <p>Plamo Linux は Slackware をベースに，シンプルで見通しの良いシステムと，Linux の持つホビー性の持続を念頭に開発され，ユーザ自身の手で自分好みの Linux 環境を作り上げていく楽しみを味わう事ができる日本語 Linux ディストリビューションです．</p>
+<p>現在，最新版は Plamo-5.3.1 で，x86 版，x86_64 版をリリースしています．
+詳しくは <a href="http://plamolinux.github.io/blog/2015/02/02/plamo-5-dot-3-1-release/">Plamo-5.3.1 リリース</a> をご覧ください．</p>
+<p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
+  </article>
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/07/10/lxc-gihyo-05/">LXC　空間を歩む　五歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-10T12:54:36+09:00" pubdate data-updated="true">Jul 10<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0005">第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3）</a></li>
+</ul>
+
+
+<p>もう読むだけではダメだ。 名前空間, cgroup, サブシステム等と LXC （コンテナ &lt;&mdash; 使ってないし） と、ホストがらみの関係 ！？ &lt; bar-mtomi (M.Tomi)<br/>
+　　いや？ コンテナに（限らず？）於いては、ホストに影響を与えない様にするためか？ &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>サブシステム紹介（続き）
+cgroup の今後
+まとめ
+LXC-JPグループ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/27/gnupg-2-dot-0-24/">Gnupg 2.0.24</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-27T00:00:00+09:00" pubdate data-updated="true">Jun 27<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む GnuPG 2.0.24 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://lists.gnupg.org/pipermail/gnupg-announce/2014q2/000345.html">[Announce] [security fix] GnuPG 2.0.24 released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/gnupg-2.0.24-i586-P1.txz">gnupg-2.0.24-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnupg-2.0.24-x86_64-P1.txz">gnupg-2.0.24-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/26/lxc-gihyo-04/">LXC　空間を歩む　四歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-26T15:27:16+09:00" pubdate data-updated="true">Jun 26<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0004">第4回　Linuxカーネルのコンテナ機能［3］ ─cgroupとは？（その2）</a></li>
+</ul>
+
+
+<p>もう、実践して（確認）理解しないと分からないレベルだなぁ？、だけど、理解できればコンテナ以外でも有益な利用方法があるのかなぁ?って感じだったと思う。&lt; bar-mtom i(M.Tomi)</p>
+
+<blockquote><pre><code>サブシステム
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC　空間を歩む　三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-12T12:46:27+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
+</ul>
+
+
+<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>cgroupファイルシステム
+cgroupの階層構造
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC　空間を歩む　第二歩</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-31T14:38:45+09:00" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
+</ul>
+
+
+<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>コンテナの仕組み
+コンテナのメリット
+コンテナのデメリット
+Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
+まとめ
+LXC公式サイトの翻訳
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/21/wireshark-1-dot-10-dot-7/">Wireshark 1.10.7</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-21T16:27:12+09:00" pubdate data-updated="true">May 21<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.wireshark.org/security/wnpa-sec-2014-06.html">wnpa-sec-2014-06 · RTP dissector crash</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.7-i586-P1.txz">wireshark-1.10.7-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.7-x86_64-P1.txz">wireshark-1.10.7-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/18/lxc-gihyo-01/">LXC　空間を歩む　第一歩</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-18T21:09:11+09:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p> gihyo.jp で、加藤さんの連載 <a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」</a> が始まりました。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
+</ul>
+
+
+<p>まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>はじめに
+LXCとLinuxにおけるコンテナ技術
+まずは使ってみましょう
+次回以降について
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/23/yaml-0-dot-1-6/">Yaml 0.1.6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-23T18:32:40+09:00" pubdate data-updated="true">Apr 23<span>rd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む libyaml 0.1.6 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2525">CVE-2014-2525</a> (NVD)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i586-P1.txz">yaml-0.1.6-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P1.txz">yaml-0.1.6-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/22/openjpeg-1-dot-5-2/">Openjpeg 1.5.2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-22T20:29:10+09:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む openjpeg 1.5.2 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://openjpeg.googlecode.com/svn/tags/version.1.5.2/NEWS">http://openjpeg.googlecode.com/svn/tags/version.1.5.2/NEWS</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/openjpeg-1.5.2-i586-P1.txz">openjpeg-1.5.2-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/openjpeg-1.5.2-x86_64-P1.txz">openjpeg-1.5.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/24/libpng-1-dot-6-10/">Libpng 1.6.10</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-24T16:04:36+09:00" pubdate data-updated="true">Mar 24<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホール修正を含む libpng 1.6.10 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0333">CVE-2014-0333</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.10-i586-P1.txz">libpng-1.6.10-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.10-x86_64-P1.txz">libpng-1.6.10-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/10/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/8/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Release Information</h1>
+  <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2015/06/01/p-plamo-5-dot-3-1/">P-Plamo 5.3.1 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2015/02/02/plamo-5-dot-3-1-release/">Plamo 5.3.1 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2014/12/31/plamo-5-dot-3-released/">Plamo 5.3 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2014/01/18/p-plamo-5-dot-2/">P-Plamo 5.2 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2013/12/29/plamo5-dot-2released/">Plamo 5.2 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+          <li class="post">
+            <a href="/blog/2013/05/22/plamo-5-dot-1-release/">Plamo 5.1 リリース</a>
+          </li>
+        
+      
+    
+  </ul>
+</section><section>
+  <h1>Categories</h1>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
+</section><section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/09/08/php-5-dot-6-13/">Php 5.6.13</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/04/bind-9-dot-9-7-p3/">Bind 9.9.7-P3</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/ganshiki-soushi/">玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/thunderbird-38-dot-2-0/">Thunderbird 38.0.1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/firefox-40-dot-0-3/">Firefox 40.0.3</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Plamo Linux Project -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

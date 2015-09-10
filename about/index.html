@@ -1,0 +1,789 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>What Is Plamo Linux? (Plamo Linux とは) - Plamo Linux</title>
+  <meta name="author" content="Plamo Linux Project">
+
+  
+  <meta name="description" content="What Is Plamo Linux? (Plamo Linux とは) Nov 25th, 2013 「Plamo Linux って、どんなディストリビューションなの？」という疑問にお答えするために用意した，All about Plamo Linux なページです． 起源とモットー &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://plamolinux.github.io/about">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/"><img src="/images/garland_logo.jpg"> Plamo Linux</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:plamolinux.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/about/">About</a></li>
+  <li><a href="/download/">Download</a></li>
+  <li><a href="/ml/">Mailing List</a></li>
+  <li><a href="/history/">History</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">What Is Plamo Linux? (Plamo Linux とは)</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-25T15:39:00+09:00" pubdate data-updated="true">Nov 25<span>th</span>, 2013</time></p>
+  </header>
+  
+  <p>「Plamo Linux って、どんなディストリビューションなの？」という疑問にお答えするために用意した，All about Plamo Linux なページです．</p>
+
+<h2>起源とモットー</h2>
+
+<p>Plamo Linux は，Slackware をベースに &lsquo;97 年夏，こじまみつひろ氏によって開発が開始された，日本語 Linux ディストリビューションです．</p>
+
+<p>当初は，「初心者でも簡単に日本語環境を構築できる」ことを目指して開発されてきましたが，現在では初心者向けの部分は商用ディストリビューションに任せ，過度なブラックボックス化や自動化を施さず，極力シンプルで見通しの良い環境の保持に努め，あわせて，Linux の持つボビー性を大切に，という考えの基に開発が続いています．</p>
+
+<p>また Plamo Linux は古くから NEC PC-9801/9821シリーズに対応していましたが，諸般の事情により Plamo 4.x以降のバージョンではサポートを打ち切りました．</p>
+
+<h2>名前の由来</h2>
+
+<p>元々，Slackware インストーラの日本語化や 1FD 化を行っていた作者は，各パッケージも JE (Japanese Environment)のものと置き換えれば，日本語環境は一度のインストールで済むのがわかっていましたが，そうすると Slackware の copyright の制限により，Slackware と呼ぶことはできないので，Slackware を剽窃する，という意味で，Plagiaware (plagiarism ：盗作，剽窃，盗用)と称していました．</p>
+
+<p>しかし，英語圏では plagiarism というのは極めて否定的なニュアンスの強い語であるということなので，メーリングリストで募集したところ， Plamo という名前になりました．</p>
+
+<p>趣味性が強く，改造するのも簡単で，商用 Linux に比べてちょっとチャチ，幼い頃から誰でも一度は遊んだことがあるだろう郷愁を感じさせるプラモデルのプラモ，まさに Plamo Linux とは、このディストリビューションにふさわしい名前といえるでしょう．</p>
+
+<h2>開発体制</h2>
+
+<p>Plamo の開発は，10 名弱の plamo-maintainer-ML を中心にして行われています．</p>
+
+<p>特にロードマップなどは存在せず，カーネルやライブラリの大幅な更新や，専門各誌に収録される機会に合わせてバージョンアップしています．</p>
+
+<p>α 版は，主に plamo-maintainer-ML の関係者を中心にテストを行い，β 版になれば plamo-ML 上でテスターを募集するという形を取っています．</p>
+
+<h2>Plamo のサポート体制</h2>
+
+<p>Plamo Linux の配布は，基本的に ftp 版のみですが，専門各誌によって CD-ROM や DVD-ROM に収録される場合もあります．</p>
+
+<p>商用版はありませんので，Plamo には商用ディストリビューションにあるようなサポート部門は，存在しません．</p>
+
+<p>Plamo 使用上の疑問点や不具合などは，plamo-ML 上で全員参加の形で議論されています．質問がある場合は，plamo-ML の過去ログで質問事項を検索してみると，特殊なケースを除いて，既に解答のでているものがある可能性が高いですから，まずは調べてみてください．</p>
+
+<h2>その他</h2>
+
+<p>いまご覧になっている Plamo の公式サイトは， plamodocs-ML に参加しているユーザの手によって git や Octopress，PukiWiki などを使ってメンテされています．</p>
+
+<hr />
+
+<p>以上の通り，Plamo の環境はさまざまな方の協力で，維持／更新されています．</p>
+
+<p>Linux に代表されるオープンソースソフトウェアの最大の魅力は，利用者と開発者の敷居が低いことです．</p>
+
+<p>お仕着せの環境を甘受するのではなく，カーネルを自分のマシン用にチューニングしたり，個人環境設定やウィンドウマネージャを自分好みに調整していくおもしろさ &mdash; 悩み苦しむこともありますが &mdash; を味わってみたい方は，Plamo Linux のような簡単な構成の Linux 環境を試してみると，オープンソースソフトウェアの新しい一面が見えてくるに違いありません．</p>
+
+  
+    <footer>
+      <p class="meta">
+        
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-25T15:39:00+09:00" pubdate data-updated="true">Nov 25<span>th</span>, 2013</time>
+        
+      </p>
+      
+        <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/about/index.html" data-via="" data-counturl="http://plamolinux.github.io/about/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Release Information</h1>
+  <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2015/06/01/p-plamo-5-dot-3-1/">P-Plamo 5.3.1 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2015/02/02/plamo-5-dot-3-1-release/">Plamo 5.3.1 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2014/12/31/plamo-5-dot-3-released/">Plamo 5.3 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2014/01/18/p-plamo-5-dot-2/">P-Plamo 5.2 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2013/12/29/plamo5-dot-2released/">Plamo 5.2 リリース</a>
+          </li>
+        
+      
+    
+      
+        
+          <li class="post">
+            <a href="/blog/2013/05/22/plamo-5-dot-1-release/">Plamo 5.1 リリース</a>
+          </li>
+        
+      
+    
+  </ul>
+</section><section>
+  <h1>Categories</h1>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
+</section><section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/09/08/php-5-dot-6-13/">Php 5.6.13</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/04/bind-9-dot-9-7-p3/">Bind 9.9.7-P3</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/ganshiki-soushi/">玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/thunderbird-38-dot-2-0/">Thunderbird 38.0.1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/09/02/firefox-40-dot-0-3/">Firefox 40.0.3</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Plamo Linux Project -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
