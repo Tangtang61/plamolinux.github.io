@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-09-11T15:44:16+09:00</updated>
+  <updated>2015-09-14T16:04:37+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Screen 4.3.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/09/14/screen-4-dot-3-1/"/>
+    <updated>2015-09-14T15:38:19+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/09/14/screen-4-dot-3-1</id>
+    <content type="html"><![CDATA[<p>screen にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://seclists.org/oss-sec/2015/q3/485">oss-sec: Re: CVE request: screen stack overflow (deep recursion)</a></li>
+</ul>
+
+
+<p>対策パッチを適用したパッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/screen-4.3.1-i686-P1.txz">screen-4.3.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/screen-4.3.1-x86_64-P1.txz">screen-4.3.1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Libidn 1.32]]></title>
@@ -427,21 +449,6 @@ Plamo Linuxテンプレート
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libtasn1-2.14-i686-P1.txz">libtasn1-2.14-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libtasn1-2.14-x86_64-P1.txz">libtasn1-2.14-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Plamo LinuxをUTF-8で使う]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/06/09/plamo-linux-utf8/"/>
-    <updated>2015-06-09T16:44:14+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/06/09/plamo-linux-utf8</id>
-    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">玩式草子─ソフトウェアとたわむれる日々</a> に 「Plamo LinuxをUTF-8で使う」 方法が記載されています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0069">第69回　Plamo LinuxをUTF-8で使う［その1］</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0070">第70回　Plamo LinuxをUTF-8で使う［その2］</a></li>
 </ul>
 
 ]]></content>
