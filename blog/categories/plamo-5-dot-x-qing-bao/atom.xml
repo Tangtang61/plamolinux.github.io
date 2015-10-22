@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-09-14T16:07:43+09:00</updated>
+  <updated>2015-10-22T17:19:14+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,118 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Plamo 6.0 リリース]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/10/22/plamo-6-dot-0/"/>
+    <updated>2015-10-22T17:01:42+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/10/22/plamo-6-dot-0</id>
+    <content type="html"><![CDATA[<p>Plamo 6.0 をリリースしました。</p>
+
+<p>以下はメーリングリストに投稿されたリリースアナウンスです。</p>
+
+<hr />
+
+<p>今度の土日に明星大学で開催される OSC 2015 Tokyo/Fall に出展するのに合わせて，Plamo-6.0をリリースしました．</p>
+
+<pre><code>-r--r--r--   104      1004   3703570432   10月 21 09:17   plamo-6.0_x86_64_dvd.iso
+-r--r--r--   104      1004           59   10月 21 09:17   plamo-6.0_x86_64_dvd.iso.md5sum
+-r--r--r--   104      1004   3694133248   10月 21 09:18   plamo-6.0_x86_dvd.iso
+-r--r--r--   104      1004           56   10月 21 09:18   plamo-6.0_x86_dvd.iso.md5sum
+</code></pre>
+
+<p>すでに ring.yamanashi.ac.jp にはミラーいただいているようなので適宜広まっていくかと思いますが，上記 OSC 2015 Tokyo/Fall の「Plamo Linux メンテナグループ」のブースでDVDやUSBメディアで配布する予定ですので，OSC に参加される方は，ぜひお立ち寄りください (<em> </em>)</p>
+
+<p># 枚数限定です :&ndash;)</p>
+
+<p>今回のウリは kernel-4.2.3 採用と GPT/UEFI 対応かな．以下はREADMEの抜粋．</p>
+
+<hr />
+
+<h2>Plamo-6.0について(2015-10-18)</h2>
+
+<p>メンテナの松木さんの旗振りで2015 OSC Tokyo/Fall に出展することになった
+のに合わせて，Plamo-6.0をリリースすることにしました．</p>
+
+<p>バージョン番号的には久しぶりのメジャーバージョンの更新なものの，
+Linux-4.x同様，機能的に大きな変更があった故のバージョンアップではなく，
+イベントで配布するなら「6.0」というキリのいいバージョンの方がいいだろう，
+程度の動機での更新です(苦笑</p>
+
+<p>そのため，システムの基本構成は従来のPlamo-5.xと同様なものの，
+以下のような新しい機能も組み込んでいます．</p>
+
+<h3>linux-4.2.3 カーネル</h3>
+
+<p>メンテナの田向さんのおかげでメジャーバージョンが上がった
+linux-4.x(4.2.3)カーネルを採用できました．
+もっともlinux-4.xは3.xから漸進的なバージョンアップなので，
+Plamo Linuxでも，従来同様uniconパッチやaufsパッチを当ててビルドし，
+従来同様の機能を提供しています．</p>
+
+<h3>Mate-1.10</h3>
+
+<p>メンテナの植竹さんのご努力でGnome2を元にしたデスクトップ環境Mateも
+1.10を採用できました．Mateも最近はgtk3への対応が進み，
+細部がより洗練されてきました．</p>
+
+<h3>firefox-41.0/thunderbird-38.3.0</h3>
+
+<p>メンテナの加藤さんのご尽力で，firefox/thunderbirdは最新版に追従しています．
+また、加藤さんにはセキュリティ回りの更新にもお世話になっています．</p>
+
+<h3>MesaLib-10.6.7 + xorg-server-1.17.2</h3>
+
+<p>OpenGLなライブラリ(MesaLib)と，3Dグラフィック処理にMesaLibを使っている
+xorg-serverも，新しいバージョンに更新しました．xorg-server はABIレベルで
+以前のバージョン(xorg-server-1.16.x)と非互換になっているので，ドライバ類も
+バージョンアップや再構築で追従させています．</p>
+
+<p>&hellip;.</p>
+
+<h3>LibreOffice-5.0.2.2</h3>
+
+<p>LibreOfficeも最新の安定版5.0.2.2に更新しました．splash imageが更新されて，
+ずいぶん cool な印象になりました．</p>
+
+<h3>get_pkginfo</h3>
+
+<p>get_pkginfo という，ローカルにインストールされているパッケージと，
+Plamo LinuxのFTPサーバに登録されているパッケージを比較して，更新された
+パッケージを表示したり，ダウンロードしてくるコマンドを用意しました．
+&hellip;.</p>
+
+<h3>UEFI/GPT対応</h3>
+
+<p>grubを2TB以上のHDDを操作する際に必要なGPT/UEFIに対応させたので，
+2TB以上のHDDにもインストールできるようになりました．
+起動時にUEFI BIOSから指定する必要があるものの，
+Windows8.1とのdual bootも可能になりました．
+UEFI/GPT対応にはメンテナの名倉さんの作業がずいぶん参考になりました。</p>
+
+<p>なお，UEFI/GPT環境にインストールする際に知っておくべき情報は，
+別途README.GPTにまとめているので，2TB以上のHDDにインストールしたい人，
+Windows-8.x/10 とdual bootしたい人は御参照ください．</p>
+
+<h3>UEFIインストール</h3>
+
+<p>このDVDイメージはMBRをエミュレートするEl Torito形式と共に，
+UEFI形式でもブートできるようにしているので，
+対応したマザーボードをお使いの方は，
+UEFIの起動デバイスとしてDVDを選べばUEFI形式でブートできます．
+&hellip;.</p>
+
+<h3>USBインストール</h3>
+
+<p>このDVDイメージは，isohybridを使ってUSBメモリからもブート可能になっています．
+この機能を使ってUSBメモリからインストールする場合，
+DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
+
+<p>&hellip;..</p>
+
+<p>ISO イメージのダウンロードは <a href="/downloads/">こちら</a> からどうぞ。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Screen 4.3.1]]></title>
@@ -97,29 +209,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.7_P3-i686-P1.txz">bind-9.9.7_P3-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.7_P3-x86_64-P1.txz">bind-9.9.7_P3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 38.0.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/09/02/thunderbird-38-dot-2-0/"/>
-    <updated>2015-09-02T13:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/09/02/thunderbird-38-dot-2-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 38.2.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/38.2.0/releasenotes/">Thunderbird 38.2.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-38.2.0-i686-P1.txz">thunderbird-38.2.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-38.2.0-x86_64-P1.txz">thunderbird-38.2.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

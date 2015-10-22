@@ -9,9 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="glibc, gcc などの基本的なパッケージが 8/4 付で更新されています。詳しくは Change.Log をご覧ください。 gcc 4.8.3
-glibc 2.19 これ以降に更新されるパッケージは gcc 4.8.3 でコンパイルされ、glibc 2.19 に依存します。
-">
+  <meta name="description" content="セキュリティホールの修正を含む file 5.19 がリリースされています。 詳しくは以下をご覧ください。 CVE-2014-3538
+file-5.19 is now available パッケージをリリースしました。 file-5.19-i586-P1.txz (32bit)
+file-5. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,60 @@ glibc 2.19 これ以降に更新されるパッケージは gcc 4.8.3 でコン�
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/12/file-5-dot-19/">File 5.19</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-12T15:49:15+09:00" pubdate data-updated="true">Aug 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む file 5.19 がリリースされています。</p>
+
+<p>詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-3538">CVE-2014-3538</a></li>
+<li><a href="http://mx.gw.com/pipermail/file/2014/001553.html">file-5.19 is now available</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/file-5.19-i586-P1.txz">file-5.19-i586-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/file-5.19-x86_64-P1.txz">file-5.19-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -504,55 +558,6 @@ LXCとLinuxにおけるコンテナ技術
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/23/yaml-0-dot-1-6/">Yaml 0.1.6</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-23T18:32:40+09:00" pubdate data-updated="true">Apr 23<span>rd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む libyaml 0.1.6 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2525">CVE-2014-2525</a> (NVD)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/yaml-0.1.6-i586-P1.txz">yaml-0.1.6-i586-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/yaml-0.1.6-x86_64-P1.txz">yaml-0.1.6-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/10/">&larr; Older</a>
@@ -568,6 +573,16 @@ LXCとLinuxにおけるコンテナ技術
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2015/10/22/plamo-6-dot-0/">Plamo 6.0 リリース</a>
+          </li>
+        
+      
     
       
         
@@ -1128,10 +1143,14 @@ LXCとLinuxにおけるコンテナ技術
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (68)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (6)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/10/22/plamo-6-dot-0/">Plamo 6.0 リリース</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/09/14/screen-4-dot-3-1/">Screen 4.3.1</a>
@@ -1147,10 +1166,6 @@ LXCとLinuxにおけるコンテナ技術
     
       <li class="post">
         <a href="/blog/2015/09/04/bind-9-dot-9-7-p3/">Bind 9.9.7-P3</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/02/ganshiki-soushi/">玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］</a>
       </li>
     
   </ul>
