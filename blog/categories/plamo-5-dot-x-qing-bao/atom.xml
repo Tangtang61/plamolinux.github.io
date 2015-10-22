@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-10-22T17:19:14+09:00</updated>
+  <updated>2015-10-22T17:47:10+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -24,7 +24,7 @@
 
 <hr />
 
-<p>今度の土日に明星大学で開催される OSC 2015 Tokyo/Fall に出展するのに合わせて，Plamo-6.0をリリースしました．</p>
+<p>2015年10月24,25日に明星大学で開催される<a href="http://www.ospn.jp/osc2015-fall/">OSC 2015 Tokyo/Fall</a>に出展するのに合わせて，Plamo-6.0をリリースしました．</p>
 
 <pre><code>-r--r--r--   104      1004   3703570432   10月 21 09:17   plamo-6.0_x86_64_dvd.iso
 -r--r--r--   104      1004           59   10月 21 09:17   plamo-6.0_x86_64_dvd.iso.md5sum
@@ -121,7 +121,7 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 
 <p>&hellip;..</p>
 
-<p>ISO イメージのダウンロードは <a href="/downloads/">こちら</a> からどうぞ。</p>
+<p>ISO イメージのダウンロードは <a href="/download/">こちら</a> からどうぞ。</p>
 ]]></content>
   </entry>
   
