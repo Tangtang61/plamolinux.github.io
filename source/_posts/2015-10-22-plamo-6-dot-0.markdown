@@ -3,7 +3,7 @@ layout: post
 title: "Plamo 6.0 リリース"
 date: 2015-10-22 17:01:42 +0900
 comments: false
-categories: ["リリース情報", "Plamo 5.x 情報"]
+categories: ["リリース情報", "Plamo 6.x 情報"]
 ---
 
 Plamo 6.0 をリリースしました。
