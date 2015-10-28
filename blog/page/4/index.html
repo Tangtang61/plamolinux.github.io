@@ -9,7 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1) ephemeral の意味をしらべて、そうなのか？ … でも &mdash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi lxc-start- &hellip;">
+  <meta name="description" content="*第24回　LXCの構築・活用［10］─ フック(2) 実際に利用してないから一口感想もできなくなってきたので、疑問に思った事を書いておこう。
+仮想マシンがホストを道連れにしてフリーズする等はあるのだろうか? &lt; bar-mtomi フックの仕様
+コンテナ開始前のフック &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +75,53 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/28/lxc-gihyo-24/">LXC　空間を歩む　二十四歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-28T12:31:31+09:00" pubdate data-updated="true">Apr 28<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0024">第24回　LXCの構築・活用［10］─ フック(2)</a></p>
+
+<p>実際に利用してないから一口感想もできなくなってきたので、疑問に思った事を書いておこう。
+仮想マシンがホストを道連れにしてフリーズする等はあるのだろうか? &lt; bar-mtomi</p>
+
+<blockquote><pre><code>フックの仕様
+コンテナ開始前のフック
+コンテナ終了後のフック
+コンテナのクローン時のフック
+まとめ
+LXC 1.1.2
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -506,52 +555,6 @@ LXC 1.1.1
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/12/lxc-gihyo-21/">LXC　空間を歩む　二十一歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-12T13:20:04+09:00" pubdate data-updated="true">Mar 12<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0021">第21回　LXCの構築・活用 [7] ─ いろいろなストレージバックエンドの利用（3：LVM）</a></p>
-
-<p>色々なファイルシステムを勉強する機会になったなぁ。 LXC を利用する人は、その用途にあったファイルシステムを採用するのだろうな？ &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LVMをストレージバックエンドとして使う場合の準備
-LVMを使ったコンテナ用のシステム設定と作成時のオプション
-LVMを使ったコンテナの作成
-LVMを使ったコンテナのクローン
-Thin Provisioning 機能の利用
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -567,6 +570,22 @@ Thin Provisioning 機能の利用
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
     
       
         
@@ -605,6 +624,18 @@ Thin Provisioning 機能の利用
       
         
       
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -618,24 +649,6 @@ Thin Provisioning 機能の利用
         
       
     
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1137,29 +1150,29 @@ Thin Provisioning 機能の利用
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (70)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (2)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (62)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/10/28/ntp-4-dot-2-8p4/">Ntp 4.2.8p4</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/28/spice-0-dot-12-dot-6/">Spice 0.12.6</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/10/22/plamo-6-dot-0/">Plamo 6.0 リリース</a>
       </li>
     
       <li class="post">
+        <a href="/blog/2015/10/19/firefox-41-dot-0-2/">Firefox 41.0.2</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/09/14/screen-4-dot-3-1/">Screen 4.3.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/11/libidn-1-dot-32/">Libidn 1.32</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/08/php-5-dot-6-13/">Php 5.6.13</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/04/bind-9-dot-9-7-p3/">Bind 9.9.7-P3</a>
       </li>
     
   </ul>

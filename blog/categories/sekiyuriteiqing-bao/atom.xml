@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-10-22T17:47:10+09:00</updated>
+  <updated>2015-10-28T10:58:11+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,79 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ntp 4.2.8p4]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/10/28/ntp-4-dot-2-8p4/"/>
+    <updated>2015-10-28T11:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/10/28/ntp-4-dot-2-8p4</id>
+    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#October_2015_NTP_Security_Vulner">October 2015 NTP Security Vulnerability Announcement (Medium)</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p4-i686-P1.txz">ntp-4.2.8p4-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p4-x86_64-P1.txz">ntp-4.2.8p4-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spice 0.12.6]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/10/28/spice-0-dot-12-dot-6/"/>
+    <updated>2015-10-28T10:24:24+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/10/28/spice-0-dot-12-dot-6</id>
+    <content type="html"><![CDATA[<p>spice にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5260">CVE-2015-5260 spice: insufficient validation of surface_id parameter can cause crash</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5261">CVE-2015-5261 spice: host memory access from guest using crafted images</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。同時に six, spice_protocol も更新する必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice-0.12.6-i686-P1.txz">spice-0.12.6-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice_protocol-0.12.10-noarch-P1.txz">spice_protocol-0.12.10-noarch-P1.txz</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python2-1.10.0-i686-P1.txz">six_python2-1.10.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python3-1.10.0-i686-P1.txz">six_python3-1.10.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/spice-0.12.6-x86_64-P1.txz">spice-0.12.6-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python2-1.10.0-x86_64-P1.txz">six_python2-1.10.0-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python3-1.10.0-x86_64-P1.txz">six_python3-1.10.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 41.0.2]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/10/19/firefox-41-dot-0-2/"/>
+    <updated>2015-10-19T12:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/10/19/firefox-41-dot-0-2</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 41.0.2 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/41.0.2/releasenotes/">Firefox 41.0.2 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。libpng パッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-41.0.2-i686-P1.txz">firefox-41.0.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-41.0.2-x86_64-P1.txz">firefox-41.0.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Screen 4.3.1]]></title>
@@ -52,74 +125,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/libidn-1.32-i686-P1.txz">libidn-1.32-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/libidn-1.32-x86_64-P1.txz">libidn-1.32-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 5.6.13]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/09/08/php-5-dot-6-13/"/>
-    <updated>2015-09-08T17:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/09/08/php-5-dot-6-13</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.6.13 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://php.net/archive/2015.php#id2015-09-04-2">PHP 5.6.13 is available</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.6.13-i686-P1.txz">php-5.6.13-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.6.13-x86_64-P1.txz">php-5.6.13-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.7-P3]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/09/04/bind-9-dot-9-7-p3/"/>
-    <updated>2015-09-04T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/09/04/bind-9-dot-9-7-p3</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://jprs.jp/tech/security/2015-09-03-bind9-vuln-dnskey.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（2015年9月3日公開）</a> (JPRS)</li>
-<li><a href="http://jprs.jp/tech/security/2015-09-03-bind9-vuln-openpgpkey.html">（緊急）BIND 9.10.2/9.9.7の脆弱性（DNSサービスの停止）について（2015年9月3日公開）</a> (JPRS)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.7_P3-i686-P1.txz">bind-9.9.7_P3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.7_P3-x86_64-P1.txz">bind-9.9.7_P3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 38.0.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/09/02/thunderbird-38-dot-2-0/"/>
-    <updated>2015-09-02T13:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/09/02/thunderbird-38-dot-2-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 38.2.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/38.2.0/releasenotes/">Thunderbird 38.2.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-38.2.0-i686-P1.txz">thunderbird-38.2.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-38.2.0-x86_64-P1.txz">thunderbird-38.2.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

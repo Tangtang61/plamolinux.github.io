@@ -329,10 +329,6 @@
         <lastmod>2015-07-10T16:33:58+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2015/07/14/ntp-4-dot-2-8p3/</loc>
-        <lastmod>2015-07-14T15:48:17+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2015/07/14/stunnel-5-dot-20/</loc>
         <lastmod>2015-07-14T15:53:37+09:00</lastmod>
     </url>
@@ -373,10 +369,6 @@
         <lastmod>2015-08-26T16:45:38+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2015/09/02/firefox-40-dot-0-3/</loc>
-        <lastmod>2015-09-02T16:06:19+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2015/09/02/thunderbird-38-dot-2-0/</loc>
         <lastmod>2015-09-02T15:37:58+09:00</lastmod>
     </url>
@@ -401,8 +393,20 @@
         <lastmod>2015-09-14T16:04:24+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2015/10/19/firefox-41-dot-0-2/</loc>
+        <lastmod>2015-10-28T10:20:22+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/blog/2015/10/22/plamo-6-dot-0/</loc>
         <lastmod>2015-10-22T17:25:58+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2015/10/28/spice-0-dot-12-dot-6/</loc>
+        <lastmod>2015-10-28T10:58:02+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2015/10/28/ntp-4-dot-2-8p4/</loc>
+        <lastmod>2015-10-28T10:46:21+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/about/</loc>
@@ -410,7 +414,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2015-10-22T17:25:58+09:00</lastmod>
+        <lastmod>2015-10-28T10:58:02+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -422,7 +426,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2015-10-22T17:25:58+09:00</lastmod>
+        <lastmod>2015-10-28T10:58:02+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>

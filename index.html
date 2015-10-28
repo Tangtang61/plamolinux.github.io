@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="Plamo 6.0 をリリースしました。 以下はメーリングリストに投稿されたリリースアナウンスです。 2015年10月24,25日に明星大学で開催されるOSC 2015 Tokyo/Fallに出展するのに合わせて，Plamo-6.0をリリースしました． -r--r--r-- 104 1004 &hellip;">
+  <meta name="description" content="ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。 October 2015 NTP Security Vulnerability Announcement (Medium) 対策パッケージをリリースしました。 ntp-4.2.8p4-i686-P1.txz (32bit &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,110 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/28/ntp-4-dot-2-8p4/">Ntp 4.2.8p4</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-10-28T11:00:00+09:00" pubdate data-updated="true">Oct 28<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#October_2015_NTP_Security_Vulner">October 2015 NTP Security Vulnerability Announcement (Medium)</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p4-i686-P1.txz">ntp-4.2.8p4-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p4-x86_64-P1.txz">ntp-4.2.8p4-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/28/spice-0-dot-12-dot-6/">Spice 0.12.6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-10-28T10:24:24+09:00" pubdate data-updated="true">Oct 28<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>spice にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5260">CVE-2015-5260 spice: insufficient validation of surface_id parameter can cause crash</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5261">CVE-2015-5261 spice: host memory access from guest using crafted images</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。同時に six, spice_protocol も更新する必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice-0.12.6-i686-P1.txz">spice-0.12.6-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice_protocol-0.12.10-noarch-P1.txz">spice_protocol-0.12.10-noarch-P1.txz</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python2-1.10.0-i686-P1.txz">six_python2-1.10.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python3-1.10.0-i686-P1.txz">six_python3-1.10.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/spice-0.12.6-x86_64-P1.txz">spice-0.12.6-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python2-1.10.0-x86_64-P1.txz">six_python2-1.10.0-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python3-1.10.0-x86_64-P1.txz">six_python3-1.10.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -206,6 +310,56 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 <p>&hellip;..</p>
 
 <p>ISO イメージのダウンロードは <a href="/download/">こちら</a> からどうぞ。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/19/firefox-41-dot-0-2/">Firefox 41.0.2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-10-19T12:00:00+09:00" pubdate data-updated="true">Oct 19<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む firefox 41.0.2 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/41.0.2/releasenotes/">Firefox 41.0.2 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。libpng パッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-41.0.2-i686-P1.txz">firefox-41.0.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-41.0.2-x86_64-P1.txz">firefox-41.0.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
 </div>
   
   
@@ -501,156 +655,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/09/02/firefox-40-dot-0-3/">Firefox 40.0.3</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-09-02T12:00:00+09:00" pubdate data-updated="true">Sep 2<span>nd</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む firefox 40.0.3 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/40.0.3/releasenotes/">Firefox 40.0.3 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。libpng パッケージも更新してください。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.18-i686-P1.txz">libpng-1.6.18-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-40.0.3-i686-P1.txz">firefox-40.0.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.18-x86_64-P1.txz">libpng-1.6.18-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-40.0.3-x86_64-P1.txz">firefox-40.0.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/08/26/openssh-7-dot-1p1/">Openssh 7.1p1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-08-26T16:45:00+09:00" pubdate data-updated="true">Aug 26<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む openssh 7.1p1 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.openssh.com/txt/release-7.1">http://www.openssh.com/txt/release-7.1</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssh-7.1p1-i686-P1.txz">openssh-7.1p1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssh-7.1p1-x86_64-P1.txz">openssh-7.1p1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/08/19/ruby-2-dot-0-0-p647/">Ruby 2.0.0-p647</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-08-19T20:00:00+09:00" pubdate data-updated="true">Aug 19<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む ruby 2.0.0-p647 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.ruby-lang.org/ja/news/2015/08/18/ruby-2-0-0-p647-released/">Ruby 2.0.0-p647 リリース</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p647-i686-P1.txz">ruby-2.0.0_p647-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p647-x86_64-P1.txz">ruby-2.0.0_p647-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -664,6 +668,22 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
     
       
         
@@ -702,6 +722,18 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
       
         
       
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -715,24 +747,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
         
       
     
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1234,29 +1248,29 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (70)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (2)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (62)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (1)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/10/28/ntp-4-dot-2-8p4/">Ntp 4.2.8p4</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/28/spice-0-dot-12-dot-6/">Spice 0.12.6</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/10/22/plamo-6-dot-0/">Plamo 6.0 リリース</a>
       </li>
     
       <li class="post">
+        <a href="/blog/2015/10/19/firefox-41-dot-0-2/">Firefox 41.0.2</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/09/14/screen-4-dot-3-1/">Screen 4.3.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/11/libidn-1-dot-32/">Libidn 1.32</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/08/php-5-dot-6-13/">Php 5.6.13</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/04/bind-9-dot-9-7-p3/">Bind 9.9.7-P3</a>
       </li>
     
   </ul>
