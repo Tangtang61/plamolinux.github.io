@@ -9,7 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む wireshark 1.10.7 がリリースされています。詳しくは以下をご覧ください。 wnpa-sec-2014-06 · RTP dissector crash パッケージをリリースしました。 wireshark-1.10.7-i586-P1.txz ( &hellip;">
+  <meta name="description" content="第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？ うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？ &lt; bar-mtomi (M.Tomi) コンテナの仕組み
+コンテナのメリット
+コンテナのデメリット &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +75,55 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC　空間を歩む　第二歩</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-31T14:38:45+09:00" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
+</ul>
+
+
+<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>コンテナの仕組み
+コンテナのメリット
+コンテナのデメリット
+Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
+まとめ
+LXC公式サイトの翻訳
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -584,6 +635,18 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
       
         
       
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -608,12 +671,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
           <li class="post">
             <a href="/blog/2015/10/22/plamo-6-dot-0/">Plamo 6.0 リリース</a>
           </li>
-        
-      
-    
-      
-        
-      
         
       
     
@@ -1140,13 +1197,21 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (65)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (3)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (58)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (3)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/11/13/sudo-1-dot-8-15/">Sudo 1.8.15</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/11/04/ganshiki-soushi/">玩式草子─ソフトウェアとたわむれる日々　第75回　急に出ましたPlamo-6.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/11/04/firefox-42-dot-0/">Firefox 42.0</a>
       </li>
     
       <li class="post">
@@ -1155,14 +1220,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     
       <li class="post">
         <a href="/blog/2015/10/28/spice-0-dot-12-dot-6/">Spice 0.12.6</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/10/22/plamo-6-dot-0/">Plamo 6.0 リリース</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/10/19/firefox-41-dot-0-2/">Firefox 41.0.2</a>
       </li>
     
   </ul>

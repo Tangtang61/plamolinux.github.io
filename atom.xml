@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-11-04T14:48:24+09:00</updated>
+  <updated>2015-11-13T16:20:31+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sudo 1.8.15]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/11/13/sudo-1-dot-8-15/"/>
+    <updated>2015-11-13T16:17:19+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/11/13/sudo-1-dot-8-15</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む sudo 1.8.15 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1277426">CVE-2015-5602 sudo: Unauthorized privilege escalation in sudoedit</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/sudo-1.8.15-i686-P1.txz">sudo-1.8.15-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/sudo-1.8.15-x86_64-P1.txz">sudo-1.8.15-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第75回　急に出ましたPlamo-6.0]]></title>
@@ -22,6 +44,33 @@
 
 <ul>
 <li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0075">玩式草子─ソフトウェアとたわむれる日々　第75回　急に出ましたPlamo-6.0</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 42.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/11/04/firefox-42-dot-0/"/>
+    <updated>2015-11-04T12:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/11/04/firefox-42-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 42.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/42.0/releasenotes/">Firefox 42.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。nspr, nss パッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.10.10-i686-P1.txz">nspr-4.10.10-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.20.1-i686-P1.txz">nss-3.20.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-42.0-i686-P1.txz">firefox-42.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.10-x86_64-P1.txz">nspr-4.10.10-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.20.1-x86_64-P1.txz">nss-3.20.1-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-42.0-x86_64-P1.txz">firefox-42.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -187,29 +236,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 <p>&hellip;..</p>
 
 <p>ISO イメージのダウンロードは <a href="http://plamolinux.github.io/download/">こちら</a> からどうぞ。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 41.0.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/10/19/firefox-41-dot-0-2/"/>
-    <updated>2015-10-19T12:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/10/19/firefox-41-dot-0-2</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 41.0.2 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/41.0.2/releasenotes/">Firefox 41.0.2 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。libpng パッケージも更新してください。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-41.0.2-i686-P1.txz">firefox-41.0.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-41.0.2-x86_64-P1.txz">firefox-41.0.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
@@ -514,28 +540,6 @@ Plamo Linuxテンプレート
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.16-i686-P1.txz">httpd-2.4.16-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.16-x86_64-P1.txz">httpd-2.4.16-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Libzip 0.11.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/07/16/libzip-0-dot-11-dot-2/"/>
-    <updated>2015-07-16T16:21:07+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/07/16/libzip-0-dot-11-dot-2</id>
-    <content type="html"><![CDATA[<p>libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002001.html">JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性</a> (JVN iPedia)</li>
-</ul>
-
-
-<p>パッチを適用した libzip 0.11.2 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libzip-0.11.2-i686-P1.txz">libzip-0.11.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libzip-0.11.2-x86_64-P1.txz">libzip-0.11.2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
