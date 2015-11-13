@@ -3,7 +3,7 @@ layout: post
 title: "firefox 42.0"
 date: 2015-11-04 12:00:00 +0900
 comments: false
-categories: ["Plamo 5.x 情報", "セキュリティ情報"]
+categories: ["Plamo 5.x 情報", "Plamo 6.x 情報", "セキュリティ情報"]
 ---
 セキュリティホールの修正を含む firefox 42.0 がリリースされています。詳しくは以下をご覧ください。
 
