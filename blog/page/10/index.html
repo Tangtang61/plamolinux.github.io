@@ -9,9 +9,10 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？ うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？ &lt; bar-mtomi (M.Tomi) コンテナの仕組み
-コンテナのメリット
-コンテナのデメリット &hellip;">
+  <meta name="description" content="
+第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1） コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi) cgroupファイルシステム
+cgroupの階層構造
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +76,52 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC　空間を歩む　三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-12T12:46:27+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
+</ul>
+
+
+<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>cgroupファイルシステム
+cgroupの階層構造
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -549,76 +596,9 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/22/plamo-5-dot-1-release/">Plamo 5.1 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-22T00:00:00+09:00" pubdate data-updated="true">May 22<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo-5.1 をリリースしました．</p>
-
-<p>以下はメーリングリストへの投稿の抜粋です．</p>
-
-<pre><code>すでに一部の人はお気付きのことと思いますが，先週の22日くらいまでの更新
-でPlamo-5.1ということにしてDVDイメージを作成，公開しました．
-
-$ ls -lh plamo-5.1*
--rw-r--r-- 1 kojima plamo 3.1G 2013-05-22 16:26 plamo-5.1_x86_64_dvd.iso
--rw-r--r-- 1 kojima plamo   59 2013-05-25 10:37 plamo-5.1_x86_64_dvd.iso.md5sum
--rw-r--r-- 1 kojima plamo 3.3G 2013-05-22 16:21 plamo-5.1_x86_dvd.iso
--rw-r--r-- 1 kojima plamo   56 2013-05-25 10:38 plamo-5.1_x86_dvd.iso.md5sum
-
-すでに kddlabs にもミラーいただいているようなので，こちらの方が回線が太
-くてお勧めです．
-
-ftp://ftp.kddlabs.co.jp/020/Linux/packages/plamolinux/
-plamo-5.1_x86_64_dvd.iso                plamo-5.1_x86_dvd.iso
-plamo-5.1_x86_64_dvd.iso.md5sum         plamo-5.1_x86_dvd.iso.md5sum
-
-よく見ると md5sum の日付けが3日ほど遅れているのに気づくと思いますが，
-DVD名から日付けを抜く際に直した結果なのでご心配なく．
-
-今回はPlamo-5.0からのメンテナンスリリースなので，Plamo-5.0からのアップ
-デート集も用意してみました．
-</code></pre>
-
-<p>アップデートを使用する場合の注意点等がありますので以下を参照して下さい。</p>
-
-<ul>
-<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201305/msg00018.html">アナウンスへのリンク</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046">玩式草子 「第46回　Plamo-5.1 released」</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
+    
+      <a class="prev" href="/blog/page/11/">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
@@ -631,6 +611,14 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+        
+      
     
       
         
@@ -1201,10 +1189,14 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (66)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (5)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (67)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (6)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (60)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (27)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/11/16/git-2-dot-6-3/">Git 2.6.3</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/11/13/sudo-1-dot-8-15/">Sudo 1.8.15</a>
@@ -1220,10 +1212,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     
       <li class="post">
         <a href="/blog/2015/10/28/ntp-4-dot-2-8p4/">Ntp 4.2.8p4</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/10/28/spice-0-dot-12-dot-6/">Spice 0.12.6</a>
       </li>
     
   </ul>
