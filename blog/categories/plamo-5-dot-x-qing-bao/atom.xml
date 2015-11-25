@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-11-16T16:24:57+09:00</updated>
+  <updated>2015-11-25T15:38:08+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libxml2 2.9.2]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/11/25/libxml2-2-dot-9-2/"/>
+    <updated>2015-11-25T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/11/25/libxml2-2-dot-9-2</id>
+    <content type="html"><![CDATA[<p>libxml2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1276297">CVE-2015-7942 libxml2: heap-based buffer overflow in xmlParseConditionalSections()</a> (Red Hat Bugzilla)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.2-i686-P4.txz">libxml2-2.9.2-i686-P4.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.2-x86_64-P4.txz">libxml2-2.9.2-x86_64-P4.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 2.6.3]]></title>
@@ -101,35 +123,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p4-i686-P1.txz">ntp-4.2.8p4-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p4-x86_64-P1.txz">ntp-4.2.8p4-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spice 0.12.6]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/10/28/spice-0-dot-12-dot-6/"/>
-    <updated>2015-10-28T10:24:24+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/10/28/spice-0-dot-12-dot-6</id>
-    <content type="html"><![CDATA[<p>spice にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5260">CVE-2015-5260 spice: insufficient validation of surface_id parameter can cause crash</a></li>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5261">CVE-2015-5261 spice: host memory access from guest using crafted images</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。同時に six, spice_protocol も更新する必要があります。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice-0.12.6-i686-P1.txz">spice-0.12.6-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice_protocol-0.12.10-i686-P1.txz">spice_protocol-0.12.10-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python2-1.10.0-i686-P1.txz">six_python2-1.10.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python3-1.10.0-i686-P1.txz">six_python3-1.10.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/spice-0.12.6-x86_64-P1.txz">spice-0.12.6-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice_protocol-0.12.10-x86_64-P1.txz">spice_protocol-0.12.10-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python2-1.10.0-x86_64-P1.txz">six_python2-1.10.0-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python3-1.10.0-x86_64-P1.txz">six_python3-1.10.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
