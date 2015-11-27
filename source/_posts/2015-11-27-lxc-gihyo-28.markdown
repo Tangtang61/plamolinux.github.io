@@ -1,0 +1,20 @@
+---
+layout: post
+title: "LXC　空間を歩む　二十八歩め"
+date: 2015-11-27 16:22:56 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第28回　LXCへのコミット［2］](http://gihyo.jp/admin/serial/01/linux_containers/0028)
+
+遅くなりました。< bar-mtomi
+
+>
+    overlayfsのworkdirオプション
+    lxc-configの改良
+    LVMストレージバックエンドのバグ修正
+    aufsを使った非特権コンテナ
+    linuxcontainers.org翻訳
+    まとめ
+    第8回 コンテナ型仮想化の情報交換会＠東京
