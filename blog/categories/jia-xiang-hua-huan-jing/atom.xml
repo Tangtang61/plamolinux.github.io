@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-11-25T15:38:08+09:00</updated>
+  <updated>2015-12-01T16:22:27+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十八歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28/"/>
+    <updated>2015-11-27T16:22:56+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0028">第28回　LXCへのコミット［2］</a></p>
+
+<p>遅くなりました。&lt; bar-mtomi</p>
+
+<blockquote><pre><code>overlayfsのworkdirオプション
+lxc-configの改良
+LVMストレージバックエンドのバグ修正
+aufsを使った非特権コンテナ
+linuxcontainers.org翻訳
+まとめ
+第8回 コンテナ型仮想化の情報交換会＠東京
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十七歩め]]></title>
@@ -81,25 +101,6 @@ Ubuntu起動時のlxc-autostartの使用
 コンテナのクローン時のフック
 まとめ
 LXC 1.1.2
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十三歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/04/11/lxc-gihyo-23/"/>
-    <updated>2015-04-11T14:37:30+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/04/11/lxc-gihyo-23</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0023">第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1)</a></p>
-
-<p>ephemeral の意味をしらべて、そうなのか？ … でも &mdash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>lxc-start-ephemeralコマンドの概要
-まずは使ってみましょう
-lxc-start-ephemeralコマンドのオプション
-lxc-start-ephemeralコマンドの仕組みとフック
-lxc-start-ephemeralのその他の使い方
-まとめ
 </code></pre></blockquote>
 ]]></content>
   </entry>

@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-11-25T15:34:59+09:00</updated>
+  <updated>2015-12-01T16:22:27+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,24 +14,90 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Libxml2 2.9.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/11/25/libxml2-2-dot-9-2/"/>
-    <updated>2015-11-25T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/11/25/libxml2-2-dot-9-2</id>
-    <content type="html"><![CDATA[<p>libxml2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+    <title type="html"><![CDATA[Autofs 5.1.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/01/autofs-5-dot-1-1/"/>
+    <updated>2015-12-01T16:13:50+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/01/autofs-5-dot-1-1</id>
+    <content type="html"><![CDATA[<p>autofs にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
 
 <ul>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1276297">CVE-2015-7942 libxml2: heap-based buffer overflow in xmlParseConditionalSections()</a> (Red Hat Bugzilla)</li>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8169">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8169</a></li>
 </ul>
 
 
-<p>対策パッケージをリリースしました。</p>
+<p>パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.2-i686-P4.txz">libxml2-2.9.2-i686-P4.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.2-x86_64-P4.txz">libxml2-2.9.2-x86_64-P4.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/autofs-5.1.1-i686-P1.txz">autofs-5.1.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/autofs-5.1.1-x86_64-P1.txz">autofs-5.1.1-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Polkit 0.113]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/01/polkit-0-dot-113/"/>
+    <updated>2015-12-01T16:05:47+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/01/polkit-0-dot-113</id>
+    <content type="html"><![CDATA[<p>polkit にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://cgit.freedesktop.org/polkit/tree/NEWS?id=23519924f24fb80a5f33bb3a82058a6c025ddfa9">http://cgit.freedesktop.org/polkit/tree/NEWS?id=23519924f24fb80a5f33bb3a82058a6c025ddfa9</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/polkit-0.113-i686-P1.txz">polkit-0.113-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/polkit-0.113-x86_64-P1.txz">polkit-0.113-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Libpng 1.6.19]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/01/libpng-1-dot-6-19/"/>
+    <updated>2015-12-01T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/01/libpng-1-dot-6-19</id>
+    <content type="html"><![CDATA[<p>セキュリティホール修正を含む libpng 1.6.19, libpng 1.4.16 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-8126">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-8126</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.19-i686-P1.txz">libpng-1.6.19-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng14-1.4.16-i686-P1.txz">libpng14-1.4.16-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.19-x86_64-P1.txz">libpng-1.6.19-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng14-1.4.16-x86_64-P1.txz">libpng14-1.4.16-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十八歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28/"/>
+    <updated>2015-11-27T16:22:56+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0028">第28回　LXCへのコミット［2］</a></p>
+
+<p>遅くなりました。&lt; bar-mtomi</p>
+
+<blockquote><pre><code>overlayfsのworkdirオプション
+lxc-configの改良
+LVMストレージバックエンドのバグ修正
+aufsを使った非特権コンテナ
+linuxcontainers.org翻訳
+まとめ
+第8回 コンテナ型仮想化の情報交換会＠東京
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -468,79 +534,6 @@ Plamo Linuxテンプレート
 非特権コンテナの動作に関わるパッチ
 まとめ
 </code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Subversion 1.7.20]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/07/30/subversion-1-dot-7-20/"/>
-    <updated>2015-07-30T19:23:09+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/07/30/subversion-1-dot-7-20</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む subversion 1.7.20 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002129.html">JVNDB-2015-002129 Subversion の mod_dav_svn および svnserve サーバにおけるサービス運用妨害 (DoS) の脆弱性</a> (JVN iPedia)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/subversion-1.7.20-i686-P1.txz">subversion-1.7.20-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/subversion-1.7.20-x86_64-P1.txz">subversion-1.7.20-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Curl 7.43.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/07/23/curl-7-dot-43-dot-0/"/>
-    <updated>2015-07-23T17:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/07/23/curl-7-dot-43-dot-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://curl.haxx.se/changes.html#7_43_0">Fixed in 7.43.0 &ndash; June 17 2015</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150422A.html">Re-using authenticated connection when unauthenticated</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150422B.html">Negotiate not treated as connection-oriented</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150422C.html">cookie parser out of boundary memory access</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150422D.html">host name out of boundary memory access</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150429.html">sensitive HTTP server headers also sent to proxies</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150617A.html">lingering HTTP credentials in connection re-use</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150617B.html">SMB send off unrelated memory contents</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.43.0-i686-P1.txz">curl-7.43.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.43.0-x86_64-P1.txz">curl-7.43.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mariadb 5.5.44]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/07/23/mariadb-5-dot-5-44/"/>
-    <updated>2015-07-23T16:51:43+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/07/23/mariadb-5-dot-5-44</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む MariaDB 5.5.44 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://mariadb.com/kb/en/mariadb/security/">Security Vulnerabilities Fixed in MariaDB</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/mariadb-5.5.44-i686-P1.txz">mariadb-5.5.44-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/mariadb-5.5.44-x86_64-P1.txz">mariadb-5.5.44-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
