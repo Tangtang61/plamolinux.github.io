@@ -1,0 +1,22 @@
+---
+layout: post
+title: "LXC　空間を歩む　二十九歩め"
+date: 2015-12-04 15:49:39 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第29回　LXC 1.1［1］](http://gihyo.jp/admin/serial/01/linux_containers/0029)
+
+あっという間に、覚えたことが古くなる。< bar-mtomi
+
+>
+    lxc-startのデフォルト動作の変更
+    アプリケーションコンテナ環境の構築が楽に
+    全コンテナをまとめて起動
+    lxc-lsの新しい出力項目
+    lxc-topコマンドのバイナリ化
+    コンテナ作成時にテンプレートの指定が必須に
+    lxc-config lxc.cgroup.* の表示
+    lxc-start-ephemeral --cdir オプション
+    まとめ
