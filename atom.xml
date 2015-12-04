@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-12-04T17:19:54+09:00</updated>
+  <updated>2015-12-04T17:22:04+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -32,6 +32,28 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1q-x86_64-P2.txz">openssl-1.0.1q-x86_64-P2.txz (64bit)</a></li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　二十九歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29/"/>
+    <updated>2015-12-04T15:49:39+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0029">第29回　LXC 1.1［1］</a></p>
+
+<p>あっという間に、覚えたことが古くなる。&lt; bar-mtomi</p>
+
+<blockquote><pre><code>lxc-startのデフォルト動作の変更
+アプリケーションコンテナ環境の構築が楽に
+全コンテナをまとめて起動
+lxc-lsの新しい出力項目
+lxc-topコマンドのバイナリ化
+コンテナ作成時にテンプレートの指定が必須に
+lxc-config lxc.cgroup.* の表示
+lxc-start-ephemeral --cdir オプション
+まとめ
+</code></pre></blockquote>
 ]]></content>
   </entry>
   
@@ -514,28 +536,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssh-7.1p1-i686-P1.txz">openssh-7.1p1-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssh-7.1p1-x86_64-P1.txz">openssh-7.1p1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ruby 2.0.0-p647]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/08/19/ruby-2-dot-0-0-p647/"/>
-    <updated>2015-08-19T20:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/08/19/ruby-2-dot-0-0-p647</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ruby 2.0.0-p647 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.ruby-lang.org/ja/news/2015/08/18/ruby-2-0-0-p647-released/">Ruby 2.0.0-p647 リリース</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/ruby-2.0.0_p647-i686-P1.txz">ruby-2.0.0_p647-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/ruby-2.0.0_p647-x86_64-P1.txz">ruby-2.0.0_p647-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

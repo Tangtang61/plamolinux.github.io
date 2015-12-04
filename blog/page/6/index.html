@@ -9,9 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2） もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi Btrfsをストレージバックエンドとして使う場合の準備
-Btrfsを使ったコンテナの作成
-Btrfsを使ったコンテナのクローン &hellip;">
+  <meta name="description" content="samba にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Samba 4.1.17, 4.0.25 and 3.6.25 Security Releases Available for Download パッケージをリリースしました。 samba-3.6.25-i686- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +73,55 @@ Btrfsを使ったコンテナのクローン &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/25/samba-3-dot-6-25/">Samba 3.6.25</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-25T16:01:42+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>samba にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.samba.org/samba/latest_news.html#4.1.17">Samba 4.1.17, 4.0.25 and 3.6.25 Security Releases Available for Download</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/samba-3.6.25-i686-P1.txz">samba-3.6.25-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/samba-3.6.25-x86_64-P1.txz">samba-3.6.25-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -572,53 +619,6 @@ wiki ページやこの ML へお気軽に連絡ください．
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/30/lxc-gihyo-18/">LXC　空間を歩む　十八歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
-
-<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>overlayfsとは
-overlayfsを使ってみる
-3.18カーネルのoverlayfs
-opaque（不透明）ディレクトリ
-overlayfsを使う上での注意
-overlayfsの将来
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -639,6 +639,10 @@ overlayfsの将来
         
       
         
+      
+        
+      
+    
       
         
       
@@ -1238,13 +1242,17 @@ overlayfsの将来
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (11)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (62)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (28)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (11)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (62)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (29)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
         <a href="/blog/2015/12/04/openssl-1-dot-0-1q/">OpenSSL 1.0.1q</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/04/lxc-gihyo-29/">LXC　空間を歩む　二十九歩め</a>
       </li>
     
       <li class="post">
@@ -1257,10 +1265,6 @@ overlayfsの将来
     
       <li class="post">
         <a href="/blog/2015/12/01/polkit-0-dot-113/">Polkit 0.113</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/12/01/libpng-1-dot-6-19/">Libpng 1.6.19</a>
       </li>
     
   </ul>
