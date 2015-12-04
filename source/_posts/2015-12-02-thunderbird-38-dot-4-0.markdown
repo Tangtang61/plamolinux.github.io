@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "thunderbird 38.4.0"
-date: 2015-11-02 13:00:00 +0900
+date: 2015-12-02 13:00:00 +0900
 comments: false
 categories: ["Plamo 6.x 情報", "Plamo 5.x 情報", "セキュリティ情報"]
 ---
