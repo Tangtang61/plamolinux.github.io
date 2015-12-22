@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-12-16T17:32:27+09:00</updated>
+  <updated>2015-12-22T19:01:23+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,57 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libxml2 2.9.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/22/libxml2-2-dot-9-3/"/>
+    <updated>2015-12-22T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/22/libxml2-2-dot-9-3</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libxml2 2.9.3 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://mail.gnome.org/archives/xml/2015-November/msg00012.html">[xml] Release of libxml2-2.9.3</a></li>
+</ul>
+
+
+<p>(上記メールはタイトルが間違ってますので上記では修正しています。上記に挙がっている脆弱性の一部は Plamo パッケージではパッチで対処済みでした)</p>
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.3-i686-P1.txz">libxml2-2.9.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.3-x86_64-P1.txz">libxml2-2.9.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 43.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/16/firefox-43-dot-0/"/>
+    <updated>2015-12-16T23:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/16/firefox-43-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 43.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/43.0/releasenotes/">Firefox 43.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。nspr, nss パッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.11-i686-P1.txz">nspr-4.11-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.21-i686-P1.txz">nss-3.21-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-43.0-i686-P1.txz">firefox-43.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.11-x86_64-P1.txz">nspr-4.11-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.21-x86_64-P1.txz">nss-3.21-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-43.0-x86_64-P1.txz">firefox-43.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bind 9.9.8-P2]]></title>
@@ -244,33 +295,6 @@ linuxcontainers.org翻訳
 
 <ul>
 <li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0075">玩式草子─ソフトウェアとたわむれる日々　第75回　急に出ましたPlamo-6.0</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 42.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/11/04/firefox-42-dot-0/"/>
-    <updated>2015-11-04T12:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/11/04/firefox-42-dot-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 42.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/42.0/releasenotes/">Firefox 42.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。nspr, nss パッケージも更新してください。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.10.10-i686-P1.txz">nspr-4.10.10-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.20.1-i686-P1.txz">nss-3.20.1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-42.0-i686-P1.txz">firefox-42.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.10.10-x86_64-P1.txz">nspr-4.10.10-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.20.1-x86_64-P1.txz">nss-3.20.1-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-42.0-x86_64-P1.txz">firefox-42.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -514,28 +538,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 
 <ul>
 <li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0073">第73回　「お講」文書をディジタル化する［その1］</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openssh 7.1p1]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/08/26/openssh-7-dot-1p1/"/>
-    <updated>2015-08-26T16:45:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/08/26/openssh-7-dot-1p1</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む openssh 7.1p1 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.openssh.com/txt/release-7.1">http://www.openssh.com/txt/release-7.1</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssh-7.1p1-i686-P1.txz">openssh-7.1p1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssh-7.1p1-x86_64-P1.txz">openssh-7.1p1-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

@@ -9,10 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第11回　LXCの設定［1］ 今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^; &lt; bar-mtomi 設定ファイルの書式
-システムの設定
-コンテナの設定
-まとめ &hellip;">
+  <meta name="description" content="(2014-10-07 bash 4.2.50 情報から更新)
+(2014-10-01 bash 4.2.49 情報から更新) bash に脆弱性が発見されています。詳しくは以下などをご覧ください。 bash の脆弱性対策について(CVE-2014-6271 等) (IPA) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,51 +74,6 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/13/lxc-gihyo-11/">LXC　空間を歩む　十一歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-13T13:08:05+09:00" pubdate data-updated="true">Oct 13<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
-
-<p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
-
-<blockquote><pre><code>設定ファイルの書式
-システムの設定
-コンテナの設定
-まとめ
-LXC 1.0.6
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
   
   
     <article>
@@ -573,6 +526,50 @@ LXCの気になる点
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/05/glibc-gcc/">Glibc, Gccなどの更新</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-05T00:00:00+09:00" pubdate data-updated="true">Aug 5<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>glibc, gcc などの基本的なパッケージが 8/4 付で更新されています。詳しくは Change.Log をご覧ください。</p>
+
+<ul>
+<li>gcc 4.8.3</li>
+<li>glibc 2.19</li>
+</ul>
+
+
+<p>これ以降に更新されるパッケージは gcc 4.8.3 でコンパイルされ、glibc 2.19 に依存します。</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/10/">&larr; Older</a>
@@ -608,26 +605,6 @@ LXCの気になる点
       
         
       
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
         
       
         
@@ -664,11 +641,39 @@ LXCの気になる点
       
         
       
+        
+      
+        
+      
     
       
         
       
         
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
       
         
       
@@ -733,12 +738,6 @@ LXCの気になる点
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1052,12 +1051,6 @@ LXCの気になる点
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1198,10 +1191,18 @@ LXCの気になる点
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (12)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (62)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (29)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (68)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (13)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (29)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/12/22/libxml2-2-dot-9-3/">Libxml2 2.9.3</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/16/firefox-43-dot-0/">Firefox 43.0</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/12/16/bind-9-dot-9-8-p2/">Bind 9.9.8-P2</a>
@@ -1213,14 +1214,6 @@ LXCの気になる点
     
       <li class="post">
         <a href="/blog/2015/12/04/lxc-gihyo-29/">LXC　空間を歩む　二十九歩め</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/12/02/thunderbird-38-dot-4-0/">Thunderbird 38.4.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/12/01/autofs-5-dot-1-1/">Autofs 5.1.1</a>
       </li>
     
   </ul>
