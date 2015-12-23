@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む libxml2 2.9.3 がリリースされています。詳しくは以下をご覧ください。 [xml] Release of libxml2-2.9.3 (上記メールはタイトルが間違ってますので上記では修正しています。上記に挙がっている脆弱性の一部は Plamo &hellip;">
+  <meta name="description" content="*第30回　Linuxカーネルのコンテナ機能［8］— cgroupのpidsサブシステム （ Linux における） タスク って？ プロセス との違いは何だっけ？ … って考えた事があるなぁ … 何故か思い出してしまった。 &lt; bar-mtomi cgroup &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,57 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/23/lxc-giho-30/">LXC　空間を歩む　三十歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-12-23T16:39:07+09:00" pubdate data-updated="true">Dec 23<span>rd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0030">第30回　Linuxカーネルのコンテナ機能［8］— cgroupのpidsサブシステム</a></p>
+
+<p>（ Linux における） タスク って？ プロセス との違いは何だっけ？ … って考えた事があるなぁ … 何故か思い出してしまった。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>cgroup
+cgroupによるプロセス数の制限
+pidsサブシステムを有効にしたカーネルの作成
+マウントとグループの作成
+pidsサブシステム用ファイル
+制限を追加する
+階層構造
+pidsサブシステムのカーネルの実装
+制限以上のプロセスをグループに追加する
+プロセスが登録された状態でグループの制限値を変更する
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -526,53 +577,6 @@ lxc-start-ephemeral --cdir オプション
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/11/27/lxc-gihyo-28/">LXC　空間を歩む　二十八歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-11-27T16:22:56+09:00" pubdate data-updated="true">Nov 27<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0028">第28回　LXCへのコミット［2］</a></p>
-
-<p>遅くなりました。&lt; bar-mtomi</p>
-
-<blockquote><pre><code>overlayfsのworkdirオプション
-lxc-configの改良
-LVMストレージバックエンドのバグ修正
-aufsを使った非特権コンテナ
-linuxcontainers.org翻訳
-まとめ
-第8回 コンテナ型仮想化の情報交換会＠東京
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -586,6 +590,10 @@ linuxcontainers.org翻訳
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1192,10 +1200,14 @@ linuxcontainers.org翻訳
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (68)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (13)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (29)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (68)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (13)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (30)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/12/23/lxc-giho-30/">LXC　空間を歩む　三十歩め</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/12/22/libxml2-2-dot-9-3/">Libxml2 2.9.3</a>
@@ -1211,10 +1223,6 @@ linuxcontainers.org翻訳
     
       <li class="post">
         <a href="/blog/2015/12/04/openssl-1-dot-0-1q/">OpenSSL 1.0.1q</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/12/04/lxc-gihyo-29/">LXC　空間を歩む　二十九歩め</a>
       </li>
     
   </ul>

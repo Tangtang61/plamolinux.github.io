@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-12-22T19:01:23+09:00</updated>
+  <updated>2015-12-23T16:49:34+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　三十歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/23/lxc-giho-30/"/>
+    <updated>2015-12-23T16:39:07+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/23/lxc-giho-30</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0030">第30回　Linuxカーネルのコンテナ機能［8］— cgroupのpidsサブシステム</a></p>
+
+<p>（ Linux における） タスク って？ プロセス との違いは何だっけ？ … って考えた事があるなぁ … 何故か思い出してしまった。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>cgroup
+cgroupによるプロセス数の制限
+pidsサブシステムを有効にしたカーネルの作成
+マウントとグループの作成
+pidsサブシステム用ファイル
+制限を追加する
+階層構造
+pidsサブシステムのカーネルの実装
+制限以上のプロセスをグループに追加する
+プロセスが登録された状態でグループの制限値を変更する
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十九歩め]]></title>
@@ -86,23 +110,6 @@ Plamo Linuxテンプレート
 Python から
 まとめ
 連載のお礼と今後
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十五歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25/"/>
-    <updated>2015-05-24T16:19:31+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/05/24/lxc-gihyo-25</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0025">第25回　LXCの構築・活用 [11] ─lxc-autostartコマンドによるコンテナの自動起動</a></p>
-
-<p>自動で複数起動する場合は必要な機能だなぁ &lt; bar-mtomi</p>
-
-<blockquote><pre><code>設定
-lxc-autostartコマンドの実行
-Ubuntu起動時のlxc-autostartの使用
-まとめ
 </code></pre></blockquote>
 ]]></content>
   </entry>

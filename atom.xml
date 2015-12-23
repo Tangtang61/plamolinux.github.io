@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2015-12-22T19:01:23+09:00</updated>
+  <updated>2015-12-23T16:49:34+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　三十歩め]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/23/lxc-giho-30/"/>
+    <updated>2015-12-23T16:39:07+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/23/lxc-giho-30</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0030">第30回　Linuxカーネルのコンテナ機能［8］— cgroupのpidsサブシステム</a></p>
+
+<p>（ Linux における） タスク って？ プロセス との違いは何だっけ？ … って考えた事があるなぁ … 何故か思い出してしまった。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>cgroup
+cgroupによるプロセス数の制限
+pidsサブシステムを有効にしたカーネルの作成
+マウントとグループの作成
+pidsサブシステム用ファイル
+制限を追加する
+階層構造
+pidsサブシステムのカーネルの実装
+制限以上のプロセスをグループに追加する
+プロセスが登録された状態でグループの制限値を変更する
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Libxml2 2.9.3]]></title>
@@ -524,20 +548,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.6.13-i686-P1.txz">php-5.6.13-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.6.13-x86_64-P1.txz">php-5.6.13-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第73回　「お講」文書をディジタル化する［その1］]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/09/02/ganshiki-soushi/"/>
-    <updated>2015-09-02T15:38:34+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/09/02/ganshiki-soushi</id>
-    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0073">第73回　「お講」文書をディジタル化する［その1］</a></li>
 </ul>
 
 ]]></content>
