@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "firefox 43.0"
-date: 2015-12-16 23:00:00 +0900
+title: "firefox 43.0.4"
+date: 2016-01-12 18:00:00 +0900
 comments: false
 categories: ["Plamo 5.x 情報", "Plamo 6.x 情報", "セキュリティ情報"]
 ---
-セキュリティホールの修正を含む firefox 43.0 がリリースされています。詳しくは以下をご覧ください。
+セキュリティホールの修正を含む firefox 43.0.4 がリリースされています。詳しくは以下をご覧ください。
 
-* [Firefox 43.0 リリースノート](http://www.mozilla.jp/firefox/43.0/releasenotes/)
+* [Firefox 43.0.4 リリースノート](http://www.mozilla.jp/firefox/43.0.4/releasenotes/)
 * [Firefox セキュリティアドバイザリ](http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html)
 
-パッケージをリリースしました。nspr, nss パッケージも更新してください。
+パッケージをリリースしました。42.0 以前からの更新の場合は nspr, nss パッケージも更新してください。
 
 * [nspr-4.11-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.11-i686-P1.txz)
 * [nss-3.21-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.21-i686-P1.txz)
-* [firefox-43.0-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-43.0-i686-P1.txz)
+* [firefox-43.0.4-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-43.0.4-i686-P1.txz)
 * [nspr-4.11-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.11-x86_64-P1.txz)
 * [nss-3.21-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.21-x86_64-P1.txz)
-* [firefox-43.0-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-43.0-x86_64-P1.txz)
+* [firefox-43.0.4-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-43.0.4-x86_64-P1.txz)
