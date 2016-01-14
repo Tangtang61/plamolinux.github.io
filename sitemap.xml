@@ -418,7 +418,11 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2016/01/12/firefox-43-dot-0-4/</loc>
-        <lastmod>2016-01-12T19:23:37+09:00</lastmod>
+        <lastmod>2016-01-12T19:30:46+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2016/01/14/dhcp-4-dot-3-3/</loc>
+        <lastmod>2016-01-14T19:16:26+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/about/</loc>
@@ -426,7 +430,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2016-01-12T19:29:20+09:00</lastmod>
+        <lastmod>2016-01-14T19:16:26+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -438,7 +442,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2016-01-12T19:29:20+09:00</lastmod>
+        <lastmod>2016-01-14T19:16:26+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>
