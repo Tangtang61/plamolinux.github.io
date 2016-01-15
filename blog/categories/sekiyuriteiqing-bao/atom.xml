@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-01-14T19:17:06+09:00</updated>
+  <updated>2016-01-15T17:22:27+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Openssh 7.1p2]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/01/15/openssh-7-dot-1p2/"/>
+    <updated>2016-01-15T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/01/15/openssh-7-dot-1p2</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む openssh 7.1p2 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.openssh.com/txt/release-7.1p2">http://www.openssh.com/txt/release-7.1p2</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssh-7.1p2-i686-P1.txz">openssh-7.1p2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssh-7.1p2-x86_64-P1.txz">openssh-7.1p2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dhcp 4.3.3-P1]]></title>
@@ -103,29 +125,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.3-i686-P1.txz">libxml2-2.9.3-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.3-x86_64-P1.txz">libxml2-2.9.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.8-P2]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/12/16/bind-9-dot-9-8-p2/"/>
-    <updated>2015-12-16T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/12/16/bind-9-dot-9-8-p2</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://jprs.jp/tech/security/2015-12-16-bind9-vuln-racecond.html">BIND 9.xの脆弱性（DNSサービスの停止）について（2015年12月16日公開）</a></li>
-<li><a href="http://jprs.jp/tech/security/2015-12-16-bind9-vuln-respclass.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（2015年12月16日公開）</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.8_P2-i686-P1.txz">bind-9.9.8_P2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.8_P2-x86_64-P1.txz">bind-9.9.8_P2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
