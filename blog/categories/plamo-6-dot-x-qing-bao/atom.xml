@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-01-15T17:22:27+09:00</updated>
+  <updated>2016-01-20T06:10:15+00:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,9 +14,31 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Bind 9.9.8-P3]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/01/20/bind-9-dot-9-8-p3/"/>
+    <updated>2016-01-20T06:00:00+00:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/01/20/bind-9-dot-9-8-p3</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://jprs.jp/tech/security/2016-01-20-bind9-vuln-stringformat.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2015-8704）</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.8_P3-i686-P1.txz">bind-9.9.8_P3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.8_P3-x86_64-P1.txz">bind-9.9.8_P3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Openssh 7.1p2]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/15/openssh-7-dot-1p2/"/>
-    <updated>2016-01-15T16:00:00+09:00</updated>
+    <updated>2016-01-15T07:00:00+00:00</updated>
     <id>http://plamolinux.github.io/blog/2016/01/15/openssh-7-dot-1p2</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む openssh 7.1p2 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -38,7 +60,7 @@
   <entry>
     <title type="html"><![CDATA[Dhcp 4.3.3-P1]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/14/dhcp-4-dot-3-3/"/>
-    <updated>2016-01-14T19:11:47+09:00</updated>
+    <updated>2016-01-14T10:11:47+00:00</updated>
     <id>http://plamolinux.github.io/blog/2016/01/14/dhcp-4-dot-3-3</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ISC DHCP 4.3.3-P1 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -60,7 +82,7 @@
   <entry>
     <title type="html"><![CDATA[Firefox 43.0.4]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/12/firefox-43-dot-0-4/"/>
-    <updated>2016-01-12T18:00:00+09:00</updated>
+    <updated>2016-01-12T09:00:00+00:00</updated>
     <id>http://plamolinux.github.io/blog/2016/01/12/firefox-43-dot-0-4</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 43.0.4 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -87,7 +109,7 @@
   <entry>
     <title type="html"><![CDATA[Php 5.6.17]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/08/php-5-dot-6-17/"/>
-    <updated>2016-01-08T17:00:00+09:00</updated>
+    <updated>2016-01-08T08:00:00+00:00</updated>
     <id>http://plamolinux.github.io/blog/2016/01/08/php-5-dot-6-17</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.6.17 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -101,30 +123,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/php-5.6.17-i686-P1.txz">php-5.6.17-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/php-5.6.17-x86_64-P1.txz">php-5.6.17-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Libxml2 2.9.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/12/22/libxml2-2-dot-9-3/"/>
-    <updated>2015-12-22T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/12/22/libxml2-2-dot-9-3</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libxml2 2.9.3 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://mail.gnome.org/archives/xml/2015-November/msg00012.html">[xml] Release of libxml2-2.9.3</a></li>
-</ul>
-
-
-<p>(上記メールはタイトルが間違ってますので上記では修正しています。上記に挙がっている脆弱性の一部は Plamo パッケージではパッチで対処済みでした)</p>
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.3-i686-P1.txz">libxml2-2.9.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.3-x86_64-P1.txz">libxml2-2.9.3-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
