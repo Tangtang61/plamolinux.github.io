@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-01-20T06:10:15+00:00</updated>
+  <updated>2016-01-27T16:38:22+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,9 +14,34 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Firefox 44.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/01/27/firefox-44-dot-0/"/>
+    <updated>2016-01-27T15:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/01/27/firefox-44-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 44.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/44.0/releasenotes/">Firefox 44.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。sqlite パッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/sqlite-3.10.2-i686-P1.txz">sqlite-3.10.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-44.0-i686-P1.txz">firefox-44.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/sqlite-3.10.2-x86_64-P1.txz">sqlite-3.10.2-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-44.0-x86_64-P1.txz">firefox-44.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Bind 9.9.8-P3]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/20/bind-9-dot-9-8-p3/"/>
-    <updated>2016-01-20T06:00:00+00:00</updated>
+    <updated>2016-01-20T15:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2016/01/20/bind-9-dot-9-8-p3</id>
     <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
 
@@ -38,7 +63,7 @@
   <entry>
     <title type="html"><![CDATA[Openssh 7.1p2]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/15/openssh-7-dot-1p2/"/>
-    <updated>2016-01-15T07:00:00+00:00</updated>
+    <updated>2016-01-15T16:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2016/01/15/openssh-7-dot-1p2</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む openssh 7.1p2 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -60,7 +85,7 @@
   <entry>
     <title type="html"><![CDATA[Dhcp 4.3.3-P1]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/14/dhcp-4-dot-3-3/"/>
-    <updated>2016-01-14T10:11:47+00:00</updated>
+    <updated>2016-01-14T19:11:47+09:00</updated>
     <id>http://plamolinux.github.io/blog/2016/01/14/dhcp-4-dot-3-3</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む ISC DHCP 4.3.3-P1 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -80,36 +105,9 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Firefox 43.0.4]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/01/12/firefox-43-dot-0-4/"/>
-    <updated>2016-01-12T09:00:00+00:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/01/12/firefox-43-dot-0-4</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 43.0.4 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/43.0.4/releasenotes/">Firefox 43.0.4 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。42.0 以前からの更新の場合は nspr, nss パッケージも更新してください。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nspr-4.11-i686-P1.txz">nspr-4.11-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/nss-3.21-i686-P1.txz">nss-3.21-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-43.0.4-i686-P1.txz">firefox-43.0.4-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nspr-4.11-x86_64-P1.txz">nspr-4.11-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/nss-3.21-x86_64-P1.txz">nss-3.21-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-43.0.4-x86_64-P1.txz">firefox-43.0.4-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Php 5.6.17]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/08/php-5-dot-6-17/"/>
-    <updated>2016-01-08T08:00:00+00:00</updated>
+    <updated>2016-01-08T17:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2016/01/08/php-5-dot-6-17</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 5.6.17 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -131,7 +129,7 @@
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　三十歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/23/lxc-giho-30/"/>
-    <updated>2015-12-23T07:39:07+00:00</updated>
+    <updated>2015-12-23T16:39:07+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/23/lxc-giho-30</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0030">第30回　Linuxカーネルのコンテナ機能［8］— cgroupのpidsサブシステム</a></p>
 
@@ -155,7 +153,7 @@ pidsサブシステムのカーネルの実装
   <entry>
     <title type="html"><![CDATA[Libxml2 2.9.3]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/22/libxml2-2-dot-9-3/"/>
-    <updated>2015-12-22T10:00:00+00:00</updated>
+    <updated>2015-12-22T19:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/22/libxml2-2-dot-9-3</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libxml2 2.9.3 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -179,7 +177,7 @@ pidsサブシステムのカーネルの実装
   <entry>
     <title type="html"><![CDATA[OpenSSL 1.0.1q]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/04/openssl-1-dot-0-1q/"/>
-    <updated>2015-12-04T07:30:00+00:00</updated>
+    <updated>2015-12-04T16:30:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/04/openssl-1-dot-0-1q</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1q がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -201,7 +199,7 @@ pidsサブシステムのカーネルの実装
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十九歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29/"/>
-    <updated>2015-12-04T06:49:39+00:00</updated>
+    <updated>2015-12-04T15:49:39+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0029">第29回　LXC 1.1［1］</a></p>
 
@@ -223,7 +221,7 @@ lxc-start-ephemeral --cdir オプション
   <entry>
     <title type="html"><![CDATA[Thunderbird 38.4.0]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/02/thunderbird-38-dot-4-0/"/>
-    <updated>2015-12-02T04:00:00+00:00</updated>
+    <updated>2015-12-02T13:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/02/thunderbird-38-dot-4-0</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 38.4.0 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -246,7 +244,7 @@ lxc-start-ephemeral --cdir オプション
   <entry>
     <title type="html"><![CDATA[Autofs 5.1.1]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/01/autofs-5-dot-1-1/"/>
-    <updated>2015-12-01T07:13:50+00:00</updated>
+    <updated>2015-12-01T16:13:50+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/01/autofs-5-dot-1-1</id>
     <content type="html"><![CDATA[<p>autofs にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
 
@@ -268,7 +266,7 @@ lxc-start-ephemeral --cdir オプション
   <entry>
     <title type="html"><![CDATA[Polkit 0.113]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/01/polkit-0-dot-113/"/>
-    <updated>2015-12-01T07:05:47+00:00</updated>
+    <updated>2015-12-01T16:05:47+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/01/polkit-0-dot-113</id>
     <content type="html"><![CDATA[<p>polkit にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
 
@@ -289,9 +287,9 @@ lxc-start-ephemeral --cdir オプション
   
   <entry>
     <title type="html"><![CDATA[Libpng 1.6.19]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/11/30/libpng-1-dot-6-19/"/>
-    <updated>2015-11-30T15:00:00+00:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/11/30/libpng-1-dot-6-19</id>
+    <link href="http://plamolinux.github.io/blog/2015/12/01/libpng-1-dot-6-19/"/>
+    <updated>2015-12-01T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/01/libpng-1-dot-6-19</id>
     <content type="html"><![CDATA[<p>セキュリティホール修正を含む libpng 1.6.19, libpng 1.4.16 がリリースされています．詳しくは以下をご覧ください．</p>
 
 <ul>
@@ -314,7 +312,7 @@ lxc-start-ephemeral --cdir オプション
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十八歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28/"/>
-    <updated>2015-11-27T07:22:56+00:00</updated>
+    <updated>2015-11-27T16:22:56+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0028">第28回　LXCへのコミット［2］</a></p>
 
@@ -334,7 +332,7 @@ linuxcontainers.org翻訳
   <entry>
     <title type="html"><![CDATA[Git 2.6.3]]></title>
     <link href="http://plamolinux.github.io/blog/2015/11/16/git-2-dot-6-3/"/>
-    <updated>2015-11-16T07:18:46+00:00</updated>
+    <updated>2015-11-16T16:18:46+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/11/16/git-2-dot-6-3</id>
     <content type="html"><![CDATA[<p>git のセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
 
@@ -356,7 +354,7 @@ linuxcontainers.org翻訳
   <entry>
     <title type="html"><![CDATA[Sudo 1.8.15]]></title>
     <link href="http://plamolinux.github.io/blog/2015/11/13/sudo-1-dot-8-15/"/>
-    <updated>2015-11-13T07:17:19+00:00</updated>
+    <updated>2015-11-13T16:17:19+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/11/13/sudo-1-dot-8-15</id>
     <content type="html"><![CDATA[<p>セキュリティホールの修正を含む sudo 1.8.15 がリリースされています。詳しくは以下をご覧ください。</p>
 
@@ -378,7 +376,7 @@ linuxcontainers.org翻訳
   <entry>
     <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第75回　急に出ましたPlamo-6.0]]></title>
     <link href="http://plamolinux.github.io/blog/2015/11/04/ganshiki-soushi/"/>
-    <updated>2015-11-04T05:45:16+00:00</updated>
+    <updated>2015-11-04T14:45:16+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/11/04/ganshiki-soushi</id>
     <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>でPlamo-6.0に関する記事が公開されています。</p>
 
@@ -392,7 +390,7 @@ linuxcontainers.org翻訳
   <entry>
     <title type="html"><![CDATA[Ntp 4.2.8p4]]></title>
     <link href="http://plamolinux.github.io/blog/2015/10/28/ntp-4-dot-2-8p4/"/>
-    <updated>2015-10-28T02:00:00+00:00</updated>
+    <updated>2015-10-28T11:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/10/28/ntp-4-dot-2-8p4</id>
     <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
 
@@ -414,7 +412,7 @@ linuxcontainers.org翻訳
   <entry>
     <title type="html"><![CDATA[Spice 0.12.6]]></title>
     <link href="http://plamolinux.github.io/blog/2015/10/28/spice-0-dot-12-dot-6/"/>
-    <updated>2015-10-28T01:24:24+00:00</updated>
+    <updated>2015-10-28T10:24:24+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/10/28/spice-0-dot-12-dot-6</id>
     <content type="html"><![CDATA[<p>spice にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
 
@@ -443,7 +441,7 @@ linuxcontainers.org翻訳
   <entry>
     <title type="html"><![CDATA[Plamo 6.0 リリース]]></title>
     <link href="http://plamolinux.github.io/blog/2015/10/22/plamo-6-dot-0/"/>
-    <updated>2015-10-22T08:01:42+00:00</updated>
+    <updated>2015-10-22T17:01:42+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/10/22/plamo-6-dot-0</id>
     <content type="html"><![CDATA[<p>Plamo 6.0 をリリースしました。</p>
 

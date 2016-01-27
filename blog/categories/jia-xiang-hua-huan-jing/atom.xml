@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-01-20T06:10:15+00:00</updated>
+  <updated>2016-01-27T16:38:22+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　三十歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/23/lxc-giho-30/"/>
-    <updated>2015-12-23T07:39:07+00:00</updated>
+    <updated>2015-12-23T16:39:07+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/23/lxc-giho-30</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0030">第30回　Linuxカーネルのコンテナ機能［8］— cgroupのpidsサブシステム</a></p>
 
@@ -40,7 +40,7 @@ pidsサブシステムのカーネルの実装
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十九歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29/"/>
-    <updated>2015-12-04T06:49:39+00:00</updated>
+    <updated>2015-12-04T15:49:39+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0029">第29回　LXC 1.1［1］</a></p>
 
@@ -62,7 +62,7 @@ lxc-start-ephemeral --cdir オプション
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十八歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28/"/>
-    <updated>2015-11-27T07:22:56+00:00</updated>
+    <updated>2015-11-27T16:22:56+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0028">第28回　LXCへのコミット［2］</a></p>
 
@@ -82,7 +82,7 @@ linuxcontainers.org翻訳
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十七歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/08/01/lxc-gihyo-27/"/>
-    <updated>2015-08-01T07:26:58+00:00</updated>
+    <updated>2015-08-01T16:26:58+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/08/01/lxc-gihyo-27</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0027">第27回　LXCへのコミット［1］</a></p>
 
@@ -100,7 +100,7 @@ Plamo Linuxテンプレート
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十六歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/06/06/lxc-gihyo-26/"/>
-    <updated>2015-06-06T06:08:37+00:00</updated>
+    <updated>2015-06-06T15:08:37+09:00</updated>
     <id>http://plamolinux.github.io/blog/2015/06/06/lxc-gihyo-26</id>
     <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0026">第26回　LXCの構築・活用［12］ ─ APIと言語バインディング</a></p>
 
