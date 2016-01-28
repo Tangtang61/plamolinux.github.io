@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-01-27T16:38:22+09:00</updated>
+  <updated>2016-01-28T18:10:00+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ntp 4.2.8p6]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/01/28/ntp-4-dot-2-8p6/"/>
+    <updated>2016-01-28T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/01/28/ntp-4-dot-2-8p6</id>
+    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#Recent_Vulnerabilities">Recent Vulnerabilities</a> (ntp.org)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p6-i686-P1.txz">ntp-4.2.8p6-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p6-x86_64-P1.txz">ntp-4.2.8p6-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Libpng 1.6.21]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/01/28/libpng-1-dot-6-21/"/>
+    <updated>2016-01-28T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/01/28/libpng-1-dot-6-21</id>
+    <content type="html"><![CDATA[<p>セキュリティホール修正を含む libpng 1.6.21, libpng 1.4.19 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.libpng.org/pub/png/libpng.html">libpng Home Page</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.21-i686-P1.txz">libpng-1.6.21-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng14-1.4.19-i686-P1.txz">libpng14-1.4.19-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.21-x86_64-P1.txz">libpng-1.6.21-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng14-1.4.19-x86_64-P1.txz">libpng14-1.4.19-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 44.0]]></title>
@@ -286,30 +332,6 @@ lxc-start-ephemeral --cdir オプション
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Libpng 1.6.19]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/12/01/libpng-1-dot-6-19/"/>
-    <updated>2015-12-01T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/12/01/libpng-1-dot-6-19</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む libpng 1.6.19, libpng 1.4.16 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-8126">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-8126</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.19-i686-P1.txz">libpng-1.6.19-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng14-1.4.16-i686-P1.txz">libpng14-1.4.16-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.19-x86_64-P1.txz">libpng-1.6.19-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng14-1.4.16-x86_64-P1.txz">libpng14-1.4.16-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　二十八歩め]]></title>
     <link href="http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28/"/>
     <updated>2015-11-27T16:22:56+09:00</updated>
@@ -382,28 +404,6 @@ linuxcontainers.org翻訳
 
 <ul>
 <li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0075">玩式草子─ソフトウェアとたわむれる日々　第75回　急に出ましたPlamo-6.0</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ntp 4.2.8p4]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/10/28/ntp-4-dot-2-8p4/"/>
-    <updated>2015-10-28T11:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/10/28/ntp-4-dot-2-8p4</id>
-    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#October_2015_NTP_Security_Vulner">October 2015 NTP Security Vulnerability Announcement (Medium)</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p4-i686-P1.txz">ntp-4.2.8p4-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p4-x86_64-P1.txz">ntp-4.2.8p4-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
