@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 5.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-5-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-01-28T18:10:00+09:00</updated>
+  <updated>2016-02-01T18:03:29+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenSSL 1.0.1r]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/01/openssl-1-dot-0-1r/"/>
+    <updated>2016-02-01T17:30:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/01/openssl-1-dot-0-1r</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1r がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.openssl.org/news/secadv/20160128.txt">OpenSSL Security Advisory [28th Jan 2016]</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1r-i686-P1.txz">openssl-1.0.1r-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1r-x86_64-P1.txz">openssl-1.0.1r-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ntp 4.2.8p6]]></title>
@@ -101,28 +123,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/bind-9.9.8_P3-i686-P1.txz">bind-9.9.8_P3-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.8_P3-x86_64-P1.txz">bind-9.9.8_P3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openssh 7.1p2]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/01/15/openssh-7-dot-1p2/"/>
-    <updated>2016-01-15T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/01/15/openssh-7-dot-1p2</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む openssh 7.1p2 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.openssh.com/txt/release-7.1p2">http://www.openssh.com/txt/release-7.1p2</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssh-7.1p2-i686-P1.txz">openssh-7.1p2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssh-7.1p2-x86_64-P1.txz">openssh-7.1p2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
