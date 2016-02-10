@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="screen にセキュリティホールが発見されています．詳しくは以下をご覧ください． oss-sec: Re: CVE request: screen stack overflow (deep recursion) 対策パッチを適用したパッケージをリリースしました． screen-4.3.1- &hellip;">
+  <meta name="description" content="spice にセキュリティホールが発見されています。詳しくは以下をご覧ください。 CVE-2015-5260 spice: insufficient validation of surface_id parameter can cause crash
+CVE-2015-5261 spice: &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,201 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/28/spice-0-dot-12-dot-6/">Spice 0.12.6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-10-28T10:24:24+09:00" pubdate data-updated="true">Oct 28<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>spice にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5260">CVE-2015-5260 spice: insufficient validation of surface_id parameter can cause crash</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5261">CVE-2015-5261 spice: host memory access from guest using crafted images</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。同時に six, spice_protocol も更新する必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice-0.12.6-i686-P1.txz">spice-0.12.6-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice_protocol-0.12.10-i686-P1.txz">spice_protocol-0.12.10-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python2-1.10.0-i686-P1.txz">six_python2-1.10.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python3-1.10.0-i686-P1.txz">six_python3-1.10.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/spice-0.12.6-x86_64-P1.txz">spice-0.12.6-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice_protocol-0.12.10-x86_64-P1.txz">spice_protocol-0.12.10-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python2-1.10.0-x86_64-P1.txz">six_python2-1.10.0-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python3-1.10.0-x86_64-P1.txz">six_python3-1.10.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/22/plamo-6-dot-0/">Plamo 6.0 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-10-22T17:01:42+09:00" pubdate data-updated="true">Oct 22<span>nd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo 6.0 をリリースしました。</p>
+
+<p>以下はメーリングリストに投稿されたリリースアナウンスです。</p>
+
+<hr />
+
+<p>2015年10月24,25日に明星大学で開催される<a href="http://www.ospn.jp/osc2015-fall/">OSC 2015 Tokyo/Fall</a>に出展するのに合わせて，Plamo-6.0をリリースしました．</p>
+
+<pre><code>-r--r--r--   104      1004   3703570432   10月 21 09:17   plamo-6.0_x86_64_dvd.iso
+-r--r--r--   104      1004           59   10月 21 09:17   plamo-6.0_x86_64_dvd.iso.md5sum
+-r--r--r--   104      1004   3694133248   10月 21 09:18   plamo-6.0_x86_dvd.iso
+-r--r--r--   104      1004           56   10月 21 09:18   plamo-6.0_x86_dvd.iso.md5sum
+</code></pre>
+
+<p>すでに ring.yamanashi.ac.jp にはミラーいただいているようなので適宜広まっていくかと思いますが，上記 OSC 2015 Tokyo/Fall の「Plamo Linux メンテナグループ」のブースでDVDやUSBメディアで配布する予定ですので，OSC に参加される方は，ぜひお立ち寄りください (<em> </em>)</p>
+
+<p># 枚数限定です :&ndash;)</p>
+
+<p>今回のウリは kernel-4.2.3 採用と GPT/UEFI 対応かな．以下はREADMEの抜粋．</p>
+
+<hr />
+
+<h2>Plamo-6.0について(2015-10-18)</h2>
+
+<p>メンテナの松木さんの旗振りで2015 OSC Tokyo/Fall に出展することになった
+のに合わせて，Plamo-6.0をリリースすることにしました．</p>
+
+<p>バージョン番号的には久しぶりのメジャーバージョンの更新なものの，
+Linux-4.x同様，機能的に大きな変更があった故のバージョンアップではなく，
+イベントで配布するなら「6.0」というキリのいいバージョンの方がいいだろう，
+程度の動機での更新です(苦笑</p>
+
+<p>そのため，システムの基本構成は従来のPlamo-5.xと同様なものの，
+以下のような新しい機能も組み込んでいます．</p>
+
+<h3>linux-4.2.3 カーネル</h3>
+
+<p>メンテナの田向さんのおかげでメジャーバージョンが上がった
+linux-4.x(4.2.3)カーネルを採用できました．
+もっともlinux-4.xは3.xから漸進的なバージョンアップなので，
+Plamo Linuxでも，従来同様uniconパッチやaufsパッチを当ててビルドし，
+従来同様の機能を提供しています．</p>
+
+<h3>Mate-1.10</h3>
+
+<p>メンテナの植竹さんのご努力でGnome2を元にしたデスクトップ環境Mateも
+1.10を採用できました．Mateも最近はgtk3への対応が進み，
+細部がより洗練されてきました．</p>
+
+<h3>firefox-41.0/thunderbird-38.3.0</h3>
+
+<p>メンテナの加藤さんのご尽力で，firefox/thunderbirdは最新版に追従しています．
+また、加藤さんにはセキュリティ回りの更新にもお世話になっています．</p>
+
+<h3>MesaLib-10.6.7 + xorg-server-1.17.2</h3>
+
+<p>OpenGLなライブラリ(MesaLib)と，3Dグラフィック処理にMesaLibを使っている
+xorg-serverも，新しいバージョンに更新しました．xorg-server はABIレベルで
+以前のバージョン(xorg-server-1.16.x)と非互換になっているので，ドライバ類も
+バージョンアップや再構築で追従させています．</p>
+
+<p>&hellip;.</p>
+
+<h3>LibreOffice-5.0.2.2</h3>
+
+<p>LibreOfficeも最新の安定版5.0.2.2に更新しました．splash imageが更新されて，
+ずいぶん cool な印象になりました．</p>
+
+<h3>get_pkginfo</h3>
+
+<p>get_pkginfo という，ローカルにインストールされているパッケージと，
+Plamo LinuxのFTPサーバに登録されているパッケージを比較して，更新された
+パッケージを表示したり，ダウンロードしてくるコマンドを用意しました．
+&hellip;.</p>
+
+<h3>UEFI/GPT対応</h3>
+
+<p>grubを2TB以上のHDDを操作する際に必要なGPT/UEFIに対応させたので，
+2TB以上のHDDにもインストールできるようになりました．
+起動時にUEFI BIOSから指定する必要があるものの，
+Windows8.1とのdual bootも可能になりました．
+UEFI/GPT対応にはメンテナの名倉さんの作業がずいぶん参考になりました。</p>
+
+<p>なお，UEFI/GPT環境にインストールする際に知っておくべき情報は，
+別途README.GPTにまとめているので，2TB以上のHDDにインストールしたい人，
+Windows-8.x/10 とdual bootしたい人は御参照ください．</p>
+
+<h3>UEFIインストール</h3>
+
+<p>このDVDイメージはMBRをエミュレートするEl Torito形式と共に，
+UEFI形式でもブートできるようにしているので，
+対応したマザーボードをお使いの方は，
+UEFIの起動デバイスとしてDVDを選べばUEFI形式でブートできます．
+&hellip;.</p>
+
+<h3>USBインストール</h3>
+
+<p>このDVDイメージは，isohybridを使ってUSBメモリからもブート可能になっています．
+この機能を使ってUSBメモリからインストールする場合，
+DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
+
+<p>&hellip;..</p>
+
+<p>ISO イメージのダウンロードは <a href="/download/">こちら</a> からどうぞ。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -461,105 +657,6 @@ Plamo Linuxテンプレート
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/23/httpd-2-dot-4-16/">Httpd 2.4.16</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-23T00:00:00+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む Apache httpd 2.4.16 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.16 Released</a></li>
-<li><a href="http://httpd.apache.org/security/vulnerabilities_24.html#2.4.16">Fixed in Apache httpd 2.4.16</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/httpd-2.4.16-i686-P1.txz">httpd-2.4.16-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.16-x86_64-P1.txz">httpd-2.4.16-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-16T16:21:07+09:00" pubdate data-updated="true">Jul 16<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002001.html">JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性</a> (JVN iPedia)</li>
-</ul>
-
-
-<p>パッチを適用した libzip 0.11.2 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libzip-0.11.2-i686-P1.txz">libzip-0.11.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libzip-0.11.2-x86_64-P1.txz">libzip-0.11.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/4/">&larr; Older</a>
@@ -575,6 +672,22 @@ Plamo Linuxテンプレート
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
     
       
         
@@ -1197,10 +1310,18 @@ Plamo Linuxテンプレート
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (69)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (16)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (62)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (30)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (71)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (18)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (30)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/02/10/pixman-0-dot-32-dot-8/">Pixman 0.32.8</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/02/10/rsync-3-dot-1-2/">Rsync 3.1.2</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/02/01/openssl-1-dot-0-1r/">OpenSSL 1.0.1r</a>
@@ -1212,14 +1333,6 @@ Plamo Linuxテンプレート
     
       <li class="post">
         <a href="/blog/2016/01/28/libpng-1-dot-6-21/">Libpng 1.6.21</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/01/27/firefox-44-dot-0/">Firefox 44.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/01/20/bind-9-dot-9-8-p3/">Bind 9.9.8-P3</a>
       </li>
     
   </ul>
