@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-02-10T19:14:23+09:00</updated>
+  <updated>2016-02-18T15:18:49+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,78 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Glibc 2.20]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/18/glibc-2-dot-20/"/>
+    <updated>2016-02-18T15:20:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/18/glibc-2-dot-20</id>
+    <content type="html"><![CDATA[<p>glibc にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.jpcert.or.jp/at/2016/at160009.html">glibc ライブラリの脆弱性 (CVE-2015-7547) に関する注意喚起</a> (JPCERT)</li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/glibc-2.20-i686-P2.txz">glibc-2.20-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/libc-2.20-i686-P2.txz">libc-2.20-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/glibc-2.20-x86_64-P2.txz">glibc-2.20-x86_64-P2.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/libc-2.20-x86_64-P2.txz">libc-2.20-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 38.6.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/18/thunderbird-38-dot-6-0/"/>
+    <updated>2016-02-18T15:10:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/18/thunderbird-38-dot-6-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 38.6.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/thunderbird/38.6.0/releasenotes/">Thunderbird 38.6.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-38.6.0-i686-P1.txz">thunderbird-38.6.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-38.6.0-x86_64-P1.txz">thunderbird-38.6.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 44.0.2]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/18/firefox-44-dot-0-2/"/>
+    <updated>2016-02-18T15:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/18/firefox-44-dot-0-2</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 44.0.2 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/44.0.2/releasenotes/">Firefox 44.0.2 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。44 より古いバージョンから更新する場合は sqlite パッケージも更新してください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/sqlite-3.10.2-i686-P1.txz">sqlite-3.10.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-44.0.2-i686-P1.txz">firefox-44.0.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/sqlite-3.10.2-x86_64-P1.txz">sqlite-3.10.2-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-44.0.2-x86_64-P1.txz">firefox-44.0.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pixman 0.32.8]]></title>
@@ -52,74 +124,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/rsync-3.1.2-i686-P1.txz">rsync-3.1.2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/rsync-3.1.2-x86_64-P1.txz">rsync-3.1.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenSSL 1.0.1r]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/02/01/openssl-1-dot-0-1r/"/>
-    <updated>2016-02-01T17:30:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/02/01/openssl-1-dot-0-1r</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1r がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.openssl.org/news/secadv/20160128.txt">OpenSSL Security Advisory [28th Jan 2016]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/openssl-1.0.1r-i686-P1.txz">openssl-1.0.1r-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/openssl-1.0.1r-x86_64-P1.txz">openssl-1.0.1r-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ntp 4.2.8p6]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/01/28/ntp-4-dot-2-8p6/"/>
-    <updated>2016-01-28T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/01/28/ntp-4-dot-2-8p6</id>
-    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#Recent_Vulnerabilities">Recent Vulnerabilities</a> (ntp.org)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p6-i686-P1.txz">ntp-4.2.8p6-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p6-x86_64-P1.txz">ntp-4.2.8p6-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Libpng 1.6.21]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/01/28/libpng-1-dot-6-21/"/>
-    <updated>2016-01-28T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/01/28/libpng-1-dot-6-21</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む libpng 1.6.21, libpng 1.4.19 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.libpng.org/pub/png/libpng.html">libpng Home Page</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.21-i686-P1.txz">libpng-1.6.21-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng14-1.4.19-i686-P1.txz">libpng14-1.4.19-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.21-x86_64-P1.txz">libpng-1.6.21-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng14-1.4.19-x86_64-P1.txz">libpng14-1.4.19-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

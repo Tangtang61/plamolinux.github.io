@@ -57,10 +57,6 @@
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2014/08/05/glibc-gcc/</loc>
-        <lastmod>2015-12-01T15:53:38+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2014/08/12/file-5-dot-19/</loc>
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
@@ -377,10 +373,6 @@
         <lastmod>2015-12-01T16:15:41+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2015/12/02/thunderbird-38-dot-4-0/</loc>
-        <lastmod>2015-12-03T20:57:29+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29/</loc>
         <lastmod>2015-12-04T17:21:44+09:00</lastmod>
     </url>
@@ -409,10 +401,6 @@
         <lastmod>2016-01-20T15:05:03+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2016/01/27/firefox-44-dot-0/</loc>
-        <lastmod>2016-01-27T16:37:31+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2016/01/28/libpng-1-dot-6-21/</loc>
         <lastmod>2016-01-28T18:09:03+09:00</lastmod>
     </url>
@@ -433,12 +421,24 @@
         <lastmod>2016-02-10T19:02:31+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2016/02/18/firefox-44-dot-0-2/</loc>
+        <lastmod>2016-02-18T15:09:29+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2016/02/18/thunderbird-38-dot-6-0/</loc>
+        <lastmod>2016-02-18T15:09:56+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2016/02/18/glibc-2-dot-20/</loc>
+        <lastmod>2016-02-18T15:17:38+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/about/</loc>
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2016-02-10T19:04:13+09:00</lastmod>
+        <lastmod>2016-02-18T15:17:38+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -450,7 +450,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2016-02-10T19:04:13+09:00</lastmod>
+        <lastmod>2016-02-18T15:17:38+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>
