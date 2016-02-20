@@ -1,0 +1,22 @@
+---
+layout: post
+title: "LXC　空間を歩む　三十一歩め"
+date: 2016-02-20 21:22:13 +0900
+comments: true
+categories: ["仮想化環境"]
+---
+
+*[第31回　LXC 1.1［2］](http://gihyo.jp/admin/serial/01/linux_containers/0031)
+
+Ubuntu の init が systemd になったのか。変なとこに反応（ハードよりなのでイベント・ドリブンもいいなぁと思ってたけど …） < bar-mtomi
+
+>
+    ディレクトリのinclude
+    コンテナがinitとして実行するプログラム
+    柔軟なlxc.cap.keepの設定
+    コンテナのinitへ渡す環境変数
+    lxc.pivotdirの無効化
+    lxc.autodev処理の変更
+    lxc.kmsgのデフォルト値の変更
+    lxc.mount.auto の sys の変更
+    まとめ
