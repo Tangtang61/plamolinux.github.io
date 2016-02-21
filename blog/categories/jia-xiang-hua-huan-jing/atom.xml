@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 仮想化環境 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/jia-xiang-hua-huan-jing/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-02-18T15:18:49+09:00</updated>
+  <updated>2016-02-21T15:54:47+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　三十一歩]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/21/lxc-gihyo-31/"/>
+    <updated>2016-02-21T15:48:08+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/21/lxc-gihyo-31</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0031">第31回　LXC 1.1［2］</a></p>
+
+<p>Ubuntu の init が systemd になったのか。変なとこに反応（ハードよりなのでイベン
+・ドリブンもいいなぁと思ってたけど …） &lt; bar-mtomi</p>
+
+<blockquote><pre><code>ディレクトリのinclude
+コンテナがinitとして実行するプログラム
+柔軟なlxc.cap.keepの設定
+コンテナのinitへ渡す環境変数
+lxc.pivotdirの無効化
+lxc.autodev処理の変更
+lxc.kmsgのデフォルト値の変更
+lxc.mount.auto の sys の変更
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LXC　空間を歩む　三十歩め]]></title>
@@ -93,23 +116,6 @@ Plamo Linuxテンプレート
 初めてのバグフィックス
 非特権コンテナの動作に関わるパッチ
 まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十六歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/06/06/lxc-gihyo-26/"/>
-    <updated>2015-06-06T15:08:37+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/06/06/lxc-gihyo-26</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0026">第26回　LXCの構築・活用［12］ ─ APIと言語バインディング</a></p>
-
-<p>えっ～！ ビックリした。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>C言語 から
-Python から
-まとめ
-連載のお礼と今後
 </code></pre></blockquote>
 ]]></content>
   </entry>

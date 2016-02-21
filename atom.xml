@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-02-18T15:18:49+09:00</updated>
+  <updated>2016-02-21T15:54:47+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LXC　空間を歩む　三十一歩]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/21/lxc-gihyo-31/"/>
+    <updated>2016-02-21T15:48:08+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/21/lxc-gihyo-31</id>
+    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0031">第31回　LXC 1.1［2］</a></p>
+
+<p>Ubuntu の init が systemd になったのか。変なとこに反応（ハードよりなのでイベン
+・ドリブンもいいなぁと思ってたけど …） &lt; bar-mtomi</p>
+
+<blockquote><pre><code>ディレクトリのinclude
+コンテナがinitとして実行するプログラム
+柔軟なlxc.cap.keepの設定
+コンテナのinitへ渡す環境変数
+lxc.pivotdirの無効化
+lxc.autodev処理の変更
+lxc.kmsgのデフォルト値の変更
+lxc.mount.auto の sys の変更
+まとめ
+</code></pre></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Glibc 2.20]]></title>
@@ -436,28 +459,6 @@ linuxcontainers.org翻訳
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/git-2.6.3-i686-P1.txz">git-2.6.3-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/git-2.6.3-x86_64-P1.txz">git-2.6.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sudo 1.8.15]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/11/13/sudo-1-dot-8-15/"/>
-    <updated>2015-11-13T16:17:19+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/11/13/sudo-1-dot-8-15</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む sudo 1.8.15 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1277426">CVE-2015-5602 sudo: Unauthorized privilege escalation in sudoedit</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/sudo-1.8.15-i686-P1.txz">sudo-1.8.15-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/sudo-1.8.15-x86_64-P1.txz">sudo-1.8.15-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
