@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う 今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi Linuxにおける主なサウンドシステム・ &hellip;">
+  <meta name="description" content="*第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間 中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,49 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/19/lxc-gihyo-16/">LXC　空間を歩む　十六歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-19T17:05:24+09:00" pubdate data-updated="true">Dec 19<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0016">第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間</a></p>
+
+<p>中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar-mtomi</p>
+
+<blockquote><pre><code>ユーザ名前空間
+まとめ
+最近のLXC関連の動き
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -494,57 +537,6 @@ cgroup設定の確認，変更
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/10/procmail-3-dot-22/">Procmail 3.22</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-10T19:00:48+09:00" pubdate data-updated="true">Sep 10<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>procmail 3.22 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-3618">CVE-2014-3618</a></li>
-</ul>
-
-
-<p>パッチを適用した P2 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/procmail-3.22-i586-P2.txz">procmail-3.22-i586-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/procmail-3.22-x86_64-P2.txz">procmail-3.22-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-
-<p>(このパッケージは新しいパッケージに依存します。<a href="/blog/2014/08/05/glibc-gcc/">こちらをご参照ください</a>。)</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/10/">&larr; Older</a>
@@ -560,6 +552,16 @@ cgroup設定の確認，変更
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2016/02/27/plamo-6-dot-1/">Plamo 6.1 リリース</a>
+          </li>
+        
+      
     
       
         
@@ -1206,10 +1208,14 @@ cgroup設定の確認，変更
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (71)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (19)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (71)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/02/27/plamo-6-dot-1/">Plamo 6.1 リリース</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/02/21/lxc-gihyo-31/">LXC　空間を歩む　三十一歩</a>
@@ -1225,10 +1231,6 @@ cgroup設定の確認，変更
     
       <li class="post">
         <a href="/blog/2016/02/18/firefox-44-dot-0-2/">Firefox 44.0.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/02/10/pixman-0-dot-32-dot-8/">Pixman 0.32.8</a>
       </li>
     
   </ul>

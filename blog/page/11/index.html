@@ -9,9 +9,10 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？ うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？ &lt; bar-mtomi (M.Tomi) コンテナの仕組み
-コンテナのメリット
-コンテナのデメリット &hellip;">
+  <meta name="description" content="
+第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1） コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi) cgroupファイルシステム
+cgroupの階層構造
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +76,52 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC　空間を歩む　三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-12T12:46:27+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
+</ul>
+
+
+<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>cgroupファイルシステム
+cgroupの階層構造
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -582,6 +629,16 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2016/02/27/plamo-6-dot-1/">Plamo 6.1 リリース</a>
+          </li>
+        
+      
     
       
         
@@ -1228,10 +1285,14 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (71)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (19)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (7)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (71)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/02/27/plamo-6-dot-1/">Plamo 6.1 リリース</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/02/21/lxc-gihyo-31/">LXC　空間を歩む　三十一歩</a>
@@ -1247,10 +1308,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     
       <li class="post">
         <a href="/blog/2016/02/18/firefox-44-dot-0-2/">Firefox 44.0.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/02/10/pixman-0-dot-32-dot-8/">Pixman 0.32.8</a>
       </li>
     
   </ul>

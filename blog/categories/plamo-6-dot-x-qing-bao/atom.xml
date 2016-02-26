@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-02-21T15:54:47+09:00</updated>
+  <updated>2016-02-27T01:11:10+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Plamo 6.1 リリース]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/27/plamo-6-dot-1/"/>
+    <updated>2016-02-27T00:29:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/27/plamo-6-dot-1</id>
+    <content type="html"><![CDATA[<p>Plamo 6.1 をリリースしました。</p>
+
+<p>以下はメーリングリストに投稿されたリリースアナウンス（抜粋）です。</p>
+
+<hr />
+
+<p>OSC 2016 Tokyo/Spring  <br/>
+これに合わせてPlamo-6.1をリリースしました．</p>
+
+<pre><code>$ ls -l plamo-6.1*
+-rw-rw-r-- 1 kojima plamo 3468689408  2月 22 09:56 plamo-6.1_x86_64_dvd.iso
+-rw-rw-r-- 1 kojima plamo         59  2月 24 22:23 plamo-6.1_x86_64_dvd.iso.md5sum
+-rw-rw-r-- 1 kojima plamo 3454009344  2月 22 09:55 plamo-6.1_x86_dvd.iso
+-rw-rw-r-- 1 kojima plamo         56  2月 24 22:23 plamo-6.1_x86_dvd.iso.md5sum
+</code></pre>
+
+<hr />
+
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201602/msg00030.html">リリースアナウンス</a></li>
+</ul>
+
+
+<p>ISO イメージのダウンロードは <a href="/download/">こちら</a> からどうぞ。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Glibc 2.20]]></title>
@@ -102,28 +134,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/pixman-0.32.8-i686-P1.txz">pixman-0.32.8-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/pixman-0.32.8-x86_64-P1.txz">pixman-0.32.8-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rsync 3.1.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/02/10/rsync-3-dot-1-2/"/>
-    <updated>2016-02-10T18:59:34+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/02/10/rsync-3-dot-1-2</id>
-    <content type="html"><![CDATA[<p>rsync にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS">https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/rsync-3.1.2-i686-P1.txz">rsync-3.1.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/rsync-3.1.2-x86_64-P1.txz">rsync-3.1.2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
