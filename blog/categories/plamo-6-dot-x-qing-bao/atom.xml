@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-02-27T01:11:10+09:00</updated>
+  <updated>2016-03-02T20:09:14+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenSSL 1.0.1r]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/03/02/openssl-1-dot-0-1s/"/>
+    <updated>2016-03-02T20:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/03/02/openssl-1-dot-0-1s</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.1s がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.openssl.org/news/secadv/20160301.txt">OpenSSL Security Advisory [1st March 2016]</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。(Plamo-5.x, Plamo-6.x 両方同じパッケージで更新してあります)</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.1s-i686-P1.txz">openssl-1.0.1s-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.1s-x86_64-P1.txz">openssl-1.0.1s-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Plamo 6.1 リリース]]></title>
@@ -112,28 +134,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-44.0.2-i686-P1.txz">firefox-44.0.2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/sqlite-3.10.2-x86_64-P1.txz">sqlite-3.10.2-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-44.0.2-x86_64-P1.txz">firefox-44.0.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pixman 0.32.8]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/02/10/pixman-0-dot-32-dot-8/"/>
-    <updated>2016-02-10T19:00:07+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/02/10/pixman-0-dot-32-dot-8</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む pixman 0.32.8 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://lists.freedesktop.org/archives/xorg-announce/2015-September/002637.html">[ANNOUNCE] pixman release 0.32.8 now available</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/pixman-0.32.8-i686-P1.txz">pixman-0.32.8-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/pixman-0.32.8-x86_64-P1.txz">pixman-0.32.8-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
