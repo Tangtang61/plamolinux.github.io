@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-03-02T20:09:14+09:00</updated>
+  <updated>2016-03-07T19:13:59+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.0.4]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/03/07/php-7-dot-0-4/"/>
+    <updated>2016-03-07T17:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/03/07/php-7-dot-0-4</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.0.4, 5.6.19 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://php.net/archive/2016.php#id2016-03-03-1">PHP 7.0.4 is available</a></li>
+<li><a href="http://jp2.php.net/archive/2016.php#id2016-03-03-3">PHP 5.6.19 is available</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.0.4-i686-P1.txz">php-7.0.4-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.0.4-x86_64-P1.txz">php-7.0.4-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>PHP 5.6 系は contrib/Network 以下に移動しました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/contrib/Network/php-5.6.19-i686-P1.txz">php-5.6.19-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/contrib/Network/php-5.6.19-x86_64-P1.txz">php-5.6.19-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenSSL 1.0.1r]]></title>
@@ -109,31 +140,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-38.6.0-i686-P1.txz">thunderbird-38.6.0-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-38.6.0-x86_64-P1.txz">thunderbird-38.6.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 44.0.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/02/18/firefox-44-dot-0-2/"/>
-    <updated>2016-02-18T15:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/02/18/firefox-44-dot-0-2</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む firefox 44.0.2 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/44.0.2/releasenotes/">Firefox 44.0.2 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。44 より古いバージョンから更新する場合は sqlite パッケージも更新してください。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/sqlite-3.10.2-i686-P1.txz">sqlite-3.10.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/firefox-44.0.2-i686-P1.txz">firefox-44.0.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/sqlite-3.10.2-x86_64-P1.txz">sqlite-3.10.2-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/firefox-44.0.2-x86_64-P1.txz">firefox-44.0.2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
