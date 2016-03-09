@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Plamo Linux の Download"
-date: 2015-03-23 00:00
+date: 2016-03-09 17:00
 comments: false
 sharing: false
 footer: true
@@ -9,7 +9,7 @@ footer: true
 
 Plamo Linux は以下のサイトからダウンロード可能です．
 
-* ftp.ne.jp [ftp](ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/) / [http](http://ftp.ne.jp/pub/Linux/distributions/plamolinux/)
+* ~~ftp.ne.jp [ftp](ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/) / [http](http://ftp.ne.jp/pub/Linux/distributions/plamolinux/)~~ (ミラーが止まっているようです)
 * Ring Server Project [ftp](ftp://ftp.ring.gr.jp/pub/linux/Plamo/) / [http](http://www.ring.gr.jp/pub/linux/Plamo/)
 * plamo.linet.gr.jp [ftp](ftp://plamo.linet.gr.jp/pub/)
 
