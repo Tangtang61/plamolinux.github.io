@@ -16,6 +16,7 @@ Plamo のリリースバージョン毎に時系列で，開発の歩み及び�
 * [Plamo Linux 4.x シリーズ](#plamo4)
 * [Plamo Linux 64 シリーズ](#plamo64)
 * [Plamo Linux 5.x シリーズ](#plamo5)
+* [Plamo Linux 6.x シリーズ](#plamo6)
 
 ### <a name="plagia">Plagia 時代</a>
 
@@ -285,3 +286,25 @@ Plamo64-1.0 のパッケージを更新するとともに，32bit 環境をそ�
   * Plamo-5.3.1 の主な内容
     * kernel 3.17.6
 * 2015-05-31 : P-Plamo 5.3.1 リリース
+
+### <a name="plamo6">Plamo Linux 6.x シリーズ</a>
+
+* 2015-10-18 : Plamo 6.0 リリース
+  * Plamo 6.0 の主な内容
+    * kernel 4.2.3
+    * Mate 1.10
+    * Firefox 41.0/Thunderbird 38.3.0
+    * MesaLib 10.6.7 + xorg-server 1.17.2
+    * LibreOffice 5.0.2.2
+    * get_pkginfo
+    * UEFI/GPT 対応
+    * UEFI インストール
+* 2016-02-25 : Plamo 6.1 リリース
+  * Plamo 6.1 の主な内容
+    * UTF-8 対応
+    * EFI システムパーティションの自動フォーマット
+    * kernel 4.3.5
+    * TeX Live 2015
+    * ruby 2.2.3
+    * llvm 3.7.0
+    * 6.0 から 211 のパッケージ更新
