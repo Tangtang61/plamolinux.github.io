@@ -13,9 +13,9 @@ Plamo Linux は以下のサイトからダウンロード可能です．
 * Ring Server Project [ftp](ftp://ftp.ring.gr.jp/pub/linux/Plamo/) / [http](http://www.ring.gr.jp/pub/linux/Plamo/)
 * plamo.linet.gr.jp [ftp](ftp://plamo.linet.gr.jp/pub/)
 
-plamo.linet.gr.jp はおうちサーバで回線が遅いので ftp.ne.jp か ring をおすすめします．
+plamo.linet.gr.jp はおうちサーバで回線が遅いので以下の repository.plamolinux.org をおすすめします。
 
-最新版のツリーのみ以下からも取得できます。
+5.x、6.x ツリーと 6.x 最新の iso イメージは以下からも取得できます。
 
 * repository.plamolinux.org
     * パッケージツリー : http://repository.plamolinux.org/pub/linux/Plamo/
