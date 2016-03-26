@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="mailx にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Bug 1162783 &ndash; CVE-2004-2771 CVE-2014-7844 mailx: command execution flaw (Red Hat Bugzilla) &hellip;">
+  <meta name="description" content="*第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi overlayfsとは &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,200 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/30/lxc-gihyo-18/">LXC　空間を歩む　十八歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-30T16:21:45+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
+
+<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>overlayfsとは
+overlayfsを使ってみる
+3.18カーネルのoverlayfs
+opaque（不透明）ディレクトリ
+overlayfsを使う上での注意
+overlayfsの将来
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/30/util-linux-2-dot-25-dot-2/">Util-linux 2.25.2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-30T00:00:00+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>util-linux 2.25.2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1168485">Bug 1168485 &ndash; CVE-2014-9114 util-linux: command injection flaw in blkid</a> (Red Hat Bugzilla)</li>
+</ul>
+
+
+<p>パッチを適用した util-linux-2.25.2 のパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/util_linux-2.25.2-i686-P1.txz">util_linux-2.25.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/util_linux-2.25.2-x86_64-P1.txz">util_linux-2.25.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/30/patch-2-dot-7-3/">Patch 2.7.3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-30T00:00:00+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>patch 2.7.1 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1196">CVE-2015-1196</a> (NVD)</li>
+</ul>
+
+
+<p>patch 2.7.3 のパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/patch-2.7.3-i686-P1.txz">patch-2.7.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/patch-2.7.3-x86_64-P1.txz">patch-2.7.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/30/file-5-dot-22/">File 5.22</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-30T00:00:00+09:00" pubdate data-updated="true">Jan 30<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>file 5.21 以前にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9621">CVE-2014-9621</a> (NVD)</li>
+</ul>
+
+
+<p>file 5.22 のパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/file-5.22-i686-P1.txz">file-5.22-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/file-5.22-x86_64-P1.txz">file-5.22-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -368,276 +562,6 @@ UbuntuのLXCパッケージ使用時の各種パス
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/13/libjpeg-turbo-1-dot-3-1/">Libjpeg-turbo 1.3.1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-13T20:23:11+09:00" pubdate data-updated="true">Jan 13<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>libjpeg-turbo にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=768369">https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=768369</a></li>
-</ul>
-
-
-<p>libjpeg-turbo パッケージを対応パッチ適用済みの 1.3.1 に更新しました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libjpeg_turbo-1.3.1-i686-P1.txz">libjpeg_turbo-1.3.1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libjpeg_turbo-1.3.1-x86_64-P1.txz">libjpeg_turbo-1.3.1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/10/package-tool-01/">パッケージ更新のチェック</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-10T14:31:45+09:00" pubdate data-updated="true">Jan 10<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo Linux用更新パッケージチェック&amp;ダウンロードツールです。</p>
-
-<p>詳細は以下のリンク先を参照して下さい。</p>
-
-<ul>
-<li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima%2F2015-01-06">PlamoWikiのこじまさんの日記</a></p></li>
-<li><p><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201501/msg00003.html">メーリングリスト</a></p></li>
-</ul>
-
-
-<p>注意点をメーリングリストへの投稿から抜粋しておきます。</p>
-
-<pre><code>updatepkg では更新できない(すべきでない)パッケージはチェック対象外にし
-ていますが，-b オプションを指定するとそれらの情報も表示します．ただし，
-これらのパッケージを単純に updatepkg で更新しようとすると，既存の設定ファ
-イルを上書きしたり，installpkg/updatepkg が動かなくなったりするので，
-十分ご注意ください．
-
-なお，このスクリプトはPlamo-5.2でも動くものの，5.2から5.3へはパッケージ
-の追加や廃止を伴なう大規模な更新になっているため，このスクリプトだけで
-は実用的ではありません．そのため動作環境は「Plamo-5.3以降」とさせてくだ
-さい．
-</code></pre>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/12/31/plamo-5-dot-3-released/">Plamo 5.3 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-12-31T21:36:33+09:00" pubdate data-updated="true">Dec 31<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo Linux 5.3 をリリースしました。</p>
-
-<ul>
-<li><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201412/msg00018.html">リリースアナウンス</a></li>
-</ul>
-
-
-<p>gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3 の特徴がまとめられています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0065">玩式草子─ソフトウェアとたわむれる日々　第65回　やっと出ましたPlamo-5.3</a></li>
-</ul>
-
-
-<p>メーリングリストへの投稿の抜粋です。</p>
-
-<pre><code>最低でも年に一度はリリースを，，と進めていた作業がだいたい片づいたので，
-昨晩までの更新をまとめて Plamo Linux 5.3 としてリリースすることにしました．
-
-$ ls -lh plamo-5.3*
--rw-r--r-- 1 kojima users 3.5G 12月 31日  01:28 plamo-5.3_x86_64_dvd.iso
--rw-r--r-- 1 kojima users   59 12月 31日  01:28 plamo-5.3_x86_64_dvd.iso.md5sum
--rw-r--r-- 1 kojima users 3.7G 12月 31日  01:28 plamo-5.3_x86_dvd.iso
--rw-r--r-- 1 kojima users   56 12月 31日  01:28 plamo-5.3_x86_dvd.iso.md5sum
-
-DVDイメージは plamo.linet.gr.jp で公開しているものの，ここはお家サーバ
-で回線が細いため，すでにミラーしていただいている山梨大学の ring サーバ
-あたりから入手されることをお勧めします．
-
-ftp://ring.yamanashi.ac.jp/pub/linux/Plamo/
-
-以下，DVDに置いたREADME.EUCからの抜粋
-----------------------------------------
-○Plamo-5.3について(2014-12-30)
-
-従来，半年に一度くらいのペースで新版をリリースしていたものの，
-今回はPlamo-5.2を公開後，丸一年空いてしまいました．
-そのため今回の更新は，バージョン番号的にはメンテナンス・リリースという位置付けなものの，
-カーネル(3.17.6)のみならず，GCC(4.8.4)，Glibc(2.20)，xorg-server(1.16.3)など，
-OSの中核部分のパーツを更新した，メジャーバージョンアップに近い更新になっています．
-そのため，Plamo-5.2が動作していたマシンにインストールしても正しく動作しない可能性
-があるのでご注意ください．
-
-今回更新した主要なソフトウェアは以下の通りです．
-
-- kernel-3.17.6(with aufs/unicon/overlayfs パッチ)
-- GCC-4.8.4
-- Glibc-2.20
-- MesaLib-10.2.9
-- xorg-server-1.16.3
-- Emacs-24.4
-- ffmpeg-2.4.4
-- firefox-34/thunderbird-31
-- Qt-4.6/Gtk-3.14.4/Gtk-2.24.22
-- LibreOffice-4.2.8.2
-- mate-1.8.1
-- KDE-4.14.3
-- cups-2.0.0
-
-最近，メンテナの加藤さんと田向さんが LXC の開発にも参加されていることもあって，
-contrib/Virtualization/ 以下には gihyo.jp の連載記事(「LXCで学ぶ仮想化技術」
-http://gihyo.jp/admin/serial/01/linux_containers/0001)でも取りあげている
-LXCに関するソフトウェアが揃っています．LXCに関心のある方はぜひお試しください．
-(以下略)
-
--------------------------------
-
-上述のように，何とか年内リリースを，ということで最後の方はかなり慌しい
-作業となったので，更新忘れやチェック漏れがあるかも知れません．それらは
-随時MLやwikiのページ等で報告しますので，適宜対応をお願いします．
-
-また，今回もメンテナンス・リリースということでPlamo-5.2からのアップデー
-タを用意したいとは思っているものの，リリース間隔が長かったこともあり，
-現時点では更新が必要なパッケージの全容を把握できていません．そのため，
-アップデータを公開するのは早くても1月の中旬ぐらいになりそうです．
-
-最後になりましたが，今回の更新も，開発に協力いただいているメンテナの方々
-のご努力のおかげでまとめることができました．まとめ役として改めて御礼申
-しあげます．m(_ _)m
-
-また，私を含めたメンテナがメンテナンスを続けていけるのは，Plamo Linux
-を支持していただいている皆さまの存在のおかげです．メンテナ代表として，
-今年一年のご支援，ご協力に御礼申しあげると共に，来年もよろしくお願いし
-ます．m(_ _)m
-</code></pre>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/12/19/lxc-gihyo-16/">LXC　空間を歩む　十六歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-12-19T17:05:24+09:00" pubdate data-updated="true">Dec 19<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0016">第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間</a></p>
-
-<p>中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar-mtomi</p>
-
-<blockquote><pre><code>ユーザ名前空間
-まとめ
-最近のLXC関連の動き
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/9/">&larr; Older</a>
@@ -691,6 +615,10 @@ LXCに関するソフトウェアが揃っています．LXCに関心のある�
       
         
       
+    
+      
+        
+      
         
           <li class="post">
             <a href="/blog/2016/02/27/plamo-6-dot-1/">Plamo 6.1 リリース</a>
@@ -737,10 +665,6 @@ LXCに関するソフトウェアが揃っています．LXCに関心のある�
       
         
       
-        
-      
-        
-      
     
       
         
@@ -761,6 +685,18 @@ LXCに関するソフトウェアが揃っています．LXCに関心のある�
       
         
       
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
     
       
         
@@ -786,6 +722,10 @@ LXCに関するソフトウェアが揃っています．LXCに関心のある�
         
       
         
+      
+        
+      
+    
       
         
       
@@ -1241,7 +1181,7 @@ LXCに関するソフトウェアが揃っています．LXCに関心のある�
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (6)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">

@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-03-16T17:30:45+09:00</updated>
+  <updated>2016-03-26T16:32:47+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -133,6 +133,20 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.1s-i686-P1.txz">openssl-1.0.1s-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.1s-x86_64-P1.txz">openssl-1.0.1s-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第79回　Plamo LinuxのGPT/UEFI対応［その3］]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/29/ganshiki-soush/"/>
+    <updated>2016-02-29T16:05:15+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/29/ganshiki-soush</id>
+    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
+
+<ul>
+<li>[第79回　Plamo LinuxのGPT/UEFI対応［その3］(<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0079">http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0079</a>)</li>
 </ul>
 
 ]]></content>
@@ -285,6 +299,20 @@ lxc.mount.auto の sys の変更
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第78回　Plamo LinuxのGPT/UEFI対応［その2］]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/02/01/ganshiki-soush/"/>
+    <updated>2016-02-01T16:05:15+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/02/01/ganshiki-soush</id>
+    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
+
+<ul>
+<li>[第78回　Plamo LinuxのGPT/UEFI対応［その2］(<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078">http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078</a>)</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Ntp 4.2.8p6]]></title>
     <link href="http://plamolinux.github.io/blog/2016/01/28/ntp-4-dot-2-8p6/"/>
     <updated>2016-01-28T16:00:00+09:00</updated>
@@ -347,6 +375,20 @@ lxc.mount.auto の sys の変更
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/dhcp-4.3.3_P1-i686-P1.txz">dhcp-4.3.3_P1-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/dhcp-4.3.3_P1-x86_64-P1.txz">dhcp-4.3.3_P1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第77回　Plamo LinuxのGPT/UEFI対応［その1］]]></title>
+    <link href="http://plamolinux.github.io/blog/2015/12/25/ganshiki-soush/"/>
+    <updated>2015-12-25T16:05:15+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2015/12/25/ganshiki-soush</id>
+    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
+
+<ul>
+<li>[第77回　Plamo LinuxのGPT/UEFI対応［その1］(<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0077">http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0077</a>)</li>
 </ul>
 
 ]]></content>
@@ -418,70 +460,6 @@ lxc-topコマンドのバイナリ化
 lxc-config lxc.cgroup.* の表示
 lxc-start-ephemeral --cdir オプション
 まとめ
-</code></pre></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Autofs 5.1.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/12/01/autofs-5-dot-1-1/"/>
-    <updated>2015-12-01T16:13:50+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/12/01/autofs-5-dot-1-1</id>
-    <content type="html"><![CDATA[<p>autofs にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8169">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8169</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/autofs-5.1.1-i686-P1.txz">autofs-5.1.1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/autofs-5.1.1-x86_64-P1.txz">autofs-5.1.1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Polkit 0.113]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/12/01/polkit-0-dot-113/"/>
-    <updated>2015-12-01T16:05:47+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/12/01/polkit-0-dot-113</id>
-    <content type="html"><![CDATA[<p>polkit にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://cgit.freedesktop.org/polkit/tree/NEWS?id=23519924f24fb80a5f33bb3a82058a6c025ddfa9">http://cgit.freedesktop.org/polkit/tree/NEWS?id=23519924f24fb80a5f33bb3a82058a6c025ddfa9</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/polkit-0.113-i686-P1.txz">polkit-0.113-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/polkit-0.113-x86_64-P1.txz">polkit-0.113-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十八歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28/"/>
-    <updated>2015-11-27T16:22:56+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/11/27/lxc-gihyo-28</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0028">第28回　LXCへのコミット［2］</a></p>
-
-<p>遅くなりました。&lt; bar-mtomi</p>
-
-<blockquote><pre><code>overlayfsのworkdirオプション
-lxc-configの改良
-LVMストレージバックエンドのバグ修正
-aufsを使った非特権コンテナ
-linuxcontainers.org翻訳
-まとめ
-第8回 コンテナ型仮想化の情報交換会＠東京
 </code></pre></blockquote>
 ]]></content>
   </entry>

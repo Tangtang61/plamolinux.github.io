@@ -9,8 +9,11 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3） もう読むだけではダメだ。 名前空間, cgroup, サブシステム等と LXC （コンテナ &lt;&mdash; 使ってないし） と、ホストがらみの関係 ！？ &lt; bar-mtomi (M.Tomi)
-　　 &hellip;">
+  <meta name="description" content="*第9回　LXCの基本操作［2］ 今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 &lt; bar-mtomi コンテナの削除
+cgroup設定の確認，変更
+コンテナのクローン
+コンテナのスナップショットの取得
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +77,195 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/11/lxc-gihyo-09/">LXC　空間を歩む　九歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-11T12:58:49+09:00" pubdate data-updated="true">Sep 11<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0009">第9回　LXCの基本操作［2］</a></p>
+
+<p>今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>コンテナの削除
+cgroup設定の確認，変更
+コンテナのクローン
+コンテナのスナップショットの取得
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/28/lxc-gihyo-08/">LXC　空間を歩む　八歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-28T21:45:50+09:00" pubdate data-updated="true">Aug 28<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
+
+<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
+Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
+共通オプション
+コンテナの作成 ? lxc-create
+コンテナの情報表示 ? lxc-ls, lxc-info
+コンテナの起動 ? lxc-start
+コンテナの停止・リブート ? lxc-stop
+コンテナ内での作業
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/16/lxc-gihyo-07/">LXC　空間を歩む　七歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-16T15:11:48+09:00" pubdate data-updated="true">Aug 16<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
+
+<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
+コンテナのネストができるのか！  &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LXCの歴史
+LXCの特徴
+LXCの気になる点
+まとめ
+最近のLXCのリリース
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/07/24/lxc-gihyo-06/">LXC　空間を歩む　六歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-24T21:05:48+09:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0006?ard=1406203785">第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク</a></li>
+</ul>
+
+
+<p>加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>コンテナとネットワーク名前空間
+ホストのインターフェースの使用
+veth
+macvlan
+まとめ
+LXC日本語ページの移行
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -364,203 +556,9 @@ LXCとLinuxにおけるコンテナ技術
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/14/update-from5-dot-1to5-dot-2/">Plamo 5.1 から 5.2 への更新</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-01-14T19:52:24+09:00" pubdate data-updated="true">Jan 14<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo 5.1 から 5.2 への更新が可能になりました．</p>
-
-<p>以下は <a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201401/msg00020.html">メーリングリスト投稿</a> からの抜粋です．</p>
-
-<pre>
-ずいぶん遅くなりましたが，FTPサイトの Update/5.1_5.2/ 以下に，
-32ビット版(x86/)，64ビット版(x86_64)それぞれの更新されたパッケージを
-まとめてみました．
-
-ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/Update/5.1_5.2/{x86,x86_64}/plamo/
-  00_base/        02_x11/         04_xapps/       06_xfce/        10_lof/
-  01_minimum/     03_xclassics/   05_ext/         07_kde/         11_mate/
-
-各ディレクトリは Plamo-5.1 のソフトウェアカテゴリに対応しているので，
-ディレクトリごとダウンロード後，インストールされたカテゴリに合わせて，
-各ディレクトリ中の update.sh を実行すれば必要な更新を行うようにしています．
-
-なお，設定ファイルの修正のみでバージョンが上がっているパッケージは，既
-存の設定ファイルを上書きしてしまうのもマズいので，パッチ等で必要な修正を
-施すようにしてみました．
-
-# そういう処理は 00_base/update.sh に集中しているので，興味ある方は実行<br/>
-# 前にご確認ください．
-
-一応，手もとのVirtualBox上では特に問題なく 5.1 -> 5.2 に更新できていま
-すが，念のため，環境に応じて修正された設定ファイル等はバックアップをお
-願いします．
-
-なお，たいていの環境では大丈夫だと思うものの，update.sh を実行する前に
-telinit S でシングルユーザーモードに落して不要なサーバ類を止めておく方
-が安全でしょう．
-</pre>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/12/29/plamo5-dot-2released/">Plamo 5.2 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-29T12:36:02+09:00" pubdate data-updated="true">Dec 29<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo-5.2 をリリースしました．</p>
-
-<p>Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください．</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053">玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2</a></li>
-</ul>
-
-
-<p>他に，メンテナであるこじまさんのブログの 12 月あたりに色々と関連するメモがあります．</p>
-
-<ul>
-<li><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima">http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima</a></li>
-</ul>
-
-
-<p>DVD イメージは以下からダウンロードできます．</p>
-
-<ul>
-<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
-<li><p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</p></li>
-<li><p><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html">アナウンスへのリンク</a></p></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/22/plamo-5-dot-1-release/">Plamo 5.1 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-22T00:00:00+09:00" pubdate data-updated="true">May 22<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo-5.1 をリリースしました．</p>
-
-<p>以下はメーリングリストへの投稿の抜粋です．</p>
-
-<pre><code>すでに一部の人はお気付きのことと思いますが，先週の22日くらいまでの更新
-でPlamo-5.1ということにしてDVDイメージを作成，公開しました．
-
-$ ls -lh plamo-5.1*
--rw-r--r-- 1 kojima plamo 3.1G 2013-05-22 16:26 plamo-5.1_x86_64_dvd.iso
--rw-r--r-- 1 kojima plamo   59 2013-05-25 10:37 plamo-5.1_x86_64_dvd.iso.md5sum
--rw-r--r-- 1 kojima plamo 3.3G 2013-05-22 16:21 plamo-5.1_x86_dvd.iso
--rw-r--r-- 1 kojima plamo   56 2013-05-25 10:38 plamo-5.1_x86_dvd.iso.md5sum
-
-すでに kddlabs にもミラーいただいているようなので，こちらの方が回線が太
-くてお勧めです．
-
-ftp://ftp.kddlabs.co.jp/020/Linux/packages/plamolinux/
-plamo-5.1_x86_64_dvd.iso                plamo-5.1_x86_dvd.iso
-plamo-5.1_x86_64_dvd.iso.md5sum         plamo-5.1_x86_dvd.iso.md5sum
-
-よく見ると md5sum の日付けが3日ほど遅れているのに気づくと思いますが，
-DVD名から日付けを抜く際に直した結果なのでご心配なく．
-
-今回はPlamo-5.0からのメンテナンスリリースなので，Plamo-5.0からのアップ
-デート集も用意してみました．
-</code></pre>
-
-<p>アップデートを使用する場合の注意点等がありますので以下を参照して下さい。</p>
-
-<ul>
-<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201305/msg00018.html">アナウンスへのリンク</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046">玩式草子 「第46回　Plamo-5.1 released」</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
+    
+      <a class="prev" href="/blog/page/11/">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
@@ -604,6 +602,10 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
         
       
         
+      
+        
+      
+    
       
         
       
@@ -657,10 +659,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
       
         
       
-        
-      
-        
-      
     
       
         
@@ -681,6 +679,18 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
       
         
       
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
     
       
         
@@ -706,6 +716,10 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
         
       
         
+      
+        
+      
+    
       
         
       
@@ -1161,7 +1175,7 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (6)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">

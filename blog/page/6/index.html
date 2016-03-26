@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む tcpdump 4.7.3 がリリースされています。詳しくは以下をご覧ください。 tcpdump 4.7.2 remote crashes パッケージをリリースしました。(libpcap も同時に更新しました) libpcap-1.7.2-i686-P1.txz ( &hellip;">
+  <meta name="description" content="*第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1) ephemeral の意味をしらべて、そうなのか？ … でも &mdash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi lxc-start- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,196 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/11/lxc-gihyo-23/">LXC　空間を歩む　二十三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-11T14:37:30+09:00" pubdate data-updated="true">Apr 11<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0023">第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1)</a></p>
+
+<p>ephemeral の意味をしらべて、そうなのか？ … でも &mdash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>lxc-start-ephemeralコマンドの概要
+まずは使ってみましょう
+lxc-start-ephemeralコマンドのオプション
+lxc-start-ephemeralコマンドの仕組みとフック
+lxc-start-ephemeralのその他の使い方
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/08/tiff/">Tiff 4.0.3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-08T00:00:00+09:00" pubdate data-updated="true">Apr 8<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>libtiff にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://openwall.com/lists/oss-security/2015/01/24/15">http://openwall.com/lists/oss-security/2015/01/24/15</a></li>
+<li><a href="http://openwall.com/lists/oss-security/2015/02/07/5">http://openwall.com/lists/oss-security/2015/02/07/5</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/tiff-4.0.3-i686-P3.txz">tiff-4.0.3-i686-P3.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/tiff-4.0.3-x86_64-P3.txz">tiff-4.0.3-x86_64-P3.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/06/elfutils/">Elfutils 0.161</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-06T17:19:11+09:00" pubdate data-updated="true">Apr 6<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>elfutils にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9447">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9447</a></li>
+</ul>
+
+
+<p>パッチを適用した対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/elfutils-0.161-i686-P2.txz">elfutils-0.161-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/elfutils-0.161-x86_64-P2.txz">elfutils-0.161-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/03/28/lxc-gihyo-22/">LXC　空間を歩む　二十二歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-28T16:41:03+09:00" pubdate data-updated="true">Mar 28<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0022">第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop）</a></p>
+
+<p>今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LVMを使ったコンテナに対するlxc-snapshotコマンドの実行
+loopストレージバックエンドを使ったコンテナの作成
+loopストレージバックエンドを使ったコンテナのクローンとスナップショット
+まとめ
+LXC 1.1.1
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -360,200 +550,6 @@ Thin Provisioning 機能の利用
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/25/samba-3-dot-6-25/">Samba 3.6.25</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-25T16:01:42+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>samba にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.samba.org/samba/latest_news.html#4.1.17">Samba 4.1.17, 4.0.25 and 3.6.25 Security Releases Available for Download</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/samba-3.6.25-i686-P1.txz">samba-3.6.25-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/samba-3.6.25-x86_64-P1.txz">samba-3.6.25-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/25/lxc-gihyo-20/">LXC　空間を歩む　二十歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-25T14:28:51+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0020">第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2）</a></p>
-
-<p> もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Btrfsをストレージバックエンドとして使う場合の準備
-Btrfsを使ったコンテナの作成
-Btrfsを使ったコンテナのクローン
-Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/17/freetype-2-dot-5-5/">Freetype 2.5.5</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-17T15:51:12+09:00" pubdate data-updated="true">Feb 17<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む freetype 2.5.5 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/</a></li>
-<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.5/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.5/</a></li>
-<li>その他 CVE-2014-9656 〜 CVE-2014-9675 までの修正が行われています。<a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9675">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9675</a> 等をご覧ください。</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/TTfont.txz/freetype-2.5.5-i686-P1.txz">freetype-2.5.5-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/TTfont.txz/freetype-2.5.5-x86_64-P1.txz">freetype-2.5.5-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/13/e2fsprogs/">E2fsprogs</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-13T21:02:49+09:00" pubdate data-updated="true">Feb 13<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>e2fsprogs 1.42.12 より前のバージョンにセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.ocert.org/advisories/ocert-2015-002.html">#2015-002 e2fsprogs input sanitization errors</a> (oCERT)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/e2fsprogs-1.42.12-i686-P1.txz">e2fsprogs-1.42.12-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/e2fsprogs-1.42.12-x86_64-P1.txz">e2fsprogs-1.42.12-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -607,6 +603,10 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
       
         
       
+    
+      
+        
+      
         
           <li class="post">
             <a href="/blog/2016/02/27/plamo-6-dot-1/">Plamo 6.1 リリース</a>
@@ -653,10 +653,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
       
         
       
-        
-      
-        
-      
     
       
         
@@ -677,6 +673,18 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
       
         
       
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
     
       
         
@@ -702,6 +710,10 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
         
       
         
+      
+        
+      
+    
       
         
       
@@ -1157,7 +1169,7 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (6)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
