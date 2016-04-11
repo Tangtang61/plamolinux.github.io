@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-03-28T14:46:35+09:00</updated>
+  <updated>2016-04-11T21:27:37+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第80回　Plamo-6.1 Released]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/04/11/ganshiki-soush-80/"/>
+    <updated>2016-04-11T19:52:42+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/04/11/ganshiki-soush-80</id>
+    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されてます。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0080">第80回　Plamo-6.1 released</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 45.0.1]]></title>
@@ -146,7 +160,7 @@
     <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
 
 <ul>
-<li>[第79回　Plamo LinuxのGPT/UEFI対応［その3］(<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0079">http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0079</a>)</li>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0079">第79回　Plamo LinuxのGPT/UEFI対応［その3］</a></li>
 </ul>
 
 ]]></content>
@@ -306,7 +320,7 @@ lxc.mount.auto の sys の変更
     <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
 
 <ul>
-<li>[第78回　Plamo LinuxのGPT/UEFI対応［その2］(<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078">http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078</a>)</li>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078">第78回　Plamo LinuxのGPT/UEFI対応［その2］</a></li>
 </ul>
 
 ]]></content>
@@ -388,7 +402,7 @@ lxc.mount.auto の sys の変更
     <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
 
 <ul>
-<li>[第77回　Plamo LinuxのGPT/UEFI対応［その1］(<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0077">http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0077</a>)</li>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0077">第77回　Plamo LinuxのGPT/UEFI対応［その1］</a></li>
 </ul>
 
 ]]></content>
@@ -439,28 +453,6 @@ pidsサブシステムのカーネルの実装
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.3-x86_64-P1.txz">libxml2-2.9.3-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LXC　空間を歩む　二十九歩め]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29/"/>
-    <updated>2015-12-04T15:49:39+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/12/04/lxc-gihyo-29</id>
-    <content type="html"><![CDATA[<p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0029">第29回　LXC 1.1［1］</a></p>
-
-<p>あっという間に、覚えたことが古くなる。&lt; bar-mtomi</p>
-
-<blockquote><pre><code>lxc-startのデフォルト動作の変更
-アプリケーションコンテナ環境の構築が楽に
-全コンテナをまとめて起動
-lxc-lsの新しい出力項目
-lxc-topコマンドのバイナリ化
-コンテナ作成時にテンプレートの指定が必須に
-lxc-config lxc.cgroup.* の表示
-lxc-start-ephemeral --cdir オプション
-まとめ
-</code></pre></blockquote>
 ]]></content>
   </entry>
   
