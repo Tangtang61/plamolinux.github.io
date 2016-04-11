@@ -9,4 +9,4 @@ categories: ["玩式草子"]
 [gihyo.jp](http://gihyo.jp/)でこじまみつひろさんが連載されている[「玩式草子」](http://gihyo.jp/lifes
 tyle/serial/01/ganshiki-soushi)に新しい記事が追加されています。
 
-* [第79回　Plamo LinuxのGPT/UEFI対応［その3］(http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0079)
+* [第79回　Plamo LinuxのGPT/UEFI対応［その3］](http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0079)
