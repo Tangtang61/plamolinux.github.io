@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Samba 3.6.25 - Plamo Linux</title>
+  <title>Samba 4.4.2 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="samba にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Samba 4.1.17, 4.0.25 and 3.6.25 Security Releases Available for Download パッケージをリリースしました。 samba-3.6.25-i686- &hellip;">
+  <meta name="description" content="samba にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Samba 4.4.2, 4.3.8 and 4.2.11 Security Releases Available for Download 対策パッケージをリリースしました。3.6 から 4.4 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2015/02/25/samba-3-dot-6-25">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2016/04/20/samba-4-dot-4-2">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +70,7 @@
   
   <header>
     
-      <h1 class="entry-title">Samba 3.6.25</h1>
+      <h1 class="entry-title">Samba 4.4.2</h1>
     
     
       <p class="meta">
@@ -86,7 +86,7 @@
   
 
 
-<time datetime="2015-02-25T16:01:42+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
+<time datetime="2016-04-20T16:00:00+09:00" pubdate data-updated="true">Apr 20<span>th</span>, 2016</time>
         
       </p>
     
@@ -96,15 +96,19 @@
 <div class="entry-content"><p>samba にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
 
 <ul>
-<li><a href="https://www.samba.org/samba/latest_news.html#4.1.17">Samba 4.1.17, 4.0.25 and 3.6.25 Security Releases Available for Download</a></li>
+<li><a href="https://www.samba.org/samba/latest_news.html#4.4.2">Samba 4.4.2, 4.3.8 and 4.2.11 Security Releases Available for Download</a></li>
 </ul>
 
 
-<p>パッケージをリリースしました。</p>
+<p>対策パッケージをリリースしました。3.6 から 4.4 へのアップグレードを伴います。talloc, tdb も同時にアップデートしてください。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/network2.txz/samba-3.6.25-i686-P1.txz">samba-3.6.25-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/network2.txz/samba-3.6.25-x86_64-P1.txz">samba-3.6.25-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/tdb-1.3.9-i686-P1.txz">tdb-1.3.9-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/talloc-2.1.6-i686-P1.txz">talloc-2.1.6-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/samba-4.4.2-i686-P2.txz">samba-4.4.2-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/tdb-1.3.9-x86_64-P1.txz">tdb-1.3.9-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/talloc-2.1.6-x86_64-P1.txz">talloc-2.1.6-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/samba-4.4.2-x86_64-P2.txz">samba-4.4.2-x86_64-P2.txz (64bit)</a></li>
 </ul>
 
 </div>
@@ -129,12 +133,12 @@
   
 
 
-<time datetime="2015-02-25T16:01:42+09:00" pubdate data-updated="true">Feb 25<span>th</span>, 2015</time>
+<time datetime="2016-04-20T16:00:00+09:00" pubdate data-updated="true">Apr 20<span>th</span>, 2016</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
+    <a class='category' href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報</a>, <a class='category' href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報</a>, <a class='category' href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報</a>
   
 </span>
 
@@ -143,7 +147,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2015/02/25/samba-3-dot-6-25/" data-via="" data-counturl="http://plamolinux.github.io/blog/2015/02/25/samba-3-dot-6-25/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2016/04/20/samba-4-dot-4-2/" data-via="" data-counturl="http://plamolinux.github.io/blog/2016/04/20/samba-4-dot-4-2/" >Tweet</a>
   
   
   
@@ -152,10 +156,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/02/25/lxc-gihyo-20/" title="Previous Post: LXC　空間を歩む　二十歩め">&laquo; LXC　空間を歩む　二十歩め</a>
+        <a class="basic-alignment left" href="/blog/2016/04/13/php-7-dot-0-5/" title="Previous Post: php 7.0.5">&laquo; php 7.0.5</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3/" title="Next Post: xdg-utils 1.1.0-rc3">xdg-utils 1.1.0-rc3 &raquo;</a>
       
     </p>
   </footer>
@@ -168,6 +170,14 @@
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+        
+      
     
       
         
@@ -542,12 +552,6 @@
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -776,10 +780,14 @@
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (20)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (58)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (21)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/04/20/samba-4-dot-4-2/">Samba 4.4.2</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/04/13/php-7-dot-0-5/">Php 7.0.5</a>
@@ -795,10 +803,6 @@
     
       <li class="post">
         <a href="/blog/2016/03/16/openssh-7-dot-2p2/">Openssh 7.2p2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/03/10/bind-9-dot-9-8-p4/">Bind 9.9.8-P4</a>
       </li>
     
   </ul>
