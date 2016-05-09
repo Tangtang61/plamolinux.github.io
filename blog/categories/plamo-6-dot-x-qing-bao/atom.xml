@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-04-20T18:01:52+09:00</updated>
+  <updated>2016-05-09T19:23:25+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.0.6]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/05/09/php-7-dot-0-6/"/>
+    <updated>2016-05-09T20:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/05/09/php-7-dot-0-6</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.0.6, 5.6.21 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jp2.php.net/archive/2016.php#id2016-04-29-1">PHP 7.0.6 is available</a></li>
+<li><a href="http://php.net/archive/2016.php#id2016-04-28-2">PHP 5.6.21 is available</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.0.6-i686-P1.txz">php-7.0.6-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.0.6-x86_64-P1.txz">php-7.0.6-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>PHP 5.6 系はしばらくお待ちください。</p>
+
+<!--
+PHP 5.6 系は contrib/Network 以下に移動しました。
+
+* [php-5.6.21-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/contrib/Network/php-5.6.21-i686-P1.txz)
+* [php-5.6.21-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/contrib/Network/php-5.6.21-x86_64-P1.txz)
+-->
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OpenSSL 1.0.2h]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/05/09/openssl-1-dot-0-2h/"/>
+    <updated>2016-05-09T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/05/09/openssl-1-dot-0-2h</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.2h がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.openssl.org/news/secadv/20160503.txt">OpenSSL Security Advisory [3rd May 2016]</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。1.0.1 系列から 1.0.2 系列に上がっていますのでご注意ください。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2h-i686-P1.txz">openssl-1.0.2h-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2h-x86_64-P1.txz">openssl-1.0.2h-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Samba 4.4.2]]></title>
@@ -34,37 +89,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/tdb-1.3.9-x86_64-P1.txz">tdb-1.3.9-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/talloc-2.1.6-x86_64-P1.txz">talloc-2.1.6-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/samba-4.4.2-x86_64-P2.txz">samba-4.4.2-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 7.0.5]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/04/13/php-7-dot-0-5/"/>
-    <updated>2016-04-13T20:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/04/13/php-7-dot-0-5</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.0.5, 5.6.20 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jp2.php.net/archive/2016.php#id2016-03-31-1">PHP 7.0.5 is available</a></li>
-<li><a href="http://jp2.php.net/archive/2016.php#id2016-03-31-4">PHP 5.6.20 is available</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.0.5-i686-P1.txz">php-7.0.5-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.0.5-x86_64-P1.txz">php-7.0.5-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>PHP 5.6 系は contrib/Network 以下に移動しました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/contrib/Network/php-5.6.20-i686-P1.txz">php-5.6.20-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/contrib/Network/php-5.6.20-x86_64-P1.txz">php-5.6.20-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -114,29 +138,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssh-7.2p2-i686-P1.txz">openssh-7.2p2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssh-7.2p2-x86_64-P1.txz">openssh-7.2p2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.8-P4]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/03/10/bind-9-dot-9-8-p4/"/>
-    <updated>2016-03-10T15:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/03/10/bind-9-dot-9-8-p4</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2016-03-10-bind9-vuln-rrsig.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-1286）</a></li>
-<li><a href="https://jprs.jp/tech/security/2016-03-10-bind9-vuln-controlchannel.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-1285）</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.8_P4-i686-P1.txz">bind-9.9.8_P4-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.8_P4-x86_64-P1.txz">bind-9.9.8_P4-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
