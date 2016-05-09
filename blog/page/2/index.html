@@ -9,7 +9,10 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="glibc にセキュリティホールが発見されています。詳しくは以下をご覧ください。 glibc ライブラリの脆弱性 (CVE-2015-7547) に関する注意喚起 (JPCERT) パッチを適用したパッケージをリリースしました。 glibc-2.20-i686-P2.txz (32bit) &hellip;">
+  <meta name="description" content="*第31回　LXC 1.1［2］ Ubuntu の init が systemd になったのか。変なとこに反応（ハードよりなのでイベン
+・ドリブンもいいなぁと思ってたけど …） &lt; bar-mtomi ディレクトリのinclude
+コンテナがinitとして実行するプログラム
+柔軟なlxc. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +76,56 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/02/21/lxc-gihyo-31/">LXC　空間を歩む　三十一歩</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-02-21T15:48:08+09:00" pubdate data-updated="true">Feb 21<span>st</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0031">第31回　LXC 1.1［2］</a></p>
+
+<p>Ubuntu の init が systemd になったのか。変なとこに反応（ハードよりなのでイベン
+・ドリブンもいいなぁと思ってたけど …） &lt; bar-mtomi</p>
+
+<blockquote><pre><code>ディレクトリのinclude
+コンテナがinitとして実行するプログラム
+柔軟なlxc.cap.keepの設定
+コンテナのinitへ渡す環境変数
+lxc.pivotdirの無効化
+lxc.autodev処理の変更
+lxc.kmsgのデフォルト値の変更
+lxc.mount.auto の sys の変更
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -504,57 +557,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/12/23/lxc-giho-30/">LXC　空間を歩む　三十歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-12-23T16:39:07+09:00" pubdate data-updated="true">Dec 23<span>rd</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0030">第30回　Linuxカーネルのコンテナ機能［8］— cgroupのpidsサブシステム</a></p>
-
-<p>（ Linux における） タスク って？ プロセス との違いは何だっけ？ … って考えた事があるなぁ … 何故か思い出してしまった。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>cgroup
-cgroupによるプロセス数の制限
-pidsサブシステムを有効にしたカーネルの作成
-マウントとグループの作成
-pidsサブシステム用ファイル
-制限を追加する
-階層構造
-pidsサブシステムのカーネルの実装
-制限以上のプロセスをグループに追加する
-プロセスが登録された状態でグループの制限値を変更する
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -570,6 +572,12 @@ pidsサブシステムのカーネルの実装
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1178,10 +1186,14 @@ pidsサブシステムのカーネルの実装
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (57)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (21)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (57)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (22)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/05/09/graphicsmagick-1-dot-3-23/">GraphicsMagick 1.3.23</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/05/09/php-7-dot-0-6/">Php 7.0.6</a>
@@ -1197,10 +1209,6 @@ pidsサブシステムのカーネルの実装
     
       <li class="post">
         <a href="/blog/2016/04/12/firefox-45-dot-0-2/">Firefox 45.0.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/04/11/ganshiki-soush-80/">玩式草子─ソフトウェアとたわむれる日々　第80回　Plamo-6.1 Released</a>
       </li>
     
   </ul>

@@ -9,10 +9,10 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第10回　LXCの基本操作［3］ FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング &hellip;">
+  <meta name="description" content="*第11回　LXCの設定［1］ 今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^; &lt; bar-mtomi 設定ファイルの書式
+システムの設定
+コンテナの設定
+まとめ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,51 @@ LXCのシステム設定
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/13/lxc-gihyo-11/">LXC　空間を歩む　十一歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-13T13:08:05+09:00" pubdate data-updated="true">Oct 13<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
+
+<p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
+
+<blockquote><pre><code>設定ファイルの書式
+システムの設定
+コンテナの設定
+まとめ
+LXC 1.0.6
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -502,55 +547,6 @@ LXC公式サイトの翻訳
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/18/lxc-gihyo-01/">LXC　空間を歩む　第一歩</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-18T21:09:11+09:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p> gihyo.jp で、加藤さんの連載 <a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」</a> が始まりました。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
-</ul>
-
-
-<p>まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>はじめに
-LXCとLinuxにおけるコンテナ技術
-まずは使ってみましょう
-次回以降について
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/11/">&larr; Older</a>
@@ -566,6 +562,12 @@ LXCとLinuxにおけるコンテナ技術
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1174,10 +1176,14 @@ LXCとLinuxにおけるコンテナ技術
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (57)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (21)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (55)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (57)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (22)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/05/09/graphicsmagick-1-dot-3-23/">GraphicsMagick 1.3.23</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/05/09/php-7-dot-0-6/">Php 7.0.6</a>
@@ -1193,10 +1199,6 @@ LXCとLinuxにおけるコンテナ技術
     
       <li class="post">
         <a href="/blog/2016/04/12/firefox-45-dot-0-2/">Firefox 45.0.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/04/11/ganshiki-soush-80/">玩式草子─ソフトウェアとたわむれる日々　第80回　Plamo-6.1 Released</a>
       </li>
     
   </ul>
