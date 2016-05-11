@@ -9,9 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="firefox 46.0.1 がリリースされています。詳しくは以下をご覧ください。 Firefox 46.0.1 リリースノート
-Firefox セキュリティアドバイザリ パッケージをリリースしました。 firefox-46.0.1-i686-P1.txz (32bit)
-firefox-46.0 &hellip;">
+  <meta name="description" content="libgd にセキュリティホールが発見されています。詳しくは以下をご覧ください。 JVNDB-2016-002463 GD Graphics Library における整数符号エラーの脆弱性 パッチを適用したパッケージをリリースしました。あわせてバージョンも 2.1.0 から 2.1.1 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +73,55 @@ firefox-46.0 &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/05/11/libgd-2-dot-1-1/">Libgd 2.1.1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-05-11T19:37:55+09:00" pubdate data-updated="true">May 11<span>th</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>libgd にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-002463.html">JVNDB-2016-002463 GD Graphics Library における整数符号エラーの脆弱性</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました。あわせてバージョンも 2.1.0 から 2.1.1 にあげています。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/libgd2-2.1.1-i686-P1.txz">libgd2-2.1.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/libgd2-2.1.1-x86_64-P1.txz">libgd2-2.1.1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -519,65 +566,6 @@ PHP 5.6 系は contrib/Network 以下に移動しました。
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/02/27/plamo-6-dot-1/">Plamo 6.1 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-02-27T00:29:00+09:00" pubdate data-updated="true">Feb 27<span>th</span>, 2016</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo 6.1 をリリースしました。</p>
-
-<p>以下はメーリングリストに投稿されたリリースアナウンス（抜粋）です。</p>
-
-<hr />
-
-<p>OSC 2016 Tokyo/Spring  <br/>
-これに合わせてPlamo-6.1をリリースしました．</p>
-
-<pre><code>$ ls -l plamo-6.1*
--rw-rw-r-- 1 kojima plamo 3468689408  2月 22 09:56 plamo-6.1_x86_64_dvd.iso
--rw-rw-r-- 1 kojima plamo         59  2月 24 22:23 plamo-6.1_x86_64_dvd.iso.md5sum
--rw-rw-r-- 1 kojima plamo 3454009344  2月 22 09:55 plamo-6.1_x86_dvd.iso
--rw-rw-r-- 1 kojima plamo         56  2月 24 22:23 plamo-6.1_x86_dvd.iso.md5sum
-</code></pre>
-
-<hr />
-
-<ul>
-<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201602/msg00030.html">リリースアナウンス</a></li>
-</ul>
-
-
-<p>ISO イメージのダウンロードは <a href="/download/">こちら</a> からどうぞ。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -591,6 +579,12 @@ PHP 5.6 系は contrib/Network 以下に移動しました。
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1205,10 +1199,14 @@ PHP 5.6 系は contrib/Network 以下に移動しました。
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (57)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (22)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (56)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (57)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (23)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/05/11/libgd-2-dot-1-1/">Libgd 2.1.1</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/05/11/firefox-46-dot-0-1/">Firefox 46.0.1</a>
@@ -1224,10 +1222,6 @@ PHP 5.6 系は contrib/Network 以下に移動しました。
     
       <li class="post">
         <a href="/blog/2016/05/09/openssl-1-dot-0-2h/">OpenSSL 1.0.2h</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/04/20/samba-4-dot-4-2/">Samba 4.4.2</a>
       </li>
     
   </ul>
