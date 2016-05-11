@@ -401,10 +401,6 @@
         <lastmod>2016-04-13T14:42:10+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2016/04/12/firefox-45-dot-0-2/</loc>
-        <lastmod>2016-04-13T14:43:39+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2016/04/20/samba-4-dot-4-2/</loc>
         <lastmod>2016-04-20T18:01:23+09:00</lastmod>
     </url>
@@ -421,12 +417,16 @@
         <lastmod>2016-05-09T21:12:30+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2016/05/11/firefox-46-dot-0-1/</loc>
+        <lastmod>2016-05-11T16:45:26+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/about/</loc>
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2016-05-09T21:12:30+09:00</lastmod>
+        <lastmod>2016-05-11T16:45:26+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -438,7 +438,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2016-05-09T21:12:30+09:00</lastmod>
+        <lastmod>2016-05-11T16:45:26+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>
