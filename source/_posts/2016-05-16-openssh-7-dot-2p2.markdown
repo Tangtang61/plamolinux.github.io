@@ -1,0 +1,15 @@
+---
+layout: post
+title: "openssh 7.2p2"
+date: 2016-05-16 16:30:00 +0900
+comments: false
+categories: ["Plamo 6.x 情報", "セキュリティ情報"]
+---
+OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。
+
+* [JVNDB-2015-007120 OpenSSH の sshd の session.c 内の do_setup_env 関数における権限を取得される脆弱性](http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-007120.html)
+
+パッケージをリリースしました。
+
+* [openssh-7.2p2-i686-P3.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssh-7.2p2-i686-P3.txz)
+* [openssh-7.2p2-x86_64-P3.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssh-7.2p2-x86_64-P3.txz)
