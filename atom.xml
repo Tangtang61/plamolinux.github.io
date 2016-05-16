@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-05-11T19:41:26+09:00</updated>
+  <updated>2016-05-16T16:51:14+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ntp 4.2.8p7]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/05/16/ntp-4-dot-2-8p7/"/>
+    <updated>2016-05-16T16:45:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/05/16/ntp-4-dot-2-8p7</id>
+    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#April_2016_NTP_4_2_8p7_Security">April 2016 NTP-4.2.8p7 Security Vulnerability Announcement (Medium) </a> (ntp.org)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p7-i686-P1.txz">ntp-4.2.8p7-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p7-x86_64-P1.txz">ntp-4.2.8p7-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Openssh 7.2p2]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/05/16/openssh-7-dot-2p2/"/>
+    <updated>2016-05-16T16:30:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/05/16/openssh-7-dot-2p2</id>
+    <content type="html"><![CDATA[<p>OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-007120.html">JVNDB-2015-007120 OpenSSH の sshd の session.c 内の do_setup_env 関数における権限を取得される脆弱性</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssh-7.2p2-i686-P3.txz">openssh-7.2p2-i686-P3.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssh-7.2p2-x86_64-P3.txz">openssh-7.2p2-x86_64-P3.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Libgd 2.1.1]]></title>
@@ -171,28 +215,6 @@ PHP 5.6 系は contrib/Network 以下に移動しました。
 
 <ul>
 <li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0080">第80回　Plamo-6.1 released</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openssh 7.2p2]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/03/16/openssh-7-dot-2p2/"/>
-    <updated>2016-03-16T17:30:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/03/16/openssh-7-dot-2p2</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む openssh 7.2p2 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.openssh.com/txt/release-7.2">http://www.openssh.com/txt/release-7.2p2</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssh-7.2p2-i686-P1.txz">openssh-7.2p2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssh-7.2p2-x86_64-P1.txz">openssh-7.2p2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -390,28 +412,6 @@ lxc.mount.auto の sys の変更
 
 <ul>
 <li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078">第78回　Plamo LinuxのGPT/UEFI対応［その2］</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ntp 4.2.8p6]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/01/28/ntp-4-dot-2-8p6/"/>
-    <updated>2016-01-28T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/01/28/ntp-4-dot-2-8p6</id>
-    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#Recent_Vulnerabilities">Recent Vulnerabilities</a> (ntp.org)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p6-i686-P1.txz">ntp-4.2.8p6-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p6-x86_64-P1.txz">ntp-4.2.8p6-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
