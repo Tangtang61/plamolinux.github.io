@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="gihyo.jpでこじまみつひろさんが連載されている「玩式草子」に新しい記事が追加されています。 第79回　Plamo LinuxのGPT/UEFI対応［その3］ ">
+  <meta name="description" content="bind にセキュリティホールが発見されています．詳しくは以下をご覧ください． （緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-1286）
+（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-1285） &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,56 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/03/10/bind-9-dot-9-8-p4/">Bind 9.9.8-P4</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-03-10T15:00:00+09:00" pubdate data-updated="true">Mar 10<span>th</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2016-03-10-bind9-vuln-rrsig.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-1286）</a></li>
+<li><a href="https://jprs.jp/tech/security/2016-03-10-bind9-vuln-controlchannel.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-1285）</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.8_P4-i686-P1.txz">bind-9.9.8_P4-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.8_P4-x86_64-P1.txz">bind-9.9.8_P4-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -266,56 +317,6 @@ lxc.mount.auto の sys の変更
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/libc-2.20-i686-P2.txz">libc-2.20-i686-P2.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/glibc-2.20-x86_64-P2.txz">glibc-2.20-x86_64-P2.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/libc-2.20-x86_64-P2.txz">libc-2.20-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/02/18/thunderbird-38-dot-6-0/">Thunderbird 38.6.0</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-02-18T15:10:00+09:00" pubdate data-updated="true">Feb 18<span>th</span>, 2016</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む Thunderbird 38.6.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/thunderbird/38.6.0/releasenotes/">Thunderbird 38.6.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/thunderbird-38.6.0-i686-P1.txz">thunderbird-38.6.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/thunderbird-38.6.0-x86_64-P1.txz">thunderbird-38.6.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 </div>
@@ -627,6 +628,12 @@ lxc.mount.auto の sys の変更
       
         
       
+    
+      
+        
+      
+        
+      
         
       
     
@@ -656,14 +663,6 @@ lxc.mount.auto の sys の変更
         
       
     
-      
-        
-      
-    
-      
-        
-      
-        
       
         
       
@@ -1197,10 +1196,14 @@ lxc.mount.auto の sys の変更
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (56)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (23)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (55)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (23)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/05/23/thunderbird-45-dot-0-1/">Thunderbird 45.1.0</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/05/23/php-7-dot-0-6/">Php 7.0.6</a>
@@ -1216,10 +1219,6 @@ lxc.mount.auto の sys の変更
     
       <li class="post">
         <a href="/blog/2016/05/11/libgd-2-dot-1-1/">Libgd 2.1.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/05/11/firefox-46-dot-0-1/">Firefox 46.0.1</a>
       </li>
     
   </ul>
