@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む Thunderbird 45.1.0 がリリースされています。詳しくは以下をご覧ください。 Thunderbird 45.1.0 リリースノート
-Thunderbird セキュリティアドバイザリ パッケージをリリースしました． thunderbird-45.1.0- &hellip;">
+  <meta name="description" content="expat にセキュリティホールが見つかっています。詳しくは以下をご覧ください。 JVNDB-2015-003917 Google Chrome などの製品で使用される Expat の XML_GetBuffer 関数における整数オーバーフローの脆弱性 (JVN iPedia)
+CVE-2016- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,56 @@ Thunderbird セキュリティアドバイザリ パッケージをリリース�
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/05/23/expat-2-dot-1-1/">Expat 2.1.1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-05-23T15:55:53+09:00" pubdate data-updated="true">May 23<span>rd</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>expat にセキュリティホールが見つかっています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-003917.html">JVNDB-2015-003917 Google Chrome などの製品で使用される Expat の XML_GetBuffer 関数における整数オーバーフローの脆弱性</a> (JVN iPedia)</li>
+<li><a href="http://seclists.org/oss-sec/2016/q2/360">CVE-2016-0718: Expat XML Parser Crashes on Malformed Input</a> (oss-sec)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/expat-2.1.1-i686-P1.txz">expat-2.1.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/expat-2.1.1-x86_64-P1.txz">expat-2.1.1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -532,47 +582,6 @@ Thunderbird セキュリティアドバイザリ パッケージをリリース�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/04/11/ganshiki-soush-80/">玩式草子─ソフトウェアとたわむれる日々　第80回　Plamo-6.1 Released</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-04-11T19:52:42+09:00" pubdate data-updated="true">Apr 11<span>th</span>, 2016</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されてます。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0080">第80回　Plamo-6.1 released</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -586,6 +595,12 @@ Thunderbird セキュリティアドバイザリ パッケージをリリース�
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1202,10 +1217,14 @@ Thunderbird セキュリティアドバイザリ パッケージをリリース�
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (55)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (23)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (57)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (55)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (24)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (58)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/05/23/expat-2-dot-1-1/">Expat 2.1.1</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/05/23/thunderbird-45-dot-0-1/">Thunderbird 45.1.0</a>
@@ -1221,10 +1240,6 @@ Thunderbird セキュリティアドバイザリ パッケージをリリース�
     
       <li class="post">
         <a href="/blog/2016/05/16/openssh-7-dot-2p2/">Openssh 7.2p2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/05/11/libgd-2-dot-1-1/">Libgd 2.1.1</a>
       </li>
     
   </ul>
