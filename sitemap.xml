@@ -417,10 +417,6 @@
         <lastmod>2016-05-16T16:51:07+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2016/05/23/php-7-dot-0-6/</loc>
-        <lastmod>2016-05-23T15:40:05+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2016/05/23/thunderbird-45-dot-0-1/</loc>
         <lastmod>2016-05-23T15:52:50+09:00</lastmod>
     </url>
@@ -429,12 +425,16 @@
         <lastmod>2016-05-23T16:01:23+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2016/05/30/php-7-dot-0-7/</loc>
+        <lastmod>2016-05-30T17:46:50+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/about/</loc>
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2016-05-23T16:01:23+09:00</lastmod>
+        <lastmod>2016-05-30T17:46:50+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -446,7 +446,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2016-05-23T16:01:23+09:00</lastmod>
+        <lastmod>2016-05-30T17:46:50+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>
