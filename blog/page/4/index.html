@@ -9,7 +9,13 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む sudo 1.8.15 がリリースされています。詳しくは以下をご覧ください。 CVE-2015-5602 sudo: Unauthorized privilege escalation in sudoedit パッケージをリリースしました。 sudo-1.8.15- &hellip;">
+  <meta name="description" content="*第28回　LXCへのコミット［2］ 遅くなりました。&lt; bar-mtomi overlayfsのworkdirオプション
+lxc-configの改良
+LVMストレージバックエンドのバグ修正
+aufsを使った非特権コンテナ
+linuxcontainers.org翻訳
+まとめ
+第8回 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +79,102 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/11/27/lxc-gihyo-28/">LXC　空間を歩む　二十八歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-11-27T16:22:56+09:00" pubdate data-updated="true">Nov 27<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0028">第28回　LXCへのコミット［2］</a></p>
+
+<p>遅くなりました。&lt; bar-mtomi</p>
+
+<blockquote><pre><code>overlayfsのworkdirオプション
+lxc-configの改良
+LVMストレージバックエンドのバグ修正
+aufsを使った非特権コンテナ
+linuxcontainers.org翻訳
+まとめ
+第8回 コンテナ型仮想化の情報交換会＠東京
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/11/16/git-2-dot-6-3/">Git 2.6.3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-11-16T16:18:46+09:00" pubdate data-updated="true">Nov 16<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>git のセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1269794">git: arbitrary code execution via crafted URLs</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/git-2.6.3-i686-P1.txz">git-2.6.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/git-2.6.3-x86_64-P1.txz">git-2.6.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -547,100 +649,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/08/01/lxc-gihyo-27/">LXC　空間を歩む　二十七歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-08-01T16:26:58+09:00" pubdate data-updated="true">Aug 1<span>st</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0027">第27回　LXCへのコミット［1］</a></p>
-
-<p>こんな話しを聞きたかったと、ずっと思ってました。たまに連載途中に入れて下さい。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>日本語マニュアル
-Plamo Linuxテンプレート
-初めてのバグフィックス
-非特権コンテナの動作に関わるパッチ
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/30/subversion-1-dot-7-20/">Subversion 1.7.20</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-30T19:23:09+09:00" pubdate data-updated="true">Jul 30<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む subversion 1.7.20 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002129.html">JVNDB-2015-002129 Subversion の mod_dav_svn および svnserve サーバにおけるサービス運用妨害 (DoS) の脆弱性</a> (JVN iPedia)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/subversion-1.7.20-i686-P1.txz">subversion-1.7.20-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/subversion-1.7.20-x86_64-P1.txz">subversion-1.7.20-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -656,6 +664,18 @@ Plamo Linuxテンプレート
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -897,12 +917,6 @@ Plamo Linuxテンプレート
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1278,10 +1292,18 @@ Plamo Linuxテンプレート
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (55)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (24)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (58)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (54)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/06/02/libxslt-1-dot-1-29/">Libxslt 1.1.29</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/06/02/curl-7-dot-49-dot-1/">Curl 7.49.1</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/05/30/php-7-dot-0-7/">Php 7.0.7</a>
@@ -1293,14 +1315,6 @@ Plamo Linuxテンプレート
     
       <li class="post">
         <a href="/blog/2016/05/23/thunderbird-45-dot-0-1/">Thunderbird 45.1.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/05/16/ntp-4-dot-2-8p7/">Ntp 4.2.8p7</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/05/16/openssh-7-dot-2p2/">Openssh 7.2p2</a>
       </li>
     
   </ul>

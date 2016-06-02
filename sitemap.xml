@@ -265,10 +265,6 @@
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2015/07/23/curl-7-dot-43-dot-0/</loc>
-        <lastmod>2015-12-01T15:53:38+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2015/07/30/subversion-1-dot-7-20/</loc>
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
@@ -429,12 +425,20 @@
         <lastmod>2016-05-30T17:46:50+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2016/06/02/curl-7-dot-49-dot-1/</loc>
+        <lastmod>2016-06-02T12:37:21+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2016/06/02/libxslt-1-dot-1-29/</loc>
+        <lastmod>2016-06-02T12:45:04+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/about/</loc>
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2016-05-30T17:46:50+09:00</lastmod>
+        <lastmod>2016-06-02T12:45:04+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -446,7 +450,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2016-05-30T17:46:50+09:00</lastmod>
+        <lastmod>2016-06-02T12:45:04+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>

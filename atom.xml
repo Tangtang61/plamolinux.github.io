@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-05-30T17:47:00+09:00</updated>
+  <updated>2016-06-02T12:45:52+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Libxslt 1.1.29]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/06/02/libxslt-1-dot-1-29/"/>
+    <updated>2016-06-02T12:40:57+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/06/02/libxslt-1-dot-1-29</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む libxslt 1.1.29 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://xmlsoft.org/XSLT/news.html">News</a> (xmlsoft.org)</li>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-005957.html">JVNDB-2015-005957 libxslt の preproc.c の xsltStylePreCompute 関数におけるサービス運用妨害 (DoS) の脆弱性</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/docbook.txz/libxslt-1.1.29-i686-P1.txz">libxslt-1.1.29-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/docbook.txz/libxslt-1.1.29-x86_64-P1.txz">libxslt-1.1.29-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Curl 7.49.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/06/02/curl-7-dot-49-dot-1/"/>
+    <updated>2016-06-02T11:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/06/02/curl-7-dot-49-dot-1</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.49.1 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/changes.html">Changelog</a></li>
+<li><a href="https://curl.haxx.se/docs/security.html">curl Security</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/curl-7.49.1-i686-P1.txz">curl-7.49.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/curl-7.49.1-x86_64-P1.txz">curl-7.49.1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 7.0.7]]></title>
@@ -419,44 +465,6 @@ lxc.mount.auto の sys の変更
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/rsync-3.1.2-i686-P1.txz">rsync-3.1.2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/rsync-3.1.2-x86_64-P1.txz">rsync-3.1.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第78回　Plamo LinuxのGPT/UEFI対応［その2］]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/02/01/ganshiki-soush/"/>
-    <updated>2016-02-01T16:05:15+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/02/01/ganshiki-soush</id>
-    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078">第78回　Plamo LinuxのGPT/UEFI対応［その2］</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Libpng 1.6.21]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/01/28/libpng-1-dot-6-21/"/>
-    <updated>2016-01-28T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/01/28/libpng-1-dot-6-21</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む libpng 1.6.21, libpng 1.4.19 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.libpng.org/pub/png/libpng.html">libpng Home Page</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng-1.6.21-i686-P1.txz">libpng-1.6.21-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/libpng14-1.4.19-i686-P1.txz">libpng14-1.4.19-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng-1.6.21-x86_64-P1.txz">libpng-1.6.21-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/libpng14-1.4.19-x86_64-P1.txz">libpng14-1.4.19-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

@@ -9,8 +9,11 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください． Fixed in 7.43.0 &ndash; June 17 2015
-Re-using authenticated connection when unauthenticated &hellip;">
+  <meta name="description" content="*第27回　LXCへのコミット［1］ こんな話しを聞きたかったと、ずっと思ってました。たまに連載途中に入れて下さい。 &lt; bar-mtomi 日本語マニュアル
+Plamo Linuxテンプレート
+初めてのバグフィックス
+非特権コンテナの動作に関わるパッチ
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,7 +83,7 @@ Re-using authenticated connection when unauthenticated &hellip;">
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/07/23/curl-7-dot-43-dot-0/">Curl 7.43.0</a></h1>
+      <h1 class="entry-title"><a href="/blog/2015/08/01/lxc-gihyo-27/">LXC　空間を歩む　二十七歩め</a></h1>
     
     
       <p class="meta">
@@ -96,32 +99,70 @@ Re-using authenticated connection when unauthenticated &hellip;">
   
 
 
-<time datetime="2015-07-23T17:00:00+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
+<time datetime="2015-08-01T16:26:58+09:00" pubdate data-updated="true">Aug 1<span>st</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>セキュリティホールの修正を含む curl 7.43.0 がリリースされています．詳しくは以下をご覧ください．</p>
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0027">第27回　LXCへのコミット［1］</a></p>
+
+<p>こんな話しを聞きたかったと、ずっと思ってました。たまに連載途中に入れて下さい。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>日本語マニュアル
+Plamo Linuxテンプレート
+初めてのバグフィックス
+非特権コンテナの動作に関わるパッチ
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/30/subversion-1-dot-7-20/">Subversion 1.7.20</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-30T19:23:09+09:00" pubdate data-updated="true">Jul 30<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む subversion 1.7.20 がリリースされています．詳しくは以下をご覧ください．</p>
 
 <ul>
-<li><a href="http://curl.haxx.se/changes.html#7_43_0">Fixed in 7.43.0 &ndash; June 17 2015</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150422A.html">Re-using authenticated connection when unauthenticated</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150422B.html">Negotiate not treated as connection-oriented</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150422C.html">cookie parser out of boundary memory access</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150422D.html">host name out of boundary memory access</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150429.html">sensitive HTTP server headers also sent to proxies</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150617A.html">lingering HTTP credentials in connection re-use</a></li>
-<li><a href="http://curl.haxx.se/docs/adv_20150617B.html">SMB send off unrelated memory contents</a></li>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002129.html">JVNDB-2015-002129 Subversion の mod_dav_svn および svnserve サーバにおけるサービス運用妨害 (DoS) の脆弱性</a> (JVN iPedia)</li>
 </ul>
 
 
-<p>対策パッケージをリリースしました．</p>
+<p>パッケージをリリースしました．</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/curl-7.43.0-i686-P1.txz">curl-7.43.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/curl-7.43.0-x86_64-P1.txz">curl-7.43.0-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/subversion-1.7.20-i686-P1.txz">subversion-1.7.20-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/subversion-1.7.20-x86_64-P1.txz">subversion-1.7.20-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 </div>
@@ -515,55 +556,6 @@ Python から
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/05/26/fuse-2-dot-9-4/">Fuse 2.9.4</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-05-26T20:33:56+09:00" pubdate data-updated="true">May 26<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む fuse 2.9.4 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.openwall.com/lists/oss-security/2015/05/21/9">http://www.openwall.com/lists/oss-security/2015/05/21/9</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/fuse-2.9.4-i686-P1.txz">fuse-2.9.4-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/fuse-2.9.4-x86_64-P1.txz">fuse-2.9.4-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/6/">&larr; Older</a>
@@ -579,6 +571,18 @@ Python から
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -820,12 +824,6 @@ Python から
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1201,10 +1199,18 @@ Python から
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (55)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (24)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (58)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (54)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (59)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/06/02/libxslt-1-dot-1-29/">Libxslt 1.1.29</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/06/02/curl-7-dot-49-dot-1/">Curl 7.49.1</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/05/30/php-7-dot-0-7/">Php 7.0.7</a>
@@ -1216,14 +1222,6 @@ Python から
     
       <li class="post">
         <a href="/blog/2016/05/23/thunderbird-45-dot-0-1/">Thunderbird 45.1.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/05/16/ntp-4-dot-2-8p7/">Ntp 4.2.8p7</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/05/16/openssh-7-dot-2p2/">Openssh 7.2p2</a>
       </li>
     
   </ul>
