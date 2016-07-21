@@ -9,7 +9,11 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="polkit にセキュリティホールが発見されています。詳しくは以下をご覧ください。 http://cgit.freedesktop.org/polkit/tree/NEWS?id=23519924f24fb80a5f33bb3a82058a6c025ddfa9 パッケージをリリースしました。 &hellip;">
+  <meta name="description" content="*第29回　LXC 1.1［1］ あっという間に、覚えたことが古くなる。&lt; bar-mtomi lxc-startのデフォルト動作の変更
+アプリケーションコンテナ環境の構築が楽に
+全コンテナをまとめて起動
+lxc-lsの新しい出力項目
+lxc-topコマンドのバイナリ化 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +77,104 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/04/lxc-gihyo-29/">LXC　空間を歩む　二十九歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-12-04T15:49:39+09:00" pubdate data-updated="true">Dec 4<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0029">第29回　LXC 1.1［1］</a></p>
+
+<p>あっという間に、覚えたことが古くなる。&lt; bar-mtomi</p>
+
+<blockquote><pre><code>lxc-startのデフォルト動作の変更
+アプリケーションコンテナ環境の構築が楽に
+全コンテナをまとめて起動
+lxc-lsの新しい出力項目
+lxc-topコマンドのバイナリ化
+コンテナ作成時にテンプレートの指定が必須に
+lxc-config lxc.cgroup.* の表示
+lxc-start-ephemeral --cdir オプション
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/01/autofs-5-dot-1-1/">Autofs 5.1.1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-12-01T16:13:50+09:00" pubdate data-updated="true">Dec 1<span>st</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>autofs にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8169">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8169</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/autofs-5.1.1-i686-P1.txz">autofs-5.1.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/autofs-5.1.1-x86_64-P1.txz">autofs-5.1.1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -545,104 +647,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/09/14/screen-4-dot-3-1/">Screen 4.3.1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-09-14T15:38:19+09:00" pubdate data-updated="true">Sep 14<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>screen にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://seclists.org/oss-sec/2015/q3/485">oss-sec: Re: CVE request: screen stack overflow (deep recursion)</a></li>
-</ul>
-
-
-<p>対策パッチを適用したパッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/screen-4.3.1-i686-P1.txz">screen-4.3.1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/screen-4.3.1-x86_64-P1.txz">screen-4.3.1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/09/11/libidn-1-dot-32/">Libidn 1.32</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-09-11T15:33:48+09:00" pubdate data-updated="true">Sep 11<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>libidn にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2059">Vulnerability Summary for CVE-2015-2059</a> (NVD)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/libidn-1.32-i686-P1.txz">libidn-1.32-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/libidn-1.32-x86_64-P1.txz">libidn-1.32-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -742,17 +746,27 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
       
         
       
+    
+      
+        
+      
         
       
     
       
         
       
+        
+      
     
       
         
       
         
+      
+        
+      
+    
       
         
       
@@ -960,12 +974,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1029,12 +1037,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1298,29 +1300,29 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (54)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (28)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (51)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (30)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (61)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/07/19/bind-9-dot-9-9-p2/">Bind 9.9.9-P2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/08/libgd-2-dot-2-2/">Libgd 2.2.2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/07/06/httpd-2-dot-4-23/">Httpd 2.4.23</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/06/27/librsvg-2-dot-40-dot-16/">Librsvg 2.40.16</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/06/24/libarchive-3-dot-2-1/">Libarchive 3.2.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/06/23/expat-2-dot-1-1/">Expat 2.1.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/06/15/jansson-2-dot-7/">Jansson 2.7</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/06/15/thunderbird-45-dot-1-1/">Thunderbird 45.1.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/06/08/firefox-47-dot-0/">Firefox 47.0</a>
       </li>
     
   </ul>
