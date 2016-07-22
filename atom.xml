@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-07-21T19:18:47+09:00</updated>
+  <updated>2016-07-22T18:55:58+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.0.9]]></title>
+    <link href="http://plamolinux.github.io/blog/2016/07/22/php-7-dot-0-9/"/>
+    <updated>2016-07-22T15:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2016/07/22/php-7-dot-0-9</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.0.9<!-- , 5.6.22 --> がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://php.net/archive/2016.php#id2016-07-21-3">PHP 7.0.9 Released</a></li>
+</ul>
+
+
+<!--
+* [PHP 5.6.22 is available](http://jp2.php.net/archive/2016.php#id2016-05-26-3)
+-->
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.0.9-i686-P1.txz">php-7.0.9-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.0.9-x86_64-P1.txz">php-7.0.9-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<!--
+PHP 5.6 系もリリースしました (2016-05-23 更新)
+
+* [php-5.6.22-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/contrib/Network/php-5.6.22-i686-P1.txz)
+* [php-5.6.22-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/contrib/Network/php-5.6.22-x86_64-P1.txz)
+-->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bind 9.9.9-P2]]></title>
@@ -106,41 +141,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/libarchive-3.2.1-i686-P1.txz">libarchive-3.2.1-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/libarchive-3.2.1-x86_64-P1.txz">libarchive-3.2.1-x86_64-P1.txz (64bit)</a></li>
 </ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 7.0.8]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/06/24/php-7-dot-0-8/"/>
-    <updated>2016-06-24T15:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/06/24/php-7-dot-0-8</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.0.8<!-- , 5.6.22 --> がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jp2.php.net/archive/2016.php#id2016-05-26-1">PHP 7.0.8 is available</a></li>
-</ul>
-
-
-<!--
-* [PHP 5.6.22 is available](http://jp2.php.net/archive/2016.php#id2016-05-26-3)
--->
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.0.8-i686-P1.txz">php-7.0.8-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.0.8-x86_64-P1.txz">php-7.0.8-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<!--
-PHP 5.6 系もリリースしました (2016-05-23 更新)
-
-* [php-5.6.22-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/contrib/Network/php-5.6.22-i686-P1.txz)
-* [php-5.6.22-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/contrib/Network/php-5.6.22-x86_64-P1.txz)
--->
 
 ]]></content>
   </entry>
