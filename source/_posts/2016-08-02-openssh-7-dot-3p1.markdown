@@ -11,5 +11,5 @@ OpenSSH にセキュリティホールが発見されています。詳しくは
 
 パッケージをリリースしました。
 
-* [openssh-7.3p1-i686-P3.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssh-7.3p1-i686-P3.txz)
-* [openssh-7.3p1-x86_64-P3.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssh-7.3p1-x86_64-P3.txz)
+* [openssh-7.3p1-i686-P2.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssh-7.3p1-i686-P2.txz)
+* [openssh-7.3p1-x86_64-P2.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssh-7.3p1-x86_64-P2.txz)
