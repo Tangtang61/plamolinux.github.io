@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "thunderbird 45.1.1"
+title: "thunderbird 45.3.0"
 date: 2016-09-06 00:00:00 +0900
 comments: false
 categories: ["Plamo 6.x 情報", "セキュリティ情報"]
