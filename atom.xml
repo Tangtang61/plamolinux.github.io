@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-09-12T18:55:28+09:00</updated>
+  <updated>2016-09-12T18:59:25+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -18,7 +18,7 @@
     <link href="http://plamolinux.github.io/blog/2016/09/12/graphicsmagick-1-dot-3-25/"/>
     <updated>2016-09-12T18:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2016/09/12/graphicsmagick-1-dot-3-25</id>
-    <content type="html"><![CDATA[<p>GraphicsMagick パッケージを 1.3.25 に更新しました。ImageTragick 対応パッチを適用しています。</p>
+    <content type="html"><![CDATA[<p>GraphicsMagick パッケージを 1.3.25 に更新しました。</p>
 
 <ul>
 <li><a href="https://sourceforge.net/p/graphicsmagick/mailman/message/35345263/">[GM-announce] GraphicsMagick 1.3.25 is available</a></li>
