@@ -6,7 +6,7 @@ comments: true
 categories: ["Plamo 6.x 情報", "セキュリティ情報"]
 ---
 
-GraphicsMagick パッケージを 1.3.25 に更新しました。ImageTragick 対応パッチを適用しています。
+GraphicsMagick パッケージを 1.3.25 に更新しました。
 
 * [[GM-announce] GraphicsMagick 1.3.25 is available](https://sourceforge.net/p/graphicsmagick/mailman/message/35345263/)
 
