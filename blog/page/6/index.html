@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="stunnel にセキュリティホールが発見されています。詳しくは以下をご覧ください。 stunnel: CVE-2015-3644 対策パッケージをリリースしました。 stunnel-5.20-i686-P1.txz (32bit)
-stunnel-5.20-x86_64-P1.txz ( &hellip;">
+  <meta name="description" content="libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。 JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性 (JVN &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,55 @@ stunnel-5.20-x86_64-P1.txz ( &hellip;">
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-16T16:21:07+09:00" pubdate data-updated="true">Jul 16<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002001.html">JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性</a> (JVN iPedia)</li>
+</ul>
+
+
+<p>パッチを適用した libzip 0.11.2 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libzip-0.11.2-i686-P1.txz">libzip-0.11.2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libzip-0.11.2-x86_64-P1.txz">libzip-0.11.2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -502,55 +550,6 @@ Ubuntu起動時のlxc-autostartの使用
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/05/19/qemu-2-dot-0-0/">Qemu 2.0.0</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-05-19T20:04:14+09:00" pubdate data-updated="true">May 19<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>qemu に脆弱性が発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://venom.crowdstrike.com/">VENOM Vulnerability</a></li>
-</ul>
-
-
-<p>パッチを適用した対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/qemu-2.0.0-i686-P2.txz">qemu-2.0.0-i686-P2.txz</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/qemu-2.0.0-x86_64-P2.txz">qemu-2.0.0-x86_64-P2.txz</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -566,6 +565,10 @@ Ubuntu起動時のlxc-autostartの使用
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1216,10 +1219,18 @@ Ubuntu起動時のlxc-autostartの使用
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (51)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (32)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (63)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (7)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (51)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (32)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (63)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/11/02/ganshiki-soush-86/">玩式草子─ソフトウェアとたわむれる日々　第86回　Plamo Linuxのビルドスクリプト再び</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/11/02/php-7-dot-0-12/">Php 7.0.12</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/11/02/bind-9-dot-9-9-p4/">Bind 9.9.9-P4</a>
@@ -1231,14 +1242,6 @@ Ubuntu起動時のlxc-autostartの使用
     
       <li class="post">
         <a href="/blog/2016/10/26/wget-1-dot-18/">Wget 1.18</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/10/26/gnutls-3-dot-5-5/">Gnutls 3.5.5</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/09/29/openssl-1-dot-0-2j/">OpenSSL 1.0.2j</a>
       </li>
     
   </ul>

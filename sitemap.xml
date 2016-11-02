@@ -421,10 +421,6 @@
         <lastmod>2016-09-12T18:58:53+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2016/09/20/php-7-dot-0-11/</loc>
-        <lastmod>2016-09-21T14:59:33+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2016/09/21/curl-7-dot-50-dot-3/</loc>
         <lastmod>2016-09-21T16:16:10+09:00</lastmod>
     </url>
@@ -449,12 +445,20 @@
         <lastmod>2016-11-02T19:48:52+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2016/11/02/php-7-dot-0-12/</loc>
+        <lastmod>2016-11-02T21:55:38+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2016/11/02/ganshiki-soush-86/</loc>
+        <lastmod>2016-11-02T21:59:19+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/about/</loc>
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2016-11-02T19:48:52+09:00</lastmod>
+        <lastmod>2016-11-02T21:59:19+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -466,7 +470,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2016-11-02T19:48:52+09:00</lastmod>
+        <lastmod>2016-11-02T21:59:19+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>
