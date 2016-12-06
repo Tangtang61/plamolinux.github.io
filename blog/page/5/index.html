@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="gihyo.jpでこじまみつひろさんが連載されている「玩式草子」でPlamo-6.0に関する記事が公開されています。 玩式草子─ソフトウェアとたわむれる日々　第75回　急に出ましたPlamo-6.0 ">
+  <meta name="description" content="セキュリティホールの修正を含む sudo 1.8.15 がリリースされています。詳しくは以下をご覧ください。 CVE-2015-5602 sudo: Unauthorized privilege escalation in sudoedit パッケージをリリースしました。 sudo-1.8.15- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,55 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/11/13/sudo-1-dot-8-15/">Sudo 1.8.15</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-11-13T16:17:19+09:00" pubdate data-updated="true">Nov 13<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む sudo 1.8.15 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1277426">CVE-2015-5602 sudo: Unauthorized privilege escalation in sudoedit</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/sudo-1.8.15-i686-P1.txz">sudo-1.8.15-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/sudo-1.8.15-x86_64-P1.txz">sudo-1.8.15-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -592,55 +641,6 @@ Plamo Linuxテンプレート
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/23/mariadb-5-dot-5-44/">Mariadb 5.5.44</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-23T16:51:43+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む MariaDB 5.5.44 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://mariadb.com/kb/en/mariadb/security/">Security Vulnerabilities Fixed in MariaDB</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/mariadb-5.5.44-i686-P1.txz">mariadb-5.5.44-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/mariadb-5.5.44-x86_64-P1.txz">mariadb-5.5.44-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/6/">&larr; Older</a>
@@ -672,9 +672,15 @@ Plamo Linuxテンプレート
       
         
       
+        
+      
     
       
         
+      
+        
+      
+    
       
         
       
@@ -1182,12 +1188,6 @@ Plamo Linuxテンプレート
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1316,23 +1316,23 @@ Plamo Linuxテンプレート
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/12/06/firefox-50-dot-0-2/">Firefox 50.0.2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/11/25/ntp-4-dot-2-8p9/">Ntp 4.2.8p9</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/11/18/thunderbird-45-dot-4-0/">Thunderbird 45.4.0</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2016/11/16/firefox-50-dot-0/">Firefox 50.0</a>
+        <a href="/blog/2016/11/16/jasper-1-dot-900-dot-1/">Jasper 1.900.1</a>
       </li>
     
       <li class="post">
         <a href="/blog/2016/11/02/ganshiki-soush-86/">玩式草子─ソフトウェアとたわむれる日々　第86回　Plamo Linuxのビルドスクリプト再び</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/11/02/php-7-dot-0-12/">Php 7.0.12</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/11/02/bind-9-dot-9-9-p4/">Bind 9.9.9-P4</a>
       </li>
     
   </ul>
