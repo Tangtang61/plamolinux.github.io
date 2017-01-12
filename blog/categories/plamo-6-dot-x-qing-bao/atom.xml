@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2016-12-28T18:35:45+09:00</updated>
+  <updated>2017-01-12T16:16:24+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bind 9.9.9-P5]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/01/12/bind-9-dot-9-9-p5/"/>
+    <updated>2017-01-12T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/01/12/bind-9-dot-9-9-p5</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2017-01-12-bind9-vuln-unusually-formed-ds.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-9444）</a> (JPRS)</li>
+<li><a href="https://jprs.jp/tech/security/2017-01-12-bind9-vuln-inconsistent-dnssec.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-9147）</a> (JPRS)</li>
+<li><a href="https://jprs.jp/tech/security/2017-01-12-bind9-vuln-malformed-any.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-9131）</a> (JPRS)</li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.9_P5-i686-P1.txz">bind-9.9.9_P5-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.9_P5-x86_64-P1.txz">bind-9.9.9_P5-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 50.1.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/01/11/firefox-50-dot-1-0/"/>
+    <updated>2017-01-11T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/01/11/firefox-50-dot-1-0</id>
+    <content type="html"><![CDATA[<p>firefox 50.1.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.mozilla.jp/firefox/50.1.0/releasenotes/">Firefox 50.1.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。50 より前のバージョンからの更新には libpng 1.6.26 パッケージも更新する必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-50.1.0-i686-P1.txz">firefox-50.1.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/libpng-1.6.26-i686-P1.txz">libpng-1.6.26-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-50.1.0-x86_64-P1.txz">firefox-50.1.0-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/libpng-1.6.26-x86_64-P1.txz">libpng-1.6.26-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 7.0.14]]></title>
@@ -30,31 +79,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.0.14-i686-P1.txz">php-7.0.14-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.0.14-x86_64-P1.txz">php-7.0.14-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 50.0.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/12/06/firefox-50-dot-0-2/"/>
-    <updated>2016-12-06T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/12/06/firefox-50-dot-0-2</id>
-    <content type="html"><![CDATA[<p>firefox 50.0.2 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/50.0.2/releasenotes/">Firefox 50.0.2 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。50 より前のバージョンからの更新には libpng 1.6.26 パッケージも更新する必要があります。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-50.0.2-i686-P1.txz">firefox-50.0.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/libpng-1.6.26-i686-P1.txz">libpng-1.6.26-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-50.0.2-x86_64-P1.txz">firefox-50.0.2-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/libpng-1.6.26-x86_64-P1.txz">libpng-1.6.26-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -104,28 +128,6 @@
 
 
 <p>ntp-4.2.8p9-*-P2 パッケージより、動作に ntp ユーザ・グループが必要になりました。詳しくは Change.Log をご覧ください。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.9-P4]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/11/02/bind-9-dot-9-9-p4/"/>
-    <updated>2016-11-02T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/11/02/bind-9-dot-9-9-p4</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2016-11-02-bind9-vuln-dname.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-8864）</a> (JPRS)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.9_P4-i686-P1.txz">bind-9.9.9_P4-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.9_P4-x86_64-P1.txz">bind-9.9.9_P4-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
