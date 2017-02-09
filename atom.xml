@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-02-02T14:45:08+09:00</updated>
+  <updated>2017-02-09T16:54:08+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bind 9.9.9-P6]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/02/09/bind-9-dot-9-9-p6/"/>
+    <updated>2017-02-09T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/02/09/bind-9-dot-9-9-p6</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2017-02-09-bind9-vuln-dns64-rpz.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2017-3135）</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.9_P6-i686-P1.txz">bind-9.9.9_P6-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.9_P6-x86_64-P1.txz">bind-9.9.9_P6-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 45.7.0]]></title>
@@ -131,30 +153,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/libpng14-1.4.20-i686-P1.txz">libpng14-1.4.20-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/libpng-1.6.28-x86_64-P1.txz">libpng-1.6.28-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/libpng14-1.4.20-x86_64-P1.txz">libpng14-1.4.20-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.9-P5]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/01/12/bind-9-dot-9-9-p5/"/>
-    <updated>2017-01-12T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/01/12/bind-9-dot-9-9-p5</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2017-01-12-bind9-vuln-unusually-formed-ds.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-9444）</a> (JPRS)</li>
-<li><a href="https://jprs.jp/tech/security/2017-01-12-bind9-vuln-inconsistent-dnssec.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-9147）</a> (JPRS)</li>
-<li><a href="https://jprs.jp/tech/security/2017-01-12-bind9-vuln-malformed-any.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2016-9131）</a> (JPRS)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.9_P5-i686-P1.txz">bind-9.9.9_P5-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.9_P5-x86_64-P1.txz">bind-9.9.9_P5-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
