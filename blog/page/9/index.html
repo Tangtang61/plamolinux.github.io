@@ -9,7 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="Plamo Linux 5.3.1 をリリースしました。 リリースアナウンス gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3.1 の詳細がまとめられています。 玩式草子─ソフトウェアとたわむれる日々　第66回　Plamo-5.3. &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む wireshark 1.10.12 がリリースされています。詳しくは以下をご覧ください。 wnpa-sec-2015-01 · WCCP dissector crash
+wnpa-sec-2015-02 · LPP dissector crash
+wnpa-sec- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +74,59 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/09/wireshark-1-dot-10-dot-12/">Wireshark 1.10.12</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-09T17:22:46+09:00" pubdate data-updated="true">Feb 9<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む wireshark 1.10.12 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-01.html">wnpa-sec-2015-01 · WCCP dissector crash</a></li>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-02.html">wnpa-sec-2015-02 · LPP dissector crash</a></li>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-03.html">wnpa-sec-2015-03 · DEC DNA Routing Protocol dissector crash</a></li>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-04.html">wnpa-sec-2015-04 · SMTP dissector crash</a></li>
+<li><a href="https://www.wireshark.org/security/wnpa-sec-2015-05.html">wnpa-sec-2015-05 · TLS/SSL decryption crash</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Network/wireshark-1.10.12-i686-P1.txz">wireshark-1.10.12-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Network/wireshark-1.10.12-x86_64-P1.txz">wireshark-1.10.12-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -568,52 +623,6 @@ overlayfsの将来
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/16/lxc-gihyo-17/">LXC　空間を歩む　十七歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-16T16:40:03+09:00" pubdate data-updated="true">Jan 16<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0017">第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用</a></p>
-
-<p>一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>一般ユーザでコンテナを利用できるディストリビューション
-一般ユーザでコンテナを利用する場合のOSでの準備
-UbuntuのLXCパッケージ使用時の各種パス
-一般ユーザでコンテナを利用する場合のLXCの設定
-一般ユーザでのコンテナの起動
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/10/">&larr; Older</a>
@@ -629,6 +638,16 @@ UbuntuのLXCパッケージ使用時の各種パス
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a>
+          </li>
+        
+      
     
       
         
@@ -1281,10 +1300,14 @@ UbuntuのLXCパッケージ使用時の各種パス
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (32)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (63)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (33)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (63)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (9)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2017/03/17/thunderbird-45-dot-8-0/">Thunderbird 45.8.0</a>
@@ -1300,10 +1323,6 @@ UbuntuのLXCパッケージ使用時の各種パス
     
       <li class="post">
         <a href="/blog/2017/02/01/openssl-1-dot-0-2k/">OpenSSL 1.0.2k</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2017/01/23/php-7-dot-1-1/">Php 7.1.1</a>
       </li>
     
   </ul>

@@ -9,8 +9,23 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む Thunderbird 45.8.0 がリリースされています。詳しくは以下をご覧ください。 <!--
-* [Thunderbird 45.8.0 リリースノート](http://www.mozilla.jp/thunderbird/45.8.0/ &hellip;">
+  <meta name="description" content="Plamo 6.2 をリリースしました。 以下は README.EUC の内容です。 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+○Plamo-6.2について(2017-02-17) 2017 OSC Tokyo/Spring &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +88,78 @@
 <p>不具合報告やユーザからの情報のまとめなど，公式ページを補足し，Plamoを「作る人」と「使う人」の橋渡しをする場を提供する <a href="http://plamo.linet.gr.jp/wiki/">PlamoLinux Wiki</a> もあわせてご覧ください．</p>
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2017-03-24T19:03:01+09:00" pubdate data-updated="true">Mar 24<span>th</span>, 2017</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo 6.2 をリリースしました。</p>
+
+<p>以下は <code>README.EUC</code> の内容です。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>○Plamo-6.2について(2017-02-17)
+</span><span class='line'>
+</span><span class='line'>2017 OSC Tokyo/Spring に出展することになったのに合わせてPlamo-6.1をupdateした
+</span><span class='line'>バージョンをリリースしました．
+</span><span class='line'>
+</span><span class='line'>Plamo-6.1以降に更新されたパッケージへ追従するためのバージョンアップなので，
+</span><span class='line'>変更されたパッケージの詳細についてはChange.Logファイルを参照してください．
+</span><span class='line'>
+</span><span class='line'>なお，このバージョンからDVDイメージの作成をmkisofsではなくxorrisoで行なっています．
+</span><span class='line'>xorrisoで作成したDVDイメージは，catやddでUSBメモリにベタ書きするだけでUEFI経由で起動できます．
+</span><span class='line'>なお，その副作用でDVDイメージをベタ書きしたUSBメモリをfdisk -lで見ると，
+</span><span class='line'>パーティションが2つあるように見えますが，実際にマウントできるのは，
+</span><span class='line'>パーティションを指定しないUSBメモリ全体(例えば/dev/sdb)になるのでご注意ください．
+</span><span class='line'>
+</span><span class='line'># 昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、
+</span><span class='line'># 諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -528,55 +615,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/10/26/wget-1-dot-18/">Wget 1.18</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-10-26T19:31:22+09:00" pubdate data-updated="true">Oct 26<span>th</span>, 2016</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>wget 1.18 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-7098">CVE-2016-7098</a> (nvd)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。<a href="/blog/2016/10/26/gnutls-3-dot-5-5/">GnuTLS 3.5.5</a> のインストールが必要です。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/wget-1.18-i686-P4.txz">wget-1.18-i686-P4.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/wget-1.18-x86_64-P4.txz">wget-1.18-x86_64-P4.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -590,6 +628,16 @@
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+          <li class="post">
+            <a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a>
+          </li>
+        
+      
     
       
         
@@ -1242,10 +1290,14 @@
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (32)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (63)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (8)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (33)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (63)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (9)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2017/03/17/thunderbird-45-dot-8-0/">Thunderbird 45.8.0</a>
@@ -1261,10 +1313,6 @@
     
       <li class="post">
         <a href="/blog/2017/02/01/openssl-1-dot-0-2k/">OpenSSL 1.0.2k</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2017/01/23/php-7-dot-1-1/">Php 7.1.1</a>
       </li>
     
   </ul>

@@ -5,11 +5,27 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>玩式草子─ソフトウェアとたわむれる日々　第80回　Plamo-6.1 Released - Plamo Linux</title>
+  <title>Plamo 6.2 リリース - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="gihyo.jpでこじまみつひろさんが連載されている「玩式草子」に新しい記事が追加されてます。 第80回　Plamo-6.1 released ">
+  <meta name="description" content="Plamo 6.2 をリリースしました。 以下は README.EUC の内容です。 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+○Plamo-6.2について(2017-02-17) 2017 OSC Tokyo/Spring &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2016/04/11/ganshiki-soush-80">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2017/03/24/plamo-6-dot-2">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +86,7 @@
   
   <header>
     
-      <h1 class="entry-title">玩式草子─ソフトウェアとたわむれる日々　第80回　Plamo-6.1 Released</h1>
+      <h1 class="entry-title">Plamo 6.2 リリース</h1>
     
     
       <p class="meta">
@@ -86,18 +102,49 @@
   
 
 
-<time datetime="2016-04-11T19:52:42+09:00" pubdate data-updated="true">Apr 11<span>th</span>, 2016</time>
+<time datetime="2017-03-24T19:03:01+09:00" pubdate data-updated="true">Mar 24<span>th</span>, 2017</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されてます。</p>
+<div class="entry-content"><p>Plamo 6.2 をリリースしました。</p>
 
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0080">第80回　Plamo-6.1 released</a></li>
-</ul>
+<p>以下は <code>README.EUC</code> の内容です。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>○Plamo-6.2について(2017-02-17)
+</span><span class='line'>
+</span><span class='line'>2017 OSC Tokyo/Spring に出展することになったのに合わせてPlamo-6.1をupdateした
+</span><span class='line'>バージョンをリリースしました．
+</span><span class='line'>
+</span><span class='line'>Plamo-6.1以降に更新されたパッケージへ追従するためのバージョンアップなので，
+</span><span class='line'>変更されたパッケージの詳細についてはChange.Logファイルを参照してください．
+</span><span class='line'>
+</span><span class='line'>なお，このバージョンからDVDイメージの作成をmkisofsではなくxorrisoで行なっています．
+</span><span class='line'>xorrisoで作成したDVDイメージは，catやddでUSBメモリにベタ書きするだけでUEFI経由で起動できます．
+</span><span class='line'>なお，その副作用でDVDイメージをベタ書きしたUSBメモリをfdisk -lで見ると，
+</span><span class='line'>パーティションが2つあるように見えますが，実際にマウントできるのは，
+</span><span class='line'>パーティションを指定しないUSBメモリ全体(例えば/dev/sdb)になるのでご注意ください．
+</span><span class='line'>
+</span><span class='line'># 昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、
+</span><span class='line'># 諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。</span></code></pre></td></tr></table></div></figure>
 
 </div>
 
@@ -121,12 +168,12 @@
   
 
 
-<time datetime="2016-04-11T19:52:42+09:00" pubdate data-updated="true">Apr 11<span>th</span>, 2016</time>
+<time datetime="2017-03-24T19:03:01+09:00" pubdate data-updated="true">Mar 24<span>th</span>, 2017</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/wan-shi-cao-zi/'>玩式草子</a>
+    <a class='category' href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報</a>, <a class='category' href='/blog/categories/ririsuqing-bao/'>リリース情報</a>
   
 </span>
 
@@ -135,7 +182,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2016/04/11/ganshiki-soush-80/" data-via="" data-counturl="http://plamolinux.github.io/blog/2016/04/11/ganshiki-soush-80/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2017/03/24/plamo-6-dot-2/" data-via="" data-counturl="http://plamolinux.github.io/blog/2017/03/24/plamo-6-dot-2/" >Tweet</a>
   
   
   
@@ -144,10 +191,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2016/02/29/ganshiki-soush/" title="Previous Post: 玩式草子─ソフトウェアとたわむれる日々　第79回　Plamo LinuxのGPT/UEFI対応［その3］">&laquo; 玩式草子─ソフトウェアとたわむれる日々　第79回　Plamo LinuxのGPT/UEFI対応［その3］</a>
+        <a class="basic-alignment left" href="/blog/2017/03/17/thunderbird-45-dot-8-0/" title="Previous Post: thunderbird 45.8.0">&laquo; thunderbird 45.8.0</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2016/04/20/samba-4-dot-4-2/" title="Next Post: samba 4.4.2">samba 4.4.2 &raquo;</a>
       
     </p>
   </footer>

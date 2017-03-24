@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-03-17T20:52:36+09:00</updated>
+  <updated>2017-03-24T19:05:28+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Plamo 6.2 リリース]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/03/24/plamo-6-dot-2/"/>
+    <updated>2017-03-24T19:03:01+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/03/24/plamo-6-dot-2</id>
+    <content type="html"><![CDATA[<p>Plamo 6.2 をリリースしました。</p>
+
+<p>以下は <code>README.EUC</code> の内容です。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>○Plamo-6.2について(2017-02-17)
+</span><span class='line'>
+</span><span class='line'>2017 OSC Tokyo/Spring に出展することになったのに合わせてPlamo-6.1をupdateした
+</span><span class='line'>バージョンをリリースしました．
+</span><span class='line'>
+</span><span class='line'>Plamo-6.1以降に更新されたパッケージへ追従するためのバージョンアップなので，
+</span><span class='line'>変更されたパッケージの詳細についてはChange.Logファイルを参照してください．
+</span><span class='line'>
+</span><span class='line'>なお，このバージョンからDVDイメージの作成をmkisofsではなくxorrisoで行なっています．
+</span><span class='line'>xorrisoで作成したDVDイメージは，catやddでUSBメモリにベタ書きするだけでUEFI経由で起動できます．
+</span><span class='line'>なお，その副作用でDVDイメージをベタ書きしたUSBメモリをfdisk -lで見ると，
+</span><span class='line'>パーティションが2つあるように見えますが，実際にマウントできるのは，
+</span><span class='line'>パーティションを指定しないUSBメモリ全体(例えば/dev/sdb)になるのでご注意ください．
+</span><span class='line'>
+</span><span class='line'># 昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、
+</span><span class='line'># 諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 45.8.0]]></title>
@@ -427,28 +472,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/expat-2.1.1-i686-P2.txz">expat-2.1.1-i686-P2.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/expat-2.1.1-x86_64-P2.txz">expat-2.1.1-x86_64-P2.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jansson 2.7]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/06/15/jansson-2-dot-7/"/>
-    <updated>2016-06-15T17:50:04+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/06/15/jansson-2-dot-7</id>
-    <content type="html"><![CDATA[<p>jansson にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-002782.html">JVNDB-2016-002782 Jansson におけるサービス運用妨害 (DoS) の脆弱性</a></li>
-</ul>
-
-
-<p>パッチを適用したパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/jansson-2.7-i686-P2.txz">jansson-2.7-i686-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/jansson-2.7-x86_64-P2.txz">jansson-2.7-x86_64-P2.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
