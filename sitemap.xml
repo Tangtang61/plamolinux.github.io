@@ -425,10 +425,6 @@
         <lastmod>2016-12-06T14:15:36+09:00</lastmod>
     </url>
     <url>
-        <loc>http://plamolinux.github.io/blog/2016/11/25/ntp-4-dot-2-8p9/</loc>
-        <lastmod>2016-12-28T18:35:12+09:00</lastmod>
-    </url>
-    <url>
         <loc>http://plamolinux.github.io/blog/2017/01/12/libpng-1-dot-6-21/</loc>
         <lastmod>2017-01-12T17:26:51+09:00</lastmod>
     </url>
@@ -439,10 +435,6 @@
     <url>
         <loc>http://plamolinux.github.io/blog/2017/02/01/openssl-1-dot-0-2k/</loc>
         <lastmod>2017-02-02T14:37:59+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://plamolinux.github.io/blog/2017/02/09/bind-9-dot-9-9-p6/</loc>
-        <lastmod>2017-02-09T16:53:52+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/2017/03/09/firefox-52-dot-0-0/</loc>
@@ -457,12 +449,24 @@
         <lastmod>2017-03-24T19:04:49+09:00</lastmod>
     </url>
     <url>
+        <loc>http://plamolinux.github.io/blog/2017/04/04/ntp-4-dot-2-8p10/</loc>
+        <lastmod>2017-04-13T18:11:44+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2017/04/13/bind-9-dot-9-9-p8/</loc>
+        <lastmod>2017-04-13T18:14:21+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://plamolinux.github.io/blog/2017/04/13/proftpd-1-dot-3-5e/</loc>
+        <lastmod>2017-04-13T18:23:15+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://plamolinux.github.io/about/</loc>
         <lastmod>2015-12-01T15:53:38+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/blog/archives/</loc>
-        <lastmod>2017-03-24T19:04:49+09:00</lastmod>
+        <lastmod>2017-04-13T18:23:15+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/download/</loc>
@@ -474,7 +478,7 @@
     </url>
     <url>
         <loc>http://plamolinux.github.io/</loc>
-        <lastmod>2017-03-24T19:04:49+09:00</lastmod>
+        <lastmod>2017-04-13T18:23:15+09:00</lastmod>
     </url>
     <url>
         <loc>http://plamolinux.github.io/ml/</loc>

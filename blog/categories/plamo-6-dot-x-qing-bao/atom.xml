@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-03-24T19:09:17+09:00</updated>
+  <updated>2017-04-13T18:28:01+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Proftpd 1.3.5e]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/04/13/proftpd-1-dot-3-5e/"/>
+    <updated>2017-04-13T18:15:39+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/04/13/proftpd-1-dot-3-5e</id>
+    <content type="html"><![CDATA[<p>proftpd にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.proftpd.org/docs/RELEASE_NOTES-1.3.5e">1.3.5 Release Notes</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/proftpd-1.3.5e-i686-P1.txz">proftpd-1.3.5e-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/proftpd-1.3.5e-x86_64-P1.txz">proftpd-1.3.5e-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bind 9.9.9-P8]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/04/13/bind-9-dot-9-9-p8/"/>
+    <updated>2017-04-13T18:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/04/13/bind-9-dot-9-9-p8</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2017-04-13-bind9-vuln-cname-dname.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2017-3137）</a></li>
+<li><a href="https://jprs.jp/tech/security/2017-04-13-bind9-vuln-dns64.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2017-3136）</a></li>
+<li><a href="https://jprs.jp/tech/security/2017-04-13-bind9-vuln-control-channel.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2017-3138）</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.9_P8-i686-P1.txz">bind-9.9.9_P8-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.9_P8-x86_64-P1.txz">bind-9.9.9_P8-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ntp 4.2.8p10]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/04/04/ntp-4-dot-2-8p10/"/>
+    <updated>2017-04-04T18:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/04/04/ntp-4-dot-2-8p10</id>
+    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#March_2017_ntp_4_2_8p10_NTP_Secu">March 2017 ntp-4.2.8p10 NTP Security Vulnerability Announcement</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p10-i686-P1.txz">ntp-4.2.8p10-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p10-x86_64-P1.txz">ntp-4.2.8p10-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>ntp-4.2.8p9-*-P2 パッケージより、動作に ntp ユーザ・グループが必要になりました。詳しくは Change.Log をご覧ください。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Plamo 6.2 リリース]]></title>
@@ -68,77 +138,6 @@ xorrisoで作成したDVDイメージは，catやddでUSBメモリにベタ書�
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/thunderbird-45.8.0-i686-P1.txz">thunderbird-45.8.0-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/thunderbird-45.8.0-x86_64-P1.txz">thunderbird-45.8.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 52.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/03/09/firefox-52-dot-0-0/"/>
-    <updated>2017-03-09T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/03/09/firefox-52-dot-0-0</id>
-    <content type="html"><![CDATA[<p>firefox 52.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/52.0/releasenotes/">Firefox 52.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。同時にリリースした nss 3.29.3, sqlite 3.17.0 をインストールする必要があります。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-52.0-i686-P1.txz">firefox-52.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nss-3.29.3-i686-P1.txz">nss-3.29.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/sqlite-3.17.0-i686-P1.txz">sqlite-3.17.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.0-x86_64-P1.txz">firefox-52.0-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.29.3-x86_64-P1.txz">nss-3.29.3-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/sqlite-3.17.0-x86_64-P1.txz">sqlite-3.17.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.9-P6]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/02/09/bind-9-dot-9-9-p6/"/>
-    <updated>2017-02-09T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/02/09/bind-9-dot-9-9-p6</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2017-02-09-bind9-vuln-dns64-rpz.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2017-3135）</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.9_P6-i686-P1.txz">bind-9.9.9_P6-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.9_P6-x86_64-P1.txz">bind-9.9.9_P6-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenSSL 1.0.2k]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/02/01/openssl-1-dot-0-2k/"/>
-    <updated>2017-02-01T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/02/01/openssl-1-dot-0-2k</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.2k がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.openssl.org/news/secadv/20170126.txt">OpenSSL Security Advisory [26 Jan 2017]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。1.0.1 系列から 1.0.2 系列に上がっていますのでご注意ください。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2k-i686-P1.txz">openssl-1.0.2k-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2k-x86_64-P1.txz">openssl-1.0.2k-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
