@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-04-13T18:28:01+09:00</updated>
+  <updated>2017-04-26T17:15:21+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 52.1.0esr]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/04/26/firefox-52-dot-1-0/"/>
+    <updated>2017-04-26T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/04/26/firefox-52-dot-1-0</id>
+    <content type="html"><![CDATA[<p>firefox 53.0 がリリースされましたが、Plamo 6.x では gcc/g++ の更新など要件を満たさない部分が多いので、52ESR リリースでのパッケージリリースを行います。</p>
+
+<p>firefox 52.1.0esr パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://www.mozilla.jp/firefox/52.1.0/releasenotes/">Firefox 52.1.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。同時にリリースした nss 3.29.3, sqlite 3.17.0 をインストールする必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-52.1.0esr-i686-P1.txz">firefox-52.1.0esr-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nspr-4.14-i686-P1.txz">nspr-4.14-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nss-3.30.1-i686-P1.txz">nss-3.30.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/sqlite-3.18.0-i686-P1.txz">sqlite-3.18.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.1.0esr-x86_64-P1.txz">firefox-52.1.0esr-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nspr-4.14-x86_64-P1.txz">nspr-4.14-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.30.1-x86_64-P1.txz">nss-3.30.1-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/sqlite-3.18.0-x86_64-P1.txz">sqlite-3.18.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Proftpd 1.3.5e]]></title>
@@ -151,33 +182,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/thunderbird-45.8.0-i686-P1.txz">thunderbird-45.8.0-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/thunderbird-45.8.0-x86_64-P1.txz">thunderbird-45.8.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 52.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/03/09/firefox-52-dot-0-0/"/>
-    <updated>2017-03-09T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/03/09/firefox-52-dot-0-0</id>
-    <content type="html"><![CDATA[<p>firefox 52.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.mozilla.jp/firefox/52.0/releasenotes/">Firefox 52.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。同時にリリースした nss 3.29.3, sqlite 3.17.0 をインストールする必要があります。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-52.0-i686-P1.txz">firefox-52.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nss-3.29.3-i686-P1.txz">nss-3.29.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/sqlite-3.17.0-i686-P1.txz">sqlite-3.17.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.0-x86_64-P1.txz">firefox-52.0-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.29.3-x86_64-P1.txz">nss-3.29.3-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/sqlite-3.17.0-x86_64-P1.txz">sqlite-3.17.0-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
