@@ -1,0 +1,15 @@
+---
+layout: post
+title: "bind 9.9.10-P1"
+date: 2017-06-15 18:00:00 +0900
+comments: false
+categories: ["Plamo 6.x 情報", "セキュリティ情報"]
+---
+bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．
+
+* [BIND 9.xの脆弱性（サービス性能の劣化及びパケットの連続送信）について（CVE-2017-3140）](https://jprs.jp/tech/security/2017-06-15-bind9-vuln-rpz-loop.html)
+
+パッケージをリリースしました．
+
+* [bind-9.9.10_P1-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.10_P1-i686-P1.txz)
+* [bind-9.9.10_P1-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.10_P1-x86_64-P1.txz)
