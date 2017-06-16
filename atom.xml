@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-06-16T17:30:44+09:00</updated>
+  <updated>2017-06-16T17:35:18+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -24,7 +24,7 @@
 
 <ul>
 <li><a href="https://www.mozilla.jp/firefox/52.2.0/releasenotes/">Firefox 52.2.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefox.html">Firefox セキュリティアドバイザリ</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefoxESR.html">Firefox セキュリティアドバイザリ</a></li>
 </ul>
 
 
