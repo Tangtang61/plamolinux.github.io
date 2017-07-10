@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="firefox 53.0 がリリースされましたが、Plamo 6.x では gcc/g++ の更新など要件を満たさない部分が多いので、52ESR リリースでのパッケージリリースを行います。 firefox 52.2.0esr パッケージをリリースしました。 Firefox 52.2.0 &hellip;">
+  <meta name="description" content="bind にセキュリティホールが発見されています．詳しくは以下をご覧ください． BIND 9.xの脆弱性（TSIG認証の迂回によるゾーンデータの流出）について（CVE-2017-3142） (JPRS)
+（緊急）BIND 9.xの脆弱性（TSIG認証の迂回によるゾーンデータの操作）について（CVE &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +79,106 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2017/06/30/bind-9-dot-9-10-p2/">Bind 9.9.10-P2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2017-06-30T18:00:00+09:00" pubdate data-updated="true">Jun 30<span>th</span>, 2017</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2017-06-30-bind9-vuln-circumvent-tsig-auth-axfr.html">BIND 9.xの脆弱性（TSIG認証の迂回によるゾーンデータの流出）について（CVE-2017-3142）</a> (JPRS)</li>
+<li><a href="https://jprs.jp/tech/security/2017-06-30-bind9-vuln-circumvent-tsig-auth-dynamic-update.html">（緊急）BIND 9.xの脆弱性（TSIG認証の迂回によるゾーンデータの操作）について（CVE-2017-3143）</a> (JPRS)</li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.10_P2-i686-P1.txz">bind-9.9.10_P2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.10_P2-x86_64-P1.txz">bind-9.9.10_P2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2017/06/20/httpd-2-dot-4-26/">Httpd 2.4.26</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2017-06-20T00:00:00+09:00" pubdate data-updated="true">Jun 20<span>th</span>, 2017</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む Apache httpd 2.4.26 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.26 Released</a></li>
+<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.26">Changes with Apache 2.4.26</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.26-i686-P1.txz">httpd-2.4.26-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.26-x86_64-P1.txz">httpd-2.4.26-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2017/06/16/firefox-52-dot-2-0/">Firefox 52.2.0esr</a></h1>
     
     
@@ -120,55 +221,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.2.0esr-x86_64-P1.txz">firefox-52.2.0esr-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nspr-4.15-x86_64-P1.txz">nspr-4.15-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.31-x86_64-P1.txz">nss-3.31-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2017/06/15/bind-9-dot-9-10-p1/">Bind 9.9.10-P1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2017-06-15T18:00:00+09:00" pubdate data-updated="true">Jun 15<span>th</span>, 2017</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2017-06-15-bind9-vuln-rpz-loop.html">BIND 9.xの脆弱性（サービス性能の劣化及びパケットの連続送信）について（CVE-2017-3140）</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.10_P1-i686-P1.txz">bind-9.9.10_P1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.10_P1-x86_64-P1.txz">bind-9.9.10_P1-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 </div>
@@ -554,57 +606,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/11/16/jasper-1-dot-900-dot-1/">Jasper 1.900.1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-11-16T17:00:00+09:00" pubdate data-updated="true">Nov 16<span>th</span>, 2016</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>jasper にセキュリティホールが発見されています。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1577">CVE-2016-1577</a> (NVD)</li>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2089">CVE-2016-2089</a> (NVD)</li>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2116">CVE-2016-2116</a> (NVD)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/jasper-1.900.1-i686-P5.txz">jasper-1.900.1-i686-P4.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/jasper-1.900.1-x86_64-P5.txz">jasper-1.900.1-x86_64-P4.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -618,6 +619,12 @@
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -683,12 +690,6 @@
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1292,11 +1293,15 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2017/06/16/firefox-52-dot-2-0/">Firefox 52.2.0esr</a>
+        <a href="/blog/2017/06/30/bind-9-dot-9-10-p2/">Bind 9.9.10-P2</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2017/06/15/bind-9-dot-9-10-p1/">Bind 9.9.10-P1</a>
+        <a href="/blog/2017/06/20/httpd-2-dot-4-26/">Httpd 2.4.26</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/06/16/firefox-52-dot-2-0/">Firefox 52.2.0esr</a>
       </li>
     
       <li class="post">
@@ -1305,10 +1310,6 @@
     
       <li class="post">
         <a href="/blog/2017/04/13/proftpd-1-dot-3-5e/">Proftpd 1.3.5e</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2017/04/04/ntp-4-dot-2-8p10/">Ntp 4.2.8p10</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-06-16T17:35:18+09:00</updated>
+  <updated>2017-07-10T15:28:25+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bind 9.9.10-P2]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/06/30/bind-9-dot-9-10-p2/"/>
+    <updated>2017-06-30T18:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/06/30/bind-9-dot-9-10-p2</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2017-06-30-bind9-vuln-circumvent-tsig-auth-axfr.html">BIND 9.xの脆弱性（TSIG認証の迂回によるゾーンデータの流出）について（CVE-2017-3142）</a> (JPRS)</li>
+<li><a href="https://jprs.jp/tech/security/2017-06-30-bind9-vuln-circumvent-tsig-auth-dynamic-update.html">（緊急）BIND 9.xの脆弱性（TSIG認証の迂回によるゾーンデータの操作）について（CVE-2017-3143）</a> (JPRS)</li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.10_P2-i686-P1.txz">bind-9.9.10_P2-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.10_P2-x86_64-P1.txz">bind-9.9.10_P2-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Httpd 2.4.26]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/06/20/httpd-2-dot-4-26/"/>
+    <updated>2017-06-20T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/06/20/httpd-2-dot-4-26</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.26 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.26 Released</a></li>
+<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.26">Changes with Apache 2.4.26</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.26-i686-P1.txz">httpd-2.4.26-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.26-x86_64-P1.txz">httpd-2.4.26-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 52.2.0esr]]></title>
@@ -37,28 +83,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.2.0esr-x86_64-P1.txz">firefox-52.2.0esr-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nspr-4.15-x86_64-P1.txz">nspr-4.15-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.31-x86_64-P1.txz">nss-3.31-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.10-P1]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/06/15/bind-9-dot-9-10-p1/"/>
-    <updated>2017-06-15T18:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/06/15/bind-9-dot-9-10-p1</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2017-06-15-bind9-vuln-rpz-loop.html">BIND 9.xの脆弱性（サービス性能の劣化及びパケットの連続送信）について（CVE-2017-3140）</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.10_P1-i686-P1.txz">bind-9.9.10_P1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.10_P1-x86_64-P1.txz">bind-9.9.10_P1-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -105,30 +129,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/proftpd-1.3.5e-x86_64-P1.txz">proftpd-1.3.5e-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ntp 4.2.8p10]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/04/04/ntp-4-dot-2-8p10/"/>
-    <updated>2017-04-04T18:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/04/04/ntp-4-dot-2-8p10</id>
-    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#March_2017_ntp_4_2_8p10_NTP_Secu">March 2017 ntp-4.2.8p10 NTP Security Vulnerability Announcement</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p10-i686-P1.txz">ntp-4.2.8p10-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p10-x86_64-P1.txz">ntp-4.2.8p10-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>ntp-4.2.8p9-*-P2 パッケージより、動作に ntp ユーザ・グループが必要になりました。詳しくは Change.Log をご覧ください。</p>
 ]]></content>
   </entry>
   
