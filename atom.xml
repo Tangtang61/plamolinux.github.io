@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-07-10T15:28:25+09:00</updated>
+  <updated>2017-07-10T16:49:10+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.1.7]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/07/10/php-7-dot-1-7/"/>
+    <updated>2017-07-10T16:30:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/07/10/php-7-dot-1-7</id>
+    <content type="html"><![CDATA[<p>PHP 7.1.7 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jp2.php.net/archive/2017.php#id2017-07-06-3">PHP 7.1.7 Released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.7-i686-P1.txz">php-7.1.7-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.7-x86_64-P1.txz">php-7.1.7-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bind 9.9.10-P2]]></title>
@@ -83,28 +105,6 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.2.0esr-x86_64-P1.txz">firefox-52.2.0esr-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nspr-4.15-x86_64-P1.txz">nspr-4.15-x86_64-P1.txz (64bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.31-x86_64-P1.txz">nss-3.31-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 7.1.6]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/06/09/php-7-dot-1-6/"/>
-    <updated>2017-06-09T21:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/06/09/php-7-dot-1-6</id>
-    <content type="html"><![CDATA[<p>PHP 7.1.6 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jp2.php.net/archive/2017.php#id2017-01-19-1">PHP 7.1.6 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.6-i686-P1.txz">php-7.1.6-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.6-x86_64-P1.txz">php-7.1.6-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
