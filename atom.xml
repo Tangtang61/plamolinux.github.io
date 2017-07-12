@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-07-10T16:49:10+09:00</updated>
+  <updated>2017-07-12T14:49:07+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 52.2.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/07/12/thunderbird-52-dot-1-1/"/>
+    <updated>2017-07-12T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/07/12/thunderbird-52-dot-1-1</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 52.2.1 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<!--
+* [Thunderbird 52.2.1 リリースノート](http://www.mozilla.jp/thunderbird/52.2.1/releasenotes/)
+-->
+
+
+<ul>
+<li><a href="https://www.mozilla.org/en-US/thunderbird/52.2.1/releasenotes/">Thunderbird 52.2.1 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/thunderbird-52.2.1-i686-P1.txz">thunderbird-52.2.1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/thunderbird-52.2.1-x86_64-P1.txz">thunderbird-52.2.1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 7.1.7]]></title>
@@ -197,34 +225,6 @@
 </span><span class='line'>
 </span><span class='line'># 昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、
 </span><span class='line'># 諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。</span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 45.8.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/03/17/thunderbird-45-dot-8-0/"/>
-    <updated>2017-03-17T21:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/03/17/thunderbird-45-dot-8-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 45.8.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<!--
-* [Thunderbird 45.8.0 リリースノート](http://www.mozilla.jp/thunderbird/45.8.0/releasenotes/)
--->
-
-
-<ul>
-<li><a href="https://www.mozilla.org/en-US/thunderbird/45.8.0/releasenotes/">Thunderbird 45.8.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/thunderbird-45.8.0-i686-P1.txz">thunderbird-45.8.0-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/thunderbird-45.8.0-x86_64-P1.txz">thunderbird-45.8.0-x86_64-P1.txz (64bit)</a></li>
-</ul>
 
 ]]></content>
   </entry>
