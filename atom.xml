@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-08-24T18:00:00+09:00</updated>
+  <updated>2017-10-02T16:45:04+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 52.4.0esr]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/10/02/firefox-52-dot-4-0/"/>
+    <updated>2017-10-02T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/10/02/firefox-52-dot-4-0</id>
+    <content type="html"><![CDATA[<p>firefox 53.0 がリリースされましたが、Plamo 6.x では gcc/g++ の更新など要件を満たさない部分が多いので、52ESR リリースでのパッケージリリースを行います。</p>
+
+<p>firefox 52.4.0esr パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://www.mozilla.jp/firefox/52.4.0/releasenotes/">Firefox 52.4.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefoxESR.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。同時にリリースした nspr 4.17, nss 3.33 をインストールする必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-52.4.0esr-i686-P1.txz">firefox-52.4.0esr-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nspr-4.17-i686-P1.txz">nspr-4.17-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nss-3.33-i686-P1.txz">nss-3.33-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.4.0esr-x86_64-P1.txz">firefox-52.4.0esr-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nspr-4.17-x86_64-P1.txz">nspr-4.17-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.33-x86_64-P1.txz">nss-3.33-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 7.1.8]]></title>
@@ -30,35 +59,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.8-i686-P1.txz">php-7.1.8-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.8-x86_64-P1.txz">php-7.1.8-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 52.3.0esr]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/08/16/firefox-52-dot-3-0/"/>
-    <updated>2017-08-16T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/08/16/firefox-52-dot-3-0</id>
-    <content type="html"><![CDATA[<p>firefox 53.0 がリリースされましたが、Plamo 6.x では gcc/g++ の更新など要件を満たさない部分が多いので、52ESR リリースでのパッケージリリースを行います。</p>
-
-<p>firefox 52.3.0esr パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://www.mozilla.jp/firefox/52.3.0/releasenotes/">Firefox 52.3.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefoxESR.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。同時にリリースした nspr 4.16, nss 3.32 をインストールする必要があります。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-52.3.0esr-i686-P1.txz">firefox-52.3.0esr-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nspr-4.16-i686-P1.txz">nspr-4.16-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nss-3.32-i686-P1.txz">nss-3.32-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.3.0esr-x86_64-P1.txz">firefox-52.3.0esr-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nspr-4.16-x86_64-P1.txz">nspr-4.16-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.32-x86_64-P1.txz">nss-3.32-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
