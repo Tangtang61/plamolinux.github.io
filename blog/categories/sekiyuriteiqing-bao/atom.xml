@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-10-02T16:45:04+09:00</updated>
+  <updated>2017-10-13T14:41:47+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,79 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.1.10]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/10/13/php-7-dot-1-10/"/>
+    <updated>2017-10-13T14:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/10/13/php-7-dot-1-10</id>
+    <content type="html"><![CDATA[<p>PHP 7.1.10 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://php.net/ChangeLog-7.php#7.1.10">PHP 7.1.10 Released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.10-i686-P1.txz">php-7.1.10-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.10-x86_64-P1.txz">php-7.1.10-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 52.4.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/10/13/thunderbird-52-dot-4-0/"/>
+    <updated>2017-10-13T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/10/13/thunderbird-52-dot-4-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 52.4.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<!--
+* [Thunderbird 52.4.0 リリースノート](http://www.mozilla.jp/thunderbird/52.4.0/releasenotes/)
+-->
+
+
+<ul>
+<li><a href="https://www.mozilla.org/en-US/thunderbird/52.4.0/releasenotes/">Thunderbird 52.4.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird52.4">Thunderbird セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/thunderbird-52.4.0-i686-P1.txz">thunderbird-52.4.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/thunderbird-52.4.0-x86_64-P1.txz">thunderbird-52.4.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Httpd 2.4.28]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/10/12/httpd-2-dot-4-28/"/>
+    <updated>2017-10-12T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/10/12/httpd-2-dot-4-28</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.28 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.28 Released</a></li>
+<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.28">Changes with Apache 2.4.28</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.28-i686-P1.txz">httpd-2.4.28-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.28-x86_64-P1.txz">httpd-2.4.28-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 52.4.0esr]]></title>
@@ -43,56 +116,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Php 7.1.8]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/08/24/php-7-dot-1-8/"/>
-    <updated>2017-08-24T18:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/08/24/php-7-dot-1-8</id>
-    <content type="html"><![CDATA[<p>PHP 7.1.8 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.1.8">PHP 7.1.8 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.8-i686-P1.txz">php-7.1.8-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.8-x86_64-P1.txz">php-7.1.8-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 52.2.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/07/12/thunderbird-52-dot-1-1/"/>
-    <updated>2017-07-12T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/07/12/thunderbird-52-dot-1-1</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 52.2.1 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<!--
-* [Thunderbird 52.2.1 リリースノート](http://www.mozilla.jp/thunderbird/52.2.1/releasenotes/)
--->
-
-
-<ul>
-<li><a href="https://www.mozilla.org/en-US/thunderbird/52.2.1/releasenotes/">Thunderbird 52.2.1 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/thunderbird.html">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/thunderbird-52.2.1-i686-P1.txz">thunderbird-52.2.1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/thunderbird-52.2.1-x86_64-P1.txz">thunderbird-52.2.1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Bind 9.9.10-P2]]></title>
     <link href="http://plamolinux.github.io/blog/2017/06/30/bind-9-dot-9-10-p2/"/>
     <updated>2017-06-30T18:00:00+09:00</updated>
@@ -110,29 +133,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.10_P2-i686-P1.txz">bind-9.9.10_P2-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.10_P2-x86_64-P1.txz">bind-9.9.10_P2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Httpd 2.4.26]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/06/20/httpd-2-dot-4-26/"/>
-    <updated>2017-06-20T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/06/20/httpd-2-dot-4-26</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.26 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.26 Released</a></li>
-<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.26">Changes with Apache 2.4.26</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.26-i686-P1.txz">httpd-2.4.26-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.26-x86_64-P1.txz">httpd-2.4.26-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
