@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-01-31T16:49:33+09:00</updated>
+  <updated>2018-01-31T17:54:08+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.1.13]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/01/31/php-7-dot-1-13/"/>
+    <updated>2018-01-31T17:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/01/31/php-7-dot-1-13</id>
+    <content type="html"><![CDATA[<p>PHP 7.1.13 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://php.net/ChangeLog-7.php#7.1.13">PHP 7.1.13 Released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.13-i686-P1.txz">php-7.1.13-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.13-x86_64-P1.txz">php-7.1.13-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox 52.6.0esr]]></title>
@@ -81,28 +103,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2n-i686-P1.txz">openssl-1.0.2n-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2n-x86_64-P1.txz">openssl-1.0.2n-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 7.1.12]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/12/06/php-7-dot-1-12/"/>
-    <updated>2017-12-06T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/12/06/php-7-dot-1-12</id>
-    <content type="html"><![CDATA[<p>PHP 7.1.12 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.1.12">PHP 7.1.12 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.12-i686-P1.txz">php-7.1.12-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.12-x86_64-P1.txz">php-7.1.12-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
