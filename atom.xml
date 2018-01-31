@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2017-10-13T14:40:51+09:00</updated>
+  <updated>2018-01-31T16:49:33+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,22 +14,95 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Php 7.1.10]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/10/13/php-7-dot-1-10/"/>
-    <updated>2017-10-13T14:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/10/13/php-7-dot-1-10</id>
-    <content type="html"><![CDATA[<p>PHP 7.1.10 がリリースされています。詳しくは以下をご覧ください。</p>
+    <title type="html"><![CDATA[Firefox 52.6.0esr]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/01/31/firefox-52-dot-6-0/"/>
+    <updated>2018-01-31T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/01/31/firefox-52-dot-6-0</id>
+    <content type="html"><![CDATA[<p>firefox 53.0 がリリースされましたが、Plamo 6.x では gcc/g++ の更新など要件を満たさない部分が多いので、52ESR リリースでのパッケージリリースを行います。</p>
+
+<p>firefox 52.6.0esr パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.1.10">PHP 7.1.10 Released</a></li>
+<li><a href="https://www.mozilla.jp/firefox/52.6.0/releasenotes/">Firefox 52.6.0 リリースノート</a></li>
+<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefoxESR.html">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。事前にリリースした nspr 4.18, nss 3.35 をインストールする必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-52.6.0esr-i686-P1.txz">firefox-52.6.0esr-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nspr-4.18-i686-P1.txz">nspr-4.18-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nss-3.35-i686-P1.txz">nss-3.35-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.6.0esr-x86_64-P1.txz">firefox-52.6.0esr-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nspr-4.18-x86_64-P1.txz">nspr-4.18-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.35-x86_64-P1.txz">nss-3.35-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bind 9.9.11-P1]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/01/17/bind-9-dot-9-11-p1/"/>
+    <updated>2018-01-17T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/01/17/bind-9-dot-9-11-p1</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2018-01-17-bind9-vuln-improperly-sequencing-cleanup.html">（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2017-3145）</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.11_P1-i686-P1.txz">bind-9.9.11_P1-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.11_P1-x86_64-P1.txz">bind-9.9.11_P1-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OpenSSL 1.0.2n]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/12/13/openssl-1-dot-0-2n/"/>
+    <updated>2017-12-13T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/12/13/openssl-1-dot-0-2n</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.2n がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.openssl.org/news/secadv/20171207.txt">OpenSSL Security Advisory [07 Dec 2017]</a></li>
 </ul>
 
 
 <p>パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.10-i686-P1.txz">php-7.1.10-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.10-x86_64-P1.txz">php-7.1.10-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2n-i686-P1.txz">openssl-1.0.2n-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2n-x86_64-P1.txz">openssl-1.0.2n-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.1.12]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/12/06/php-7-dot-1-12/"/>
+    <updated>2017-12-06T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/12/06/php-7-dot-1-12</id>
+    <content type="html"><![CDATA[<p>PHP 7.1.12 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://php.net/ChangeLog-7.php#7.1.12">PHP 7.1.12 Released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.12-i686-P1.txz">php-7.1.12-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.12-x86_64-P1.txz">php-7.1.12-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -81,58 +154,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.28-i686-P1.txz">httpd-2.4.28-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.28-x86_64-P1.txz">httpd-2.4.28-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 52.4.0esr]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/10/02/firefox-52-dot-4-0/"/>
-    <updated>2017-10-02T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/10/02/firefox-52-dot-4-0</id>
-    <content type="html"><![CDATA[<p>firefox 53.0 がリリースされましたが、Plamo 6.x では gcc/g++ の更新など要件を満たさない部分が多いので、52ESR リリースでのパッケージリリースを行います。</p>
-
-<p>firefox 52.4.0esr パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://www.mozilla.jp/firefox/52.4.0/releasenotes/">Firefox 52.4.0 リリースノート</a></li>
-<li><a href="http://www.mozilla-japan.org/security/known-vulnerabilities/firefoxESR.html">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。同時にリリースした nspr 4.17, nss 3.33 をインストールする必要があります。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/firefox-52.4.0esr-i686-P1.txz">firefox-52.4.0esr-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nspr-4.17-i686-P1.txz">nspr-4.17-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/nss-3.33-i686-P1.txz">nss-3.33-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/firefox-52.4.0esr-x86_64-P1.txz">firefox-52.4.0esr-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nspr-4.17-x86_64-P1.txz">nspr-4.17-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/nss-3.33-x86_64-P1.txz">nss-3.33-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.10-P2]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/06/30/bind-9-dot-9-10-p2/"/>
-    <updated>2017-06-30T18:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/06/30/bind-9-dot-9-10-p2</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2017-06-30-bind9-vuln-circumvent-tsig-auth-axfr.html">BIND 9.xの脆弱性（TSIG認証の迂回によるゾーンデータの流出）について（CVE-2017-3142）</a> (JPRS)</li>
-<li><a href="https://jprs.jp/tech/security/2017-06-30-bind9-vuln-circumvent-tsig-auth-dynamic-update.html">（緊急）BIND 9.xの脆弱性（TSIG認証の迂回によるゾーンデータの操作）について（CVE-2017-3143）</a> (JPRS)</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.10_P2-i686-P1.txz">bind-9.9.10_P2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.10_P2-x86_64-P1.txz">bind-9.9.10_P2-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
@@ -225,28 +246,6 @@
 </span><span class='line'>
 </span><span class='line'># 昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、
 </span><span class='line'># 諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。</span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenSSL 1.0.2k]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/02/01/openssl-1-dot-0-2k/"/>
-    <updated>2017-02-01T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/02/01/openssl-1-dot-0-2k</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.2k がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.openssl.org/news/secadv/20170126.txt">OpenSSL Security Advisory [26 Jan 2017]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。1.0.1 系列から 1.0.2 系列に上がっていますのでご注意ください。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2k-i686-P1.txz">openssl-1.0.2k-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2k-x86_64-P1.txz">openssl-1.0.2k-x86_64-P1.txz (64bit)</a></li>
-</ul>
 
 ]]></content>
   </entry>
