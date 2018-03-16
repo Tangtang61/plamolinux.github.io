@@ -4,7 +4,7 @@
   <title><![CDATA[Category: リリース情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/ririsuqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-01-31T17:54:08+09:00</updated>
+  <updated>2018-03-16T16:42:31+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -22,26 +22,23 @@
 
 <p>以下は <code>README.EUC</code> の内容です。</p>
 
-<p>```
-○Plamo-6.2について(2017-02-17)</p>
+<pre><code>○Plamo-6.2について(2017-02-17)
 
-<p>2017 OSC Tokyo/Spring に出展することになったのに合わせてPlamo-6.1をupdateした
-バージョンをリリースしました．</p>
+2017 OSC Tokyo/Spring に出展することになったのに合わせてPlamo-6.1をupdateした
+バージョンをリリースしました．
 
-<p>Plamo-6.1以降に更新されたパッケージへ追従するためのバージョンアップなので，
-変更されたパッケージの詳細についてはChange.Logファイルを参照してください．</p>
+Plamo-6.1以降に更新されたパッケージへ追従するためのバージョンアップなので，
+変更されたパッケージの詳細についてはChange.Logファイルを参照してください．
 
-<p>なお，このバージョンからDVDイメージの作成をmkisofsではなくxorrisoで行なっています．
+なお，このバージョンからDVDイメージの作成をmkisofsではなくxorrisoで行なっています．
 xorrisoで作成したDVDイメージは，catやddでUSBメモリにベタ書きするだけでUEFI経由で起動できます．
 なお，その副作用でDVDイメージをベタ書きしたUSBメモリをfdisk -lで見ると，
 パーティションが2つあるように見えますが，実際にマウントできるのは，
-パーティションを指定しないUSBメモリ全体(例えば/dev/sdb)になるのでご注意ください．</p>
+パーティションを指定しないUSBメモリ全体(例えば/dev/sdb)になるのでご注意ください．
 
-<h1>昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、</h1>
-
-<h1>諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。</h1>
-
-<p>```</p>
+# 昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、
+# 諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。
+</code></pre>
 ]]></content>
   </entry>
   
@@ -98,7 +95,7 @@ xorrisoで作成したDVDイメージは，catやddでUSBメモリにベタ書�
 
 <p>すでに ring.yamanashi.ac.jp にはミラーいただいているようなので適宜広まっていくかと思いますが，上記 OSC 2015 Tokyo/Fall の「Plamo Linux メンテナグループ」のブースでDVDやUSBメディアで配布する予定ですので，OSC に参加される方は，ぜひお立ち寄りください (<em> </em>)</p>
 
-<p># 枚数限定です :&ndash;)</p>
+<p># 枚数限定です :-)</p>
 
 <p>今回のウリは kernel-4.2.3 採用と GPT/UEFI 対応かな．以下はREADMEの抜粋．</p>
 

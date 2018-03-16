@@ -9,10 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第11回　LXCの設定［1］ 今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^; &lt; bar-mtomi 設定ファイルの書式
-システムの設定
-コンテナの設定
-まとめ &hellip;">
+  <meta name="description" content="セキュリティホール修正を含む libpng 1.6.28, libpng 1.4.20 がリリースされています．詳しくは以下をご覧ください． libpng Home Page パッケージをリリースしました． libpng-1.6.28-i686-P1.txz (32bit)
+libpng14-1. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/page/11">
+  <link rel="canonical" href="http://plamolinux.github.io/posts/2">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -81,7 +79,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/10/13/lxc-gihyo-11/">LXC　空間を歩む　十一歩め</a></h1>
+      <h1 class="entry-title"><a href="/blog/2017/01/12/libpng-1-dot-6-21/">Libpng 1.6.28</a></h1>
     
     
       <p class="meta">
@@ -97,260 +95,29 @@
   
 
 
-<time datetime="2014-10-13T13:08:05+09:00" pubdate data-updated="true">Oct 13<span>th</span>, 2014</time>
+<time datetime="2017-01-12T16:00:00+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
+  <div class="entry-content"><p>セキュリティホール修正を含む libpng 1.6.28, libpng 1.4.20 がリリースされています．詳しくは以下をご覧ください．</p>
 
-<p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
-
-<blockquote><pre><code>設定ファイルの書式
-システムの設定
-コンテナの設定
-まとめ
-LXC 1.0.6
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/27/lxc-gihyo-10/">LXC　空間を歩む　十歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-27T13:14:56+09:00" pubdate data-updated="true">Sep 27<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0010">第10回　LXCの基本操作［3］</a></p>
-
-<p>FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi</p>
-
-<blockquote><pre><code>アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング
-指定したコンテナの状態への待機
-Ubuntu 14.04 LTSのcgroup管理
-まとめ
-第4回 コンテナ型仮想化の情報交換会＠東京
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/11/lxc-gihyo-09/">LXC　空間を歩む　九歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-11T12:58:49+09:00" pubdate data-updated="true">Sep 11<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0009">第9回　LXCの基本操作［2］</a></p>
-
-<p>今回は少し一休み的な内容でしたね。でも、その先に何かありそうな気がする。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>コンテナの削除
-cgroup設定の確認，変更
-コンテナのクローン
-コンテナのスナップショットの取得
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/28/lxc-gihyo-08/">LXC　空間を歩む　八歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-28T21:45:50+09:00" pubdate data-updated="true">Aug 28<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
-
-<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
-Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
-共通オプション
-コンテナの作成 ? lxc-create
-コンテナの情報表示 ? lxc-ls, lxc-info
-コンテナの起動 ? lxc-start
-コンテナの停止・リブート ? lxc-stop
-コンテナ内での作業
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/16/lxc-gihyo-07/">LXC　空間を歩む　七歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-16T15:11:48+09:00" pubdate data-updated="true">Aug 16<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
-
-<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
-コンテナのネストができるのか！  &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LXCの歴史
-LXCの特徴
-LXCの気になる点
-まとめ
-最近のLXCのリリース
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/07/24/lxc-gihyo-06/">LXC　空間を歩む　六歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-07-24T21:05:48+09:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0006?ard=1406203785">第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク</a></li>
+<ul>
+<li><a href="http://www.libpng.org/pub/png/libpng.html">libpng Home Page</a></li>
 </ul>
 
 
-<p>加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt; bar-mtomi</p>
+<p>パッケージをリリースしました．</p>
 
-<blockquote><pre><code>コンテナとネットワーク名前空間
-ホストのインターフェースの使用
-veth
-macvlan
-まとめ
-LXC日本語ページの移行
-</code></pre></blockquote>
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/libpng-1.6.28-i686-P1.txz">libpng-1.6.28-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/libpng14-1.4.20-i686-P1.txz">libpng14-1.4.20-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/libpng-1.6.28-x86_64-P1.txz">libpng-1.6.28-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/libpng14-1.4.20-x86_64-P1.txz">libpng14-1.4.20-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
 </div>
   
   
@@ -363,7 +130,7 @@ LXC日本語ページの移行
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/07/10/lxc-gihyo-05/">LXC　空間を歩む　五歩め</a></h1>
+      <h1 class="entry-title"><a href="/blog/2016/11/16/jasper-1-dot-900-dot-1/">Jasper 1.900.1</a></h1>
     
     
       <p class="meta">
@@ -379,26 +146,29 @@ LXC日本語ページの移行
   
 
 
-<time datetime="2014-07-10T12:54:36+09:00" pubdate data-updated="true">Jul 10<span>th</span>, 2014</time>
+<time datetime="2016-11-16T17:00:00+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0005">第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3）</a></li>
+  <div class="entry-content"><p>jasper にセキュリティホールが発見されています。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1577">CVE-2016-1577</a> (NVD)</li>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2089">CVE-2016-2089</a> (NVD)</li>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2116">CVE-2016-2116</a> (NVD)</li>
 </ul>
 
 
-<p>もう読むだけではダメだ。 名前空間, cgroup, サブシステム等と LXC （コンテナ &lt;&mdash; 使ってないし） と、ホストがらみの関係 ！？ &lt; bar-mtomi (M.Tomi)<br/>
-　　いや？ コンテナに（限らず？）於いては、ホストに影響を与えない様にするためか？ &lt; bar-mtomi (M.Tomi)</p>
+<p>対策パッケージをリリースしました。</p>
 
-<blockquote><pre><code>サブシステム紹介（続き）
-cgroup の今後
-まとめ
-LXC-JPグループ
-</code></pre></blockquote>
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/jasper-1.900.1-i686-P5.txz">jasper-1.900.1-i686-P4.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/jasper-1.900.1-x86_64-P5.txz">jasper-1.900.1-x86_64-P4.txz (64bit)</a></li>
+</ul>
+
 </div>
   
   
@@ -411,7 +181,7 @@ LXC-JPグループ
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/06/26/lxc-gihyo-04/">LXC　空間を歩む　四歩め</a></h1>
+      <h1 class="entry-title"><a href="/blog/2016/11/02/ganshiki-soush-86/">玩式草子─ソフトウェアとたわむれる日々　第86回　Plamo Linuxのビルドスクリプト再び</a></h1>
     
     
       <p class="meta">
@@ -427,23 +197,21 @@ LXC-JPグループ
   
 
 
-<time datetime="2014-06-26T15:27:16+09:00" pubdate data-updated="true">Jun 26<span>th</span>, 2014</time>
+<time datetime="2016-11-02T22:00:00+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0004">第4回　Linuxカーネルのコンテナ機能［3］ ─cgroupとは？（その2）</a></li>
+  <div class="entry-content"><p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されてます。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0086">第86回　Plamo Linuxのビルドスクリプト再び</a></li>
 </ul>
 
 
-<p>もう、実践して（確認）理解しないと分からないレベルだなぁ？、だけど、理解できればコンテナ以外でも有益な利用方法があるのかなぁ?って感じだったと思う。&lt; bar-mtom i(M.Tomi)</p>
-
-<blockquote><pre><code>サブシステム
-まとめ
-</code></pre></blockquote>
+<p>最新のビルドスクリプト作成環境についてです。</p>
 </div>
   
   
@@ -456,7 +224,7 @@ LXC-JPグループ
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC　空間を歩む　三歩め</a></h1>
+      <h1 class="entry-title"><a href="/blog/2016/10/26/wget-1-dot-18/">Wget 1.18</a></h1>
     
     
       <p class="meta">
@@ -472,24 +240,27 @@ LXC-JPグループ
   
 
 
-<time datetime="2014-06-12T12:46:27+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2014</time>
+<time datetime="2016-10-26T19:31:22+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
+  <div class="entry-content"><p>wget 1.18 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-7098">CVE-2016-7098</a> (nvd)</li>
 </ul>
 
 
-<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
+<p>パッケージをリリースしました。<a href="/blog/2016/10/26/gnutls-3-dot-5-5/">GnuTLS 3.5.5</a> のインストールが必要です。</p>
 
-<blockquote><pre><code>cgroupファイルシステム
-cgroupの階層構造
-まとめ
-</code></pre></blockquote>
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/wget-1.18-i686-P4.txz">wget-1.18-i686-P4.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/wget-1.18-x86_64-P4.txz">wget-1.18-x86_64-P4.txz (64bit)</a></li>
+</ul>
+
 </div>
   
   
@@ -502,7 +273,7 @@ cgroupの階層構造
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC　空間を歩む　第二歩</a></h1>
+      <h1 class="entry-title"><a href="/blog/2016/10/26/gnutls-3-dot-5-5/">Gnutls 3.5.5</a></h1>
     
     
       <p class="meta">
@@ -518,27 +289,265 @@ cgroupの階層構造
   
 
 
-<time datetime="2014-05-31T14:38:45+09:00" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
+<time datetime="2016-10-26T18:00:00+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
+  <div class="entry-content"><p>GnuTLS を 3.5 系にバージョンアップしました。ただし、多数の参照があるので 2.12.23 時点のライブラリも同梱しています。</p>
+
+<p>同時に nettle の追加と libtasn1 の更新が必要です。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-3.5.5-i686-P2.txz">gnutls-3.5.5-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/gnupg_tls.txz/libtasn1-4.9-i686-P1.txz">libtasn1-4.9-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/gnupg_tls.txz/nettle-3.3-i686-P1.txz">nettle-3.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-3.5.5-x86_64-P2.txz">gnutls-3.5.5-x86_64-P2.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libtasn1-4.9-x86_64-P1.txz">libtasn1-4.9-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/gnupg_tls.txz/nettle-3.3-x86_64-P1.txz">nettle-3.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/09/21/curl-7-dot-50-dot-3/">Curl 7.50.3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-09-21T16:15:00+09:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む curl 7.50.3 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/changes.html">Changelog</a></li>
+<li><a href="https://curl.haxx.se/docs/security.html">curl Security</a></li>
 </ul>
 
 
-<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
+<p>対策パッケージをリリースしました．</p>
 
-<blockquote><pre><code>コンテナの仕組み
-コンテナのメリット
-コンテナのデメリット
-Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
-まとめ
-LXC公式サイトの翻訳
-</code></pre></blockquote>
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/curl-7.50.3-i686-P1.txz">curl-7.50.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/curl-7.50.3-x86_64-P1.txz">curl-7.50.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/09/12/graphicsmagick-1-dot-3-25/">GraphicsMagick 1.3.25</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-09-12T18:00:00+09:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>GraphicsMagick パッケージを 1.3.25 に更新しました。</p>
+
+<ul>
+<li><a href="https://sourceforge.net/p/graphicsmagick/mailman/message/35345263/">[GM-announce] GraphicsMagick 1.3.25 is available</a></li>
+</ul>
+
+
+<p>パッケージは以下です。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/GraphicsMagick-1.3.25-i686-P1.txz">GraphicsMagick-1.3.25-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/GraphicsMagick-1.3.25-x86_64-P1.txz">GraphicsMagick-1.3.25-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/08/02/openssh-7-dot-4p1/">Openssh 7.4p1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-08-02T12:00:00+09:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.openssh.com/txt/release-7.4">release-7.4</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssh-7.4p1-i686-P2.txz">openssh-7.4p1-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssh-7.4p1-x86_64-P2.txz">openssh-7.4p1-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/08/01/libgd-2-dot-2-3/">Libgd 2.2.3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-08-01T12:00:00+09:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む libgd がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://github.com/libgd/libgd/releases/tag/gd-2.2.3">gd-2.2.3</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/libgd2-2.2.3-i686-P1.txz">libgd2-2.2.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/libgd2-2.2.3-x86_64-P1.txz">libgd2-2.2.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/06/27/librsvg-2-dot-40-dot-16/">Librsvg 2.40.16</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-06-27T18:33:45+09:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む librsvg 2.40.16 のパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/04_xapps/librsvg-2.40.16-i686-P1.txz">librsvg-2.40.16-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/04_xapps/librsvg-2.40.16-x86_64-P1.txz">librsvg-2.40.16-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
 </div>
   
   
@@ -548,11 +557,11 @@ LXC公式サイトの翻訳
   
   <div class="pagination">
     
-      <a class="prev" href="/blog/page/12/">&larr; Older</a>
+      <a class="prev" href="3">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
-    <a class="next" href="/blog/page/10/">Newer &rarr;</a>
+    <a class="next" href="1">Newer &rarr;</a>
     
   </div>
 </div>
@@ -565,8 +574,6 @@ LXC公式サイトの翻訳
       
         
       
-        
-      
     
       
         
@@ -612,6 +619,10 @@ LXC公式サイトの翻訳
     
       
         
+      
+        
+      
+    
       
         
           <li class="post">
@@ -619,20 +630,6 @@ LXC公式サイトの翻訳
           </li>
         
       
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
         
       
     
@@ -648,14 +645,6 @@ LXC公式サイトの翻訳
         
       
     
-      
-        
-      
-        
-      
-    
-      
-        
       
         
       
@@ -707,6 +696,30 @@ LXC公式サイトの翻訳
       
         
       
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
         
       
     
@@ -718,8 +731,6 @@ LXC公式サイトの翻訳
         
       
     
-      
-        
       
         
           <li class="post">
@@ -727,32 +738,6 @@ LXC公式サイトの翻訳
           </li>
         
       
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
         
       
     
@@ -764,50 +749,6 @@ LXC公式サイトの翻訳
         
       
         
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
       
         
       
@@ -842,6 +783,76 @@ LXC公式サイトの翻訳
     
       
         
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
       
         
           <li class="post">
@@ -849,19 +860,11 @@ LXC公式サイトの翻訳
           </li>
         
       
-    
-      
-        
-      
         
       
     
       
         
-      
-        
-      
-    
       
         
       
@@ -885,8 +888,6 @@ LXC公式サイトの翻訳
       
         
       
-        
-      
     
       
         
@@ -909,13 +910,23 @@ LXC公式サイトの翻訳
       
         
       
+        
+      
     
+      
+        
       
         
       
     
       
         
+      
+    
+      
+        
+      
+    
       
         
           <li class="post">
@@ -923,40 +934,6 @@ LXC公式サイトの翻訳
           </li>
         
       
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
         
       
     
@@ -991,9 +968,13 @@ LXC公式サイトの翻訳
       
         
       
+    
+      
         
       
     
+      
+        
       
         
       
@@ -1029,6 +1010,38 @@ LXC公式サイトの翻訳
       
         
       
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
         
       
     
@@ -1048,8 +1061,6 @@ LXC公式サイトの翻訳
         
       
     
-      
-        
       
         
           <li class="post">
@@ -1057,19 +1068,9 @@ LXC公式サイトの翻訳
           </li>
         
       
-    
-      
         
       
     
-      
-        
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1107,6 +1108,18 @@ LXC公式サイトの翻訳
       
         
       
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
     
       
         
@@ -1118,8 +1131,6 @@ LXC公式サイトの翻訳
         
       
     
-      
-        
       
         
           <li class="post">
@@ -1127,8 +1138,6 @@ LXC公式サイトの翻訳
           </li>
         
       
-    
-      
         
       
     
@@ -1194,6 +1203,8 @@ LXC公式サイトの翻訳
     
       
         
+      
+    
       
         
           <li class="post">
@@ -1201,20 +1212,22 @@ LXC公式サイトの翻訳
           </li>
         
       
-    
-      
-        
-      
         
       
     
       
         
+      
+        
+      
+    
       
         
           <li class="post">
             <a href="/blog/2013/12/29/plamo5-dot-2released/">Plamo 5.2 リリース</a>
           </li>
+        
+      
         
       
     
@@ -1229,10 +1242,14 @@ LXC公式サイトの翻訳
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (34)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (9)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (34)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (9)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/03/16/about-plamo6-pkgs/">このページのパッケージ更新情報について</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/01/31/php-7-dot-1-13/">Php 7.1.13</a>
@@ -1248,10 +1265,6 @@ LXC公式サイトの翻訳
     
       <li class="post">
         <a href="/blog/2017/12/13/openssl-1-dot-0-2n/">OpenSSL 1.0.2n</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2017/10/13/thunderbird-52-dot-4-0/">Thunderbird 52.4.0</a>
       </li>
     
   </ul>

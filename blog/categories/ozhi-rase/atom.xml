@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: お知らせ | Plamo Linux]]></title>
+  <link href="http://plamolinux.github.io/blog/categories/ozhi-rase/atom.xml" rel="self"/>
+  <link href="http://plamolinux.github.io/"/>
+  <updated>2018-03-16T16:42:31+09:00</updated>
+  <id>http://plamolinux.github.io/</id>
+  <author>
+    <name><![CDATA[Plamo Linux Project]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[このページのパッケージ更新情報について]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/03/16/about-plamo6-pkgs/"/>
+    <updated>2018-03-16T16:29:36+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/03/16/about-plamo6-pkgs</id>
+    <content type="html"><![CDATA[<p>現在 Plamo 7.0 の開発が進んでいます。それに伴い、このページの更新をしばらくおやすみしたいと思います。</p>
+
+<p>Plamo 6.2 のパッケージ更新は、7.0 開発に伴い頻度はかなり少なくなっています。ただし、全く止まったわけではなく、必要に応じて更新していますので、ftp サイトの Change.Log （例えば <a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/Change.Log">x86_64版</a>）をご覧いただいて確認いただくか、<code>get_pkginfo</code> コマンドにてご確認ください。</p>
+
+<p>このページの更新は、Plamo 7.0 がリリースされたあとに再開したいと思います。</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -9,11 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第27回　LXCへのコミット［1］ こんな話しを聞きたかったと、ずっと思ってました。たまに連載途中に入れて下さい。 &lt; bar-mtomi 日本語マニュアル
-Plamo Linuxテンプレート
-初めてのバグフィックス
-非特権コンテナの動作に関わるパッチ
-まとめ ">
+  <meta name="description" content="第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？ うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？ &lt; bar-mtomi (M.Tomi) コンテナの仕組み
+コンテナのメリット
+コンテナのデメリット &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +20,7 @@ Plamo Linuxテンプレート
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/page/6">
+  <link rel="canonical" href="http://plamolinux.github.io/posts/12">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -82,7 +80,7 @@ Plamo Linuxテンプレート
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/08/01/lxc-gihyo-27/">LXC　空間を歩む　二十七歩め</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC　空間を歩む　第二歩</a></h1>
     
     
       <p class="meta">
@@ -98,22 +96,26 @@ Plamo Linuxテンプレート
   
 
 
-<time datetime="2015-08-01T16:26:58+09:00" pubdate data-updated="true">Aug 1<span>st</span>, 2015</time>
+<time datetime="2014-05-31T14:38:45+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0027">第27回　LXCへのコミット［1］</a></p>
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
+</ul>
 
-<p>こんな話しを聞きたかったと、ずっと思ってました。たまに連載途中に入れて下さい。 &lt; bar-mtomi</p>
 
-<blockquote><pre><code>日本語マニュアル
-Plamo Linuxテンプレート
-初めてのバグフィックス
-非特権コンテナの動作に関わるパッチ
+<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>コンテナの仕組み
+コンテナのメリット
+コンテナのデメリット
+Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
 まとめ
+LXC公式サイトの翻訳
 </code></pre></blockquote>
 </div>
   
@@ -127,7 +129,7 @@ Plamo Linuxテンプレート
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/07/30/subversion-1-dot-7-20/">Subversion 1.7.20</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/05/18/lxc-gihyo-01/">LXC　空間を歩む　第一歩</a></h1>
     
     
       <p class="meta">
@@ -143,308 +145,26 @@ Plamo Linuxテンプレート
   
 
 
-<time datetime="2015-07-30T19:23:09+09:00" pubdate data-updated="true">Jul 30<span>th</span>, 2015</time>
+<time datetime="2014-05-18T21:09:11+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>セキュリティホールの修正を含む subversion 1.7.20 がリリースされています．詳しくは以下をご覧ください．</p>
+  <div class="entry-content"><p> gihyo.jp で、加藤さんの連載 <a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」</a> が始まりました。</p>
 
 <ul>
-<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002129.html">JVNDB-2015-002129 Subversion の mod_dav_svn および svnserve サーバにおけるサービス運用妨害 (DoS) の脆弱性</a> (JVN iPedia)</li>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
 </ul>
 
 
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/subversion-1.7.20-i686-P1.txz">subversion-1.7.20-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/subversion-1.7.20-x86_64-P1.txz">subversion-1.7.20-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/23/mariadb-5-dot-5-44/">Mariadb 5.5.44</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-23T16:51:43+09:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む MariaDB 5.5.44 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://mariadb.com/kb/en/mariadb/security/">Security Vulnerabilities Fixed in MariaDB</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/mariadb-5.5.44-i686-P1.txz">mariadb-5.5.44-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/mariadb-5.5.44-x86_64-P1.txz">mariadb-5.5.44-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/16/libzip-0-dot-11-dot-2/">Libzip 0.11.2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-16T16:21:07+09:00" pubdate data-updated="true">Jul 16<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>libzip にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-002001.html">JVNDB-2015-002001 PHP の ZIP エクステンションなどで使用される libzip の zip_dirent.c の _zip_cdir_new 関数における整数オーバーフローの脆弱性</a> (JVN iPedia)</li>
-</ul>
-
-
-<p>パッチを適用した libzip 0.11.2 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libzip-0.11.2-i686-P1.txz">libzip-0.11.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libzip-0.11.2-x86_64-P1.txz">libzip-0.11.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/14/stunnel-5-dot-20/">Stunnel 5.20</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-07-14T15:51:33+09:00" pubdate data-updated="true">Jul 14<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>stunnel にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.stunnel.org/CVE-2015-3644.html">stunnel: CVE-2015-3644</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/stunnel-5.20-i686-P1.txz">stunnel-5.20-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/stunnel-5.20-x86_64-P1.txz">stunnel-5.20-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/06/10/libtasn1-2-dot-14/">Libtasn1 2.14</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-06-10T18:05:51+09:00" pubdate data-updated="true">Jun 10<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>libtasn1 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2806">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2806</a></li>
-</ul>
-
-
-<p>libtasn1 2.14 に対策パッチを適用したパッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libtasn1-2.14-i686-P1.txz">libtasn1-2.14-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libtasn1-2.14-x86_64-P1.txz">libtasn1-2.14-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/06/09/plamo-linux-utf8/">Plamo LinuxをUTF-8で使う</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-06-09T16:44:14+09:00" pubdate data-updated="true">Jun 9<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">玩式草子─ソフトウェアとたわむれる日々</a> に 「Plamo LinuxをUTF-8で使う」 方法が記載されています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0069">第69回　Plamo LinuxをUTF-8で使う［その1］</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0070">第70回　Plamo LinuxをUTF-8で使う［その2］</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/06/06/lxc-gihyo-26/">LXC　空間を歩む　二十六歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-06-06T15:08:37+09:00" pubdate data-updated="true">Jun 6<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0026">第26回　LXCの構築・活用［12］ ─ APIと言語バインディング</a></p>
-
-<p>えっ～！ ビックリした。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>C言語 から
-Python から
-まとめ
-連載のお礼と今後
+<p>まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>はじめに
+LXCとLinuxにおけるコンテナ技術
+まずは使ってみましょう
+次回以降について
 </code></pre></blockquote>
 </div>
   
@@ -458,7 +178,7 @@ Python から
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/06/01/p-plamo-5-dot-3-1/">P-Plamo 5.3.1 リリース</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/01/18/p-plamo-5-dot-2/">P-Plamo 5.2 リリース</a></h1>
     
     
       <p class="meta">
@@ -474,28 +194,28 @@ Python から
   
 
 
-<time datetime="2015-06-01T16:16:41+09:00" pubdate data-updated="true">Jun 1<span>st</span>, 2015</time>
+<time datetime="2014-01-18T01:23:39+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>P-Plamo 5.3.1 をリリースしました。以下から入手可能です。</p>
+  <div class="entry-content"><p>P-Plamo 5.2 をリリースしました．以下から入手可能です．</p>
 
 <ul>
-<li><a href="http://www.ring.gr.jp/pub/linux/Plamo/">http://www.ring.gr.jp/pub/linux/Plamo/</a>
+<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux</a>
 
 <ul>
-<li>P-Plamo-5.3.1_x86_dvd.iso</li>
-<li>P-Plamo-5.3.1_x86_dvd.iso.md5sum</li>
-<li>P-Plamo-5.3.1_x86_64_dvd.iso</li>
-<li>P-Plamo-5.3.1_x86_64_dvd.iso.md5sum</li>
-<li>P-Plamo-5.3.1_mini_cd.iso</li>
-<li>P-Plamo-5.3.1_mini_cd.iso.md5sum</li>
+<li>P-Plamo-5.2_x86_dvd.iso</li>
+<li>P-Plamo-5.2_x86_dvd.iso.md5sum</li>
+<li>P-Plamo-5.2_x86_64_dvd.iso</li>
+<li>P-Plamo-5.2_x86_64_dvd.iso.md5sum</li>
+<li>P-Plamo-5.2_mini_cd.iso</li>
+<li>P-Plamo-5.2_mini_cd.iso.md5sum</li>
 </ul>
 </li>
-<li>メーリングリストに<a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201505/msg00009.html">告知と簡単な使い方</a>が投稿されていますのでご覧ください。</li>
+<li><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201401/msg00034.html">メーリングリストでの告知</a></li>
 </ul>
 
 </div>
@@ -510,7 +230,7 @@ Python から
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/05/26/fuse-2-dot-9-4/">Fuse 2.9.4</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/01/14/update-from5-dot-1to5-dot-2/">Plamo 5.1 から 5.2 への更新</a></h1>
     
     
       <p class="meta">
@@ -526,25 +246,172 @@ Python から
   
 
 
-<time datetime="2015-05-26T20:33:56+09:00" pubdate data-updated="true">May 26<span>th</span>, 2015</time>
+<time datetime="2014-01-14T19:52:24+09:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>セキュリティホールの修正を含む fuse 2.9.4 がリリースされています。詳しくは以下をご覧ください。</p>
+  <div class="entry-content"><p>Plamo 5.1 から 5.2 への更新が可能になりました．</p>
+
+<p>以下は <a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201401/msg00020.html">メーリングリスト投稿</a> からの抜粋です．</p>
+
+<pre>
+ずいぶん遅くなりましたが，FTPサイトの Update/5.1_5.2/ 以下に，
+32ビット版(x86/)，64ビット版(x86_64)それぞれの更新されたパッケージを
+まとめてみました．
+
+ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/Update/5.1_5.2/{x86,x86_64}/plamo/
+  00_base/        02_x11/         04_xapps/       06_xfce/        10_lof/
+  01_minimum/     03_xclassics/   05_ext/         07_kde/         11_mate/
+
+各ディレクトリは Plamo-5.1 のソフトウェアカテゴリに対応しているので，
+ディレクトリごとダウンロード後，インストールされたカテゴリに合わせて，
+各ディレクトリ中の update.sh を実行すれば必要な更新を行うようにしています．
+
+なお，設定ファイルの修正のみでバージョンが上がっているパッケージは，既
+存の設定ファイルを上書きしてしまうのもマズいので，パッチ等で必要な修正を
+施すようにしてみました．
+
+# そういう処理は 00_base/update.sh に集中しているので，興味ある方は実行<br/>
+# 前にご確認ください．
+
+一応，手もとのVirtualBox上では特に問題なく 5.1 -> 5.2 に更新できていま
+すが，念のため，環境に応じて修正された設定ファイル等はバックアップをお
+願いします．
+
+なお，たいていの環境では大丈夫だと思うものの，update.sh を実行する前に
+telinit S でシングルユーザーモードに落して不要なサーバ類を止めておく方
+が安全でしょう．
+</pre>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/12/29/plamo5-dot-2released/">Plamo 5.2 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-29T12:36:02+09:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo-5.2 をリリースしました．</p>
+
+<p>Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください．</p>
 
 <ul>
-<li><a href="http://www.openwall.com/lists/oss-security/2015/05/21/9">http://www.openwall.com/lists/oss-security/2015/05/21/9</a></li>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053">玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2</a></li>
 </ul>
 
 
-<p>パッケージをリリースしました。</p>
+<p>他に，メンテナであるこじまさんのブログの 12 月あたりに色々と関連するメモがあります．</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/fuse-2.9.4-i686-P1.txz">fuse-2.9.4-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/fuse-2.9.4-x86_64-P1.txz">fuse-2.9.4-x86_64-P1.txz (64bit)</a></li>
+<li><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima">http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima</a></li>
+</ul>
+
+
+<p>DVD イメージは以下からダウンロードできます．</p>
+
+<ul>
+<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
+<li><p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</p></li>
+<li><p><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html">アナウンスへのリンク</a></p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/22/plamo-5-dot-1-release/">Plamo 5.1 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-22T00:00:00+09:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo-5.1 をリリースしました．</p>
+
+<p>以下はメーリングリストへの投稿の抜粋です．</p>
+
+<pre><code>すでに一部の人はお気付きのことと思いますが，先週の22日くらいまでの更新
+でPlamo-5.1ということにしてDVDイメージを作成，公開しました．
+
+$ ls -lh plamo-5.1*
+-rw-r--r-- 1 kojima plamo 3.1G 2013-05-22 16:26 plamo-5.1_x86_64_dvd.iso
+-rw-r--r-- 1 kojima plamo   59 2013-05-25 10:37 plamo-5.1_x86_64_dvd.iso.md5sum
+-rw-r--r-- 1 kojima plamo 3.3G 2013-05-22 16:21 plamo-5.1_x86_dvd.iso
+-rw-r--r-- 1 kojima plamo   56 2013-05-25 10:38 plamo-5.1_x86_dvd.iso.md5sum
+
+すでに kddlabs にもミラーいただいているようなので，こちらの方が回線が太
+くてお勧めです．
+
+ftp://ftp.kddlabs.co.jp/020/Linux/packages/plamolinux/
+plamo-5.1_x86_64_dvd.iso                plamo-5.1_x86_dvd.iso
+plamo-5.1_x86_64_dvd.iso.md5sum         plamo-5.1_x86_dvd.iso.md5sum
+
+よく見ると md5sum の日付けが3日ほど遅れているのに気づくと思いますが，
+DVD名から日付けを抜く際に直した結果なのでご心配なく．
+
+今回はPlamo-5.0からのメンテナンスリリースなので，Plamo-5.0からのアップ
+デート集も用意してみました．
+</code></pre>
+
+<p>アップデートを使用する場合の注意点等がありますので以下を参照して下さい。</p>
+
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201305/msg00018.html">アナウンスへのリンク</a></li>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046">玩式草子 「第46回　Plamo-5.1 released」</a></li>
 </ul>
 
 </div>
@@ -556,11 +423,9 @@ Python から
   
   <div class="pagination">
     
-      <a class="prev" href="/blog/page/7/">&larr; Older</a>
-    
     <a href="/blog/archives">Blog Archives</a>
     
-    <a class="next" href="/blog/page/5/">Newer &rarr;</a>
+    <a class="next" href="11">Newer &rarr;</a>
     
   </div>
 </div>
@@ -573,8 +438,6 @@ Python から
       
         
       
-        
-      
     
       
         
@@ -620,6 +483,10 @@ Python から
     
       
         
+      
+        
+      
+    
       
         
           <li class="post">
@@ -627,20 +494,6 @@ Python から
           </li>
         
       
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
         
       
     
@@ -656,14 +509,6 @@ Python から
         
       
     
-      
-        
-      
-        
-      
-    
-      
-        
       
         
       
@@ -715,6 +560,30 @@ Python から
       
         
       
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
         
       
     
@@ -726,8 +595,6 @@ Python から
         
       
     
-      
-        
       
         
           <li class="post">
@@ -735,32 +602,6 @@ Python から
           </li>
         
       
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
         
       
     
@@ -772,50 +613,6 @@ Python から
         
       
         
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
       
         
       
@@ -850,6 +647,76 @@ Python から
     
       
         
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+    
       
         
           <li class="post">
@@ -857,19 +724,11 @@ Python から
           </li>
         
       
-    
-      
-        
-      
         
       
     
       
         
-      
-        
-      
-    
       
         
       
@@ -893,8 +752,6 @@ Python から
       
         
       
-        
-      
     
       
         
@@ -917,13 +774,23 @@ Python から
       
         
       
+        
+      
     
+      
+        
       
         
       
     
       
         
+      
+    
+      
+        
+      
+    
       
         
           <li class="post">
@@ -931,40 +798,6 @@ Python から
           </li>
         
       
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-    
-      
         
       
     
@@ -999,9 +832,13 @@ Python から
       
         
       
+    
+      
         
       
     
+      
+        
       
         
       
@@ -1037,6 +874,38 @@ Python から
       
         
       
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
         
       
     
@@ -1056,8 +925,6 @@ Python から
         
       
     
-      
-        
       
         
           <li class="post">
@@ -1065,19 +932,9 @@ Python から
           </li>
         
       
-    
-      
         
       
     
-      
-        
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1115,6 +972,18 @@ Python から
       
         
       
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
     
       
         
@@ -1126,8 +995,6 @@ Python から
         
       
     
-      
-        
       
         
           <li class="post">
@@ -1135,8 +1002,6 @@ Python から
           </li>
         
       
-    
-      
         
       
     
@@ -1202,6 +1067,8 @@ Python から
     
       
         
+      
+    
       
         
           <li class="post">
@@ -1209,20 +1076,22 @@ Python から
           </li>
         
       
-    
-      
-        
-      
         
       
     
       
         
+      
+        
+      
+    
       
         
           <li class="post">
             <a href="/blog/2013/12/29/plamo5-dot-2released/">Plamo 5.2 リリース</a>
           </li>
+        
+      
         
       
     
@@ -1237,10 +1106,14 @@ Python から
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>P-Plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>Plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>Plamo 6.x 情報 (34)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (9)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (34)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (9)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/03/16/about-plamo6-pkgs/">このページのパッケージ更新情報について</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/01/31/php-7-dot-1-13/">Php 7.1.13</a>
@@ -1256,10 +1129,6 @@ Python から
     
       <li class="post">
         <a href="/blog/2017/12/13/openssl-1-dot-0-2n/">OpenSSL 1.0.2n</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2017/10/13/thunderbird-52-dot-4-0/">Thunderbird 52.4.0</a>
       </li>
     
   </ul>
