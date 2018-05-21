@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む tcpdump 4.7.3 がリリースされています。詳しくは以下をご覧ください。 tcpdump 4.7.2 remote crashes パッケージをリリースしました。(libpcap も同時に更新しました) libpcap-1.7.2-i686-P1.txz ( &hellip;">
+  <meta name="description" content="*第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop） 今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi LVMを使ったコンテナに対するlxc-snapshotコマンドの実行 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,44 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/03/28/lxc-gihyo-22/">LXC　空間を歩む　二十二歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-03-28T16:41:03+09:00'><span class='date'>2015-03-28</span> <span class='time'>16:41</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0022">第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop）</a></p>
+
+<p>今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LVMを使ったコンテナに対するlxc-snapshotコマンドの実行
+loopストレージバックエンドを使ったコンテナの作成
+loopストレージバックエンドを使ったコンテナのクローンとスナップショット
+まとめ
+LXC 1.1.1
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -449,48 +487,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/13/sudo-1-dot-8-12/">Sudo 1.8.12</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-02-13T15:32:40+09:00'><span class='date'>2015-02-13</span> <span class='time'>15:32</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>sudo にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://www.sudo.ws/sudo/alerts/tz.html">Arbitrary file access via TZ environment variable</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/00_base/sudo-1.8.12-i686-P1.txz">sudo-1.8.12-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/00_base/sudo-1.8.12-x86_64-P1.txz">sudo-1.8.12-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/9">&larr; Older</a>
@@ -506,6 +502,10 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
     
       
         
@@ -1178,10 +1178,14 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (34)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (9)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (8)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (34)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (9)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/05/21/ganshiki-soushi-97/">玩式草子─ソフトウェアとたわむれる日々　第97回　そろそろ出しますPlamo-7.0</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/03/16/about-plamo6-pkgs/">このページのパッケージ更新情報について</a>
@@ -1197,10 +1201,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     
       <li class="post">
         <a href="/blog/2018/01/17/bind-9-dot-9-11-p1/">Bind 9.9.11-P1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2017/12/13/openssl-1-dot-0-2n/">OpenSSL 1.0.2n</a>
       </li>
     
   </ul>

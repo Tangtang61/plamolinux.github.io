@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 玩式草子 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/wan-shi-cao-zi/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-05-21T18:33:25+09:00</updated>
+  <updated>2018-05-21T18:50:33+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第97回　そろそろ出しますPlamo-7.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/05/21/ganshiki-soushi-97/"/>
+    <updated>2018-05-21T18:45:24+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/05/21/ganshiki-soushi-97</id>
+    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>にリリースが近いPlamo-7.0の話題が掲載されています。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0097">第97回　そろそろ出しますPlamo-7.0</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第86回　Plamo Linuxのビルドスクリプト再び]]></title>
@@ -66,20 +80,6 @@
 
 <ul>
 <li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078">第78回　Plamo LinuxのGPT/UEFI対応［その2］</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第77回　Plamo LinuxのGPT/UEFI対応［その1］]]></title>
-    <link href="http://plamolinux.github.io/blog/2015/12/25/ganshiki-soush/"/>
-    <updated>2015-12-25T16:05:15+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2015/12/25/ganshiki-soush</id>
-    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0077">第77回　Plamo LinuxのGPT/UEFI対応［その1］</a></li>
 </ul>
 
 ]]></content>
