@@ -17,6 +17,7 @@ Plamo のリリースバージョン毎に時系列で，開発の歩み及び�
 * [Plamo Linux 64 シリーズ](#plamo64)
 * [Plamo Linux 5.x シリーズ](#plamo5)
 * [Plamo Linux 6.x シリーズ](#plamo6)
+* [Plamo Linux 7.x シリーズ](#plamo7)
 
 ### <a name="plagia">Plagia 時代</a>
 
@@ -310,3 +311,7 @@ Plamo64-1.0 のパッケージを更新するとともに，32bit 環境をそ�
     * 6.0 から 211 のパッケージ更新
 * 2017-02-17 : Plamo 6.2 リリース
   * Plamo 6.1 以降に更新されたパッケージに追随するためのリリース
+
+### <a name="plamo7">Plamo Linux 7.x シリーズ</a>
+
+* 2018-05-19 : Plamo 7.0 beta1 リリース
