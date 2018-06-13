@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
+  <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
+  <link href="http://plamolinux.github.io/"/>
+  <updated>2018-06-13T14:43:08+09:00</updated>
+  <id>http://plamolinux.github.io/</id>
+  <author>
+    <name><![CDATA[Plamo Linux Project]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Plamo 7.0 リリース]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/13/plamo-7-dot-0/"/>
+    <updated>2018-06-13T14:30:36+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/13/plamo-7-dot-0</id>
+    <content type="html"><![CDATA[<p>Plamo 7.0 をリリースしました。</p>
+
+<p>Plamo 7.0 は DVD イメージ 2 枚組です。2 枚目は texlive と contrib のみ収録ですので、使用しない方は不要です。</p>
+
+<pre><code>-rw-rw-r--   1 kojima   plamo    2277244928 Jun 12 23:29 plamo-7.0_x86_64_01.iso
+-rw-rw-r--   1 kojima   plamo          58 Jun 12 23:35 plamo-7.0_x86_64_01.iso.md5sum
+-rw-rw-r--   1 kojima   plamo    2532751360 Jun 12 23:29 plamo-7.0_x86_64_02.iso
+-rw-rw-r--   1 kojima   plamo          58 Jun 12 23:35 plamo-7.0_x86_64_02.iso.md5sum
+</code></pre>
+
+<p>ダウンロードは <a href="/download/">ダウンロード</a> ページ記載のサイトからどうぞ。</p>
+
+<p>Plamo 7.0 に関しての詳細はこじまさんが gihyo.jp で連載中の「玩式草子─ソフトウェアとたわむれる日々」の記事をご覧ください。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0097">第97回　そろそろ出しますPlamo-7.0</a></li>
+</ul>
+
+
+<p>またメンテナによるメモもご参考にどうぞ。</p>
+
+<ul>
+<li><a href="https://qiita.com/tenforward/items/921b108266a7c9d984eb">Plamo Linux 7.0 パッケージ作成メモ</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
