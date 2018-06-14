@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="autofs にセキュリティホールが発見されています。詳しくは以下をご覧ください。 https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8169 パッケージをリリースしました。 autofs-5.1.1-i686-P1.txz ( &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む libxml2 2.9.3 がリリースされています。詳しくは以下をご覧ください。 [xml] Release of libxml2-2.9.3 (上記メールはタイトルが間違ってますので上記では修正しています。上記に挙がっている脆弱性の一部は Plamo &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,92 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/22/libxml2-2-dot-9-3/">Libxml2 2.9.3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-12-22T19:00:00+09:00'><span class='date'>2015-12-22</span> <span class='time'>19:00</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>セキュリティホールの修正を含む libxml2 2.9.3 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://mail.gnome.org/archives/xml/2015-November/msg00012.html">[xml] Release of libxml2-2.9.3</a></li>
+</ul>
+
+
+<p>(上記メールはタイトルが間違ってますので上記では修正しています。上記に挙がっている脆弱性の一部は Plamo パッケージではパッチで対処済みでした)</p>
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/libxml2-2.9.3-i686-P1.txz">libxml2-2.9.3-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/libxml2-2.9.3-x86_64-P1.txz">libxml2-2.9.3-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/04/lxc-gihyo-29/">LXC　空間を歩む　二十九歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-12-04T15:49:39+09:00'><span class='date'>2015-12-04</span> <span class='time'>15:49</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0029">第29回　LXC 1.1［1］</a></p>
+
+<p>あっという間に、覚えたことが古くなる。&lt; bar-mtomi</p>
+
+<blockquote><pre><code>lxc-startのデフォルト動作の変更
+アプリケーションコンテナ環境の構築が楽に
+全コンテナをまとめて起動
+lxc-lsの新しい出力項目
+lxc-topコマンドのバイナリ化
+コンテナ作成時にテンプレートの指定が必須に
+lxc-config lxc.cgroup.* の表示
+lxc-start-ephemeral --cdir オプション
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -225,48 +311,6 @@ linuxcontainers.org翻訳
 まとめ
 第8回 コンテナ型仮想化の情報交換会＠東京
 </code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/11/16/git-2-dot-6-3/">Git 2.6.3</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-11-16T16:18:46+09:00'><span class='date'>2015-11-16</span> <span class='time'>16:18</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>git のセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1269794">git: arbitrary code execution via crafted URLs</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/devel2.txz/git-2.6.3-i686-P1.txz">git-2.6.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/05_ext/devel2.txz/git-2.6.3-x86_64-P1.txz">git-2.6.3-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
 </div>
   
   
@@ -531,48 +575,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/09/14/screen-4-dot-3-1/">Screen 4.3.1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-09-14T15:38:19+09:00'><span class='date'>2015-09-14</span> <span class='time'>15:38</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>screen にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://seclists.org/oss-sec/2015/q3/485">oss-sec: Re: CVE request: screen stack overflow (deep recursion)</a></li>
-</ul>
-
-
-<p>対策パッチを適用したパッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/screen-4.3.1-i686-P1.txz">screen-4.3.1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/screen-4.3.1-x86_64-P1.txz">screen-4.3.1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/6">&larr; Older</a>
@@ -591,6 +593,34 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
     
       
         
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
           <li class="post">
             <a href="/blog/2018/06/13/plamo-7-dot-0/">Plamo 7.0 リリース</a>
           </li>
@@ -603,18 +633,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
         
       
     
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
       
         
       
@@ -677,12 +695,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -853,14 +865,6 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
         
       
     
-      
-        
-      
-    
-      
-        
-      
-        
       
         
       
@@ -1274,29 +1278,29 @@ DVDイメージをUSBメモリの先頭から「ベタ書き」します．</p>
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (34)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (1)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (31)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (5)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2018/06/13/plamo-7-dot-0/">Plamo 7.0 リリース</a>
+        <a href="/blog/2018/06/14/git-2-dot-17-1/">Git 2.17.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/05/21/ganshiki-soushi-97/">玩式草子─ソフトウェアとたわむれる日々　第97回　そろそろ出しますPlamo-7.0</a>
+        <a href="/blog/2018/06/14/curl-7-dot-60-dot-0/">Curl 7.60.0</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/03/16/about-plamo6-pkgs/">このページのパッケージ更新情報について</a>
+        <a href="/blog/2018/06/14/thunderbird-52-dot-8-0/">Thunderbird 52.8.0</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/01/31/php-7-dot-1-13/">Php 7.1.13</a>
+        <a href="/blog/2018/06/14/firefox-60-dot-0-1/">Firefox 60.0.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/01/31/firefox-52-dot-6-0/">Firefox 52.6.0esr</a>
+        <a href="/blog/2018/06/14/libvpx-1-dot-7-0/">Libvpx 1.7.0</a>
       </li>
     
   </ul>

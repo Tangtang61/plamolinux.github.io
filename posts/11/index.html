@@ -9,9 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第14回　LXCの構築・活用 [2] — コンテナを作成・構築する 今回の内容はトレースして、自分なりに理解したいと思いました。良い内容です。 &lt; bar-mtomi Plamoテンプレートを使ったコンテナの作成
-複数のユーザによるコンテナの作成とネットワーク構成
-まとめ ">
+  <meta name="description" content="*第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う 今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi Linuxにおける主なサウンドシステム・ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +73,46 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/07/lxc-gihyo-15/">LXC　空間を歩む　十五歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-12-07T17:11:50+09:00'><span class='date'>2014-12-07</span> <span class='time'>17:11</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0015">第15回　LXCの構築・活用 [3] — コンテナ内でサウンドを取り扱う</a></p>
+
+<p>今回は LXC 抜きにしても「サウンド関係はこんな使い方ができるんじゃないかな？」って勉強になりました（ LXC の勉強してない私 (^^; ）。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Linuxにおける主なサウンドシステム・サウンドサーバ
+OSSを経由してサウンドを出力する
+コンテナ内でサウンドを出力する（OSS）
+コンテナ内でサウンドを出力する（ALSA）
+非特権コンテナ内でサウンドを出力する
+サウンドサーバを使ってコンテナ内のサウンドを出力する
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -427,47 +465,6 @@ LXC日本語ページの移行
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/07/10/lxc-gihyo-05/">LXC　空間を歩む　五歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-07-10T12:54:36+09:00'><span class='date'>2014-07-10</span> <span class='time'>12:54</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0005">第5回　Linuxカーネルのコンテナ機能［4］ ─cgroupとは？（その3）</a></li>
-</ul>
-
-
-<p>もう読むだけではダメだ。 名前空間, cgroup, サブシステム等と LXC （コンテナ &lt;&ndash; 使ってないし） と、ホストがらみの関係 ！？ &lt; bar-mtomi (M.Tomi)<br/>
-　　いや？ コンテナに（限らず？）於いては、ホストに影響を与えない様にするためか？ &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>サブシステム紹介（続き）
-cgroup の今後
-まとめ
-LXC-JPグループ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/12">&larr; Older</a>
@@ -486,6 +483,34 @@ LXC-JPグループ
     
       
         
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
           <li class="post">
             <a href="/blog/2018/06/13/plamo-7-dot-0/">Plamo 7.0 リリース</a>
           </li>
@@ -498,18 +523,6 @@ LXC-JPグループ
         
       
     
-      
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
       
         
       
@@ -572,12 +585,6 @@ LXC-JPグループ
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -748,14 +755,6 @@ LXC-JPグループ
         
       
     
-      
-        
-      
-    
-      
-        
-      
-        
       
         
       
@@ -1169,29 +1168,29 @@ LXC-JPグループ
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (50)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (34)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (1)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (31)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (5)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2018/06/13/plamo-7-dot-0/">Plamo 7.0 リリース</a>
+        <a href="/blog/2018/06/14/git-2-dot-17-1/">Git 2.17.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/05/21/ganshiki-soushi-97/">玩式草子─ソフトウェアとたわむれる日々　第97回　そろそろ出しますPlamo-7.0</a>
+        <a href="/blog/2018/06/14/curl-7-dot-60-dot-0/">Curl 7.60.0</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/03/16/about-plamo6-pkgs/">このページのパッケージ更新情報について</a>
+        <a href="/blog/2018/06/14/thunderbird-52-dot-8-0/">Thunderbird 52.8.0</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/01/31/php-7-dot-1-13/">Php 7.1.13</a>
+        <a href="/blog/2018/06/14/firefox-60-dot-0-1/">Firefox 60.0.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/01/31/firefox-52-dot-6-0/">Firefox 52.6.0esr</a>
+        <a href="/blog/2018/06/14/libvpx-1-dot-7-0/">Libvpx 1.7.0</a>
       </li>
     
   </ul>

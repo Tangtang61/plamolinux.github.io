@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-06-13T15:16:35+09:00</updated>
+  <updated>2018-06-14T15:15:45+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,97 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git 2.17.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/14/git-2-dot-17-1/"/>
+    <updated>2018-06-14T15:15:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/14/git-2-dot-17-1</id>
+    <content type="html"><![CDATA[<p>git のセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://public-inbox.org/git/xmqqy3g2flb6.fsf@gitster-ct.c.googlers.com/">[ANNOUNCE] Git v2.17.1, v2.13.7, v2.14.4, v2.15.2 and v2.16.4</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/02_devel/git-2.17.1-x86_64-B1.txz">git-2.17.1-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Curl 7.60.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0/"/>
+    <updated>2018-06-14T15:15:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.60.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/changes.html">Changelog</a></li>
+<li><a href="https://curl.haxx.se/docs/security.html">curl Security</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-B1.txz">curl-7.60.0-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 60.0.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/14/firefox-60-dot-0-1/"/>
+    <updated>2018-06-14T15:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/14/firefox-60-dot-0-1</id>
+    <content type="html"><![CDATA[<p>firefox 60.0.1 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://www.mozilla.jp/firefox/60.0.1/releasenotes/">Firefox 60.0.1 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox60">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。nspr, nss, sqlite, 先にリリースした <a href="/blog/2018/06/14/libvpx-1-dot-7-0/">libvpx 1.7.0</a> を同時にインストールする必要があります。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/firefox-60.0.1-x86_64-B1.txz">firefox-60.0.1-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.19-x86_64-B1.txz">nspr-4.19-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.37.1-x86_64-B1.txz">nss-3.37.1-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.23.1-x86_64-B1.txz">sqlite-3.23.1-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Libvpx 1.7.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/14/libvpx-1-dot-7-0/"/>
+    <updated>2018-06-14T14:45:23+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/14/libvpx-1-dot-7-0</id>
+    <content type="html"><![CDATA[<p>libvpx パッケージを 1.7.0 に更新しました。それに伴い他のパッケージも更新しています。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/libvpx-1.7.0-x86_64-B1.txz">libvpx-1.7.0-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/babl-0.1.46-x86_64-B1.txz">babl-0.1.46-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/ffmpeg-3.4.2-x86_64-B4.txz">ffmpeg-3.4.2-x86_64-B4.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/gst_plugins_good-1.12.5-x86_64-B2.txz">gst_plugins_good-1.12.5-x86_64-B2.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/04_x11/gegl-0.3.34-x86_64-B1.txz">gegl-0.3.34-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/libquicktime-1.2.4-x86_64-B2.txz">libquicktime-1.2.4-x86_64-B2.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/mplayer-20180514-x86_64-B1.txz">mplayer-20180514-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/vlc-3.0.2-x86_64-B1.txz">vlc-3.0.2-x86_64-B1.txz</a></li>
+</ul>
+
+
+<p>更新の場合は同時に更新してください。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Plamo 7.0 リリース]]></title>
