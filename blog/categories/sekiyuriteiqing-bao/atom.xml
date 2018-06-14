@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-06-14T15:15:45+09:00</updated>
+  <updated>2018-06-14T19:54:29+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,63 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Curl 7.60.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0/"/>
+    <updated>2018-06-14T19:55:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0</id>
+    <content type="html"><![CDATA[<p>（2018-06-14 20:00 Plamo 6.2 用のパッケージ情報を追加しました）</p>
+
+<p>セキュリティホールの修正を含む curl 7.60.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/changes.html">Changelog</a></li>
+<li><a href="https://curl.haxx.se/docs/security.html">curl Security</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li>Plamo 7.0
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-B1.txz">curl-7.60.0-x86_64-B1.txz</a></li>
+</ul>
+</li>
+<li>Plamo 6.2
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/01_minimum/network.txz/curl-7.60.0-i686-P1.txz">curl-7.60.0-i686-P1.txz (32bit)</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-P1.txz">curl-7.60.0-x86_64-P1.txz (32bit)</a></li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wget 1.19.5]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/14/wget-1-dot-19-5/"/>
+    <updated>2018-06-14T19:40:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/14/wget-1-dot-19-5</id>
+    <content type="html"><![CDATA[<p>wget にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://openwall.com/lists/oss-security/2018/05/06/1">CVE-2018-0494</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wget-1.19.5-x86_64-B1.txz">wget-1.19.5-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 2.17.1]]></title>
@@ -29,28 +86,6 @@
 
 <ul>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/02_devel/git-2.17.1-x86_64-B1.txz">git-2.17.1-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Curl 7.60.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0/"/>
-    <updated>2018-06-14T15:15:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む curl 7.60.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://curl.haxx.se/changes.html">Changelog</a></li>
-<li><a href="https://curl.haxx.se/docs/security.html">curl Security</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-B1.txz">curl-7.60.0-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
@@ -101,28 +136,6 @@
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.19-x86_64-B1.txz">nspr-4.19-x86_64-B1.txz</a></li>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.37.1-x86_64-B1.txz">nss-3.37.1-x86_64-B1.txz</a></li>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.23.1-x86_64-B1.txz">sqlite-3.23.1-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 7.1.13]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/01/31/php-7-dot-1-13/"/>
-    <updated>2018-01-31T17:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/01/31/php-7-dot-1-13</id>
-    <content type="html"><![CDATA[<p>PHP 7.1.13 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.1.13">PHP 7.1.13 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.13-i686-P1.txz">php-7.1.13-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.13-x86_64-P1.txz">php-7.1.13-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-06-14T15:15:45+09:00</updated>
+  <updated>2018-06-14T19:54:29+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Curl 7.60.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0/"/>
+    <updated>2018-06-14T19:55:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0</id>
+    <content type="html"><![CDATA[<p>（2018-06-14 20:00 Plamo 6.2 用のパッケージ情報を追加しました）</p>
+
+<p>セキュリティホールの修正を含む curl 7.60.0 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://curl.haxx.se/changes.html">Changelog</a></li>
+<li><a href="https://curl.haxx.se/docs/security.html">curl Security</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました．</p>
+
+<ul>
+<li>Plamo 7.0
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-B1.txz">curl-7.60.0-x86_64-B1.txz</a></li>
+</ul>
+</li>
+<li>Plamo 6.2
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/01_minimum/network.txz/curl-7.60.0-i686-P1.txz">curl-7.60.0-i686-P1.txz (32bit)</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-P1.txz">curl-7.60.0-x86_64-P1.txz (32bit)</a></li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 52.8.0]]></title>
@@ -99,29 +135,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2n-i686-P1.txz">openssl-1.0.2n-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2n-x86_64-P1.txz">openssl-1.0.2n-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Httpd 2.4.28]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/10/12/httpd-2-dot-4-28/"/>
-    <updated>2017-10-12T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/10/12/httpd-2-dot-4-28</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.28 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.28 Released</a></li>
-<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.28">Changes with Apache 2.4.28</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.28-i686-P1.txz">httpd-2.4.28-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.28-x86_64-P1.txz">httpd-2.4.28-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
