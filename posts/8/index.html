@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="libtiff にセキュリティホールが発見されています．詳しくは以下をご覧ください． http://openwall.com/lists/oss-security/2015/01/24/15
-http://openwall.com/lists/oss-security/2015/02/07/5 &hellip;">
+  <meta name="description" content="*第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1) ephemeral の意味をしらべて、そうなのか？ … でも &ndash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi lxc-start- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,45 @@ http://openwall.com/lists/oss-security/2015/02/07/5 &hellip;">
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/04/11/lxc-gihyo-23/">LXC　空間を歩む　二十三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-04-11T14:37:30+09:00'><span class='date'>2015-04-11</span> <span class='time'>14:37</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0023">第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1)</a></p>
+
+<p>ephemeral の意味をしらべて、そうなのか？ … でも &ndash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>lxc-start-ephemeralコマンドの概要
+まずは使ってみましょう
+lxc-start-ephemeralコマンドのオプション
+lxc-start-ephemeralコマンドの仕組みとフック
+lxc-start-ephemeralのその他の使い方
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -445,50 +483,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/02/17/freetype-2-dot-5-5/">Freetype 2.5.5</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-02-17T15:51:12+09:00'><span class='date'>2015-02-17</span> <span class='time'>15:51</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>セキュリティホールの修正を含む freetype 2.5.5 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.4/</a></li>
-<li><a href="http://sourceforge.net/projects/freetype/files/freetype2/2.5.5/">http://sourceforge.net/projects/freetype/files/freetype2/2.5.5/</a></li>
-<li>その他 CVE-2014-9656 〜 CVE-2014-9675 までの修正が行われています。<a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9675">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9675</a> 等をご覧ください。</li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/02_x11/TTfont.txz/freetype-2.5.5-i686-P1.txz">freetype-2.5.5-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/02_x11/TTfont.txz/freetype-2.5.5-x86_64-P1.txz">freetype-2.5.5-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/9">&larr; Older</a>
@@ -504,6 +498,12 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1194,10 +1194,14 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (31)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (6)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (31)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (7)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/06/14/gnupg-2-dot-2-8/">GnuPG 2.2.8</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/06/14/curl-7-dot-60-dot-0/">Curl 7.60.0</a>
@@ -1213,10 +1217,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     
       <li class="post">
         <a href="/blog/2018/06/14/thunderbird-52-dot-8-0/">Thunderbird 52.8.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/06/14/firefox-60-dot-0-1/">Firefox 60.0.1</a>
       </li>
     
   </ul>

@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="玩式草子─ソフトウェアとたわむれる日々 に 「Plamo LinuxをUTF-8で使う」 方法が記載されています。 第69回　Plamo LinuxをUTF-8で使う［その1］
-第70回　Plamo LinuxをUTF-8で使う［その2］ ">
+  <meta name="description" content="libtasn1 にセキュリティホールが発見されています。詳しくは以下をご覧ください。 https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2806 libtasn1 2.14 に対策パッチを適用したパッケージをリリースしました。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,48 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/06/10/libtasn1-2-dot-14/">Libtasn1 2.14</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-06-10T18:05:51+09:00'><span class='date'>2015-06-10</span> <span class='time'>18:05</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>libtasn1 にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2806">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2806</a></li>
+</ul>
+
+
+<p>libtasn1 2.14 に対策パッチを適用したパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/gnupg_tls.txz/libtasn1-2.14-i686-P1.txz">libtasn1-2.14-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libtasn1-2.14-x86_64-P1.txz">libtasn1-2.14-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -437,45 +478,6 @@ LXC 1.1.2
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/04/11/lxc-gihyo-23/">LXC　空間を歩む　二十三歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-04-11T14:37:30+09:00'><span class='date'>2015-04-11</span> <span class='time'>14:37</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0023">第23回　LXCの構築・活用［9］─ lxc-start-ephemeralとフック(1)</a></p>
-
-<p>ephemeral の意味をしらべて、そうなのか？ … でも &ndash;keep-data でコンテナイメージを残せるんだ。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>lxc-start-ephemeralコマンドの概要
-まずは使ってみましょう
-lxc-start-ephemeralコマンドのオプション
-lxc-start-ephemeralコマンドの仕組みとフック
-lxc-start-ephemeralのその他の使い方
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/8">&larr; Older</a>
@@ -491,6 +493,12 @@ lxc-start-ephemeralのその他の使い方
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
     
       
         
@@ -1181,10 +1189,14 @@ lxc-start-ephemeralのその他の使い方
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (31)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (6)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (64)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (31)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (7)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/06/14/gnupg-2-dot-2-8/">GnuPG 2.2.8</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/06/14/curl-7-dot-60-dot-0/">Curl 7.60.0</a>
@@ -1200,10 +1212,6 @@ lxc-start-ephemeralのその他の使い方
     
       <li class="post">
         <a href="/blog/2018/06/14/thunderbird-52-dot-8-0/">Thunderbird 52.8.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/06/14/firefox-60-dot-0-1/">Firefox 60.0.1</a>
       </li>
     
   </ul>
