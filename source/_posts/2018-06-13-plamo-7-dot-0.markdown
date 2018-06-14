@@ -22,6 +22,7 @@ Plamo 7.0 は DVD イメージ 2 枚組です。2 枚目は texlive と contrib 
 Plamo 7.0 に関しての詳細はこじまさんが gihyo.jp で連載中の「玩式草子─ソフトウェアとたわむれる日々」の記事をご覧ください。
 
 * [第97回　そろそろ出しますPlamo-7.0](http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0097)
+* [第98回　Plamo-7.0とUTF-8](http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0098)
 
 またメンテナによるメモもご参考にどうぞ。
 
