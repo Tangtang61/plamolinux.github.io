@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-06-14T21:17:43+09:00</updated>
+  <updated>2018-07-19T15:32:19+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -44,31 +44,6 @@
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-P1.txz">curl-7.60.0-x86_64-P1.txz (32bit)</a></li>
 </ul>
 </li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 52.8.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/06/14/thunderbird-52-dot-8-0/"/>
-    <updated>2018-06-14T15:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/06/14/thunderbird-52-dot-8-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 52.8.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.mozilla.org/en-US/thunderbird/52.8.0/releasenotes/">Thunderbird 52.8.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird52.8">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。nspr, nss, sqlite, 先にリリースした <a href="/blog/2018/06/14/libvpx-1-dot-7-0/">libvpx 1.7.0</a> を同時にインストールする必要があります。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-52.8.0-x86_64-B1.txz">thunderbird-52.8.0-x86_64-B1.txz</a></li>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.19-x86_64-B1.txz">nspr-4.19-x86_64-B1.txz</a></li>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.37.1-x86_64-B1.txz">nss-3.37.1-x86_64-B1.txz</a></li>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.23.1-x86_64-B1.txz">sqlite-3.23.1-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
@@ -135,6 +110,29 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2n-i686-P1.txz">openssl-1.0.2n-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2n-x86_64-P1.txz">openssl-1.0.2n-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Httpd 2.4.28]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/10/12/httpd-2-dot-4-28/"/>
+    <updated>2017-10-12T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/10/12/httpd-2-dot-4-28</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.28 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.28 Released</a></li>
+<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.28">Changes with Apache 2.4.28</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.28-i686-P1.txz">httpd-2.4.28-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.28-x86_64-P1.txz">httpd-2.4.28-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
