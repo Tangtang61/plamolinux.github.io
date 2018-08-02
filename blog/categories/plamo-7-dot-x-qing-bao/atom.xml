@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-07-19T15:32:19+09:00</updated>
+  <updated>2018-08-02T16:54:08+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.2.8]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/07/27/php-7-dot-2-8/"/>
+    <updated>2018-07-27T17:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/07/27/php-7-dot-2-8</id>
+    <content type="html"><![CDATA[<p>PHP 7.2.8 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://php.net/ChangeLog-7.php#7.2.8">PHP 7.2.8 Released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.2.8-x86_64-B2.txz">php-7.2.8-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 52.9.1]]></title>
@@ -32,6 +53,32 @@
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-52.9.1-x86_64-B1.txz">thunderbird-52.9.1-x86_64-B1.txz</a></li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 61.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/07/04/firefox-61-dot-0/"/>
+    <updated>2018-07-04T15:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/07/04/firefox-61-dot-0</id>
+    <content type="html"><![CDATA[<p>firefox 61.0 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://www.mozilla.jp/firefox/61.0/releasenotes/">Firefox 61.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox60">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。nss, sqlite パッケージも同時に更新する必要があります。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-61.0-x86_64-B2.txz">firefox-61.0-x86_64-B2.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.37.3-x86_64-B1.txz">nss-3.37.3-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.24.0-x86_64-B1.txz">sqlite-3.24.0-x86_64-B1.txz</a></li>
+</ul>
+
+
+<p>firefox はマルチメディア系のライブラリに依存しているので <code>06_xapps</code> から <code>07_multimedia</code> に移動しました。</p>
 ]]></content>
   </entry>
   
@@ -88,48 +135,6 @@
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-P1.txz">curl-7.60.0-x86_64-P1.txz (32bit)</a></li>
 </ul>
 </li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wget 1.19.5]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/06/14/wget-1-dot-19-5/"/>
-    <updated>2018-06-14T19:40:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/06/14/wget-1-dot-19-5</id>
-    <content type="html"><![CDATA[<p>wget にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://openwall.com/lists/oss-security/2018/05/06/1">CVE-2018-0494</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wget-1.19.5-x86_64-B1.txz">wget-1.19.5-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git 2.17.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/06/14/git-2-dot-17-1/"/>
-    <updated>2018-06-14T15:15:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/06/14/git-2-dot-17-1</id>
-    <content type="html"><![CDATA[<p>git のセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://public-inbox.org/git/xmqqy3g2flb6.fsf@gitster-ct.c.googlers.com/">[ANNOUNCE] Git v2.17.1, v2.13.7, v2.14.4, v2.15.2 and v2.16.4</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/02_devel/git-2.17.1-x86_64-B1.txz">git-2.17.1-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>

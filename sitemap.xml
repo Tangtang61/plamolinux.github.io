@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://plamolinux.github.io/blog/2018/07/27/php-7-dot-2-8/</loc>
+<lastmod>2018-07-27T17:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://plamolinux.github.io/blog/2018/07/19/thunderbird-52-dot-9-1/</loc>
 <lastmod>2018-07-19T15:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://plamolinux.github.io/blog/2018/07/04/firefox-61-dot-0/</loc>
+<lastmod>2018-07-04T15:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://plamolinux.github.io/blog/2018/06/14/gnupg-2-dot-2-8/</loc>
@@ -21,10 +29,6 @@
 <lastmod>2018-06-14T15:15:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://plamolinux.github.io/blog/2018/06/14/firefox-60-dot-0-1/</loc>
-<lastmod>2018-06-14T15:00:00+09:00</lastmod>
-</url>
-<url>
 <loc>http://plamolinux.github.io/blog/2018/06/14/libvpx-1-dot-7-0/</loc>
 <lastmod>2018-06-14T14:45:23+09:00</lastmod>
 </url>
@@ -39,10 +43,6 @@
 <url>
 <loc>http://plamolinux.github.io/blog/2018/03/16/about-plamo6-pkgs/</loc>
 <lastmod>2018-03-16T16:29:36+09:00</lastmod>
-</url>
-<url>
-<loc>http://plamolinux.github.io/blog/2018/01/31/php-7-dot-1-13/</loc>
-<lastmod>2018-01-31T17:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://plamolinux.github.io/blog/2018/01/17/bind-9-dot-9-11-p1/</loc>
