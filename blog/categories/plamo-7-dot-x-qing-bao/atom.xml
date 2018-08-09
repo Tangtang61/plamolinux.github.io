@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-08-03T15:10:17+09:00</updated>
+  <updated>2018-08-09T17:53:42+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -34,6 +34,8 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.20-i686-P1.txz">php-7.1.20-i686-P1.txz (32bit)</a></li>
 </ul>
 
+
+<p>Plamo 7.0 用の php パッケージは、このバージョンから各種モジュールを共有ライブラリ化しました。使いたい機能に応じて php.ini でモジュールを読み込む必要があります。</p>
 ]]></content>
   </entry>
   
