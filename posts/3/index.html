@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="GnuTLS を 3.5 系にバージョンアップしました。ただし、多数の参照があるので 2.12.23 時点のライブラリも同梱しています。 同時に nettle の追加と libtasn1 の更新が必要です。 gnutls-3.5.5-i686-P2.txz (32bit)
-libtasn1-4.9 &hellip;">
+  <meta name="description" content="gihyo.jpでこじまみつひろさんが連載されている「玩式草子」に新しい記事が追加されてます。 第86回　Plamo Linuxのビルドスクリプト再び 最新のビルドスクリプト作成環境についてです。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,7 +80,7 @@ libtasn1-4.9 &hellip;">
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2016/10/26/gnutls-3-dot-5-5/">Gnutls 3.5.5</a></h1>
+      <h1 class="entry-title"><a href="/blog/2016/11/02/ganshiki-soush-86/">玩式草子─ソフトウェアとたわむれる日々　第86回　Plamo Linuxのビルドスクリプト再び</a></h1>
     
     
       <p class="meta">
@@ -89,26 +89,21 @@ libtasn1-4.9 &hellip;">
 
 
 
-<time class='entry-date' datetime='2016-10-26T18:00:00+09:00'><span class='date'>2016-10-26</span> <span class='time'>18:00</span></time>
+<time class='entry-date' datetime='2016-11-02T22:00:00+09:00'><span class='date'>2016-11-02</span> <span class='time'>22:00</span></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>GnuTLS を 3.5 系にバージョンアップしました。ただし、多数の参照があるので 2.12.23 時点のライブラリも同梱しています。</p>
-
-<p>同時に nettle の追加と libtasn1 の更新が必要です。</p>
+  <div class="entry-content"><p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されてます。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/gnupg_tls.txz/gnutls-3.5.5-i686-P2.txz">gnutls-3.5.5-i686-P2.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/gnupg_tls.txz/libtasn1-4.9-i686-P1.txz">libtasn1-4.9-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/gnupg_tls.txz/nettle-3.3-i686-P1.txz">nettle-3.3-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/gnupg_tls.txz/gnutls-3.5.5-x86_64-P2.txz">gnutls-3.5.5-x86_64-P2.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/gnupg_tls.txz/libtasn1-4.9-x86_64-P1.txz">libtasn1-4.9-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/gnupg_tls.txz/nettle-3.3-x86_64-P1.txz">nettle-3.3-x86_64-P1.txz (64bit)</a></li>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0086">第86回　Plamo Linuxのビルドスクリプト再び</a></li>
 </ul>
 
+
+<p>最新のビルドスクリプト作成環境についてです。</p>
 </div>
   
   
@@ -513,6 +508,20 @@ libtasn1-4.9 &hellip;">
       
         
       
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -594,12 +603,6 @@ libtasn1-4.9 &hellip;">
     
       
         
-      
-        
-      
-    
-      
-        
           <li class="post">
             <a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a>
           </li>
@@ -620,12 +623,6 @@ libtasn1-4.9 &hellip;">
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1197,10 +1194,18 @@ libtasn1-4.9 &hellip;">
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (29)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (9)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (28)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (11)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2018/08/20/openssl-1-dot-1-0i/">OpenSSL 1.1.0n, 1.0.2p</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/08/09/bind-9-dot-9-13-p1/">Bind 9.9.13-P1</a>
@@ -1212,14 +1217,6 @@ libtasn1-4.9 &hellip;">
     
       <li class="post">
         <a href="/blog/2018/07/19/thunderbird-52-dot-9-1/">Thunderbird 52.9.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/07/04/firefox-61-dot-0/">Firefox 61.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/06/14/gnupg-2-dot-2-8/">GnuPG 2.2.8</a>
       </li>
     
   </ul>

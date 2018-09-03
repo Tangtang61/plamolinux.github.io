@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-08-09T17:53:42+09:00</updated>
+  <updated>2018-09-03T20:33:47+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenSSL 1.1.0n, 1.0.2p]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/08/20/openssl-1-dot-1-0i/"/>
+    <updated>2018-08-20T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/08/20/openssl-1-dot-1-0i</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.2n がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.openssl.org/news/secadv/20180612.txt">OpenSSL Security Advisory [12 June 2018]</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li>Plamo 7.0
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/openssl-1.1.0i-x86_64-B2.txz">openssl-1.1.0i-x86_64-B2.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/openssl10-1.0.2p-x86_64-B1.txz">openssl10-1.0.2p-x86_64-B1.txz</a></li>
+</ul>
+</li>
+<li>Plamo 6.2
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2p-i686-P1.txz">openssl-1.0.2p-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2p-x86_64-P1.txz">openssl-1.0.2p-x86_64-P1.txz (64bit)</a></li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bind 9.9.13-P1]]></title>
@@ -68,28 +102,6 @@
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-P1.txz">curl-7.60.0-x86_64-P1.txz (32bit)</a></li>
 </ul>
 </li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenSSL 1.0.2n]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/12/13/openssl-1-dot-0-2n/"/>
-    <updated>2017-12-13T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/12/13/openssl-1-dot-0-2n</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.0.2n がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.openssl.org/news/secadv/20171207.txt">OpenSSL Security Advisory [07 Dec 2017]</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2n-i686-P1.txz">openssl-1.0.2n-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2n-x86_64-P1.txz">openssl-1.0.2n-x86_64-P1.txz (64bit)</a></li>
 </ul>
 
 ]]></content>
