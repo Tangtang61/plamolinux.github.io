@@ -6,7 +6,7 @@ comments: false
 categories: ["Plamo 7.x 情報", "Plamo 6.x 情報", "セキュリティ情報"]
 ---
 
-セキュリティホールの修正を含む OpenSSL 1.0.2n がリリースされています。詳しくは以下をご覧ください。
+セキュリティホールの修正を含む OpenSSL 1.1.0i, 1.0.2p がリリースされています。詳しくは以下をご覧ください。
 
 * [OpenSSL Security Advisory [12 June 2018]](https://www.openssl.org/news/secadv/20180612.txt)
 
