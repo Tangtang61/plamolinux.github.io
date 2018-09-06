@@ -9,7 +9,11 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="第6回　Linuxカーネルのコンテナ機能［5］ ─ネットワーク 加藤さんのブログで veth の説明があった時に、 qemu-kvm で vmware と同じように３種類 (host only , NAT , bridge だっけ？ ) を簡単に利用できないのだろうか？と思ってたなぁ。 &lt &hellip;">
+  <meta name="description" content="*第7回　LXCの歴史と特徴 コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ コンテナのネストができるのか！ &lt; bar-mtomi LXCの歴史
+LXCの特徴
+LXCの気になる点
+まとめ
+最近のLXCのリリース ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +77,45 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/16/lxc-gihyo-07/">LXC　空間を歩む　七歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-08-16T15:11:48+09:00'><span class='date'>2014-08-16</span> <span class='time'>15:11</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
+
+<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
+コンテナのネストができるのか！  &lt; bar-mtomi</p>
+
+<blockquote><pre><code>LXCの歴史
+LXCの特徴
+LXCの気になる点
+まとめ
+最近のLXCのリリース
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -476,69 +519,9 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/22/plamo-5-dot-1-release/">Plamo 5.1 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2013-05-22T00:00:00+09:00'><span class='date'>2013-05-22</span> <span class='time'>00:00</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo-5.1 をリリースしました．</p>
-
-<p>以下はメーリングリストへの投稿の抜粋です．</p>
-
-<pre><code>すでに一部の人はお気付きのことと思いますが，先週の22日くらいまでの更新
-でPlamo-5.1ということにしてDVDイメージを作成，公開しました．
-
-$ ls -lh plamo-5.1*
--rw-r--r-- 1 kojima plamo 3.1G 2013-05-22 16:26 plamo-5.1_x86_64_dvd.iso
--rw-r--r-- 1 kojima plamo   59 2013-05-25 10:37 plamo-5.1_x86_64_dvd.iso.md5sum
--rw-r--r-- 1 kojima plamo 3.3G 2013-05-22 16:21 plamo-5.1_x86_dvd.iso
--rw-r--r-- 1 kojima plamo   56 2013-05-25 10:38 plamo-5.1_x86_dvd.iso.md5sum
-
-すでに kddlabs にもミラーいただいているようなので，こちらの方が回線が太
-くてお勧めです．
-
-ftp://ftp.kddlabs.co.jp/020/Linux/packages/plamolinux/
-plamo-5.1_x86_64_dvd.iso                plamo-5.1_x86_dvd.iso
-plamo-5.1_x86_64_dvd.iso.md5sum         plamo-5.1_x86_dvd.iso.md5sum
-
-よく見ると md5sum の日付けが3日ほど遅れているのに気づくと思いますが，
-DVD名から日付けを抜く際に直した結果なのでご心配なく．
-
-今回はPlamo-5.0からのメンテナンスリリースなので，Plamo-5.0からのアップ
-デート集も用意してみました．
-</code></pre>
-
-<p>アップデートを使用する場合の注意点等がありますので以下を参照して下さい。</p>
-
-<ul>
-<li><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201305/msg00018.html">アナウンスへのリンク</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0046">玩式草子 「第46回　Plamo-5.1 released」</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
+    
+      <a class="prev" href="/posts/13">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
@@ -551,6 +534,24 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -652,12 +653,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     
       
         
-      
-        
-      
-    
-      
-        
           <li class="post">
             <a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a>
           </li>
@@ -678,12 +673,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1249,10 +1238,22 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (28)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (11)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (14)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (66)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/06/openssh-7-dot-8p1/">Openssh 7.8p1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2018/09/06/httpd-2-dot-4-34/">Httpd 2.4.28</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a>
@@ -1260,18 +1261,6 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
     
       <li class="post">
         <a href="/blog/2018/08/20/openssl-1-dot-1-0i/">OpenSSL 1.1.0n, 1.0.2p</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/08/09/bind-9-dot-9-13-p1/">Bind 9.9.13-P1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/07/27/php-7-dot-2-8/">Php 7.2.8 / 7.1.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/07/19/thunderbird-52-dot-9-1/">Thunderbird 52.9.1</a>
       </li>
     
   </ul>

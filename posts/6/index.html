@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="Plamo 6.0 をリリースしました。 以下はメーリングリストに投稿されたリリースアナウンスです。 2015年10月24,25日に明星大学で開催されるOSC 2015 Tokyo/Fallに出展するのに合わせて，Plamo-6.0をリリースしました． -r--r--r-- 104 1004 &hellip;">
+  <meta name="description" content="spice にセキュリティホールが発見されています。詳しくは以下をご覧ください。 CVE-2015-5260 spice: insufficient validation of surface_id parameter can cause crash
+CVE-2015-5261 spice: &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,55 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/28/spice-0-dot-12-dot-6/">Spice 0.12.6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-10-28T10:24:24+09:00'><span class='date'>2015-10-28</span> <span class='time'>10:24</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>spice にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5260">CVE-2015-5260 spice: insufficient validation of surface_id parameter can cause crash</a></li>
+<li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-5261">CVE-2015-5261 spice: host memory access from guest using crafted images</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。同時に six, spice_protocol も更新する必要があります。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice-0.12.6-i686-P1.txz">spice-0.12.6-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice_protocol-0.12.10-i686-P1.txz">spice_protocol-0.12.10-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python2-1.10.0-i686-P1.txz">six_python2-1.10.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Python/six_python3-1.10.0-i686-P1.txz">six_python3-1.10.0-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Virtualization/spice-0.12.6-x86_64-P1.txz">spice-0.12.6-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/contrib/Virtualization/spice_protocol-0.12.10-x86_64-P1.txz">spice_protocol-0.12.10-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python2-1.10.0-x86_64-P1.txz">six_python2-1.10.0-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/contrib/Python/six_python3-1.10.0-x86_64-P1.txz">six_python3-1.10.0-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -530,48 +580,6 @@ Plamo Linuxテンプレート
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/14/stunnel-5-dot-20/">Stunnel 5.20</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-07-14T15:51:33+09:00'><span class='date'>2015-07-14</span> <span class='time'>15:51</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>stunnel にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.stunnel.org/CVE-2015-3644.html">stunnel: CVE-2015-3644</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/stunnel-5.20-i686-P1.txz">stunnel-5.20-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/stunnel-5.20-x86_64-P1.txz">stunnel-5.20-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/7">&larr; Older</a>
@@ -587,6 +595,24 @@ Plamo Linuxテンプレート
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -688,12 +714,6 @@ Plamo Linuxテンプレート
     
       
         
-      
-        
-      
-    
-      
-        
           <li class="post">
             <a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a>
           </li>
@@ -714,12 +734,6 @@ Plamo Linuxテンプレート
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1285,10 +1299,22 @@ Plamo Linuxテンプレート
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (28)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (11)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (14)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (66)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/06/openssh-7-dot-8p1/">Openssh 7.8p1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2018/09/06/httpd-2-dot-4-34/">Httpd 2.4.28</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a>
@@ -1296,18 +1322,6 @@ Plamo Linuxテンプレート
     
       <li class="post">
         <a href="/blog/2018/08/20/openssl-1-dot-1-0i/">OpenSSL 1.1.0n, 1.0.2p</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/08/09/bind-9-dot-9-13-p1/">Bind 9.9.13-P1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/07/27/php-7-dot-2-8/">Php 7.2.8 / 7.1.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/07/19/thunderbird-52-dot-9-1/">Thunderbird 52.9.1</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-09-03T20:45:02+09:00</updated>
+  <updated>2018-09-06T19:44:34+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,70 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Openssh 7.8p1]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/09/06/openssh-7-dot-8p1/"/>
+    <updated>2018-09-06T18:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/09/06/openssh-7-dot-8p1</id>
+    <content type="html"><![CDATA[<p>OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.openssh.com/txt/release-7.8">release-7.8</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/openssh-7.8p1-x86_64-B1.txz">openssh-7.8p1-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Httpd 2.4.28]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/09/06/httpd-2-dot-4-34/"/>
+    <updated>2018-09-06T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/09/06/httpd-2-dot-4-34</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.28 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.34 Released</a></li>
+<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.34">Changes with Apache 2.4.34</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/08_daemons/httpd-2.4.34-x86_64-B1.txz">httpd-2.4.34-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wpa_supplicant 2.6]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/09/05/wpa-supplicant-2-dot-6/"/>
+    <updated>2018-09-05T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/09/05/wpa-supplicant-2-dot-6</id>
+    <content type="html"><![CDATA[<p>wpa_supplicant にセキュリティホールが見つかっています。詳しくは次をご覧ください。</p>
+
+<ul>
+<li><a href="https://w1.fi/security/2018-1/unauthenticated-eapol-key-decryption.txt">Unauthenticated EAPOL-Key decryption in wpa_supplicant</a> (w1.fi)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wpa_supplicant-2.6-x86_64-B2.txz">wpa_supplicant-2.6-x86_64-B2.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gnutls 3.6.3]]></title>
@@ -356,29 +420,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Httpd 2.4.28]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/10/12/httpd-2-dot-4-28/"/>
-    <updated>2017-10-12T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/10/12/httpd-2-dot-4-28</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.28 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.28 Released</a></li>
-<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.28">Changes with Apache 2.4.28</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.28-i686-P1.txz">httpd-2.4.28-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.28-x86_64-P1.txz">httpd-2.4.28-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Proftpd 1.3.5e]]></title>
     <link href="http://plamolinux.github.io/blog/2017/04/13/proftpd-1-dot-3-5e/"/>
     <updated>2017-04-13T18:15:39+09:00</updated>
@@ -465,54 +506,6 @@
 </span><span class='line'>
 </span><span class='line'># 昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、
 </span><span class='line'># 諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。</span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Libpng 1.6.28]]></title>
-    <link href="http://plamolinux.github.io/blog/2017/01/12/libpng-1-dot-6-21/"/>
-    <updated>2017-01-12T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2017/01/12/libpng-1-dot-6-21</id>
-    <content type="html"><![CDATA[<p>セキュリティホール修正を含む libpng 1.6.28, libpng 1.4.20 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.libpng.org/pub/png/libpng.html">libpng Home Page</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/libpng-1.6.28-i686-P1.txz">libpng-1.6.28-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/libpng14-1.4.20-i686-P1.txz">libpng14-1.4.20-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/libpng-1.6.28-x86_64-P1.txz">libpng-1.6.28-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/libpng14-1.4.20-x86_64-P1.txz">libpng14-1.4.20-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jasper 1.900.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2016/11/16/jasper-1-dot-900-dot-1/"/>
-    <updated>2016-11-16T17:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2016/11/16/jasper-1-dot-900-dot-1</id>
-    <content type="html"><![CDATA[<p>jasper にセキュリティホールが発見されています。</p>
-
-<ul>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1577">CVE-2016-1577</a> (NVD)</li>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2089">CVE-2016-2089</a> (NVD)</li>
-<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2116">CVE-2016-2116</a> (NVD)</li>
-</ul>
-
-
-<p>対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/04_xapps/jasper-1.900.1-i686-P5.txz">jasper-1.900.1-i686-P4.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/04_xapps/jasper-1.900.1-x86_64-P5.txz">jasper-1.900.1-x86_64-P4.txz (64bit)</a></li>
-</ul>
 
 ]]></content>
   </entry>

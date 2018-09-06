@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第16回　Linuxカーネルのコンテナ機能 [6] ─ユーザ名前空間 中途半端な知識しかないですが chroot とか jail で言われてた気がする「名前空間」を高度（高機能）にした物かなぁ‥と感じました。（ユーザーと付いているから別物と考えた方が良いとは思ってます） &lt; bar- &hellip;">
+  <meta name="description" content="Plamo Linux 5.3 をリリースしました。 リリースアナウンス gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3 の特徴がまとめられています。 玩式草子─ソフトウェアとたわむれる日々　第65回　やっと出ましたPlamo-5.3 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,119 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/31/plamo-5-dot-3-released/">Plamo 5.3 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-12-31T21:36:33+09:00'><span class='date'>2014-12-31</span> <span class='time'>21:36</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo Linux 5.3 をリリースしました。</p>
+
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201412/msg00018.html">リリースアナウンス</a></li>
+</ul>
+
+
+<p>gihyo.jp の連載「玩式草子─ソフトウェアとたわむれる日々」で Plamo 5.3 の特徴がまとめられています。</p>
+
+<ul>
+<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0065">玩式草子─ソフトウェアとたわむれる日々　第65回　やっと出ましたPlamo-5.3</a></li>
+</ul>
+
+
+<p>メーリングリストへの投稿の抜粋です。</p>
+
+<pre><code>最低でも年に一度はリリースを，，と進めていた作業がだいたい片づいたので，
+昨晩までの更新をまとめて Plamo Linux 5.3 としてリリースすることにしました．
+
+$ ls -lh plamo-5.3*
+-rw-r--r-- 1 kojima users 3.5G 12月 31日  01:28 plamo-5.3_x86_64_dvd.iso
+-rw-r--r-- 1 kojima users   59 12月 31日  01:28 plamo-5.3_x86_64_dvd.iso.md5sum
+-rw-r--r-- 1 kojima users 3.7G 12月 31日  01:28 plamo-5.3_x86_dvd.iso
+-rw-r--r-- 1 kojima users   56 12月 31日  01:28 plamo-5.3_x86_dvd.iso.md5sum
+
+DVDイメージは plamo.linet.gr.jp で公開しているものの，ここはお家サーバ
+で回線が細いため，すでにミラーしていただいている山梨大学の ring サーバ
+あたりから入手されることをお勧めします．
+
+ftp://ring.yamanashi.ac.jp/pub/linux/Plamo/
+
+以下，DVDに置いたREADME.EUCからの抜粋
+----------------------------------------
+○Plamo-5.3について(2014-12-30)
+
+従来，半年に一度くらいのペースで新版をリリースしていたものの，
+今回はPlamo-5.2を公開後，丸一年空いてしまいました．
+そのため今回の更新は，バージョン番号的にはメンテナンス・リリースという位置付けなものの，
+カーネル(3.17.6)のみならず，GCC(4.8.4)，Glibc(2.20)，xorg-server(1.16.3)など，
+OSの中核部分のパーツを更新した，メジャーバージョンアップに近い更新になっています．
+そのため，Plamo-5.2が動作していたマシンにインストールしても正しく動作しない可能性
+があるのでご注意ください．
+
+今回更新した主要なソフトウェアは以下の通りです．
+
+- kernel-3.17.6(with aufs/unicon/overlayfs パッチ)
+- GCC-4.8.4
+- Glibc-2.20
+- MesaLib-10.2.9
+- xorg-server-1.16.3
+- Emacs-24.4
+- ffmpeg-2.4.4
+- firefox-34/thunderbird-31
+- Qt-4.6/Gtk-3.14.4/Gtk-2.24.22
+- LibreOffice-4.2.8.2
+- mate-1.8.1
+- KDE-4.14.3
+- cups-2.0.0
+
+最近，メンテナの加藤さんと田向さんが LXC の開発にも参加されていることもあって，
+contrib/Virtualization/ 以下には gihyo.jp の連載記事(「LXCで学ぶ仮想化技術」
+http://gihyo.jp/admin/serial/01/linux_containers/0001)でも取りあげている
+LXCに関するソフトウェアが揃っています．LXCに関心のある方はぜひお試しください．
+(以下略)
+
+-------------------------------
+
+上述のように，何とか年内リリースを，ということで最後の方はかなり慌しい
+作業となったので，更新忘れやチェック漏れがあるかも知れません．それらは
+随時MLやwikiのページ等で報告しますので，適宜対応をお願いします．
+
+また，今回もメンテナンス・リリースということでPlamo-5.2からのアップデー
+タを用意したいとは思っているものの，リリース間隔が長かったこともあり，
+現時点では更新が必要なパッケージの全容を把握できていません．そのため，
+アップデータを公開するのは早くても1月の中旬ぐらいになりそうです．
+
+最後になりましたが，今回の更新も，開発に協力いただいているメンテナの方々
+のご努力のおかげでまとめることができました．まとめ役として改めて御礼申
+しあげます．m(_ _)m
+
+また，私を含めたメンテナがメンテナンスを続けていけるのは，Plamo Linux
+を支持していただいている皆さまの存在のおかげです．メンテナ代表として，
+今年一年のご支援，ご協力に御礼申しあげると共に，来年もよろしくお願いし
+ます．m(_ _)m
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -420,45 +533,6 @@ Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワー�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/16/lxc-gihyo-07/">LXC　空間を歩む　七歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-08-16T15:11:48+09:00'><span class='date'>2014-08-16</span> <span class='time'>15:11</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0007">第7回　LXCの歴史と特徴</a></p>
-
-<p>コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ <br/>
-コンテナのネストができるのか！  &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LXCの歴史
-LXCの特徴
-LXCの気になる点
-まとめ
-最近のLXCのリリース
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/12">&larr; Older</a>
@@ -474,6 +548,24 @@ LXCの気になる点
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
     
       
         
@@ -575,12 +667,6 @@ LXCの気になる点
     
       
         
-      
-        
-      
-    
-      
-        
           <li class="post">
             <a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a>
           </li>
@@ -601,12 +687,6 @@ LXCの気になる点
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1172,10 +1252,22 @@ LXCの気になる点
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (28)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (11)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (65)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (14)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (66)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/09/06/openssh-7-dot-8p1/">Openssh 7.8p1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2018/09/06/httpd-2-dot-4-34/">Httpd 2.4.28</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a>
@@ -1183,18 +1275,6 @@ LXCの気になる点
     
       <li class="post">
         <a href="/blog/2018/08/20/openssl-1-dot-1-0i/">OpenSSL 1.1.0n, 1.0.2p</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/08/09/bind-9-dot-9-13-p1/">Bind 9.9.13-P1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/07/27/php-7-dot-2-8/">Php 7.2.8 / 7.1.20</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/07/19/thunderbird-52-dot-9-1/">Thunderbird 52.9.1</a>
       </li>
     
   </ul>
