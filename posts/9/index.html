@@ -9,9 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第20回　LXCの構築・活用 [6] ─いろいろなストレージバックエンドの利用（その2） もう亜空間通信プローブを設けないと理解できない。 &lt; bar-mtomi Btrfsをストレージバックエンドとして使う場合の準備
-Btrfsを使ったコンテナの作成
-Btrfsを使ったコンテナのクローン &hellip;">
+  <meta name="description" content="xdg-utils にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Bug 66670 - xdg-open: command injection vulnerability パッケージをリリースしました。 xdg_utils-1.1.0_rc3-noarch-P1.txz ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +73,47 @@ Btrfsを使ったコンテナのクローン &hellip;">
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/03/11/xdg-utils-1-dot-1-0-rc3/">Xdg-utils 1.1.0-rc3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-03-11T20:11:36+09:00'><span class='date'>2015-03-11</span> <span class='time'>20:11</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>xdg-utils にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugs.freedesktop.org/show_bug.cgi?id=66670">Bug 66670 - xdg-open: command injection vulnerability </a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/05_ext/xdg_utils-1.1.0_rc3-noarch-P1.txz">xdg_utils-1.1.0_rc3-noarch-P1.txz</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -509,46 +548,6 @@ wiki ページやこの ML へお気軽に連絡ください．
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/30/lxc-gihyo-18/">LXC　空間を歩む　十八歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-01-30T16:21:45+09:00'><span class='date'>2015-01-30</span> <span class='time'>16:21</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
-
-<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>overlayfsとは
-overlayfsを使ってみる
-3.18カーネルのoverlayfs
-opaque（不透明）ディレクトリ
-overlayfsを使う上での注意
-overlayfsの将来
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/10">&larr; Older</a>
@@ -570,10 +569,6 @@ overlayfsの将来
       
         
       
-    
-      
-        
-      
         
       
     
@@ -591,6 +586,18 @@ overlayfsの将来
     
       
         
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
       
         
       
@@ -1268,29 +1275,29 @@ overlayfsの将来
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (14)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (66)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (27)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (15)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (67)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2018/09/06/openssh-7-dot-8p1/">Openssh 7.8p1</a>
+        <a href="/blog/2018/10/16/php-7-dot-2-11/">Php 7.2.11 / 7.1.23</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/06/httpd-2-dot-4-34/">Httpd 2.4.34</a>
+        <a href="/blog/2018/10/15/thunderbird-60-dot-2-1/">Thunderbird 60.2.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a>
+        <a href="/blog/2018/10/15/firefox-62-dot-0-3/">Firefox 62.0.3</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a>
+        <a href="/blog/2018/09/30/openssl-1-dot-1-1/">OpenSSL 1.1.0n, 1.0.2p</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/08/20/openssl-1-dot-1-0i/">OpenSSL 1.1.0n, 1.0.2p</a>
+        <a href="/blog/2018/09/22/ghostscript-9-dot-25/">Ghostscript 9.25</a>
       </li>
     
   </ul>

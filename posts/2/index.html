@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="（2018-06-14 20:00 Plamo 6.2 用のパッケージ情報を追加しました） セキュリティホールの修正を含む curl 7.60.0 がリリースされています．詳しくは以下をご覧ください． Changelog
-curl Security 対策パッケージをリリースしました． Plamo &hellip;">
+  <meta name="description" content="GnuPG にセキュリティホールが発見されています。詳しくは以下をご覧ください。 [Announce] [security fix] GnuPG 2.2.8 released (CVE-2018-12020) パッケージをリリースしました。libgpg_error &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,48 @@ curl Security 対策パッケージをリリースしました． Plamo &hellip;
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2018/06/14/gnupg-2-dot-2-8/">GnuPG 2.2.8</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2018-06-14T20:47:03+09:00'><span class='date'>2018-06-14</span> <span class='time'>20:47</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>GnuPG にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000425.html">[Announce] [security fix] GnuPG 2.2.8 released (CVE-2018-12020)</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。libgpg_error パッケージも同時に更新してください。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/libgpg_error-1.31-x86_64-B1.txz">libgpg_error-1.31-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/gnupg-2.2.8-x86_64-B1.txz">gnupg-2.2.8-x86_64-B1.txz</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -467,71 +508,6 @@ curl Security 対策パッケージをリリースしました． Plamo &hellip;
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2017/03/24/plamo-6-dot-2/">Plamo 6.2 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2017-03-24T19:03:01+09:00'><span class='date'>2017-03-24</span> <span class='time'>19:03</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo 6.2 をリリースしました。</p>
-
-<p>以下は <code>README.EUC</code> の内容です。</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>○Plamo-6.2について(2017-02-17)
-</span><span class='line'>
-</span><span class='line'>2017 OSC Tokyo/Spring に出展することになったのに合わせてPlamo-6.1をupdateした
-</span><span class='line'>バージョンをリリースしました．
-</span><span class='line'>
-</span><span class='line'>Plamo-6.1以降に更新されたパッケージへ追従するためのバージョンアップなので，
-</span><span class='line'>変更されたパッケージの詳細についてはChange.Logファイルを参照してください．
-</span><span class='line'>
-</span><span class='line'>なお，このバージョンからDVDイメージの作成をmkisofsではなくxorrisoで行なっています．
-</span><span class='line'>xorrisoで作成したDVDイメージは，catやddでUSBメモリにベタ書きするだけでUEFI経由で起動できます．
-</span><span class='line'>なお，その副作用でDVDイメージをベタ書きしたUSBメモリをfdisk -lで見ると，
-</span><span class='line'>パーティションが2つあるように見えますが，実際にマウントできるのは，
-</span><span class='line'>パーティションを指定しないUSBメモリ全体(例えば/dev/sdb)になるのでご注意ください．
-</span><span class='line'>
-</span><span class='line'># 昨夏の OSC Kyoto 用に"Plamo-6.2"をまとめようとしたことがあるものの、
-</span><span class='line'># 諸般の事情で配布等はしなかったので、今回のバージョンを正式な"Plamo-6.2"とします。</span></code></pre></td></tr></table></div></figure>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/3">&larr; Older</a>
@@ -553,10 +529,6 @@ curl Security 対策パッケージをリリースしました． Plamo &hellip;
       
         
       
-    
-      
-        
-      
         
       
     
@@ -574,6 +546,18 @@ curl Security 対策パッケージをリリースしました． Plamo &hellip;
     
       
         
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
       
         
       
@@ -1251,29 +1235,29 @@ curl Security 対策パッケージをリリースしました． Plamo &hellip;
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (14)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (66)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (27)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (15)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (67)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2018/09/06/openssh-7-dot-8p1/">Openssh 7.8p1</a>
+        <a href="/blog/2018/10/16/php-7-dot-2-11/">Php 7.2.11 / 7.1.23</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/06/httpd-2-dot-4-34/">Httpd 2.4.34</a>
+        <a href="/blog/2018/10/15/thunderbird-60-dot-2-1/">Thunderbird 60.2.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a>
+        <a href="/blog/2018/10/15/firefox-62-dot-0-3/">Firefox 62.0.3</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a>
+        <a href="/blog/2018/09/30/openssl-1-dot-1-1/">OpenSSL 1.1.0n, 1.0.2p</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/08/20/openssl-1-dot-1-0i/">OpenSSL 1.1.0n, 1.0.2p</a>
+        <a href="/blog/2018/09/22/ghostscript-9-dot-25/">Ghostscript 9.25</a>
       </li>
     
   </ul>

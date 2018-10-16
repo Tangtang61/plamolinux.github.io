@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="util-linux 2.25.2 にセキュリティホールが発見されています。詳しくは以下をご覧ください。 Bug 1168485 &ndash; CVE-2014-9114 util-linux: command injection flaw in blkid (Red Hat Bugzilla &hellip;">
+  <meta name="description" content="*第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi overlayfsとは &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +73,46 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/30/lxc-gihyo-18/">LXC　空間を歩む　十八歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-30T16:21:45+09:00'><span class='date'>2015-01-30</span> <span class='time'>16:21</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0018">第18回　Linuxカーネルのコンテナ機能 [7] ─ overlayfs</a></p>
+
+<p>overlayfs ってこんな機能があるんだ！ Change.Log で overlayfs パッチを適用してたのは知っていましたが、調べた事もなかった。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>overlayfsとは
+overlayfsを使ってみる
+3.18カーネルのoverlayfs
+opaque（不透明）ディレクトリ
+overlayfsを使う上での注意
+overlayfsの将来
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -449,57 +489,6 @@ UbuntuのLXCパッケージ使用時の各種パス
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/10/package-tool-01/">パッケージ更新のチェック</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-01-10T14:31:45+09:00'><span class='date'>2015-01-10</span> <span class='time'>14:31</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo Linux用更新パッケージチェック&amp;ダウンロードツールです。</p>
-
-<p>詳細は以下のリンク先を参照して下さい。</p>
-
-<ul>
-<li><p><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima%2F2015-01-06">PlamoWikiのこじまさんの日記</a></p></li>
-<li><p><a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201501/msg00003.html">メーリングリスト</a></p></li>
-</ul>
-
-
-<p>注意点をメーリングリストへの投稿から抜粋しておきます。</p>
-
-<pre><code>updatepkg では更新できない(すべきでない)パッケージはチェック対象外にし
-ていますが，-b オプションを指定するとそれらの情報も表示します．ただし，
-これらのパッケージを単純に updatepkg で更新しようとすると，既存の設定ファ
-イルを上書きしたり，installpkg/updatepkg が動かなくなったりするので，
-十分ご注意ください．
-
-なお，このスクリプトはPlamo-5.2でも動くものの，5.2から5.3へはパッケージ
-の追加や廃止を伴なう大規模な更新になっているため，このスクリプトだけで
-は実用的ではありません．そのため動作環境は「Plamo-5.3以降」とさせてくだ
-さい．
-</code></pre>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/11">&larr; Older</a>
@@ -521,10 +510,6 @@ UbuntuのLXCパッケージ使用時の各種パス
       
         
       
-    
-      
-        
-      
         
       
     
@@ -542,6 +527,18 @@ UbuntuのLXCパッケージ使用時の各種パス
     
       
         
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
       
         
       
@@ -1219,29 +1216,29 @@ UbuntuのLXCパッケージ使用時の各種パス
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (14)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (66)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (27)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (15)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (67)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2018/09/06/openssh-7-dot-8p1/">Openssh 7.8p1</a>
+        <a href="/blog/2018/10/16/php-7-dot-2-11/">Php 7.2.11 / 7.1.23</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/06/httpd-2-dot-4-34/">Httpd 2.4.34</a>
+        <a href="/blog/2018/10/15/thunderbird-60-dot-2-1/">Thunderbird 60.2.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a>
+        <a href="/blog/2018/10/15/firefox-62-dot-0-3/">Firefox 62.0.3</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a>
+        <a href="/blog/2018/09/30/openssl-1-dot-1-1/">OpenSSL 1.1.0n, 1.0.2p</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/08/20/openssl-1-dot-1-0i/">OpenSSL 1.1.0n, 1.0.2p</a>
+        <a href="/blog/2018/09/22/ghostscript-9-dot-25/">Ghostscript 9.25</a>
       </li>
     
   </ul>

@@ -9,11 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第7回　LXCの歴史と特徴 コンテナの本格的利用はできるかどうか分からないが、コンテナの起動だけなら簡単にできそうだし、一度は経験しておいても良いかな？ コンテナのネストができるのか！ &lt; bar-mtomi LXCの歴史
-LXCの特徴
-LXCの気になる点
-まとめ
-最近のLXCのリリース ">
+  <meta name="description" content="*第8回　LXCの基本操作［1］ 各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi Ubuntuパッケージ使用時の各種パス &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +73,48 @@ LXCの気になる点
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/28/lxc-gihyo-08/">LXC　空間を歩む　八歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-08-28T21:45:50+09:00'><span class='date'>2014-08-28</span> <span class='time'>21:45</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0008">第8回　LXCの基本操作［1］</a></p>
+
+<p>各コマンドの詳しい説明で、分かりやすかった。コンテナはネストできるのなら、kvm の仮想環境に Ubuntu 14.04 LTS を作成して、その環境上でテストできるかな？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Ubuntuパッケージ使用時の各種パス
+Ubuntu上でLXCパッケージ使った時のコンテナ用のネットワーク
+共通オプション
+コンテナの作成 ? lxc-create
+コンテナの情報表示 ? lxc-ls, lxc-info
+コンテナの起動 ? lxc-start
+コンテナの停止・リブート ? lxc-stop
+コンテナ内での作業
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -467,58 +505,6 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/12/29/plamo5-dot-2released/">Plamo 5.2 リリース</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2013-12-29T12:36:02+09:00'><span class='date'>2013-12-29</span> <span class='time'>12:36</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Plamo-5.2 をリリースしました．</p>
-
-<p>Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください．</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0053">玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2</a></li>
-</ul>
-
-
-<p>他に，メンテナであるこじまさんのブログの 12 月あたりに色々と関連するメモがあります．</p>
-
-<ul>
-<li><a href="http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima">http://plamo.linet.gr.jp/wiki/index.php?diary%2FKojima</a></li>
-</ul>
-
-
-<p>DVD イメージは以下からダウンロードできます．</p>
-
-<ul>
-<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_64_dvd.iso</a> (64bit)</li>
-<li><p><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/plamo-5.2_x86_dvd.iso</a> (32bit)</p></li>
-<li><p><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201312/msg00005.html">アナウンスへのリンク</a></p></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/13">&larr; Older</a>
@@ -540,10 +526,6 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
       
         
       
-    
-      
-        
-      
         
       
     
@@ -561,6 +543,18 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
     
       
         
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
       
         
       
@@ -1238,29 +1232,29 @@ telinit S でシングルユーザーモードに落して不要なサーバ類�
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (14)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (66)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (27)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (15)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (67)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2018/09/06/openssh-7-dot-8p1/">Openssh 7.8p1</a>
+        <a href="/blog/2018/10/16/php-7-dot-2-11/">Php 7.2.11 / 7.1.23</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/06/httpd-2-dot-4-34/">Httpd 2.4.34</a>
+        <a href="/blog/2018/10/15/thunderbird-60-dot-2-1/">Thunderbird 60.2.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a>
+        <a href="/blog/2018/10/15/firefox-62-dot-0-3/">Firefox 62.0.3</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a>
+        <a href="/blog/2018/09/30/openssl-1-dot-1-1/">OpenSSL 1.1.0n, 1.0.2p</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/08/20/openssl-1-dot-1-0i/">OpenSSL 1.1.0n, 1.0.2p</a>
+        <a href="/blog/2018/09/22/ghostscript-9-dot-25/">Ghostscript 9.25</a>
       </li>
     
   </ul>

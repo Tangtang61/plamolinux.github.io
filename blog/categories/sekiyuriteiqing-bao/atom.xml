@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2018-09-06T19:56:34+09:00</updated>
+  <updated>2018-10-16T19:51:16+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,110 +14,96 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Openssh 7.8p1]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/09/06/openssh-7-dot-8p1/"/>
-    <updated>2018-09-06T18:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/09/06/openssh-7-dot-8p1</id>
-    <content type="html"><![CDATA[<p>OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+    <title type="html"><![CDATA[Php 7.2.11 / 7.1.23]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/10/16/php-7-dot-2-11/"/>
+    <updated>2018-10-16T17:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/10/16/php-7-dot-2-11</id>
+    <content type="html"><![CDATA[<p>PHP 7.2.11 (Plamo 7.0) / PHP 7.1.23 (Plamo 6.2) がリリースされています。詳しくは以下をご覧ください。</p>
 
 <ul>
-<li><a href="http://www.openssh.com/txt/release-7.8">release-7.8</a></li>
+<li><a href="http://php.net/ChangeLog-7.php#7.2.11">PHP 7.2.11 Released</a></li>
+<li><a href="http://php.net/ChangeLog-7.php#7.1.23">PHP 7.1.23 Released</a></li>
 </ul>
 
 
 <p>パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/openssh-7.8p1-x86_64-B1.txz">openssh-7.8p1-x86_64-B1.txz</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.2.11-x86_64-B1.txz">php-7.2.11-x86_64-B1.txz</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.23-x86_64-P1.txz">php-7.1.23-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.23-i686-P1.txz">php-7.1.23-i686-P1.txz (32bit)</a></li>
 </ul>
 
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Httpd 2.4.34]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/09/06/httpd-2-dot-4-34/"/>
-    <updated>2018-09-06T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/09/06/httpd-2-dot-4-34</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.28 がリリースされています．詳しくは以下をご覧ください．</p>
+    <title type="html"><![CDATA[Thunderbird 60.2.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/10/15/thunderbird-60-dot-2-1/"/>
+    <updated>2018-10-15T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/10/15/thunderbird-60-dot-2-1</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 60.2.1 がリリースされています。詳しくは以下をご覧ください。</p>
 
 <ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.34 Released</a></li>
-<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.34">Changes with Apache 2.4.34</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/08_daemons/httpd-2.4.34-x86_64-B1.txz">httpd-2.4.34-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wpa_supplicant 2.6]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/09/05/wpa-supplicant-2-dot-6/"/>
-    <updated>2018-09-05T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/09/05/wpa-supplicant-2-dot-6</id>
-    <content type="html"><![CDATA[<p>wpa_supplicant にセキュリティホールが見つかっています。詳しくは次をご覧ください。</p>
-
-<ul>
-<li><a href="https://w1.fi/security/2018-1/unauthenticated-eapol-key-decryption.txt">Unauthenticated EAPOL-Key decryption in wpa_supplicant</a> (w1.fi)</li>
+<li><a href="https://www.mozilla.org/en-US/thunderbird/60.2.1/releasenotes/">Thunderbird 60.2.1 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird60.2.1">Thunderbird セキュリティアドバイザリ</a></li>
 </ul>
 
 
 <p>パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wpa_supplicant-2.6-x86_64-B2.txz">wpa_supplicant-2.6-x86_64-B2.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-60.2.1-x86_64-B1.txz">thunderbird-60.2.1-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Gnutls 3.6.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/09/03/gnutls-3-dot-6-3/"/>
-    <updated>2018-09-03T21:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/09/03/gnutls-3-dot-6-3</id>
-    <content type="html"><![CDATA[<p>GnuTLS パッケージを 3.6.3 に更新しました。</p>
+    <title type="html"><![CDATA[Firefox 62.0.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/10/15/firefox-62-dot-0-3/"/>
+    <updated>2018-10-15T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/10/15/firefox-62-dot-0-3</id>
+    <content type="html"><![CDATA[<p>firefox 62.0.3 パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="https://lists.gnupg.org/pipermail/gnutls-devel/2018-July/008584.html">gnutls 3.6.3</a></li>
+<li><a href="https://www.mozilla.jp/firefox/62.0.3/releasenotes/">Firefox 62.0.3 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox62.0.3">Firefox セキュリティアドバイザリ</a></li>
 </ul>
 
 
-<p>同時に nettle の更新が必要です。</p>
+<p>パッケージをリリースしました。nss, sqlite パッケージも同時に更新する必要があります。</p>
 
 <ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/nettle-3.4-x86_64-B1.txz">nettle-3.4-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/gnutls-3.6.3-x86_64-B1.txz">gnutls-3.6.3-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-62.0.3-x86_64-B1.txz">firefox-62.0.3-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.39-x86_64-B1.txz">nss-3.39-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.20-x86_64-B1.txz">nspr-4.20-x86_64-B1.txz</a></li>
 </ul>
 
+
+<p>firefox はマルチメディア系のライブラリに依存しているので <code>06_xapps</code> から <code>07_multimedia</code> に移動しました。</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenSSL 1.1.0n, 1.0.2p]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/08/20/openssl-1-dot-1-0i/"/>
-    <updated>2018-08-20T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/08/20/openssl-1-dot-1-0i</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む OpenSSL 1.1.0i, 1.0.2p がリリースされています。詳しくは以下をご覧ください。</p>
+    <link href="http://plamolinux.github.io/blog/2018/09/30/openssl-1-dot-1-1/"/>
+    <updated>2018-09-30T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/09/30/openssl-1-dot-1-1</id>
+    <content type="html"><![CDATA[<p>LTS バージョンである OpenSSL 1.1.1がリリースされたので、Plamo 7.x では 1.1.1 にバージョンアップしました。</p>
 
 <ul>
-<li><a href="https://www.openssl.org/news/secadv/20180612.txt">OpenSSL Security Advisory [12 June 2018]</a></li>
+<li><a href="https://www.openssl.org/blog/blog/2018/09/11/release111/">OpenSSL 1.1.1 is Released</a></li>
 </ul>
 
 
-<p>パッケージをリリースしました。</p>
+<p>パッケージをリリースしました。Plamo 6.2 ではこれまで通り 1.0.2 系列です。（今回更新のない 1.0.2 の情報も載せてます）</p>
 
 <ul>
 <li>Plamo 7.0
 
 <ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/openssl-1.1.0i-x86_64-B2.txz">openssl-1.1.0i-x86_64-B2.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/openssl-1.1.1-x86_64-B1.txz">openssl-1.1.1-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/openssl10-1.0.2p-x86_64-B1.txz">openssl10-1.0.2p-x86_64-B1.txz</a></li>
 </ul>
 </li>
@@ -128,6 +114,20 @@
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2p-x86_64-P1.txz">openssl-1.0.2p-x86_64-P1.txz (64bit)</a></li>
 </ul>
 </li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ghostscript 9.25]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/09/22/ghostscript-9-dot-25/"/>
+    <updated>2018-09-22T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/09/22/ghostscript-9-dot-25</id>
+    <content type="html"><![CDATA[<p>ghostscript にセキュリティホールが見つかっています。対策バージョンである 9.25 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/09_printings/ghostscript-9.25-x86_64-B1.txz">ghostscript-9.25-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
