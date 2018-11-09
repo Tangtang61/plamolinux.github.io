@@ -9,7 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="Plamo-5.2 をリリースしました． Plamo-5.2 の特徴は以下の技術評論社の連載記事にまとまっていますのでご覧ください． 玩式草子─ソフトウェアとたわむれる日々 第53回　近日公開 Plamo-5.2 他に，メンテナであるこじまさんのブログの 12 &hellip;">
+  <meta name="description" content="P-Plamo 5.2 をリリースしました．以下から入手可能です． ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux P-Plamo-5.2_x86_dvd.iso
+P-Plamo-5.2_x86_dvd.iso.md5sum
+P-Plamo-5 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +75,112 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/18/p-plamo-5-dot-2/">P-Plamo 5.2 リリース</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-01-18T01:23:39+09:00'><span class='date'>2014-01-18</span> <span class='time'>01:23</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>P-Plamo 5.2 をリリースしました．以下から入手可能です．</p>
+
+<ul>
+<li><a href="ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/">ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux</a>
+
+<ul>
+<li>P-Plamo-5.2_x86_dvd.iso</li>
+<li>P-Plamo-5.2_x86_dvd.iso.md5sum</li>
+<li>P-Plamo-5.2_x86_64_dvd.iso</li>
+<li>P-Plamo-5.2_x86_64_dvd.iso.md5sum</li>
+<li>P-Plamo-5.2_mini_cd.iso</li>
+<li>P-Plamo-5.2_mini_cd.iso.md5sum</li>
+</ul>
+</li>
+<li><a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201401/msg00034.html">メーリングリストでの告知</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/14/update-from5-dot-1to5-dot-2/">Plamo 5.1 から 5.2 への更新</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-01-14T19:52:24+09:00'><span class='date'>2014-01-14</span> <span class='time'>19:52</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Plamo 5.1 から 5.2 への更新が可能になりました．</p>
+
+<p>以下は <a href="http://www.linet.gr.jp/~kojima/Plamo/ML/htdocs/201401/msg00020.html">メーリングリスト投稿</a> からの抜粋です．</p>
+
+<pre>
+ずいぶん遅くなりましたが，FTPサイトの Update/5.1_5.2/ 以下に，
+32ビット版(x86/)，64ビット版(x86_64)それぞれの更新されたパッケージを
+まとめてみました．
+
+ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/Update/5.1_5.2/{x86,x86_64}/plamo/
+  00_base/        02_x11/         04_xapps/       06_xfce/        10_lof/
+  01_minimum/     03_xclassics/   05_ext/         07_kde/         11_mate/
+
+各ディレクトリは Plamo-5.1 のソフトウェアカテゴリに対応しているので，
+ディレクトリごとダウンロード後，インストールされたカテゴリに合わせて，
+各ディレクトリ中の update.sh を実行すれば必要な更新を行うようにしています．
+
+なお，設定ファイルの修正のみでバージョンが上がっているパッケージは，既
+存の設定ファイルを上書きしてしまうのもマズいので，パッチ等で必要な修正を
+施すようにしてみました．
+
+# そういう処理は 00_base/update.sh に集中しているので，興味ある方は実行<br/>
+# 前にご確認ください．
+
+一応，手もとのVirtualBox上では特に問題なく 5.1 -> 5.2 に更新できていま
+すが，念のため，環境に応じて修正された設定ファイル等はバックアップをお
+願いします．
+
+なお，たいていの環境では大丈夫だと思うものの，update.sh を実行する前に
+telinit S でシングルユーザーモードに落して不要なサーバ類を止めておく方
+が安全でしょう．
+</pre>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -227,6 +335,16 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
       
         
       
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
         
       
     
@@ -235,7 +353,11 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
       
         
       
+        
+      
     
+      
+        
       
         
       
@@ -913,29 +1035,29 @@ DVD名から日付けを抜く際に直した結果なのでご心配なく．
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (27)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (15)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (67)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (28)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (17)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (69)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2018/10/16/php-7-dot-2-11/">Php 7.2.11 / 7.1.23</a>
+        <a href="/blog/2018/11/09/httpd-2-dot-4-37/">Httpd 2.4.37</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/10/15/thunderbird-60-dot-2-1/">Thunderbird 60.2.1</a>
+        <a href="/blog/2018/11/08/firefox-63-dot-0-1/">Firefox 63.0.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/10/15/firefox-62-dot-0-3/">Firefox 62.0.3</a>
+        <a href="/blog/2018/11/06/thunderbird-60-dot-3-0/">Thunderbird 60.3.0</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/30/openssl-1-dot-1-1/">OpenSSL 1.1.0n, 1.0.2p</a>
+        <a href="/blog/2018/11/05/icu-63-dot-1/">Icu 63.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/22/ghostscript-9-dot-25/">Ghostscript 9.25</a>
+        <a href="/blog/2018/10/30/ghostscript-9-dot-25/">Ghostscript 9.25</a>
       </li>
     
   </ul>

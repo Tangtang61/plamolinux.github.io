@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="セキュリティホールの修正を含む libxslt 1.1.29 がリリースされています。詳しくは以下をご覧ください。 News (xmlsoft.org)
-JVNDB-2015-005957 libxslt の preproc.c の xsltStylePreCompute &hellip;">
+  <meta name="description" content="expat にセキュリティホールが見つかっています。詳しくは以下をご覧ください。 JVNDB-2015-003917 Google Chrome などの製品で使用される Expat の XML_GetBuffer 関数における整数オーバーフローの脆弱性
+JVNDB-2016-003284 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,91 @@ JVNDB-2015-005957 libxslt の preproc.c の xsltStylePreCompute &hellip;">
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/06/23/expat-2-dot-1-1/">Expat 2.1.1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-06-23T15:55:53+09:00'><span class='date'>2016-06-23</span> <span class='time'>15:55</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>expat にセキュリティホールが見つかっています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-003917.html">JVNDB-2015-003917 Google Chrome などの製品で使用される Expat の XML_GetBuffer 関数における整数オーバーフローの脆弱性</a></li>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003284.html">JVNDB-2016-003284 Expat の XML パーサにおけるサービス運用妨害 (DoS) の脆弱性</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/02_x11/expat-2.1.1-i686-P2.txz">expat-2.1.1-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/02_x11/expat-2.1.1-x86_64-P2.txz">expat-2.1.1-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/06/15/jansson-2-dot-7/">Jansson 2.7</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-06-15T17:50:04+09:00'><span class='date'>2016-06-15</span> <span class='time'>17:50</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>jansson にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-002782.html">JVNDB-2016-002782 Jansson におけるサービス運用妨害 (DoS) の脆弱性</a></li>
+</ul>
+
+
+<p>パッチを適用したパッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/jansson-2.7-i686-P2.txz">jansson-2.7-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/jansson-2.7-x86_64-P2.txz">jansson-2.7-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -413,82 +498,6 @@ lxc.mount.auto の sys の変更
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/02/10/rsync-3-dot-1-2/">Rsync 3.1.2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2016-02-10T18:59:34+09:00'><span class='date'>2016-02-10</span> <span class='time'>18:59</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>rsync にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS">https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/network.txz/rsync-3.1.2-i686-P1.txz">rsync-3.1.2-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/network.txz/rsync-3.1.2-x86_64-P1.txz">rsync-3.1.2-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/02/01/ganshiki-soush/">玩式草子─ソフトウェアとたわむれる日々　第78回　Plamo LinuxのGPT/UEFI対応［その2］</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2016-02-01T16:05:15+09:00'><span class='date'>2016-02-01</span> <span class='time'>16:05</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifes%0Atyle/serial/01/ganshiki-soushi">「玩式草子」</a>に新しい記事が追加されています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0078">第78回　Plamo LinuxのGPT/UEFI対応［その2］</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/5">&larr; Older</a>
@@ -530,6 +539,16 @@ lxc.mount.auto の sys の変更
       
         
       
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
         
       
     
@@ -538,7 +557,11 @@ lxc.mount.auto の sys の変更
       
         
       
+        
+      
     
+      
+        
       
         
       
@@ -1216,29 +1239,29 @@ lxc.mount.auto の sys の変更
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (27)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (15)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (67)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (49)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (28)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (17)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (69)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (10)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2018/10/16/php-7-dot-2-11/">Php 7.2.11 / 7.1.23</a>
+        <a href="/blog/2018/11/09/httpd-2-dot-4-37/">Httpd 2.4.37</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/10/15/thunderbird-60-dot-2-1/">Thunderbird 60.2.1</a>
+        <a href="/blog/2018/11/08/firefox-63-dot-0-1/">Firefox 63.0.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/10/15/firefox-62-dot-0-3/">Firefox 62.0.3</a>
+        <a href="/blog/2018/11/06/thunderbird-60-dot-3-0/">Thunderbird 60.3.0</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/30/openssl-1-dot-1-1/">OpenSSL 1.1.0n, 1.0.2p</a>
+        <a href="/blog/2018/11/05/icu-63-dot-1/">Icu 63.1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/09/22/ghostscript-9-dot-25/">Ghostscript 9.25</a>
+        <a href="/blog/2018/10/30/ghostscript-9-dot-25/">Ghostscript 9.25</a>
       </li>
     
   </ul>
