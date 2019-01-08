@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://plamolinux.github.io/blog/2019/01/08/thunderbird-60-dot-4-0/</loc>
+<lastmod>2019-01-08T19:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://plamolinux.github.io/blog/2018/12/25/php-7-dot-3-0/</loc>
+<lastmod>2018-12-25T17:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://plamolinux.github.io/blog/2018/12/17/firefox-64-dot-0/</loc>
 <lastmod>2018-12-17T20:00:00+09:00</lastmod>
 </url>
@@ -13,20 +21,12 @@
 <lastmod>2018-11-09T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://plamolinux.github.io/blog/2018/11/06/thunderbird-60-dot-3-0/</loc>
-<lastmod>2018-11-06T19:00:00+09:00</lastmod>
-</url>
-<url>
 <loc>http://plamolinux.github.io/blog/2018/11/05/icu-63-dot-1/</loc>
 <lastmod>2018-11-05T17:38:25+09:00</lastmod>
 </url>
 <url>
 <loc>http://plamolinux.github.io/blog/2018/10/30/xorg-server-1-dot-19-dot-6/</loc>
 <lastmod>2018-10-30T17:31:51+09:00</lastmod>
-</url>
-<url>
-<loc>http://plamolinux.github.io/blog/2018/10/16/php-7-dot-2-11/</loc>
-<lastmod>2018-10-16T17:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://plamolinux.github.io/blog/2018/09/30/openssl-1-dot-1-1/</loc>
