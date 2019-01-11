@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-01-08T19:20:25+09:00</updated>
+  <updated>2019-01-11T16:59:19+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.3.1 / 7.1.26]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/01/11/php-7-dot-3-1/"/>
+    <updated>2019-01-11T17:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/01/11/php-7-dot-3-1</id>
+    <content type="html"><![CDATA[<p>PHP 7.3.1/7.1.26 がリリースされています。</p>
+
+<ul>
+<li><a href="http://php.net/ChangeLog-7.php#7.3.1">PHP 7.3.1 Released</a></li>
+<li><a href="http://php.net/ChangeLog-7.php#7.1.26">PHP 7.1.26 Released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.1-x86_64-B1.txz">php-7.3.1-x86_64-B1.txz</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.26-x86_64-P1.txz">php-7.1.26-x86_64-P1.txz (64bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.26-i686-P1.txz">php-7.1.26-i686-P1.txz (32bit)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 60.4.0]]></title>
@@ -30,46 +54,6 @@
 
 <ul>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-60.4.0-x86_64-B1.txz">thunderbird-60.4.0-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 7.2.11 / 7.1.23]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/12/25/php-7-dot-3-0/"/>
-    <updated>2018-12-25T17:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/12/25/php-7-dot-3-0</id>
-    <content type="html"><![CDATA[<p>Plamo 7.0 向けに PHP 7.3.0 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.3.0">PHP 7.3.0 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.0-x86_64-B1.txz">php-7.3.0-x86_64-B1.txz</a></li>
-</ul>
-
-
-<hr />
-
-<p>Plamo 6.2 向けパッケージはまだ更新がないので、前の情報をそのまま載せておきます。</p>
-
-<p>PHP 7.1.23 (Plamo 6.2) がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.1.23">PHP 7.1.23 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.23-x86_64-P1.txz">php-7.1.23-x86_64-P1.txz (64bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.23-i686-P1.txz">php-7.1.23-i686-P1.txz (32bit)</a></li>
 </ul>
 
 ]]></content>
