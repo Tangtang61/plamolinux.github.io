@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-01-11T17:07:03+09:00</updated>
+  <updated>2019-02-14T20:09:30+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,14 +14,36 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Php 7.3.1 / 7.1.26]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/01/11/php-7-dot-3-1/"/>
-    <updated>2019-01-11T17:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/01/11/php-7-dot-3-1</id>
-    <content type="html"><![CDATA[<p>PHP 7.3.1/7.1.26 がリリースされています。</p>
+    <title type="html"><![CDATA[Thunderbird 60.5.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/02/14/thunderbird-60-dot-5-0/"/>
+    <updated>2019-02-14T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/02/14/thunderbird-60-dot-5-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 60.5.0 がリリースされています。詳しくは以下をご覧ください。</p>
 
 <ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.3.1">PHP 7.3.1 Released</a></li>
+<li><a href="https://www.mozilla.org/en-US/thunderbird/60.5.0/releasenotes/">Thunderbird 60.5.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird60.5.0">Thunderbird セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-60.5.0-x86_64-B1.txz">thunderbird-60.5.0-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.3.2 / 7.1.26]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/02/11/php-7-dot-3-2/"/>
+    <updated>2019-02-11T17:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/02/11/php-7-dot-3-2</id>
+    <content type="html"><![CDATA[<p>PHP 7.3.2/7.1.26 がリリースされています。</p>
+
+<ul>
+<li><a href="http://php.net/ChangeLog-7.php#7.3.2">PHP 7.3.2 Released</a></li>
 <li><a href="http://php.net/ChangeLog-7.php#7.1.26">PHP 7.1.26 Released</a></li>
 </ul>
 
@@ -29,7 +51,7 @@
 <p>パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.1-x86_64-B1.txz">php-7.3.1-x86_64-B1.txz</a> (Plamo 7.0)</li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.2-x86_64-B1.txz">php-7.3.2-x86_64-B1.txz</a> (Plamo 7.0)</li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.26-x86_64-P1.txz">php-7.1.26-x86_64-P1.txz (64bit)</a> (Plamo 6.2)</li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.26-i686-P1.txz">php-7.1.26-i686-P1.txz (32bit)</a> (Plamo 6.2)</li>
 </ul>
@@ -38,47 +60,23 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Thunderbird 60.4.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/01/08/thunderbird-60-dot-4-0/"/>
-    <updated>2019-01-08T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/01/08/thunderbird-60-dot-4-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 60.4.0 がリリースされています。詳しくは以下をご覧ください。</p>
+    <title type="html"><![CDATA[Firefox 65.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/01/30/firefox-65-dot-0/"/>
+    <updated>2019-01-30T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/01/30/firefox-65-dot-0</id>
+    <content type="html"><![CDATA[<p>firefox 65.0 パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="https://www.mozilla.org/en-US/thunderbird/60.4.0/releasenotes/">Thunderbird 60.4.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird60.4.0">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。icu パッケージも同時に更新する必要があります。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-60.4.0-x86_64-B1.txz">thunderbird-60.4.0-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 64.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/12/17/firefox-64-dot-0/"/>
-    <updated>2018-12-17T20:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/12/17/firefox-64-dot-0</id>
-    <content type="html"><![CDATA[<p>firefox 64.0 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://www.mozilla.jp/firefox/64.0/releasenotes/">Firefox 64.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox64.0">Firefox セキュリティアドバイザリ</a></li>
+<li><a href="https://www.mozilla.jp/firefox/65.0/releasenotes/">Firefox 65.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox65.0">Firefox セキュリティアドバイザリ</a></li>
 </ul>
 
 
 <p>パッケージをリリースしました。sqlite, nss, harfbuzz パッケージも同時に更新する必要があります。</p>
 
 <ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-64.0-x86_64-B1.txz">firefox-64.0-x86_64-B1.txz</a></li>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.26.0-x86_64-B1.txz">sqlite-3.26.0-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/harfbuzz-2.2.0-x86_64-B1.txz">harfbuzz-2.2.0-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.40.1-x86_64-B1.txz">nss-3.40.1-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-65.0-x86_64-B1.txz">firefox-65.0-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.42.1-x86_64-B1.txz">nss-3.42.1-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
