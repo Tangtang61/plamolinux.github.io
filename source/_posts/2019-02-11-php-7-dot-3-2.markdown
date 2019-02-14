@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "php 7.3.1 / 7.1.26"
-date: 2019-01-11 17:00:00 +0900
+title: "php 7.3.2 / 7.1.26"
+date: 2019-02-11 17:00:00 +0900
 comments: false
 categories: ["Plamo 7.x 情報", "Plamo 6.x 情報", "セキュリティ情報"]
 ---
-PHP 7.3.1/7.1.26 がリリースされています。
+PHP 7.3.2/7.1.26 がリリースされています。
 
-* [PHP 7.3.1 Released](http://php.net/ChangeLog-7.php#7.3.1)
+* [PHP 7.3.2 Released](http://php.net/ChangeLog-7.php#7.3.2)
 * [PHP 7.1.26 Released](http://php.net/ChangeLog-7.php#7.1.26)
 
 パッケージをリリースしました。
 
-* [php-7.3.1-x86_64-B1.txz](ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.1-x86_64-B1.txz) (Plamo 7.0)
+* [php-7.3.2-x86_64-B1.txz](ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.2-x86_64-B1.txz) (Plamo 7.0)
 * [php-7.1.26-x86_64-P1.txz (64bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.26-x86_64-P1.txz) (Plamo 6.2)
 * [php-7.1.26-i686-P1.txz (32bit)](ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.26-i686-P1.txz) (Plamo 6.2)
 
