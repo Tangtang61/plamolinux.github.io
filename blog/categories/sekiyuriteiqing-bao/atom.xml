@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-02-21T14:47:41+09:00</updated>
+  <updated>2019-02-21T15:54:08+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -18,10 +18,14 @@
     <link href="http://plamolinux.github.io/blog/2019/02/21/openssh-7-dot-9p1/"/>
     <updated>2019-02-21T15:00:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2019/02/21/openssh-7-dot-9p1</id>
-    <content type="html"><![CDATA[<p>OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+    <content type="html"><![CDATA[<p>OpenSSH 7.9p1 がリリースされていたのでアップデートを行い、さらに CVE-2018-20685 対策のパッチを適用しました。</p>
+
+<!-- OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。 -->
+
 
 <ul>
 <li><a href="http://www.openssh.com/txt/release-7.9">release-7.9</a></li>
+<li><a href="https://security.sios.com/vulnerability/openssh-security-vulnerability-20190111.html">OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685)</a> (SIOS SECURITY BLOG)</li>
 </ul>
 
 
