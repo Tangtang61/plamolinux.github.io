@@ -4,7 +4,7 @@
   <title><![CDATA[Category: セキュリティ情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/sekiyuriteiqing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-02-15T17:36:07+09:00</updated>
+  <updated>2019-02-21T14:47:41+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Openssh 7.9p1]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/02/21/openssh-7-dot-9p1/"/>
+    <updated>2019-02-21T15:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/02/21/openssh-7-dot-9p1</id>
+    <content type="html"><![CDATA[<p>OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.openssh.com/txt/release-7.9">release-7.9</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/openssh-7.9p1-x86_64-B2.txz">openssh-7.9p1-x86_64-B2.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thunderbird 60.5.1]]></title>
@@ -91,30 +112,6 @@
 
 <ul>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/09_printings/ghostscript-9.26-x86_64-B1.txz">ghostscript-9.26-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Httpd 2.4.37]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/11/09/httpd-2-dot-4-37/"/>
-    <updated>2018-11-09T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/11/09/httpd-2-dot-4-37</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.28 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.37 Released</a></li>
-<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.37">Changes with Apache 2.4.37</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/08_daemons/httpd-2.4.37-x86_64-B1.txz">httpd-2.4.37-x86_64-B1.txz</a> (Plamo-7.0)</li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.37-i686-P1.txz">httpd-2.4.37-i686-P1.txz</a> (Plamo-6.2 / 32bit)</li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.37-x86_64-P1.txz">httpd-2.4.37-x86_64-P1.txz</a> (Plamo-6.2 / 32bit)</li>
 </ul>
 
 ]]></content>
