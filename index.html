@@ -9,8 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="OpenSSH 7.9p1 がリリースされていたのでアップデートを行い、さらに CVE-2018-20685 対策のパッチを適用しました。 release-7.9
-OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685) (SIOS SECURITY BLOG) &hellip;">
+  <meta name="description" content="bind にセキュリティホールが発見されています．詳しくは以下をご覧ください． BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2018-5745）
+BIND 9.xの脆弱性（アクセス制限の不具合によるゾーンデータの流出）について（CVE-2019-6465） &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,51 @@ OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685) (SIOS SECURITY BLOG) &
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2019/02/22/bind-9-dot-12-3-p4/">Bind 9.12.3-P4</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2019-02-22T16:00:00+09:00'><span class='date'>2019-02-22</span> <span class='time'>16:00</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2019-02-22-bind9-vuln-managed-keys.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2018-5745）</a></li>
+<li><a href="https://jprs.jp/tech/security/2019-02-22-bind9-vuln-dlz.html">BIND 9.xの脆弱性（アクセス制限の不具合によるゾーンデータの流出）について（CVE-2019-6465）</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。なお、Plamo 6.x でリリースしていた 9.9.x は EOL ですので、現在の stable である 9.12.3-P4 でパッケージを作成しています。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.12.3_P4-i686-P1.txz">bind-9.12.3_P4-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.12.3_P4-x86_64-P1.txz">bind-9.12.3_P4-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>Plamo 7.0 には bind パッケージはありませんので影響ありません（一部ユーティリティコマンドのみを含む <code>bind_tools</code> パッケージのみ存在）</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -458,47 +503,6 @@ OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685) (SIOS SECURITY BLOG) &
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2018-09-05T19:00:00+09:00'><span class='date'>2018-09-05</span> <span class='time'>19:00</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>wpa_supplicant にセキュリティホールが見つかっています。詳しくは次をご覧ください。</p>
-
-<ul>
-<li><a href="https://w1.fi/security/2018-1/unauthenticated-eapol-key-decryption.txt">Unauthenticated EAPOL-Key decryption in wpa_supplicant</a> (w1.fi)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wpa_supplicant-2.6-x86_64-B2.txz">wpa_supplicant-2.6-x86_64-B2.txz</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/2">&larr; Older</a>
@@ -530,20 +534,6 @@ OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685) (SIOS SECURITY BLOG) &
       
         
       
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
     
       
         
@@ -573,6 +563,20 @@ OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685) (SIOS SECURITY BLOG) &
         
       
     
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
       
         
       
@@ -1244,6 +1248,10 @@ OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685) (SIOS SECURITY BLOG) &
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2019/02/22/bind-9-dot-12-3-p4/">Bind 9.12.3-P4</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2019/02/21/openssh-7-dot-9p1/">Openssh 7.9p1</a>
       </li>
     
@@ -1257,10 +1265,6 @@ OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685) (SIOS SECURITY BLOG) &
     
       <li class="post">
         <a href="/blog/2019/01/30/firefox-65-dot-0/">Firefox 65.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/11/27/ghostscript-9-dot-26/">Ghostscript 9.26</a>
       </li>
     
   </ul>

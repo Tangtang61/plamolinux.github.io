@@ -9,8 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="GnuTLS パッケージを 3.6.3 に更新しました。 gnutls 3.6.3 同時に nettle の更新が必要です。 nettle-3.4-x86_64-B1.txz
-gnutls-3.6.3-x86_64-B1.txz ">
+  <meta name="description" content="wpa_supplicant にセキュリティホールが見つかっています。詳しくは次をご覧ください。 Unauthenticated EAPOL-Key decryption in wpa_supplicant (w1.fi) パッケージをリリースしました。 wpa_supplicant-2.6- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +79,47 @@ gnutls-3.6.3-x86_64-B1.txz ">
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2018/09/05/wpa-supplicant-2-dot-6/">Wpa_supplicant 2.6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2018-09-05T19:00:00+09:00'><span class='date'>2018-09-05</span> <span class='time'>19:00</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>wpa_supplicant にセキュリティホールが見つかっています。詳しくは次をご覧ください。</p>
+
+<ul>
+<li><a href="https://w1.fi/security/2018-1/unauthenticated-eapol-key-decryption.txt">Unauthenticated EAPOL-Key decryption in wpa_supplicant</a> (w1.fi)</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wpa_supplicant-2.6-x86_64-B2.txz">wpa_supplicant-2.6-x86_64-B2.txz</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2018/09/03/gnutls-3-dot-6-3/">Gnutls 3.6.3</a></h1>
     
     
@@ -110,50 +150,6 @@ gnutls-3.6.3-x86_64-B1.txz ">
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/gnutls-3.6.3-x86_64-B1.txz">gnutls-3.6.3-x86_64-B1.txz</a></li>
 </ul>
 
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2018/08/09/bind-9-dot-9-13-p1/">Bind 9.9.13-P1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2018-08-09T16:00:00+09:00'><span class='date'>2018-08-09</span> <span class='time'>16:00</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2018-08-09-bind9-vuln-deny-answer-aliases.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2018-5740）</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.13_P1-i686-P1.txz">bind-9.9.13_P1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.13_P1-x86_64-P1.txz">bind-9.9.13_P1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>Plamo 7.0 には bind パッケージはありませんので影響ありません（一部ユーティリティコマンドのみを含む <code>bind_tools</code> パッケージのみ存在）</p>
 </div>
   
   
@@ -542,20 +538,6 @@ gnutls-3.6.3-x86_64-B1.txz ">
       
         
       
-        
-      
-    
-      
-        
-      
-        
-      
-    
-      
-        
-      
-        
-      
     
       
         
@@ -585,6 +567,20 @@ gnutls-3.6.3-x86_64-B1.txz ">
         
       
     
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
       
         
       
@@ -1256,6 +1252,10 @@ gnutls-3.6.3-x86_64-B1.txz ">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2019/02/22/bind-9-dot-12-3-p4/">Bind 9.12.3-P4</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2019/02/21/openssh-7-dot-9p1/">Openssh 7.9p1</a>
       </li>
     
@@ -1269,10 +1269,6 @@ gnutls-3.6.3-x86_64-B1.txz ">
     
       <li class="post">
         <a href="/blog/2019/01/30/firefox-65-dot-0/">Firefox 65.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2018/11/27/ghostscript-9-dot-26/">Ghostscript 9.26</a>
       </li>
     
   </ul>

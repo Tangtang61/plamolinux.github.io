@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-02-21T15:54:08+09:00</updated>
+  <updated>2019-02-25T20:10:29+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bind 9.12.3-P4]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/02/22/bind-9-dot-12-3-p4/"/>
+    <updated>2019-02-22T16:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/02/22/bind-9-dot-12-3-p4</id>
+    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="https://jprs.jp/tech/security/2019-02-22-bind9-vuln-managed-keys.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2018-5745）</a></li>
+<li><a href="https://jprs.jp/tech/security/2019-02-22-bind9-vuln-dlz.html">BIND 9.xの脆弱性（アクセス制限の不具合によるゾーンデータの流出）について（CVE-2019-6465）</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。なお、Plamo 6.x でリリースしていた 9.9.x は EOL ですので、現在の stable である 9.12.3-P4 でパッケージを作成しています。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.12.3_P4-i686-P1.txz">bind-9.12.3_P4-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.12.3_P4-x86_64-P1.txz">bind-9.12.3_P4-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>Plamo 7.0 には bind パッケージはありませんので影響ありません（一部ユーティリティコマンドのみを含む <code>bind_tools</code> パッケージのみ存在）</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 7.3.2 / 7.1.26]]></title>
@@ -92,30 +117,6 @@
 </li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bind 9.9.13-P1]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/08/09/bind-9-dot-9-13-p1/"/>
-    <updated>2018-08-09T16:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/08/09/bind-9-dot-9-13-p1</id>
-    <content type="html"><![CDATA[<p>bind にセキュリティホールが発見されています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="https://jprs.jp/tech/security/2018-08-09-bind9-vuln-deny-answer-aliases.html">BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2018-5740）</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/bind-9.9.13_P1-i686-P1.txz">bind-9.9.13_P1-i686-P1.txz (32bit)</a></li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/bind-9.9.13_P1-x86_64-P1.txz">bind-9.9.13_P1-x86_64-P1.txz (64bit)</a></li>
-</ul>
-
-
-<p>Plamo 7.0 には bind パッケージはありませんので影響ありません（一部ユーティリティコマンドのみを含む <code>bind_tools</code> パッケージのみ存在）</p>
 ]]></content>
   </entry>
   
