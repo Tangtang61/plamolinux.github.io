@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://plamolinux.github.io/blog/2019/03/14/php-7-dot-3-3/</loc>
-<lastmod>2019-03-14T17:00:00+09:00</lastmod>
+<loc>http://plamolinux.github.io/blog/2019/04/08/php-7-dot-3-4/</loc>
+<lastmod>2019-04-08T19:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://plamolinux.github.io/blog/2019/04/08/httpd-2-dot-4-39/</loc>
+<lastmod>2019-04-08T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://plamolinux.github.io/blog/2019/02/22/bind-9-dot-12-3-p4/</loc>
@@ -23,10 +27,6 @@
 <url>
 <loc>http://plamolinux.github.io/blog/2018/11/27/ghostscript-9-dot-26/</loc>
 <lastmod>2018-11-27T19:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://plamolinux.github.io/blog/2018/11/09/httpd-2-dot-4-37/</loc>
-<lastmod>2018-11-09T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://plamolinux.github.io/blog/2018/11/05/icu-63-dot-1/</loc>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-03-14T18:55:39+09:00</updated>
+  <updated>2019-04-08T20:29:20+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,24 +14,48 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Php 7.3.3 / 7.1.27]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/03/14/php-7-dot-3-3/"/>
-    <updated>2019-03-14T17:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/03/14/php-7-dot-3-3</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.3.3/7.1.27 がリリースされています。</p>
+    <title type="html"><![CDATA[Php 7.3.4 / 7.1.28]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/04/08/php-7-dot-3-4/"/>
+    <updated>2019-04-08T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/04/08/php-7-dot-3-4</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.3.4/7.1.28 がリリースされています。</p>
 
 <ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.3.3">PHP 7.3.3 Released</a></li>
-<li><a href="http://php.net/ChangeLog-7.php#7.1.27">PHP 7.1.27 Released</a></li>
+<li><a href="http://php.net/ChangeLog-7.php#7.3.4">PHP 7.3.4 Released</a></li>
+<li><a href="http://php.net/ChangeLog-7.php#7.1.28">PHP 7.1.28 Released</a></li>
 </ul>
 
 
 <p>パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.3-x86_64-B1.txz">php-7.3.3-x86_64-B1.txz</a> (Plamo 7.0)</li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.27-x86_64-P1.txz">php-7.1.27-x86_64-P1.txz (64bit)</a> (Plamo 6.2)</li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.27-i686-P1.txz">php-7.1.27-i686-P1.txz (32bit)</a> (Plamo 6.2)</li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.4-x86_64-B1.txz">php-7.3.4-x86_64-B1.txz</a> (Plamo 7.0)</li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.28-x86_64-P1.txz">php-7.1.28-x86_64-P1.txz (64bit)</a> (Plamo 6.2)</li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.28-i686-P1.txz">php-7.1.28-i686-P1.txz (32bit)</a> (Plamo 6.2)</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Httpd 2.4.39]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/04/08/httpd-2-dot-4-39/"/>
+    <updated>2019-04-08T00:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/04/08/httpd-2-dot-4-39</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.39 がリリースされています．詳しくは以下をご覧ください．</p>
+
+<ul>
+<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.39 Released</a></li>
+<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.39">Changes with Apache 2.4.39</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/08_daemons/httpd-2.4.39-x86_64-B1.txz">httpd-2.4.39-x86_64-B1.txz</a> (Plamo-7.0)</li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.39-i686-P1.txz">httpd-2.4.39-i686-P1.txz</a> (Plamo-6.2 / 32bit)</li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.39-x86_64-P1.txz">httpd-2.4.39-x86_64-P1.txz</a> (Plamo-6.2 / 64bit)</li>
 </ul>
 
 ]]></content>
@@ -102,20 +126,6 @@
 <ul>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-65.0-x86_64-B1.txz">firefox-65.0-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.42.1-x86_64-B1.txz">nss-3.42.1-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ghostscript 9.26]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/11/27/ghostscript-9-dot-26/"/>
-    <updated>2018-11-27T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/11/27/ghostscript-9-dot-26</id>
-    <content type="html"><![CDATA[<p>ghostscript にセキュリティホールが見つかっています。対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/09_printings/ghostscript-9.26-x86_64-B1.txz">ghostscript-9.26-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
