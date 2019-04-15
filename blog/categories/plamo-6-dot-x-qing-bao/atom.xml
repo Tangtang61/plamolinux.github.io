@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-04-08T20:29:20+09:00</updated>
+  <updated>2019-04-15T16:37:15+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wget 1.20.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/04/15/wget-1-dot-20-3/"/>
+    <updated>2019-04-15T12:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/04/15/wget-1-dot-20-3</id>
+    <content type="html"><![CDATA[<p>wget にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://security.sios.com/vulnerability/wget-security-vulnerability-20190407.html">CVE-2019-5953</a> （SIOS Security Blog）</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wget-1.20.3-x86_64-B1.txz">wget-1.20.3-x86_64-B1.txz</a> （Plamo-7.x）</li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/wget-1.20.3-x86_64-P1.txz">wget-1.20.3-x86_64-P1.txz</a> （Plamo-6.x 64bit）</li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/01_minimum/network.txz/wget-1.20.3-i686-P1.txz">wget-1.20.3-i686-P1.txz</a> （Plamo-6.x 32bit）</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 7.3.4 / 7.1.28]]></title>
@@ -113,42 +136,6 @@
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/00_base/openssl-1.0.2p-i686-P1.txz">openssl-1.0.2p-i686-P1.txz (32bit)</a></li>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/00_base/openssl-1.0.2p-x86_64-P1.txz">openssl-1.0.2p-x86_64-P1.txz (64bit)</a></li>
-</ul>
-</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Curl 7.60.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0/"/>
-    <updated>2018-06-14T19:55:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/06/14/curl-7-dot-60-dot-0</id>
-    <content type="html"><![CDATA[<p>（2018-06-14 20:00 Plamo 6.2 用のパッケージ情報を追加しました）</p>
-
-<p>セキュリティホールの修正を含む curl 7.60.0 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://curl.haxx.se/changes.html">Changelog</a></li>
-<li><a href="https://curl.haxx.se/docs/security.html">curl Security</a></li>
-</ul>
-
-
-<p>対策パッケージをリリースしました．</p>
-
-<ul>
-<li>Plamo 7.0
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-B1.txz">curl-7.60.0-x86_64-B1.txz</a></li>
-</ul>
-</li>
-<li>Plamo 6.2
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/01_minimum/network.txz/curl-7.60.0-i686-P1.txz">curl-7.60.0-i686-P1.txz (32bit)</a></li>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/curl-7.60.0-x86_64-P1.txz">curl-7.60.0-x86_64-P1.txz (32bit)</a></li>
 </ul>
 </li>
 </ul>

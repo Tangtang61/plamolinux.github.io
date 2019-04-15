@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-04-08T20:29:20+09:00</updated>
+  <updated>2019-04-15T16:37:15+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wget 1.20.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/04/15/wget-1-dot-20-3/"/>
+    <updated>2019-04-15T12:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/04/15/wget-1-dot-20-3</id>
+    <content type="html"><![CDATA[<p>wget にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://security.sios.com/vulnerability/wget-security-vulnerability-20190407.html">CVE-2019-5953</a> （SIOS Security Blog）</li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wget-1.20.3-x86_64-B1.txz">wget-1.20.3-x86_64-B1.txz</a> （Plamo-7.x）</li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/wget-1.20.3-x86_64-P1.txz">wget-1.20.3-x86_64-P1.txz</a> （Plamo-6.x 64bit）</li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/01_minimum/network.txz/wget-1.20.3-i686-P1.txz">wget-1.20.3-i686-P1.txz</a> （Plamo-6.x 32bit）</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 7.3.4 / 7.1.28]]></title>
@@ -103,29 +126,6 @@
 
 <ul>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-60.5.1-x86_64-B1.txz">thunderbird-60.5.1-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 65.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/01/30/firefox-65-dot-0/"/>
-    <updated>2019-01-30T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/01/30/firefox-65-dot-0</id>
-    <content type="html"><![CDATA[<p>firefox 65.0 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://www.mozilla.jp/firefox/65.0/releasenotes/">Firefox 65.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox65.0">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。sqlite, nss, harfbuzz パッケージも同時に更新する必要があります。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-65.0-x86_64-B1.txz">firefox-65.0-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.42.1-x86_64-B1.txz">nss-3.42.1-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
