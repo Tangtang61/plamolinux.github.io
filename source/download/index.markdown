@@ -9,14 +9,12 @@ footer: true
 
 Plamo Linux は以下のサイトからダウンロード可能です。
 
+* plamo.linet.gr.jp [ftp](ftp://plamo.linet.gr.jp/pub/) （plamo.linet.gr.jp はおうちサーバで回線が遅いので以下の repository.plamolinux.org をおすすめします）
+* repository.plamolinux.org（5.x、6.x、7.x ツリーと 6.x、7.x 最新の iso イメージが取得できます）
+    * パッケージツリー : https://repository.plamolinux.org/pub/linux/Plamo/
+    * ISOイメージ : https://repository.plamolinux.org/isos/
+
+## 過去ダウンロードできたサイト
+
 * ~~ftp.ne.jp [ftp](ftp://ftp.ne.jp/pub/Linux/distributions/plamolinux/) / [http](http://ftp.ne.jp/pub/Linux/distributions/plamolinux/)~~ (ミラーが止まっているようです)
-* Ring Server Project [ftp](ftp://ftp.ring.gr.jp/pub/linux/Plamo/) / [http](http://www.ring.gr.jp/pub/linux/Plamo/) （ring サーバは iso イメージがミラーされていないようです）
-* plamo.linet.gr.jp [ftp](ftp://plamo.linet.gr.jp/pub/)
-
-plamo.linet.gr.jp はおうちサーバで回線が遅いので以下の repository.plamolinux.org をおすすめします。
-
-5.x、6.x、7.x ツリーと 6.x、7.x 最新の iso イメージは以下からも取得できます。
-
-* repository.plamolinux.org
-    * パッケージツリー : http://repository.plamolinux.org/pub/linux/Plamo/
-    * ISOイメージ : http://repository.plamolinux.org/isos/
+* ~~Ring Server Project [ftp](ftp://ftp.ring.gr.jp/pub/linux/Plamo/) / [http](http://www.ring.gr.jp/pub/linux/Plamo/)~~ （ring サーバのミラー間隔が良くわかりませんが、少し古い状態でミラーされているようです）
