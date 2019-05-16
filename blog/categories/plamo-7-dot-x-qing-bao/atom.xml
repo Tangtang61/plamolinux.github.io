@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-05-15T18:08:16+09:00</updated>
+  <updated>2019-05-16T16:01:24+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -19,6 +19,11 @@
     <updated>2019-05-15T08:13:00+09:00</updated>
     <id>http://plamolinux.github.io/blog/2019/05/15/plamo-7-dot-1</id>
     <content type="html"><![CDATA[<p>Plamo 7.1 をリリースしました。</p>
+
+<ul>
+<li>リリースアナウンス: <a href="http://www.linet.gr.jp/~kojima/PlamoWeb/ML/htdocs/201905/msg00044.html">[plamo:32898] Plamo-7.1 released</a></li>
+</ul>
+
 
 <p>従来同様、4.7Gのサイズに収まるようにDVD用は2枚組み、2枚目は pTeX 回りのみなので、pTeX の不要な方は 01 のイメージのみでインストールできます。</p>
 
