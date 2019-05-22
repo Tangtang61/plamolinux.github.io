@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://plamolinux.github.io/blog/2019/05/22/firefox-67-dot-0/</loc>
+<lastmod>2019-05-22T19:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://plamolinux.github.io/blog/2019/05/15/plamo-7-dot-1/</loc>
 <lastmod>2019-05-15T08:13:00+09:00</lastmod>
 </url>
@@ -27,10 +31,6 @@
 <url>
 <loc>http://plamolinux.github.io/blog/2019/02/15/thunderbird-60-dot-5-1/</loc>
 <lastmod>2019-02-15T17:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://plamolinux.github.io/blog/2019/01/30/firefox-65-dot-0/</loc>
-<lastmod>2019-01-30T19:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://plamolinux.github.io/blog/2018/11/27/ghostscript-9-dot-26/</loc>

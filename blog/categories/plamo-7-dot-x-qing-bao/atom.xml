@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-05-16T16:01:24+09:00</updated>
+  <updated>2019-05-22T19:30:02+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 67.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/05/22/firefox-67-dot-0/"/>
+    <updated>2019-05-22T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/05/22/firefox-67-dot-0</id>
+    <content type="html"><![CDATA[<p>firefox 67.0 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://www.mozilla.org/firefox/67.0/releasenotes/">Firefox 67.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox67.0">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。sqlite, nss, nspr, p11_kit パッケージも同時に更新する必要があります。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-67.0-x86_64-B1.txz">firefox-67.0-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.44-x86_64-B1.txz">nss-3.44-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.21-x86_64-B1.txz">nspr-4.21-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.28.0-x86_64-B1.txz">sqlite-3.28.0-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/p11_kit-0.23.15-x86_64-B1.txz">p11_kit-3.28.0-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Plamo 7.1 リリース]]></title>
@@ -168,31 +194,6 @@ grub以外の方法で起動したい場合は、
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/08_daemons/httpd-2.4.39-x86_64-B1.txz">httpd-2.4.39-x86_64-B1.txz</a> (Plamo-7.0)</li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.39-i686-P1.txz">httpd-2.4.39-i686-P1.txz</a> (Plamo-6.2 / 32bit)</li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.39-x86_64-P1.txz">httpd-2.4.39-x86_64-P1.txz</a> (Plamo-6.2 / 64bit)</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openssh 7.9p1]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/02/21/openssh-7-dot-9p1/"/>
-    <updated>2019-02-21T15:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/02/21/openssh-7-dot-9p1</id>
-    <content type="html"><![CDATA[<p>OpenSSH 7.9p1 がリリースされていたのでアップデートを行い、さらに CVE-2018-20685 対策のパッチを適用しました。</p>
-
-<!-- OpenSSH にセキュリティホールが発見されています。詳しくは以下をご覧ください。 -->
-
-
-<ul>
-<li><a href="http://www.openssh.com/txt/release-7.9">release-7.9</a></li>
-<li><a href="https://security.sios.com/vulnerability/openssh-security-vulnerability-20190111.html">OpenSSH(scp)の脆弱性情報(Important: CVE-2018-20685)</a> (SIOS SECURITY BLOG)</li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/openssh-7.9p1-x86_64-B2.txz">openssh-7.9p1-x86_64-B2.txz</a></li>
 </ul>
 
 ]]></content>
