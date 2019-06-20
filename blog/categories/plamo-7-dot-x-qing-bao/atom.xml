@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-05-22T19:30:02+09:00</updated>
+  <updated>2019-06-21T01:20:43+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,22 +14,22 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Firefox 67.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/05/22/firefox-67-dot-0/"/>
-    <updated>2019-05-22T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/05/22/firefox-67-dot-0</id>
-    <content type="html"><![CDATA[<p>firefox 67.0 パッケージをリリースしました。</p>
+    <title type="html"><![CDATA[Firefox 67.0.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/06/20/firefox-67-dot-0-3/"/>
+    <updated>2019-06-20T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/06/20/firefox-67-dot-0-3</id>
+    <content type="html"><![CDATA[<p>firefox 67.0.3 パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="https://www.mozilla.org/firefox/67.0/releasenotes/">Firefox 67.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox67.0">Firefox セキュリティアドバイザリ</a></li>
+<li><a href="https://www.mozilla.org/firefox/67.0.3/releasenotes/">Firefox 67.0.3 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox67.0.3">Firefox セキュリティアドバイザリ</a></li>
 </ul>
 
 
-<p>パッケージをリリースしました。sqlite, nss, nspr, p11_kit パッケージも同時に更新する必要があります。</p>
+<p>パッケージをリリースしました。67.0 より古いバージョンからの更新の場合、sqlite, nss, nspr, p11_kit パッケージも同時に更新する必要があります。</p>
 
 <ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-67.0-x86_64-B1.txz">firefox-67.0-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-67.0.3-x86_64-B1.txz">firefox-67.0.3-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.44-x86_64-B1.txz">nss-3.44-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.21-x86_64-B1.txz">nspr-4.21-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.28.0-x86_64-B1.txz">sqlite-3.28.0-x86_64-B1.txz</a></li>
