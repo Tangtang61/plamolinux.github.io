@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-06-21T01:20:43+09:00</updated>
+  <updated>2019-06-24T21:04:35+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,26 +14,48 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Firefox 67.0.3]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/06/20/firefox-67-dot-0-3/"/>
-    <updated>2019-06-20T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/06/20/firefox-67-dot-0-3</id>
-    <content type="html"><![CDATA[<p>firefox 67.0.3 パッケージをリリースしました。</p>
+    <title type="html"><![CDATA[Firefox 67.0.4]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/06/24/firefox-67-dot-0-4/"/>
+    <updated>2019-06-24T22:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/06/24/firefox-67-dot-0-4</id>
+    <content type="html"><![CDATA[<p>firefox 67.0.4 パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="https://www.mozilla.org/firefox/67.0.3/releasenotes/">Firefox 67.0.3 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox67.0.3">Firefox セキュリティアドバイザリ</a></li>
+<li><a href="https://www.mozilla.org/firefox/67.0.4/releasenotes/">Firefox 67.0.4 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox67.0.4">Firefox セキュリティアドバイザリ</a></li>
 </ul>
 
 
 <p>パッケージをリリースしました。67.0 より古いバージョンからの更新の場合、sqlite, nss, nspr, p11_kit パッケージも同時に更新する必要があります。</p>
 
 <ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-67.0.3-x86_64-B1.txz">firefox-67.0.3-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-67.0.4-x86_64-B1.txz">firefox-67.0.4-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.44-x86_64-B1.txz">nss-3.44-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.21-x86_64-B1.txz">nspr-4.21-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.28.0-x86_64-B1.txz">sqlite-3.28.0-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/p11_kit-0.23.15-x86_64-B1.txz">p11_kit-3.28.0-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 60.7.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/06/24/thunderbird-60-dot-7-0/"/>
+    <updated>2019-06-24T20:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/06/24/thunderbird-60-dot-7-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 60.7.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.mozilla.org/en-US/thunderbird/60.7.0/releasenotes/">Thunderbird 60.7.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird60.7.0">Thunderbird セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-60.7.0-x86_64-B1.txz">thunderbird-60.7.0-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
@@ -298,28 +320,6 @@
 
 <ul>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/openssh-7.9p1-x86_64-B2.txz">openssh-7.9p1-x86_64-B2.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 60.5.1]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/02/15/thunderbird-60-dot-5-1/"/>
-    <updated>2019-02-15T17:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/02/15/thunderbird-60-dot-5-1</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 60.5.1 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.mozilla.org/en-US/thunderbird/60.5.1/releasenotes/">Thunderbird 60.5.1 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird60.5.1">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-60.5.1-x86_64-B1.txz">thunderbird-60.5.1-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
