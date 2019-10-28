@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 6.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-6-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-10-28T20:47:24+09:00</updated>
+  <updated>2019-10-28T20:51:04+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -31,30 +31,6 @@
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/wget-1.20.3-x86_64-B1.txz">wget-1.20.3-x86_64-B1.txz</a> （Plamo-7.x）</li>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/wget-1.20.3-x86_64-P1.txz">wget-1.20.3-x86_64-P1.txz</a> （Plamo-6.x 64bit）</li>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/01_minimum/network.txz/wget-1.20.3-i686-P1.txz">wget-1.20.3-i686-P1.txz</a> （Plamo-6.x 32bit）</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Httpd 2.4.39]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/04/08/httpd-2-dot-4-39/"/>
-    <updated>2019-04-08T00:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/04/08/httpd-2-dot-4-39</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Apache httpd 2.4.39 がリリースされています．詳しくは以下をご覧ください．</p>
-
-<ul>
-<li><a href="http://www.apache.org/dist/httpd/Announcement2.4.html">Apache HTTP Server 2.4.39 Released</a></li>
-<li><a href="http://www.apache.org/dist/httpd/CHANGES_2.4.39">Changes with Apache 2.4.39</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました．</p>
-
-<ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/08_daemons/httpd-2.4.39-x86_64-B1.txz">httpd-2.4.39-x86_64-B1.txz</a> (Plamo-7.0)</li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86/plamo/05_ext/network2.txz/httpd-2.4.39-i686-P1.txz">httpd-2.4.39-i686-P1.txz</a> (Plamo-6.2 / 32bit)</li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/httpd-2.4.39-x86_64-P1.txz">httpd-2.4.39-x86_64-P1.txz</a> (Plamo-6.2 / 64bit)</li>
 </ul>
 
 ]]></content>
@@ -152,6 +128,30 @@
 </li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ntp 4.2.8p10]]></title>
+    <link href="http://plamolinux.github.io/blog/2017/04/04/ntp-4-dot-2-8p10/"/>
+    <updated>2017-04-04T18:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2017/04/04/ntp-4-dot-2-8p10</id>
+    <content type="html"><![CDATA[<p>ntp にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://support.ntp.org/bin/view/Main/SecurityNotice#March_2017_ntp_4_2_8p10_NTP_Secu">March 2017 ntp-4.2.8p10 NTP Security Vulnerability Announcement</a></li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/01_minimum/network.txz/ntp-4.2.8p10-i686-P1.txz">ntp-4.2.8p10-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/01_minimum/network.txz/ntp-4.2.8p10-x86_64-P1.txz">ntp-4.2.8p10-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+
+<p>ntp-4.2.8p9-*-P2 パッケージより、動作に ntp ユーザ・グループが必要になりました。詳しくは Change.Log をご覧ください。</p>
 ]]></content>
   </entry>
   

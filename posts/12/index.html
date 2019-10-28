@@ -9,10 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第10回　LXCの基本操作［3］ FB の方へ「今回も軽め」とありましたが、この辺のコマンドを、この様に説明されてると実運用される人には役立ちそうですね &lt; bar-mtomi アプリケーションコンテナ
-LXCのシステム設定
-コンテナの一時停止，再開
-コンテナの状態のモニタリング &hellip;">
+  <meta name="description" content="*第13回　LXCの構築・活用 [1] — テンプレートを紐解く 今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。 テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
+が、私のスクリプト理解力（ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +74,119 @@ LXCのシステム設定
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/11/09/lxc-gihyo-13/">LXC　空間を歩む　十三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-11-09T15:35:38+09:00'><span class='date'>2014-11-09</span> <span class='time'>15:35</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0013">第13回　LXCの構築・活用 [1] — テンプレートを紐解く</a></p>
+
+<p>今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。</p>
+
+<p>テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
+が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
+た (^^; &lt; bar-mtomi</p>
+
+<blockquote><pre><code>Plamoテンプレートの内部紹介
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/24/lxc-gihyo-12/">LXC　空間を歩む　十二歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-10-24T17:11:55+09:00'><span class='date'>2014-10-24</span> <span class='time'>17:11</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
+
+<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
+
+<blockquote><pre><code>セキュリティ機能
+ネットワーク
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/13/lxc-gihyo-11/">LXC　空間を歩む　十一歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-10-13T13:08:05+09:00'><span class='date'>2014-10-13</span> <span class='time'>13:08</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
+
+<p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
+
+<blockquote><pre><code>設定ファイルの書式
+システムの設定
+コンテナの設定
+まとめ
+LXC 1.0.6
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -358,129 +469,6 @@ LXC-JPグループ
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC　空間を歩む　三歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-06-12T12:46:27+09:00'><span class='date'>2014-06-12</span> <span class='time'>12:46</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
-</ul>
-
-
-<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>cgroupファイルシステム
-cgroupの階層構造
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/31/lxc-gihyo-02/">LXC　空間を歩む　第二歩</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-05-31T14:38:45+09:00'><span class='date'>2014-05-31</span> <span class='time'>14:38</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0002?page=1">第2回　コンテナの仕組みとLinuxカーネルのコンテナ機能［1］名前空間とは？</a></li>
-</ul>
-
-
-<p>うん、うん、なるほどと、読んでるだけで分かった気がしてた（当時）、今は？  &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>コンテナの仕組み
-コンテナのメリット
-コンテナのデメリット
-Linuxカーネルのコンテナ関連機能 ～名前空間（Namespace）
-まとめ
-LXC公式サイトの翻訳
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/18/lxc-gihyo-01/">LXC　空間を歩む　第一歩</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-05-18T21:09:11+09:00'><span class='date'>2014-05-18</span> <span class='time'>21:09</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p> gihyo.jp で、加藤さんの連載 <a href="http://gihyo.jp/admin/serial/01/linux_containers?ard=1400044363">「LXCで学ぶコンテナ入門 -軽量仮想化環境を実現する技術」</a> が始まりました。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0001">第1回　LXCとコンテナの基本</a></li>
-</ul>
-
-
-<p>まずは読んでみましょうよ、あなた（たち）の問題が解決するかも！？ &lt; bar-mtomi (M.Tomi)</p>
-
-<blockquote><pre><code>はじめに
-LXCとLinuxにおけるコンテナ技術
-まずは使ってみましょう
-次回以降について
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/13">&larr; Older</a>
@@ -535,9 +523,11 @@ LXCとLinuxにおけるコンテナ技術
     
       
         
-          <li class="post">
-            <a href="/blog/2019/05/15/plamo-7-dot-1/">Plamo 7.1 リリース</a>
-          </li>
+      
+        
+      
+    
+      
         
       
         
@@ -546,6 +536,26 @@ LXCとLinuxにおけるコンテナ技術
       
         
       
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+          <li class="post">
+            <a href="/blog/2019/05/15/plamo-7-dot-1/">Plamo 7.1 リリース</a>
+          </li>
         
       
         
@@ -934,12 +944,6 @@ LXCとLinuxにおけるコンテナ技術
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1224,7 +1228,7 @@ LXCとLinuxにおけるコンテナ技術
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (47)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (20)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (68)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (11)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (46)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (25)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (24)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (71)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (11)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">

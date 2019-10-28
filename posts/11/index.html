@@ -9,7 +9,8 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第17回　LXCの構築・活用 [4] — 一般ユーザによるLXCコンテナの利用 一般ユーザで利用する利点は何なんだろう？。セキュリティ的に有利なのかなぁ、この連載で説明あったかも知れないので再読が必要だな。 &lt; bar-mtomi 一般ユーザでコンテナを利用できるディストリビューション &hellip;">
+  <meta name="description" content="cpio にセキュリティホールが発見されています。詳しくは以下をご覧ください。 CVE-2014-9112 (NVD) 対策パッケージをリリースしました。 cpio-2.11-i686-P2.txz (32bit)
+cpio-2.11-x86_64-P2.txz (64bit) ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,132 @@
 
   </article>
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/29/cpio-2-dot-11/">Cpio 2.11</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-29T16:11:54+09:00'><span class='date'>2015-01-29</span> <span class='time'>16:11</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>cpio にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9112">CVE-2014-9112</a> (NVD)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/cpio-2.11-i686-P2.txz">cpio-2.11-i686-P2.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/cpio-2.11-x86_64-P2.txz">cpio-2.11-x86_64-P2.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/20/libevent-2-dot-0-22/">Libevent 2.0.22</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-20T17:08:46+09:00'><span class='date'>2015-01-20</span> <span class='time'>17:08</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>libevent 2.0.22 より前のバージョンにセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://bugs.archlinux.org/task/43366">FS#43366 - [libevent] heap-overflow vulnerability CVE-2014-6272</a> (archlinux)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/nfs.txz/libevent-2.0.22-i686-P1.txz">libevent-2.0.22-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/nfs.txz/libevent-2.0.22-x86_64-P1.txz">libevent-2.0.22-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/20/binutils-2-dot-25/">Binutils 2.25</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-20T17:05:46+09:00'><span class='date'>2015-01-20</span> <span class='time'>17:05</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>binutils 2.25 より前のバージョンにセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-8484">CVE-2014-8484</a> (NVD)</li>
+</ul>
+
+
+<p>対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86/plamo/01_minimum/devel.txz/binutils-2.25-i686-P1.txz">binutils-2.25-i686-P1.txz (32bit)</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-5.x/x86_64/plamo/01_minimum/devel.txz/binutils-2.25-x86_64-P1.txz">binutils-2.25-x86_64-P1.txz (64bit)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -431,119 +558,6 @@ OSSを経由してサウンドを出力する
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/11/09/lxc-gihyo-13/">LXC　空間を歩む　十三歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-11-09T15:35:38+09:00'><span class='date'>2014-11-09</span> <span class='time'>15:35</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0013">第13回　LXCの構築・活用 [1] — テンプレートを紐解く</a></p>
-
-<p>今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。</p>
-
-<p>テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
-が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
-た (^^; &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Plamoテンプレートの内部紹介
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/24/lxc-gihyo-12/">LXC　空間を歩む　十二歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-10-24T17:11:55+09:00'><span class='date'>2014-10-24</span> <span class='time'>17:11</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0012">第12回　LXCの設定［2］</a></p>
-
-<p>Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>セキュリティ機能
-ネットワーク
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/13/lxc-gihyo-11/">LXC　空間を歩む　十一歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-10-13T13:08:05+09:00'><span class='date'>2014-10-13</span> <span class='time'>13:08</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0011">第11回　LXCの設定［1］</a></p>
-
-<p>今回は読むだけでは難しい（分からない）と感じた（「UTS名前空間」って何だっけ？&hellip;ってな感じで）。次回以降の実際の動きの紹介でどこまで理解できるかだなぁ (^^;  &lt; bar-mtomi</p>
-
-<blockquote><pre><code>設定ファイルの書式
-システムの設定
-コンテナの設定
-まとめ
-LXC 1.0.6
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/12">&larr; Older</a>
@@ -598,9 +612,11 @@ LXC 1.0.6
     
       
         
-          <li class="post">
-            <a href="/blog/2019/05/15/plamo-7-dot-1/">Plamo 7.1 リリース</a>
-          </li>
+      
+        
+      
+    
+      
         
       
         
@@ -609,6 +625,26 @@ LXC 1.0.6
       
         
       
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+    
+      
+        
+          <li class="post">
+            <a href="/blog/2019/05/15/plamo-7-dot-1/">Plamo 7.1 リリース</a>
+          </li>
         
       
         
@@ -997,12 +1033,6 @@ LXC 1.0.6
       
         
       
-        
-      
-    
-      
-        
-      
     
       
         
@@ -1287,7 +1317,7 @@ LXC 1.0.6
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (47)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (26)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (20)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (68)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (11)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (46)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (25)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (24)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (71)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (11)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
