@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-06-24T21:04:35+09:00</updated>
+  <updated>2019-10-28T20:47:24+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,26 +14,102 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Firefox 67.0.4]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/06/24/firefox-67-dot-0-4/"/>
-    <updated>2019-06-24T22:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/06/24/firefox-67-dot-0-4</id>
-    <content type="html"><![CDATA[<p>firefox 67.0.4 パッケージをリリースしました。</p>
+    <title type="html"><![CDATA[Firefox 70.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/10/28/firefox-70-dot-0/"/>
+    <updated>2019-10-28T18:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/10/28/firefox-70-dot-0</id>
+    <content type="html"><![CDATA[<p>firefox 70.0 パッケージをリリースしました。</p>
 
 <ul>
-<li><a href="https://www.mozilla.org/firefox/67.0.4/releasenotes/">Firefox 67.0.4 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox67.0.4">Firefox セキュリティアドバイザリ</a></li>
+<li><a href="https://www.mozilla.org/firefox/70.0/releasenotes/">Firefox 70.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox70.0">Firefox セキュリティアドバイザリ</a></li>
 </ul>
 
 
-<p>パッケージをリリースしました。67.0 より古いバージョンからの更新の場合、sqlite, nss, nspr, p11_kit パッケージも同時に更新する必要があります。</p>
+<p>パッケージをリリースしました。67.0 より古いバージョンからの更新の場合、sqlite, nss, nspr パッケージも同時に更新する必要があります。</p>
 
 <ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-67.0.4-x86_64-B1.txz">firefox-67.0.4-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.44-x86_64-B1.txz">nss-3.44-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.21-x86_64-B1.txz">nspr-4.21-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.28.0-x86_64-B1.txz">sqlite-3.28.0-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/p11_kit-0.23.15-x86_64-B1.txz">p11_kit-3.28.0-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-70.0-x86_64-B1.txz">firefox-70.0-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.47-x86_64-B1.txz">nss-3.47-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.23-x86_64-B1.txz">nspr-4.23-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.30.1-x86_64-B1.txz">sqlite-3.30.1-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Proftpd 1.3.6b]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/10/23/proftpd-1-dot-3-6b/"/>
+    <updated>2019-10-23T18:15:39+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/10/23/proftpd-1-dot-3-6b</id>
+    <content type="html"><![CDATA[<p>proftpd にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="http://www.proftpd.org/docs/RELEASE_NOTES-1.3.6b">1.3.6b Release Notes</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました．</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/08_daemons/proftpd-1.3.6b-x86_64-B1.txz">proftpd-1.3.6b-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.3.10]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/10/16/php-7-dot-3-10/"/>
+    <updated>2019-10-16T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/10/16/php-7-dot-3-10</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.3.10 がリリースされています。</p>
+
+<ul>
+<li><a href="http://php.net/ChangeLog-7.php#7.3.10">PHP 7.3.10 Released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.10-x86_64-B1.txz">php-7.3.10-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ghostscript 9.50]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/10/16/ghostscript-9-dot-50/"/>
+    <updated>2019-10-16T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/10/16/ghostscript-9-dot-50</id>
+    <content type="html"><![CDATA[<p>ghostscript にセキュリティホールが見つかっています。対策パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/09_printings/ghostscript-9.50-x86_64-B1.txz">ghostscript-9.50-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sudo 1.8.28]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/10/16/sudo-1-dot-8-28/"/>
+    <updated>2019-10-16T16:17:19+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/10/16/sudo-1-dot-8-28</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む sudo 1.8.28 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.sudo.ws/alerts/minus_1_uid.html">Potential bypass of Runas user restrictions</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/sudo-1.8.28-x86_64-B2.txz">sudo-1.8.28-x86_64-B2.txz</a></li>
 </ul>
 
 ]]></content>
@@ -228,30 +304,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Php 7.3.4 / 7.1.28]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/04/08/php-7-dot-3-4/"/>
-    <updated>2019-04-08T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/04/08/php-7-dot-3-4</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.3.4/7.1.28 がリリースされています。</p>
-
-<ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.3.4">PHP 7.3.4 Released</a></li>
-<li><a href="http://php.net/ChangeLog-7.php#7.1.28">PHP 7.1.28 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.4-x86_64-B1.txz">php-7.3.4-x86_64-B1.txz</a> (Plamo 7.0)</li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86_64/plamo/05_ext/network2.txz/php-7.1.28-x86_64-P1.txz">php-7.1.28-x86_64-P1.txz (64bit)</a> (Plamo 6.2)</li>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-6.x/x86/plamo/05_ext/network2.txz/php-7.1.28-i686-P1.txz">php-7.1.28-i686-P1.txz (32bit)</a> (Plamo 6.2)</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Httpd 2.4.39]]></title>
     <link href="http://plamolinux.github.io/blog/2019/04/08/httpd-2-dot-4-39/"/>
     <updated>2019-04-08T00:00:00+09:00</updated>
@@ -320,20 +372,6 @@
 
 <ul>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/openssh-7.9p1-x86_64-B2.txz">openssh-7.9p1-x86_64-B2.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ghostscript 9.26]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/11/27/ghostscript-9-dot-26/"/>
-    <updated>2018-11-27T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/11/27/ghostscript-9-dot-26</id>
-    <content type="html"><![CDATA[<p>ghostscript にセキュリティホールが見つかっています。対策パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/09_printings/ghostscript-9.26-x86_64-B1.txz">ghostscript-9.26-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
@@ -552,58 +590,6 @@
 
 
 <p>更新の場合は同時に更新してください。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Plamo 7.0 リリース]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/06/13/plamo-7-dot-0/"/>
-    <updated>2018-06-13T14:30:36+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/06/13/plamo-7-dot-0</id>
-    <content type="html"><![CDATA[<p>Plamo 7.0 をリリースしました。</p>
-
-<p>Plamo 7.0 は DVD イメージ 2 枚組です。2 枚目は texlive と contrib のみ収録ですので、使用しない方は不要です。</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>-rw-rw-r--   1 kojima   plamo    2277244928 Jun 12 23:29 plamo-7.0_x86_64_01.iso
-</span><span class='line'>-rw-rw-r--   1 kojima   plamo          58 Jun 12 23:35 plamo-7.0_x86_64_01.iso.md5sum
-</span><span class='line'>-rw-rw-r--   1 kojima   plamo    2532751360 Jun 12 23:29 plamo-7.0_x86_64_02.iso
-</span><span class='line'>-rw-rw-r--   1 kojima   plamo          58 Jun 12 23:35 plamo-7.0_x86_64_02.iso.md5sum</span></code></pre></td></tr></table></div></figure>
-
-
-<p>ダウンロードは <a href="http://plamolinux.github.io/download/">ダウンロード</a> ページ記載のサイトからどうぞ。</p>
-
-<p>Plamo 7.0 に関しての詳細はこじまさんが gihyo.jp で連載中の「玩式草子─ソフトウェアとたわむれる日々」の記事をご覧ください。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0097">第97回　そろそろ出しますPlamo-7.0</a></li>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0098">第98回　Plamo-7.0とUTF-8</a></li>
-</ul>
-
-
-<p>またメンテナによるメモもご参考にどうぞ。</p>
-
-<ul>
-<li><a href="https://qiita.com/tenforward/items/921b108266a7c9d984eb">Plamo Linux 7.0 パッケージ作成メモ</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[玩式草子─ソフトウェアとたわむれる日々　第97回　そろそろ出しますPlamo-7.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2018/05/21/ganshiki-soushi-97/"/>
-    <updated>2018-05-21T18:45:24+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2018/05/21/ganshiki-soushi-97</id>
-    <content type="html"><![CDATA[<p><a href="http://gihyo.jp/">gihyo.jp</a>でこじまみつひろさんが連載されている<a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi">「玩式草子」</a>にリリースが近いPlamo-7.0の話題が掲載されています。</p>
-
-<ul>
-<li><a href="http://gihyo.jp/lifestyle/serial/01/ganshiki-soushi/0097">第97回　そろそろ出しますPlamo-7.0</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
