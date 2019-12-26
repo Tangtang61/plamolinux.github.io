@@ -4,7 +4,7 @@
   <title><![CDATA[Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2019-10-28T20:57:44+09:00</updated>
+  <updated>2019-12-26T14:45:16+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -14,25 +14,96 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Firefox 70.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/10/28/firefox-70-dot-0/"/>
-    <updated>2019-10-28T18:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/10/28/firefox-70-dot-0</id>
-    <content type="html"><![CDATA[<p>firefox 70.0 パッケージをリリースしました。</p>
+    <title type="html"><![CDATA[Php 7.4.1]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/12/12/php-7-dot-4-1/"/>
+    <updated>2019-12-12T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/12/12/php-7-dot-4-1</id>
+    <content type="html"><![CDATA[<p>PHP 7.4.1 をリリースしました。なお、7.4.0 から Plamo の php パッケージでは cgi 版は含まれていません（apache module と fpm のみ）。</p>
 
 <ul>
-<li><a href="https://www.mozilla.org/firefox/70.0/releasenotes/">Firefox 70.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox70.0">Firefox セキュリティアドバイザリ</a></li>
+<li><a href="http://php.net/ChangeLog-7.php#7.4.1">PHP 7.4.1 Released</a></li>
 </ul>
 
 
-<p>パッケージをリリースしました。67.0 より古いバージョンからの更新の場合、sqlite, nss, nspr パッケージも同時に更新する必要があります。</p>
+<p>パッケージをリリースしました。同時にリリースされている libsodium, argon2, oniguruma パッケージが必要です。</p>
 
 <ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-70.0-x86_64-B1.txz">firefox-70.0-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.47-x86_64-B1.txz">nss-3.47-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.23-x86_64-B1.txz">nspr-4.23-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/sqlite-3.30.1-x86_64-B1.txz">sqlite-3.30.1-x86_64-B1.txz</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.4.1-x86_64-B1.txz">php-7.4.1-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/libsodium-1.0.18-x86_64-B1.txz">libsodium-1.0.18-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/argon2-20190702-x86_64-B1.txz">argon2-20190702-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/oniguruma-6.9.4-x86_64-B1.txz">oniguruma-6.9.4-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thunderbird 68.3.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/12/05/thunderbird-68-dot-3-0/"/>
+    <updated>2019-12-05T20:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/12/05/thunderbird-68-dot-3-0</id>
+    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 68.3.0 がリリースされています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://www.mozilla.org/en-US/thunderbird/68.3.0/releasenotes/">Thunderbird 68.3.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird68.3.0">Thunderbird セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-68.3.0-x86_64-B1.txz">thunderbird-68.3.0-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 71.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/12/05/firefox-71-dot-0/"/>
+    <updated>2019-12-05T18:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/12/05/firefox-71-dot-0</id>
+    <content type="html"><![CDATA[<p>firefox 71.0 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://www.mozilla.org/firefox/71.0/releasenotes/">Firefox 71.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox71.0">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。71.0 より古いバージョンからの更新の場合、nss, nspr パッケージも同時に更新する必要があります。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-71.0-x86_64-B1.txz">firefox-71.0-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.48-x86_64-B1.txz">nss-3.48-x86_64-B1.txz</a></li>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.24-x86_64-B1.txz">nspr-4.24-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sudo 1.8.29]]></title>
+    <link href="http://plamolinux.github.io/blog/2019/11/29/sudo-1-dot-8-29/"/>
+    <updated>2019-11-29T16:17:19+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2019/11/29/sudo-1-dot-8-29</id>
+    <content type="html"><![CDATA[<!--
+セキュリティホールの修正を含む sudo 1.8.29 がリリースされています。詳しくは以下をご覧ください。
+-->
+
+
+<p>sudo 1.8.29 がリリースされています。</p>
+
+<!--
+* [Potential bypass of Runas user restrictions](https://www.sudo.ws/alerts/minus_1_uid.html)
+-->
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/sudo-1.8.29-x86_64-B1.txz">sudo-1.8.29-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
@@ -60,27 +131,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Php 7.3.10]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/10/16/php-7-dot-3-10/"/>
-    <updated>2019-10-16T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/10/16/php-7-dot-3-10</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む PHP 7.3.10 がリリースされています。</p>
-
-<ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.3.10">PHP 7.3.10 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.10-x86_64-B2.txz">php-7.3.10-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Ghostscript 9.50]]></title>
     <link href="http://plamolinux.github.io/blog/2019/10/16/ghostscript-9-dot-50/"/>
     <updated>2019-10-16T19:00:00+09:00</updated>
@@ -89,27 +139,6 @@
 
 <ul>
 <li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/09_printings/ghostscript-9.50-x86_64-B1.txz">ghostscript-9.50-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sudo 1.8.28]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/10/16/sudo-1-dot-8-28/"/>
-    <updated>2019-10-16T16:17:19+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/10/16/sudo-1-dot-8-28</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む sudo 1.8.28 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.sudo.ws/alerts/minus_1_uid.html">Potential bypass of Runas user restrictions</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/sudo-1.8.28-x86_64-B2.txz">sudo-1.8.28-x86_64-B2.txz</a></li>
 </ul>
 
 ]]></content>
@@ -195,52 +224,6 @@
 
 <ul>
 <li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.3.8-x86_64-B1.txz">php-7.3.8-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 68.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/07/11/firefox-68-dot-0/"/>
-    <updated>2019-07-11T22:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/07/11/firefox-68-dot-0</id>
-    <content type="html"><![CDATA[<p>firefox 68.0 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://www.mozilla.org/firefox/68.0/releasenotes/">Firefox 68.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox68.0">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。68.0 より古いバージョンからの更新の場合、nss, harfbuzz パッケージも同時に更新する必要があります。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-68.0-x86_64-B1.txz">firefox-68.0-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.45-x86_64-B1.txz">nss-3.45-x86_64-B1.txz</a></li>
-<li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/harfbuzz-2.5.3-x86_64-B1.txz">harfbuzz-2.5.3-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thunderbird 60.7.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2019/06/24/thunderbird-60-dot-7-0/"/>
-    <updated>2019-06-24T20:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2019/06/24/thunderbird-60-dot-7-0</id>
-    <content type="html"><![CDATA[<p>セキュリティホールの修正を含む Thunderbird 60.7.0 がリリースされています。詳しくは以下をご覧ください。</p>
-
-<ul>
-<li><a href="https://www.mozilla.org/en-US/thunderbird/60.7.0/releasenotes/">Thunderbird 60.7.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird60.7.0">Thunderbird セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/06_xapps/thunderbird-60.7.0-x86_64-B1.txz">thunderbird-60.7.0-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>
@@ -571,6 +554,28 @@
 <ul>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/nettle-3.4-x86_64-B1.txz">nettle-3.4-x86_64-B1.txz</a></li>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/network.txz/gnutls-3.6.3-x86_64-B1.txz">gnutls-3.6.3-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GnuPG 2.2.8]]></title>
+    <link href="http://plamolinux.github.io/blog/2018/06/14/gnupg-2-dot-2-8/"/>
+    <updated>2018-06-14T20:47:03+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2018/06/14/gnupg-2-dot-2-8</id>
+    <content type="html"><![CDATA[<p>GnuPG にセキュリティホールが発見されています。詳しくは以下をご覧ください。</p>
+
+<ul>
+<li><a href="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000425.html">[Announce] [security fix] GnuPG 2.2.8 released (CVE-2018-12020)</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。libgpg_error パッケージも同時に更新してください。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/libgpg_error-1.31-x86_64-B1.txz">libgpg_error-1.31-x86_64-B1.txz</a></li>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/01_minimum/gnupg-2.2.8-x86_64-B1.txz">gnupg-2.2.8-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>

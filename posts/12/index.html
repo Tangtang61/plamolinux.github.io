@@ -9,8 +9,9 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第13回　LXCの構築・活用 [1] — テンプレートを紐解く 今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。 テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
-が、私のスクリプト理解力（ &hellip;">
+  <meta name="description" content="*第12回　LXCの設定［2］ Linux カーネルとの関連までは理解できないなぁ。個人的のローカル内での利用ならデフォルト設定でも充分かな? 外向けサーバーを運用するためには理解しておいた方が良さそうだと感じた。 &lt; bar-mtomi セキュリティ機能
+ネットワーク
+まとめ ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,45 +75,6 @@
 
   </article>
   
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/11/09/lxc-gihyo-13/">LXC　空間を歩む　十三歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-11-09T15:35:38+09:00'><span class='date'>2014-11-09</span> <span class='time'>15:35</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0013">第13回　LXCの構築・活用 [1] — テンプレートを紐解く</a></p>
-
-<p>今回から数回にわたり，加藤さんに代わって，田向さんが執筆されるそうです。</p>
-
-<p>テンプレートの内容を理解しながら、Plamo の実機へのインストールと LXC での違いを確認できて参考になる
-が、私のスクリプト理解力（コマンドのオプション等…）では、まだまだ勉強しないと &hellip; と、なってしまっ
-た (^^; &lt; bar-mtomi</p>
-
-<blockquote><pre><code>Plamoテンプレートの内部紹介
-まとめ
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
   
   
     <article>
@@ -469,6 +431,45 @@ LXC-JPグループ
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/12/lxc-gihyo-03/">LXC　空間を歩む　三歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-06-12T12:46:27+09:00'><span class='date'>2014-06-12</span> <span class='time'>12:46</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://gihyo.jp/admin/serial/01/linux_containers/0003">第3回　Linuxカーネルのコンテナ機能［2］ ─cgroupとは？（その1）</a></li>
+</ul>
+
+
+<p>コンテナに限定した機能でなく、理解できれば役に立つ事があるかも？って程度の理解だった事を思い出した。 &lt; bar-mtomi (M.Tomi)</p>
+
+<blockquote><pre><code>cgroupファイルシステム
+cgroupの階層構造
+まとめ
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/posts/13">&larr; Older</a>
@@ -484,12 +485,6 @@ LXC-JPグループ
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
-    
-      
-        
-      
-        
-      
     
       
         
@@ -651,6 +646,12 @@ LXC-JPグループ
         
       
     
+      
+        
+      
+    
+      
+        
       
         
       
@@ -873,12 +874,6 @@ LXC-JPグループ
         
       
     
-      
-        
-      
-    
-      
-        
       
         
       
@@ -1228,29 +1223,29 @@ LXC-JPグループ
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (46)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (25)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (24)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (71)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (11)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (45)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (25)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (24)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (70)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (11)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2019/10/28/firefox-70-dot-0/">Firefox 70.0</a>
+        <a href="/blog/2019/12/12/php-7-dot-4-1/">Php 7.4.1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2019/12/05/thunderbird-68-dot-3-0/">Thunderbird 68.3.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2019/12/05/firefox-71-dot-0/">Firefox 71.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2019/11/29/sudo-1-dot-8-29/">Sudo 1.8.29</a>
       </li>
     
       <li class="post">
         <a href="/blog/2019/10/23/proftpd-1-dot-3-6b/">Proftpd 1.3.6b</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2019/10/16/php-7-dot-3-10/">Php 7.3.10</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2019/10/16/ghostscript-9-dot-50/">Ghostscript 9.50</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2019/10/16/sudo-1-dot-8-28/">Sudo 1.8.28</a>
       </li>
     
   </ul>
