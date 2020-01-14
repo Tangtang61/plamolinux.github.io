@@ -9,7 +9,7 @@
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="*第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop） 今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi LVMを使ったコンテナに対するlxc-snapshotコマンドの実行 &hellip;">
+  <meta name="description" content="セキュリティホールの修正を含む tcpdump 4.7.3 がリリースされています。詳しくは以下をご覧ください。 tcpdump 4.7.2 remote crashes パッケージをリリースしました。(libpcap も同時に更新しました) libpcap-1.7.2-i686-P1.txz ( &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,44 +73,6 @@
 
   </article>
   
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/28/lxc-gihyo-22/">LXC　空間を歩む　二十二歩め</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-03-28T16:41:03+09:00'><span class='date'>2015-03-28</span> <span class='time'>16:41</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0022">第22回　LXCの構築・活用 [8] ─ いろいろなストレージバックエンドの利用（4：loop）</a></p>
-
-<p>今回は一休みですかね？サラッと読み流しただけです。 &lt; bar-mtomi</p>
-
-<blockquote><pre><code>LVMを使ったコンテナに対するlxc-snapshotコマンドの実行
-loopストレージバックエンドを使ったコンテナの作成
-loopストレージバックエンドを使ったコンテナのクローンとスナップショット
-まとめ
-LXC 1.1.1
-</code></pre></blockquote>
-</div>
-  
-  
-
-
-    </article>
   
   
     <article>
@@ -487,6 +449,45 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/11/lxc-gihyo-19/">LXC　空間を歩む　十九歩め</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-02-11T15:13:18+09:00'><span class='date'>2015-02-11</span> <span class='time'>15:13</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<a href="http://gihyo.jp/admin/serial/01/linux_containers/0019">第19回　LXCの構築・活用 [5] ─いろいろなストレージバックエンドの利用</a></p>
+
+<p>なんか頭の中グルグルになってます。ホスト（ベース）マシンのファイルシステムは ext4 で、その上で利用できるって事かなぁ？ &lt; bar-mtomi</p>
+
+<blockquote><pre><code>ストレージバックエンドの種類
+コピーによるクローン
+aufs，overlayfsを使ったクローン
+overlayfs，aufsを使ったクローンの際の注意点
+まとめ
+LXC 1.1.0
+</code></pre></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/posts/10">&larr; Older</a>
@@ -502,12 +503,6 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
     <section>
   <h1>Release Information</h1>
   <ul id="release_info">
-    
-      
-        
-      
-        
-      
     
       
         
@@ -1240,7 +1235,7 @@ Btrfsを使ったコンテナに対するlxc-snapshotコマンドの実行
   </ul>
 </section><section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (45)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (25)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (24)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (70)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (11)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/p-plamo/'>p-plamo (2)</a></li><li><a href='/blog/categories/plamo-5-dot-x-qing-bao/'>plamo 5.x 情報 (45)</a></li><li><a href='/blog/categories/plamo-6-dot-x-qing-bao/'>plamo 6.x 情報 (25)</a></li><li><a href='/blog/categories/plamo-7-dot-x-qing-bao/'>plamo 7.x 情報 (23)</a></li><li><a href='/blog/categories/ozhi-rase/'>お知らせ (1)</a></li><li><a href='/blog/categories/sekiyuriteiqing-bao/'>セキュリティ情報 (69)</a></li><li><a href='/blog/categories/patukezigeng-xin-qing-bao/'>パッケージ更新情報 (1)</a></li><li><a href='/blog/categories/ririsuqing-bao/'>リリース情報 (11)</a></li><li><a href='/blog/categories/jia-xiang-hua-huan-jing/'>仮想化環境 (31)</a></li><li><a href='/blog/categories/wan-shi-cao-zi/'>玩式草子 (9)</a></li></ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
