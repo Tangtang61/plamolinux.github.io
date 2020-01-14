@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "firefox 72.0.1"
-date: 2020-01-08 18:00:00 +0900
+date: 2020-01-14 12:00:00 +0900
 comments: false
 categories: ["Plamo 7.x 情報", "セキュリティ情報"]
 ---
