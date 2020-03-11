@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plamo 7.x 情報 | Plamo Linux]]></title>
   <link href="http://plamolinux.github.io/blog/categories/plamo-7-dot-x-qing-bao/atom.xml" rel="self"/>
   <link href="http://plamolinux.github.io/"/>
-  <updated>2020-02-20T18:21:19+09:00</updated>
+  <updated>2020-03-11T15:38:10+09:00</updated>
   <id>http://plamolinux.github.io/</id>
   <author>
     <name><![CDATA[Plamo Linux Project]]></name>
@@ -12,6 +12,63 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox 74.0]]></title>
+    <link href="http://plamolinux.github.io/blog/2020/03/11/firefox-74-dot-0/"/>
+    <updated>2020-03-11T12:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2020/03/11/firefox-74-dot-0</id>
+    <content type="html"><![CDATA[<p>firefox 74.0 パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://www.mozilla.org/firefox/74.0/releasenotes/">Firefox 74.0 リリースノート</a></li>
+<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox74.0">Firefox セキュリティアドバイザリ</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。</p>
+
+<ul>
+<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-74.0-x86_64-B1.txz">firefox-74.0-x86_64-B1.txz</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Php 7.4.3]]></title>
+    <link href="http://plamolinux.github.io/blog/2020/02/27/php-7-dot-4-3/"/>
+    <updated>2020-02-27T19:00:00+09:00</updated>
+    <id>http://plamolinux.github.io/blog/2020/02/27/php-7-dot-4-3</id>
+    <content type="html"><![CDATA[<p>PHP 7.4.3 をリリースしました。</p>
+
+<ul>
+<li><a href="http://php.net/ChangeLog-7.php#7.4.3">PHP 7.4.3 Released</a></li>
+</ul>
+
+
+<p>パッケージをリリースしました。7.3 からのアップデートの場合、libsodium, argon2, oniguruma パッケージが必要です。</p>
+
+<ul>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.4.3-x86_64-B1.txz">php-7.4.3-x86_64-B1.txz</a></li>
+</ul>
+
+
+<p>また、7.4.2 から次のようにビルドが変更されています。</p>
+
+<ul>
+<li>CGI 版を復活させました</li>
+<li>apache module 版は以前は ZTS でビルドされていましたが、今は NTS になりました。
+
+<ul>
+<li>スレッドセーフでないので Apache の MPM は prefork に設定してください</li>
+<li>event MPM を使う場合は fpm を使ってください</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sudo 1.8.31]]></title>
@@ -29,51 +86,6 @@
 
 <ul>
 <li><a href="http://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/00_base/sudo-1.8.31-x86_64-B1.txz">sudo-1.8.31-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Firefox 73.0]]></title>
-    <link href="http://plamolinux.github.io/blog/2020/02/14/firefox-73-dot-0/"/>
-    <updated>2020-02-14T12:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2020/02/14/firefox-73-dot-0</id>
-    <content type="html"><![CDATA[<p>firefox 73.0 パッケージをリリースしました。</p>
-
-<ul>
-<li><a href="https://www.mozilla.org/firefox/73.0/releasenotes/">Firefox 73.0 リリースノート</a></li>
-<li><a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox73.0">Firefox セキュリティアドバイザリ</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。nspr, nssパッケージも更新していますので併せて更新してください。</p>
-
-<ul>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/07_multimedia/firefox-73.0-x86_64-B1.txz">firefox-73.0-x86_64-B1.txz</a></li>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nss-3.50-x86_64-B1.txz">nss-3.50-x86_64-B1.txz</a></li>
-<li><a href="https://repository.plamolinux.org/pub/linux/Plamo/Plamo-7.x/x86_64/plamo/03_libs/nspr-4.25-x86_64-B1.txz">nspr-4.25-x86_64-B1.txz</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 7.4.2]]></title>
-    <link href="http://plamolinux.github.io/blog/2020/01/31/php-7-dot-4-2/"/>
-    <updated>2020-01-31T19:00:00+09:00</updated>
-    <id>http://plamolinux.github.io/blog/2020/01/31/php-7-dot-4-2</id>
-    <content type="html"><![CDATA[<p>PHP 7.4.2 をリリースしました。なお、7.4.0 から Plamo の php パッケージでは cgi 版は含まれていません（apache module と fpm のみ）。</p>
-
-<ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.4.2">PHP 7.4.2 Released</a></li>
-</ul>
-
-
-<p>パッケージをリリースしました。7.3 からのアップデートの場合、libsodium, argon2, oniguruma パッケージが必要です。</p>
-
-<ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.4.2-x86_64-B1.txz">php-7.4.2-x86_64-B1.txz</a></li>
 </ul>
 
 ]]></content>

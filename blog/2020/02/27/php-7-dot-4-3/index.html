@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Php 7.4.2 - Plamo Linux</title>
+  <title>Php 7.4.3 - Plamo Linux</title>
   <meta name="author" content="Plamo Linux Project">
 
   
-  <meta name="description" content="PHP 7.4.2 をリリースしました。なお、7.4.0 から Plamo の php パッケージでは cgi 版は含まれていません（apache module と fpm のみ）。 PHP 7.4.2 Released パッケージをリリースしました。7.3 からのアップデートの場合、 &hellip;">
+  <meta name="description" content="PHP 7.4.3 をリリースしました。 PHP 7.4.3 Released パッケージをリリースしました。7.3 からのアップデートの場合、libsodium, argon2, oniguruma パッケージが必要です。 php-7.4.3-x86_64-B1.txz また、7.4.2 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://plamolinux.github.io/blog/2020/01/31/php-7-dot-4-2/">
+  <link rel="canonical" href="http://plamolinux.github.io/blog/2020/02/27/php-7-dot-4-3/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Plamo Linux" type="application/atom+xml">
@@ -70,7 +70,7 @@
   
   <header>
     
-      <h1 class="entry-title">Php 7.4.2</h1>
+      <h1 class="entry-title">Php 7.4.3</h1>
     
     
       <p class="meta">
@@ -79,24 +79,38 @@
 
 
 
-<time class='entry-date' datetime='2020-01-31T19:00:00+09:00'><span class='date'>2020-01-31</span> <span class='time'>19:00</span></time>
+<time class='entry-date' datetime='2020-02-27T19:00:00+09:00'><span class='date'>2020-02-27</span> <span class='time'>19:00</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>PHP 7.4.2 をリリースしました。なお、7.4.0 から Plamo の php パッケージでは cgi 版は含まれていません（apache module と fpm のみ）。</p>
+<div class="entry-content"><p>PHP 7.4.3 をリリースしました。</p>
 
 <ul>
-<li><a href="http://php.net/ChangeLog-7.php#7.4.2">PHP 7.4.2 Released</a></li>
+<li><a href="http://php.net/ChangeLog-7.php#7.4.3">PHP 7.4.3 Released</a></li>
 </ul>
 
 
 <p>パッケージをリリースしました。7.3 からのアップデートの場合、libsodium, argon2, oniguruma パッケージが必要です。</p>
 
 <ul>
-<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.4.2-x86_64-B1.txz">php-7.4.2-x86_64-B1.txz</a></li>
+<li><a href="ftp://plamo.linet.gr.jp/pub/Plamo-7.x/x86_64/plamo/08_daemons/php-7.4.3-x86_64-B1.txz">php-7.4.3-x86_64-B1.txz</a></li>
+</ul>
+
+
+<p>また、7.4.2 から次のようにビルドが変更されています。</p>
+
+<ul>
+<li>CGI 版を復活させました</li>
+<li>apache module 版は以前は ZTS でビルドされていましたが、今は NTS になりました。
+
+<ul>
+<li>スレッドセーフでないので Apache の MPM は prefork に設定してください</li>
+<li>event MPM を使う場合は fpm を使ってください</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -114,7 +128,7 @@
 
 
 
-<time class='entry-date' datetime='2020-01-31T19:00:00+09:00'><span class='date'>2020-01-31</span> <span class='time'>19:00</span></time>
+<time class='entry-date' datetime='2020-02-27T19:00:00+09:00'><span class='date'>2020-02-27</span> <span class='time'>19:00</span></time>
       
 
 <span class="categories">
@@ -128,7 +142,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2020/01/31/php-7-dot-4-2/" data-via="" data-counturl="http://plamolinux.github.io/blog/2020/01/31/php-7-dot-4-2/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://plamolinux.github.io/blog/2020/02/27/php-7-dot-4-3/" data-via="" data-counturl="http://plamolinux.github.io/blog/2020/02/27/php-7-dot-4-3/" >Tweet</a>
   
   
   
@@ -137,10 +151,10 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2019/12/05/thunderbird-68-dot-3-0/" title="Previous Post: thunderbird 68.3.0">&laquo; thunderbird 68.3.0</a>
+        <a class="basic-alignment left" href="/blog/2020/02/20/sudo-1-dot-8-31/" title="Previous Post: sudo 1.8.31">&laquo; sudo 1.8.31</a>
       
       
-        <a class="basic-alignment right" href="/blog/2020/02/14/firefox-73-dot-0/" title="Next Post: firefox 73.0">firefox 73.0 &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2020/03/11/firefox-74-dot-0/" title="Next Post: firefox 74.0">firefox 74.0 &raquo;</a>
       
     </p>
   </footer>
@@ -891,15 +905,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2020/03/11/firefox-74-dot-0/">Firefox 74.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2020/02/27/php-7-dot-4-3/">Php 7.4.3</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2020/02/20/sudo-1-dot-8-31/">Sudo 1.8.31</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2020/02/14/firefox-73-dot-0/">Firefox 73.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2020/01/31/php-7-dot-4-2/">Php 7.4.2</a>
       </li>
     
       <li class="post">
